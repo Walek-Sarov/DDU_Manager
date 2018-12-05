@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04226062-2373-405c-8287-f4e40a6addc2">
+  <producedTypes>
+    <selectionType typeId="5aa6ceae-e181-4c91-a9e8-c74770330795" valueTypeId="974b1c28-0281-475e-b3a5-26ac5612d51c"/>
+    <listType typeId="3d98d1d6-b615-4c77-be5e-295c2a6d9a5e" valueTypeId="08be9690-8192-46e2-95b3-529c87639fe6"/>
+    <managerType typeId="6a8a2803-2b3b-4c67-a8c5-ec8b949a36d4" valueTypeId="18515eb8-f708-4d6a-961e-dd03ca6dcdf4"/>
+    <recordSetType typeId="e5e13951-0278-4ffc-b154-24a2f1158d70" valueTypeId="97854faa-82f8-4e4a-a02f-67ba21c54474"/>
+    <recordKeyType typeId="74cd96cd-6479-4984-bdda-2016122c6b1a" valueTypeId="6ae7403f-5984-4e3e-b403-9daaed1788c2"/>
+    <recordType typeId="d07fac5d-029a-4c6d-92b2-cc40268801f5" valueTypeId="61eea102-a9c2-4ba9-a6ea-fb051a61aec0"/>
+    <recordManagerType typeId="6f79fe2b-b33a-4ba8-b66d-25f03bdc03d7" valueTypeId="327afe9b-26d4-4905-8ca5-cbaf3bddbc91"/>
+  </producedTypes>
+  <name>удуНастройкиДляОбменаУДУ_БГУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки для обмена УДУ -> БГУ</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="34a4c2c1-1541-4ca9-895d-881c53bc6a7a">
+    <name>ОсновноеМОЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное МОЛ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Основное МОЛ учреждения</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9e602a29-6339-4a1a-8564-e47f52eaab2d">
+    <name>ОсновноеПодразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное подразделение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуПодразделенияУчереждения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Основное подразделение организации</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2a01ea83-b1b2-463a-baba-0f480a60630a">
+    <name>СчетКтДляПокупкиМатериалов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет Кт для покупки материалов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ChartOfAccountsRef.удуПланСчетовДляОбменаС_БГУ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Счет Кт для покупки материалов учреждением</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="561497d8-e2f0-496a-b59a-07f1757f471b">
+    <name>СчетКтДляПрочегоПоступленияМатериалов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет Кт для прочего поступления материалов</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ChartOfAccountsRef.удуПланСчетовДляОбменаС_БГУ</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Счет Кт для прочего поступления материалов в учреждение</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="740762da-f4cc-4765-b33b-dbe80c3dbc05">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учреждение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуУчреждения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Учреждение для обмена</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

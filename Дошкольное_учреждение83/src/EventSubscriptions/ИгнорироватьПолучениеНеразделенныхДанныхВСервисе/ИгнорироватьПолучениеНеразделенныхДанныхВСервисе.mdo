@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6dea9276-3c42-4312-bf58-c390f1ba17cf">
+  <name>ИгнорироватьПолучениеНеразделенныхДанныхВСервисе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Игнорировать получение неразделенных данных в сервисе</value>
+  </synonym>
+  <comment>Игнорирует получение изменений неразделенных данных в приложении в Интернете</comment>
+  <source>
+    <types>ExchangePlanObject</types>
+  </source>
+  <event>OnReceiveDataFromSlave</event>
+  <handler>CommonModule.ОбменДаннымиВМоделиСервиса.ИгнорироватьПолучениеНеразделенныхДанныхВСервисе</handler>
+</mdclass:EventSubscription>

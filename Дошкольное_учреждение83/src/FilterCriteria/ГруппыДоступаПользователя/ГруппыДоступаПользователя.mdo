@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac0a53c4-bb53-4df6-8136-e897be18b666">
+  <producedTypes>
+    <listType typeId="09e1edb7-9dd4-4550-a075-fd473048edbe" valueTypeId="95809e0f-0143-46c2-9bfd-da37b308a078"/>
+    <managerType typeId="94143e34-d4ca-4a24-a05c-e39b839817b0" valueTypeId="455428a1-9fc4-4f72-a6c6-5f76215e21a9"/>
+  </producedTypes>
+  <name>ГруппыДоступаПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы доступа</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogRef.Пользователи</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Catalog.ГруппыДоступа.TabularSection.Пользователи.Attribute.Пользователь</content>
+</mdclass:FilterCriterion>

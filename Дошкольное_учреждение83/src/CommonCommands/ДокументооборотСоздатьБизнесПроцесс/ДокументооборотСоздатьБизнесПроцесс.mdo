@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a44cc726-48b9-4193-8991-c9e0777ed7de">
+  <name>ДокументооборотСоздатьБизнесПроцесс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бизнес-процесс документооборота...</value>
+  </synonym>
+  <comment></comment>
+  <group>FormCommandBarCreateBasedOn</group>
+  <commandParameterType/>
+  <representation>PictureAndText</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.BusinessProcess</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

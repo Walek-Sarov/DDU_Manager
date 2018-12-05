@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cec4f4dc-36c5-463d-8e31-33addad451ee">
+  <producedTypes>
+    <selectionType typeId="d0d1ccae-cb1b-4e99-8a58-2cfacfb8e1e9" valueTypeId="8d35cfd1-ad1b-453b-b3d8-b1be2ee659c2"/>
+    <listType typeId="eb6f3072-f878-4877-b7d5-dcabee783400" valueTypeId="a9a24a69-8d82-4678-9680-e0a4c8f90286"/>
+    <managerType typeId="c90825b1-64d5-40c5-b51d-08e7fab7f5eb" valueTypeId="4139ceb6-4a00-4bbc-94db-f470edb2d64c"/>
+    <recordSetType typeId="51fe83cc-4cc1-41fd-8a93-f78132dd53d6" valueTypeId="4626f89b-d958-4e02-ad6f-e95ddccc50a6"/>
+    <recordKeyType typeId="d2e614e1-6052-4895-a475-0e4620a96aa1" valueTypeId="4fcc33da-5b4a-42e6-968a-f69048d7c092"/>
+    <recordType typeId="afe3fc19-201f-4716-8b56-cfc6e2fbe121" valueTypeId="08dada22-7763-4e5e-ae74-012d9ddea8d8"/>
+  </producedTypes>
+  <name>удуМетодическиеМатериалыНаРуках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методические материалы на руках</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="8dd3aad5-0d4e-49f4-bc12-45d8493167dc">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество выданного материала</value>
+    </toolTip>
+    <markNegatives>true</markNegatives>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="9b640e6e-c6b4-47c8-8e4f-d396febbe9ee">
+    <name>УчетнаяЕдиница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная единица</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуУчетныеЕдиницы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Методический материал</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="65aca524-12fd-4512-9063-209cbc19305c">
+    <name>ИнвентарныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвентарный номер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуИнвентарныеНомера</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Инвентарный номер методического материала</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="33bc0e22-8655-4c85-b97e-72700a8089bc">
+    <name>Читатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Читатель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуСотрудникиОрганизаций</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Читатель по которому выполнено движение методического материала</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="9ea5ed79-6b8e-4cec-8331-f1ab90334146">
+    <name>ПлановаяДатаВозврата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановая дата возврата</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата ожидаемого возврата</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="bf76f441-08ff-40bd-8c68-b903137238ed">
+    <name>ПричинаВыдачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина выдачи</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуПричиныВыдачиМетодическихМатериалов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Причина/основание для выдачи материала на руки</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <forms uuid="c8bbbeaf-7af0-4c60-ae24-1dbcb263b4ca">
+    <name>ФормаСпискаУчетЕдНаРуках</name>
+    <synonym>
+      <key>ru</key>
+      <value>Методические материалы на руках</value>
+    </synonym>
+    <comment>Форма списка учетных единиц на руках у читателей</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccumulationRegister>

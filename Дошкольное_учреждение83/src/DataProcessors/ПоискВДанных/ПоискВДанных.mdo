@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="235c2d50-e6a3-4d33-9ed5-de754e9e6ffb">
+  <producedTypes>
+    <objectType typeId="7e42c57f-94c5-460e-8840-bced3a3d309f" valueTypeId="8988f099-d95e-4585-97ea-14abf72fe470"/>
+    <managerType typeId="4ab99035-f4b7-4522-b819-23069dad85ad" valueTypeId="9a9599ea-2b66-48a1-94f7-cb3b4da74fcc"/>
+  </producedTypes>
+  <name>ПоискВДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск в данных</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.ПоискВДанных.Form.ФормаПоиска</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="fe115d57-7d10-432f-b1f7-d590b79ffdc1">
+    <name>ФормаПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма поиска</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d07016c8-7d97-42cd-865b-85b49075adfb">
+    <name>УпрощеннаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упрощенная форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="9202335d-50bb-4282-9438-24c7fb9cf637">
+    <name>Поиск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск</value>
+    </synonym>
+    <comment></comment>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Поиск в данных</value>
+    </toolTip>
+    <shortcut>Ctrl+Shift+F</shortcut>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91273948-7a51-4462-905d-ebcc64a51380">
+  <name>ПриУстановкеНовогоКодаСправочникаПоИнформационнойБазе</name>
+  <synonym>
+    <key>ru</key>
+    <value>При установке нового кода справочника по информационной базе</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>CatalogObject.удуГруппыУчреждения</types>
+    <types>CatalogObject.удуУчреждения</types>
+    <types>CatalogObject.удуСтепениРодства</types>
+    <types>CatalogObject.удуДети</types>
+    <types>CatalogObject.удуРодители</types>
+    <types>CatalogObject.удуСотрудникиОрганизаций</types>
+    <types>CatalogObject</types>
+  </source>
+  <event>OnSetNewCode</event>
+  <handler>CommonModule.ПрефиксацияОбъектовСобытия.УстановитьПрефиксИнформационнойБазы</handler>
+</mdclass:EventSubscription>

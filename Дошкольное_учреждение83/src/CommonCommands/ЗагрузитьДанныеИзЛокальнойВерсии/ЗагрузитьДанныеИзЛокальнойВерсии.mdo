@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4e10835-31e8-4f16-a5eb-0b2ac687fa65">
+  <name>ЗагрузитьДанныеИзЛокальнойВерсии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузить данные из локальной версии</value>
+  </synonym>
+  <comment></comment>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

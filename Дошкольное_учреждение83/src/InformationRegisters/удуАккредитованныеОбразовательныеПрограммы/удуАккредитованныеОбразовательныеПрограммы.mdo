@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00a333b8-ab5e-4092-8722-4bfe46307c89">
+  <producedTypes>
+    <selectionType typeId="aed0435d-4ec7-4a08-93e9-38d0489a6942" valueTypeId="057b0ba1-31e3-44c8-9f40-9f81d580959f"/>
+    <listType typeId="bbe834ae-a0e2-43c1-a19e-7d4e3ae63a2d" valueTypeId="2c2cc0f8-bb7d-4c1f-8f14-894273e9bd25"/>
+    <managerType typeId="184f2bd4-65be-426e-9d75-48276e2b85d4" valueTypeId="4e14a63a-75f1-48f5-9fb7-7dac1083a7ba"/>
+    <recordSetType typeId="7b5d1cc2-1131-4e2e-9776-7d2a896e76d5" valueTypeId="6f4c1f20-63a4-4608-8a73-725676f8d009"/>
+    <recordKeyType typeId="b95915bf-9d2e-43ad-bf14-b07084bcb567" valueTypeId="08d3017c-4523-4702-a607-c03be42eb8f1"/>
+    <recordType typeId="fed3fa9e-d9eb-45bf-bd35-ea3b4abb2994" valueTypeId="bf1ea59b-c7a2-400d-b560-6062dabdfa27"/>
+    <recordManagerType typeId="28b31628-ec95-487b-bca4-8094226ef1ca" valueTypeId="87c6d403-37f9-493f-9e09-402ddf97dd79"/>
+  </producedTypes>
+  <name>удуАккредитованныеОбразовательныеПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аккредитованные образовательные программы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.удуАккредитованныеОбразовательныеПрограммы.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.удуАккредитованныеОбразовательныеПрограммы.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Образовательная программа</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Аккредитованные программы</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Аккредитованные образовательные программы</value>
+  </extendedListPresentation>
+  <resources uuid="8e6746a6-ff3f-48f2-8df3-c9424ae3ddb5">
+    <name>ВидПрограммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид программы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.удуВидОбразовательныхПрограмм</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид образовательной программы</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bb6f78d1-5e79-46d7-a882-e3fa45b2e08c">
+    <name>КатегорияПрограммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория программы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуКатегорииПрограммПроектов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Категория образовательной программы</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="042f9c89-768f-40eb-a91f-c5a00214dd70">
+    <name>Специальность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специальность</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуКлассификаторСпециальностейПоОбразованию</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Специальность в базе</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c9d8c9b9-4502-4550-984d-a9f2632819d8">
+    <name>Квалификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квалификация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Квалификация в базе</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="8dbf0ee5-6023-4983-bf28-a4ec2912d1de">
+    <name>Учреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учреждение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуУчреждения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Учреждение в базе</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="de72b5a2-1294-4cec-aa72-85ab0bef9367">
+    <name>НаименованиеПрограмы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование программы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуНаименованияПрограммПроектов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование образовательной программы</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="70f8c472-92be-4f2d-9ecc-b927f02c3c37">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7927926d-b1c5-4025-b64e-94d1c6f495bd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

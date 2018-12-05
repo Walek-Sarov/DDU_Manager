@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20817514-b028-44f8-a7a2-36a1cd9683d8">
+  <producedTypes>
+    <refType typeId="03fcbaa2-1e6f-4f5d-a08b-f37fe9dc46e3" valueTypeId="cd2fddbe-1429-4ada-9229-22a3b8da4ad1"/>
+    <listType typeId="58578f08-2a6c-4e0c-85d2-5661e3596ac9" valueTypeId="c134961b-7151-4a65-ac84-db7b43c66f49"/>
+    <managerType typeId="e0c6c776-8ff2-4746-94c5-f5e32db473ec" valueTypeId="6a82cd38-8a85-46a7-af7f-c5d02f892a80"/>
+  </producedTypes>
+  <name>удуУровниПрограммПроектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровни программ проектов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8c03c79d-fe16-464f-84c1-d3dcfd520006">
+    <name>АккредитованныеОбразовательныеПрограммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аккредитованные образовательные программы</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d442a118-f847-4e34-ad94-525a5b62887a">
+    <name>РеализуемыеПрограммыПроекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализуемые программы, проекты</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="6fc6975a-6a20-4661-8eb2-9c507ae3ecde">
+    <name>СоциальныеПрограммыПроекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Социальные программы, проекты</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e41cbe5e-999e-4cd9-8d6c-af54f3b0582e">
+    <name>НаправленияДополнительногоОбразования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направления дополнительного образования</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

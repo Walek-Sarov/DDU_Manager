@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57dec4e6-1a42-4bc4-a83d-49e72d4cc58c">
+  <producedTypes>
+    <selectionType typeId="a01f8d03-e4fe-4fcb-8945-238c08729fcd" valueTypeId="2d452419-d056-424b-a1b5-bfa35cd096f1"/>
+    <listType typeId="d84f13e8-a61a-409d-bd86-5dbde5884ce0" valueTypeId="7a3e3b34-9cdb-4c76-a6fd-e6b7d561dfcb"/>
+    <managerType typeId="e1542be3-7e5d-408f-be65-89bbc33da62f" valueTypeId="cfe88673-9680-4bff-8e1d-5ba369b30735"/>
+    <recordSetType typeId="634aca34-8a59-4c99-887e-682ce660decf" valueTypeId="66c6756f-0e7a-4967-a279-20936e617e7d"/>
+    <recordKeyType typeId="0147d130-a257-4eff-9b30-012824e54c9f" valueTypeId="f65a815e-553e-4f5b-a7fc-42be0b9e1d1a"/>
+    <recordType typeId="eb34bf0e-4bcd-4b16-8977-1097caa1129b" valueTypeId="e6a7934d-57ae-4e5f-9431-ff21b57ca09a"/>
+    <recordManagerType typeId="b7af0be6-03b6-48c4-8b52-56f42bb87efd" valueTypeId="53f9ee41-b923-4702-9d3c-770d5cf2e95c"/>
+  </producedTypes>
+  <name>удуНаправленияДополнительногоОбразования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Направления, по которым организовано дополнительное образование</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.удуНаправленияДополнительногоОбразования.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.удуНаправленияДополнительногоОбразования.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Направление, по которому организовано дополнительное образование</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Направления доп.образования</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Направления, по которым организовано дополнительное образование</value>
+  </extendedListPresentation>
+  <resources uuid="1ad08701-f9a4-4585-9a24-eaf950109627">
+    <name>КатегорияНаправления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория направления</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуКатегорииПрограммПроектов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Категория направления доп. образования</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d74f43ad-ea21-4057-87c2-cf947e2eaa95">
+    <name>Комментарии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарии</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Комментарии произвольные</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="eb36d8aa-c3b2-480e-b818-0dc043967e3a">
+    <name>Учреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учреждение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуУчреждения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Учреждение по направлению доп. образования</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="31d89d9f-7333-4b8f-b109-a2033041a354">
+    <name>НаименованиеНаправления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование направления</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуНаименованияПрограммПроектов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование направления доп. образования</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="12cfbf97-2dfe-4fbe-ae2c-1f24a443eaff">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9e1feff0-b820-4854-88ab-1ede3c9d74bb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

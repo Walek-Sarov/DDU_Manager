@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35159d50-2604-4f91-a350-6eb91d89c1db">
+  <producedTypes>
+    <objectType typeId="7bad999f-8f9f-4306-87da-5f667fe9d05b" valueTypeId="459eb572-260d-47b6-9848-a7ceedb4a153"/>
+    <managerType typeId="0db05e36-b6ab-4780-97af-d05053a606d0" valueTypeId="4d0a446c-4da2-4f51-9a33-43563dc56d9c"/>
+  </producedTypes>
+  <name>удуЗагрузкаКлассификаторов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка общероссийских классификаторов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.удуЗагрузкаКлассификаторов.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="dadf1e9d-56ee-48e7-bc8a-bd80fcd847e7">
+    <name>ВидКлассификатора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид классификатора</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид классификатора в базе</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="84f4d3cd-2b56-4303-99e2-f01b0ee4bdc4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

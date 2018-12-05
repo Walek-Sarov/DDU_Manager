@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="703bfeb7-d98d-4baf-a5e1-4a5cb7817ccc" thisNode="62acf40d-6ab4-4583-8cf0-a4e58180ce27">
+  <producedTypes>
+    <objectType typeId="b1ba623a-38e5-49ca-9234-139d90a69880" valueTypeId="34e5d092-62a9-45dc-97a3-6c0e39149dae"/>
+    <refType typeId="ee443b5e-cc42-4b24-b87a-ebd65ca70c21" valueTypeId="b54df311-4b19-4dd8-bfea-58caabeab661"/>
+    <selectionType typeId="45662a93-f3a4-418b-a730-2cce42f19153" valueTypeId="5152e501-2d98-4d49-9f02-895ac6257a18"/>
+    <listType typeId="ee6dfa3d-ae30-4643-9db0-327e3ea55110" valueTypeId="c3f7ee57-7f58-4f87-a37c-c63397200689"/>
+    <managerType typeId="2a223cae-6a89-46fa-be28-9bd6de9d5f49" valueTypeId="0a1fbdc5-1d38-447f-8b83-54d632475832"/>
+  </producedTypes>
+  <name>ОбменВнешнимиЗаданиямиС1СДокументооборот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен внешними заданиями c 1С:Документооборот</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>ExchangePlan.ОбменВнешнимиЗаданиямиС1СДокументооборот.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ОбменВнешнимиЗаданиямиС1СДокументооборот.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ThisNode</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReceivedNo</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>SentNo</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Обмены внешними заданиями c 1С:Документооборот</value>
+  </listPresentation>
+  <codeLength>3</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <content>
+    <mdObject>InformationRegister.СоответствияОбъектовИнформационныхБаз</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.РолиИсполнителей</mdObject>
+  </content>
+  <content>
+    <mdObject>Task.ЗадачаИсполнителя</mdObject>
+  </content>
+  <content>
+    <mdObject>BusinessProcess.Задание</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Файлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВерсииФайлов</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.ОбменВнешнимиЗаданиямиС1СДокументооборот.Form.ФормаУзла</defaultObjectForm>
+  <defaultListForm>ExchangePlan.ОбменВнешнимиЗаданиямиС1СДокументооборот.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="a985b5c7-b5b4-4476-8b76-6db1127145f2">
+    <name>УдалитьЭтотУзел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить этот узел</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </attributes>
+  <forms uuid="2de98078-17b2-4fc0-87f8-ad9a52f03807">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3959030a-b943-4c9b-8463-ab46b5f5355d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="2893783c-237d-4746-b58b-0d3f10374bdc">
+    <name>ПравилаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила обмена</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="e8d3756d-32b5-4919-8899-bf6665a7945d">
+    <name>ПравилаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила регистрации</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:ExchangePlan>

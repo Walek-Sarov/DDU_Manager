@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Document.удуТабельУчетаРабочегоВремениОрганизации.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.удуТабельУчетаРабочегоВремениОрганизации.StandardCommand.OpenList</commands>
+      <commands>Document.удуГрафикОтпусковОрганизаций.StandardCommand.OpenList</commands>
+      <commands>Document.удуДоговорНаВыполнениеРаботСФизЛицом.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

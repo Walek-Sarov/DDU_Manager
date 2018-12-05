@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="850227be-f57c-4f9f-8c63-6dfb034599d3">
+  <name>удуУстановитьСвязьСДелоПроизводством</name>
+  <synonym>
+    <key>ru</key>
+    <value>УстановитьСвязь</value>
+  </synonym>
+  <comment></comment>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DocumentRef.удуДоговорОЗачисленииРебенка</types>
+    <types>CatalogRef.удуДокументыПропускаЗанятий</types>
+    <types>DocumentRef.удуПриемНаРаботуВОрганизацию</types>
+    <types>DocumentRef.удуВозвратНаРаботуОрганизаций</types>
+    <types>DocumentRef.удуПеремещениеТМЦ</types>
+    <types>DocumentRef.удуОприходованиеТМЦ</types>
+    <types>DocumentRef.удуЗаявкаНаЗачислениеРебенкаВДОУ</types>
+    <types>DocumentRef.удуПриказОЗачисленииРебенкаВГруппу</types>
+    <types>DocumentRef.удуСписаниеТМЦ</types>
+    <types>DocumentRef.удуПриказОВыбытииИзГруппы</types>
+    <types>DocumentRef.удуУвольнениеИзОрганизаций</types>
+    <types>DocumentRef.удуПриказОПереводеВДругуюГруппу</types>
+    <types>DocumentRef.удуКадровоеПеремещениеОрганизаций</types>
+  </commandParameterType>
+  <representation>Picture</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Установить связь с делопроизводством</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ТолькоСкрепка</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

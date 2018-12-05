@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26efdd54-5dab-4e6e-8fee-2d82d92deb5e">
+  <name>удуСправочнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочная информация</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.удуПодразделенияУчереждения</content>
+  <content>Catalog.Должности</content>
+  <content>Catalog.удуКлассификаторИспользованияРабочегоВремени</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Catalog.удуГрафикиРаботы</content>
+  <content>ChartOfCalculationTypes.удуОсновныеНачисленияОрганизаций</content>
+  <content>InformationRegister.удуРегламентированныйПроизводственныйКалендарь</content>
+  <content>Catalog.удуВидПовышенияКвалификации</content>
+  <content>Catalog.удуСмены</content>
+  <parentSubsystem>Subsystem.удуКадровыйУчет</parentSubsystem>
+</mdclass:Subsystem>

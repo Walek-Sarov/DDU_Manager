@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da589a8f-5468-46f8-9166-de43d3be65ae">
+  <name>ВерсионированиеОбъектовПередУдаленииОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версионирование объектов перед удалении объекта</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>CatalogObject.ВходящиеДокументы</types>
+    <types>CatalogObject.ВнутренниеДокументы</types>
+    <types>CatalogObject.ИсходящиеДокументы</types>
+  </source>
+  <event>BeforeDelete</event>
+  <handler>CommonModule.ВерсионированиеОбъектовСобытия.ВерсионированиеОбъектовПередУдалениемОбъекта</handler>
+</mdclass:EventSubscription>

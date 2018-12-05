@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0694b84-b28d-47db-9b39-ed01940954e5">
+  <producedTypes>
+    <objectType typeId="21f7021d-f3a2-41a7-9675-703fcaaf942d" valueTypeId="57a9a624-bfdb-404b-a801-d50395e5234a"/>
+    <managerType typeId="e23fb1b9-9cd5-4f13-914d-4441e5b61aa4" valueTypeId="c2986b24-1614-4b3d-bc88-9ebf1725ac5f"/>
+  </producedTypes>
+  <name>СправкаОбОбъемеДокументооборота</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справка об объеме документооборота</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СправкаОбОбъемеДокументооборота.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="58e65e4a-3c10-46c1-a03f-67fb4babbdb0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

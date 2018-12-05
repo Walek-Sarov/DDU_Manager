@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60208d56-f778-4ff6-abdd-ea6622504ace">
+  <producedTypes>
+    <managerType typeId="b204ca31-5549-4a8d-931e-fca4863a1c15" valueTypeId="8516ee69-4fe8-4e2a-94c6-d789f910e5a2"/>
+    <valueManagerType typeId="b87a9c4a-49c0-49d5-a6cb-367054fd6f01" valueTypeId="72ba594d-ae3f-4260-b386-715595307d5a"/>
+  </producedTypes>
+  <name>ИмяПользователяБиблиотекиФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Имя пользователя</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Имя пользователя, под которым происходит авторизация в базу, публикующую сервис библиотеки файлов</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

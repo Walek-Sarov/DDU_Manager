@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee66cfa0-a19c-4309-9ce6-c65b1e35c7c3">
+  <producedTypes>
+    <selectionType typeId="64554b46-414f-47d4-bc7f-8ef699537683" valueTypeId="c0154c2a-fce3-4b56-932b-3d45ea21239e"/>
+    <listType typeId="89a13113-21b2-4bf6-81f6-1cec6a72dd0d" valueTypeId="3bc6db19-4066-4673-8b53-3be0bd06e286"/>
+    <managerType typeId="d2b62bcd-2840-4bf7-92ee-4d21a483953a" valueTypeId="53063781-0400-4761-92af-32f20be3ad3f"/>
+    <recordSetType typeId="c100e315-ee42-4932-bfeb-9c49ff174b3c" valueTypeId="11780030-ba0c-4d9b-aceb-1482b30406a7"/>
+    <recordKeyType typeId="76cdbaf6-3363-4a9e-a0d5-f7192a75eafc" valueTypeId="f3fd00f6-06dd-447a-a53a-37f0801fa4e3"/>
+    <recordType typeId="c28009bf-37ea-4767-a592-9125271fec2c" valueTypeId="88bdbd54-d957-4c37-81ab-c4fbf249c04c"/>
+    <recordManagerType typeId="1d35e4d4-4773-413a-8c31-20d538943f25" valueTypeId="ddafe0e8-3603-4f10-9db1-e0e16bdcb049"/>
+  </producedTypes>
+  <name>удуОтветственныеЛицаУчреждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответственные лица учреждения</value>
+  </synonym>
+  <comment>Ответственные лица учреждения</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.удуОтветственныеЛицаУчреждения.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.удуОтветственныеЛицаУчреждения.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Ответственное лицо учреждения</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Ответственное лицо учреждения</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Ответственные лица</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Ответственные лица учреждения</value>
+  </extendedListPresentation>
+  <resources uuid="c67ee835-0f13-4069-910f-f5cb1a8c5405">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Должность ответственного учреждения</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6442de4c-b466-4e27-bc40-c75bb9c1b0db">
+    <name>Телефоны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефоны</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Телефоны ответственного лица</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="dc624732-54d3-4be2-bbb9-fa2b0de5c31b">
+    <name>ФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физ лицо</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Физ лицо учреждения</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2e45f28d-b05d-4795-9177-078f63a85a63">
+    <name>Учреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учреждение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуУчреждения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Учреждение ответственные лица</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="88382474-6ac4-4d9e-b48f-046a535f2695">
+    <name>ОтветственноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственное лицо</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ОтветственныеЛицаОрганизаций</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ответственное лицо учреждения</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="7926b0b6-e469-42b6-8164-b4a5ff9c1e24">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0f9ba0fe-7a6f-47a5-a223-1767bebbb2b1">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7fd0511-1c4b-4d0d-b4f9-ac819969df67">
+  <producedTypes>
+    <refType typeId="feda3e7f-4248-4de3-a751-f599e9da5b5e" valueTypeId="5b1bb1a0-2bca-4d7a-8a86-efc8b4b2f598"/>
+    <listType typeId="29a75251-2ccd-43b6-9336-77a1307da2cb" valueTypeId="170a29e9-c548-4e77-bb1e-c2ac00d4ad8b"/>
+    <managerType typeId="e433c362-6504-4cff-a683-c97ab6864f8d" valueTypeId="2f106d97-1a50-4173-b259-c033ce8c0956"/>
+  </producedTypes>
+  <name>удуВидыВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды времени</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4fdc9242-6836-4cd7-aafd-ca139635adbd">
+    <name>ОтработанноеВПределахНормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отработанное время в пределах нормы времени</value>
+    </synonym>
+    <comment>Начисление за работу полную рабочую смену в пределах нормы времени</comment>
+  </enumValues>
+  <enumValues uuid="82b707eb-d5d7-479f-9bd1-3020893af2b6">
+    <name>ОтработанноеСверхНормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отработанное время сверх нормы времени</value>
+    </synonym>
+    <comment>Начисление за работу сверх нормы времени</comment>
+  </enumValues>
+  <enumValues uuid="7178d1bf-e2ea-4886-9475-e47c41b6aa55">
+    <name>ЦелодневноеНеотработанное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Целодневное неотработанное время и командировки</value>
+    </synonym>
+    <comment>Неотработанные полные смены</comment>
+  </enumValues>
+  <enumValues uuid="c597ebe4-ad3c-4759-a499-4adf27c2b36b">
+    <name>ЧасовоеНеотработанное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часовое неотработанное время и командировки</value>
+    </synonym>
+    <comment>Неотработанные неполные смены</comment>
+  </enumValues>
+  <enumValues uuid="6732ab0c-6bb6-445b-a94a-abf28b78e5cb">
+    <name>ДополнительноОплачиваемоеВПределахНормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительно оплачиваемое время в пределах нормы времени</value>
+    </synonym>
+    <comment>Дополнительное начисление в пределах нормы времени</comment>
+  </enumValues>
+  <enumValues uuid="ad7b0608-88af-473a-8680-f47b08a744da">
+    <name>ЧасовоеОтработанноеВПределахНормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часовое отработанное в пределах нормы</value>
+    </synonym>
+    <comment>Начисление за работу неполную смену в пределах нормы времени</comment>
+  </enumValues>
+</mdclass:Enum>

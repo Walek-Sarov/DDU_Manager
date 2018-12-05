@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4163bc5d-efaa-4ca0-b8e8-cc1b23b43bca">
+  <producedTypes>
+    <refType typeId="bcf74210-c70a-4d88-9e29-dc4594562e0e" valueTypeId="6d2768ef-1869-435b-b1ca-6c6bdf1ddacd"/>
+    <listType typeId="f1160e4c-3ef4-44c5-8377-58d7628ff475" valueTypeId="988f9d10-b452-407b-ab1c-8d7cbdb25d7c"/>
+    <managerType typeId="d23a9463-792a-49c8-8a49-2028a43acd87" valueTypeId="3d20abfc-327f-4445-9485-6c78ca642afb"/>
+  </producedTypes>
+  <name>удуСпособыРасчетаОплатыТруда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы расчета оплаты труда</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a012bfda-ca2d-4379-92b6-3bf0100c54fd">
+    <name>НулеваяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нулевая сумма</value>
+    </synonym>
+    <comment>ВР без расчета результата</comment>
+  </enumValues>
+  <enumValues uuid="0275f0f0-ea97-40f2-91a3-1b9d4f15f87e">
+    <name>ПоДоговоруФиксированнойСуммой</name>
+    <synonym>
+      <key>ru</key>
+      <value>По договору фиксированной суммой</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="09c6d86e-cd9b-42b8-bab7-77742c20c489">
+    <name>ПоДневнойТарифнойСтавке</name>
+    <synonym>
+      <key>ru</key>
+      <value>По дневной тарифной ставке</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="70c10552-3d1f-4741-969d-1e324cd16e04">
+    <name>ПоМесячнойТарифнойСтавкеПоДням</name>
+    <synonym>
+      <key>ru</key>
+      <value>По месячной тарифной ставке</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="213ecb94-ae7e-4ca6-8bb3-7959ef09e88d">
+    <name>ПоМесячнойТарифнойСтавкеПоЧасам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По месячной тарифной ставке по часам</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="43409afb-485f-4d2d-8c2a-935947b1fd37">
+    <name>ПоЧасовойТарифнойСтавке</name>
+    <synonym>
+      <key>ru</key>
+      <value>По часовой тарифной ставке</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7f095b7d-fd4e-44c1-ab36-5b72a6d0cedf">
+    <name>ПособиеПоУходуЗаРебенкомДо1_5Лет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пособие по уходу за ребенком до 1.5 лет</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2d563d36-2d1a-4a16-b447-9e0bbab3f25d">
+    <name>ПособиеПоУходуЗаРебенкомДо3Лет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пособие по уходу за ребенком до 3 лет</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="441fa611-9b64-4f47-baba-4dc93845525b">
+    <name>ПоСреднемуЗаработку</name>
+    <synonym>
+      <key>ru</key>
+      <value>По среднему заработку</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="482b7a9a-61d3-47f9-9e77-41a3fa031ca8">
+    <name>ПоСреднемуЗаработкуДляОтпускаПоКалендарнымДням</name>
+    <synonym>
+      <key>ru</key>
+      <value>По среднему заработку для отпуска по календарным дням</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="94095b20-8ac8-4805-864d-695efedc0fd7">
+    <name>ПоСреднемуЗаработкуФСС</name>
+    <synonym>
+      <key>ru</key>
+      <value>По среднему заработку ФСС</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9b827ac9-4ea6-4594-95d5-3afc8f8c1472">
+    <name>ФиксированнойСуммой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фиксированной суммой</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4f6d834f-de02-4c3f-bcc5-68cb2c597205">
+    <name>ДоплатаЗаВечерниеЧасы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доплата за вечерние часы</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="206aca1b-cc3c-4257-bc9d-22e71bc3d04a">
+    <name>ДоплатаЗаНочныеЧасы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доплата за ночные часы</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="429e35bf-1089-43fc-b79f-843200f800e7">
+    <name>ПочтовыйСбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почтовый сбор</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7f770a60-a1f7-4f89-80da-6c64bec7ed9f">
+    <name>ИсполнительныйЛистПроцентом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнительный лист процентом</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="dce23ff1-b25b-422a-a060-dd131a262d54">
+    <name>ИсполнительныйЛистПроцентомДоПредела</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнительный лист процентом до предела</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2a3d4fc0-9f8c-4c77-bebd-b526011c4578">
+    <name>ИсполнительныйЛистФиксСуммойДоПредела</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнительный лист фиксированной суммой до предела</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9adb1e7d-0e3a-4c27-8db9-2c4d01757880">
+    <name>ОтСтажаПоДневнойТарифнойСтавке</name>
+    <synonym>
+      <key>ru</key>
+      <value>От стажа по дневной тарифной ставке</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1e7091c2-8e08-40e7-a26e-8dea0c6dbb9c">
+    <name>ОтСтажаПоМесячнойТарифнойСтавкеПоДням</name>
+    <synonym>
+      <key>ru</key>
+      <value>От стажа по месячной тарифной ставке по дням</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9dfa4a0a-0b87-44e0-91b9-8c3459a17674">
+    <name>ОтСтажаПоМесячнойТарифнойСтавкеПоЧасам</name>
+    <synonym>
+      <key>ru</key>
+      <value>От стажа по месячной тарифной ставке по часам</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d6c51727-5eac-4cc4-8116-bc042fdf9a67">
+    <name>ОтСтажаПоЧасовойТарифнойСтавке</name>
+    <synonym>
+      <key>ru</key>
+      <value>От стажа по часовой тарифной ставке</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f50c3351-2172-44e1-a5e2-ee7c39195a98">
+    <name>ОтСтажаПроцентом</name>
+    <synonym>
+      <key>ru</key>
+      <value>От стажа процентом</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c7fcb3f2-672b-4f83-8248-c62572173fff">
+    <name>ДоплатаДоСреднегоЗаработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доплата до среднего заработка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4b23dab3-8506-4865-9c7f-84c5af1d6682">
+    <name>ПоСреднемуЗаработкуДляОтпускаПоШестидневке</name>
+    <synonym>
+      <key>ru</key>
+      <value>По среднему заработку для отпуска при расчете из рабочих дней</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7bd46d4a-bfa9-4e40-b78e-43e43e830c24">
+    <name>Процентом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процентом</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="676207b4-eccf-442b-877e-96486de9f196">
+    <name>ПроцентомОтОблагаемыхЕСННачислений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процентом от начислений, облагаемых страховыми взносами в ПФР (до 2010 г. - ЕСН) </value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="cc9c3e1d-a6ee-4e45-9958-5043d58201e9">
+    <name>СдельныйЗаработок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сдельный заработок</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d754db28-1d4d-4b46-8c53-3005d07bd789">
+    <name>СевернаяНадбавка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Северная надбавка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="671a2c01-3c4a-42d5-a907-49b4fd0d0916">
+    <name>УдержаниеФиксированнойСуммой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удержание фиксированной суммой</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e177bd72-3580-4c68-897a-5456f74bb02d">
+    <name>СохраняемоеДенежноеСодержание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохраняемое денежное содержание</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="4ec19160-41d6-4981-95b9-02f59f31f545">
+    <name>МесячноеДенежноеСодержание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месячное денежное содержание</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1ff7bae3-77e9-4023-8436-e98cadbc4835">
+    <name>СохраняемоеДенежноеСодержаниеОтпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохраняемое денежное содержание на период отпуска</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="372e16a1-28d0-4556-97dc-62af971cc61e">
+    <name>ПроизвольнаяФормула</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольная формула</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="777f1f61-0971-4379-a5ad-50a0aced4d7a">
+    <name>ДоплатаДоСреднегоЗаработкаФСС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доплата до среднего заработка ФСС</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

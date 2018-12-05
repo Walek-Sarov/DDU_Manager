@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f5bbea0-56b4-46de-915e-943382e9db44">
+  <name>ИспользоватьУчетПоОрганизациям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать учет по организациям</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.ИспользоватьУчетПоОрганизациям</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ВнутренниеДокументы.Attribute.Организация</content>
+  <content>Catalog.ВходящиеДокументы.Attribute.Организация</content>
+  <content>Catalog.ИсходящиеДокументы.Attribute.Организация</content>
+  <content>Document.ПередачаДелВАрхив.Attribute.Организация</content>
+  <content>Document.УничтожениеДел.Attribute.Организация</content>
+  <content>Catalog.НоменклатураДел.Attribute.Организация</content>
+  <content>Catalog.ДелаХраненияДокументов.Attribute.Организация</content>
+  <content>Catalog.РазделыНоменклатурыДел.Attribute.Организация</content>
+  <content>Catalog.Нумераторы.Attribute.НезависимаяНумерацияПоОрганизациям</content>
+  <content>InformationRegister.Нумерация.Dimension.Организация</content>
+  <content>Catalog.Организации</content>
+</mdclass:FunctionalOption>

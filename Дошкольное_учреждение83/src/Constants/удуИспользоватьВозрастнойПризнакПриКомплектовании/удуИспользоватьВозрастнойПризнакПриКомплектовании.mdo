@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5616ce88-1a70-4bba-aeda-f480e54f7860">
+  <producedTypes>
+    <managerType typeId="8ec6f09a-fd3e-4fb5-851b-faf76340010d" valueTypeId="9d2f0e9c-05fb-44e4-98bd-f93c4f25b973"/>
+    <valueManagerType typeId="5db3af24-dd5e-42f7-8813-6dda2dfb2090" valueTypeId="a2966b6c-0b0d-407f-9b60-805242afd41b"/>
+  </producedTypes>
+  <name>удуИспользоватьВозрастнойПризнакПриКомплектовании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать возрастной признак при комплектовании</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Использовать возрастной признак при автоматическом комплектовании групп</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

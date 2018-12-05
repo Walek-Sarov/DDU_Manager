@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="553b116b-adf7-49bc-a806-966623bc6fb9">
+  <producedTypes>
+    <refType typeId="352ef53c-0be6-45b0-9f12-d7916fc8b95b" valueTypeId="ddfa3e93-0c87-46d8-babe-95a99a934b3b"/>
+    <listType typeId="b9fff335-3226-4a39-85af-a4fa8c26b7b1" valueTypeId="6ce8ee16-50cd-4ac9-9067-5bbb7cddfd07"/>
+    <managerType typeId="49ab532a-9605-4336-b6d0-553f156daaa5" valueTypeId="08061aa2-8826-4dfc-99c3-2e916fc29f02"/>
+  </producedTypes>
+  <name>удуВидыТарифныхСтавок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды тарифных ставок</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="519dac26-e777-4a50-81c1-de48e3e7e526">
+    <name>Месячная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месячная</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ee9c5e6b-1e55-4727-b52f-23d738da2cfa">
+    <name>Дневная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дневная</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="12a94e35-93cf-4a3c-a1ab-43e5b3b6dc71">
+    <name>Часовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часовая</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

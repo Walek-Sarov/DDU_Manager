@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c28a2b3-0881-4fa6-8253-ef01168a7187">
+  <producedTypes>
+    <objectType typeId="117d7c13-9f97-4246-ab72-166b76d3446a" valueTypeId="d7cfeb2a-3efa-4ac1-a24a-e942eafa8fff"/>
+    <managerType typeId="9cb55729-5ff4-4bf5-82ce-1abd54858561" valueTypeId="ecc70fe2-a2ba-40d9-9dc3-5c0cb3f71a76"/>
+  </producedTypes>
+  <name>удуКнигаУчетаДвиженияВоспитанников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Книга учета движения воспитанников</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.удуКнигаУчетаДвиженияВоспитанников.Form.ФормаОтчета</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="1aac0e98-7e43-4e3f-b982-aa24ad3a7718">
+    <name>ДатаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отчета</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата формирования отчета </value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5b0b068b-c215-40ae-93cf-50ae6be43316">
+    <name>ГруппаОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа отбора</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуГруппыУчреждения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа воспитанников отбора</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8fb11129-bee2-4288-8897-0cdd0bb52fa6">
+    <name>ОтборИнформации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор информации</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отбор информации в книге</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="940ee21a-4950-46fd-b65f-c02b01a2b468">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c45ce404-4ce5-4149-b7c2-f334b2615d54">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

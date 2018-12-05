@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85e4c2b6-35b6-4183-a271-ac55e68cc8b6">
+  <name>удуИспользоватьРеестрыОтправки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать реестры отправки</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.удуИспользоватьРеестрыОтправки</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.удуТипыРеестров</content>
+  <content>Catalog.удуРеестрыОтправки</content>
+  <content>InformationRegister.удуДокументыКОтправке</content>
+</mdclass:FunctionalOption>

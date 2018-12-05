@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="020882c2-dbc4-4b40-8556-6a11d75b00fe">
+  <name>ДокументооборотКарточкаФайла</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документооборот карточка файла</value>
+  </synonym>
+  <comment></comment>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

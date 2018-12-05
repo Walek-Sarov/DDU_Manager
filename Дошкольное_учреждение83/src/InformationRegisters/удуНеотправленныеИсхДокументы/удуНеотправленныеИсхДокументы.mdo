@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7df656ce-3dd5-4b9c-a57c-36adc2ace2fa">
+  <producedTypes>
+    <selectionType typeId="02f58bd9-ec9f-46f2-aa6d-c03a12cedd88" valueTypeId="1e3a7fec-8588-4d5b-b811-244d5125b4c6"/>
+    <listType typeId="5f86947c-85c1-4f2b-b77c-08c5ecdce7ea" valueTypeId="a7177168-e249-4a17-b59f-1bf143bcd208"/>
+    <managerType typeId="ad2f5813-6171-4497-b603-a378a7e7b325" valueTypeId="77cd4df7-3954-476b-bdba-d73d784e4913"/>
+    <recordSetType typeId="69249e49-678f-43d2-8625-8128ff84bbc7" valueTypeId="3805080c-0a89-4aa0-a3ef-dc0e1cb54570"/>
+    <recordKeyType typeId="4ab2cf17-310c-473a-bcd5-8ba870efd9c1" valueTypeId="d9a09e64-4bb1-49a6-be31-c20b3ec66f6f"/>
+    <recordType typeId="d345c973-d7a4-4766-9fb2-15b56956d7ed" valueTypeId="467abb6d-c50d-44c7-b1fd-6a36c7a182d2"/>
+    <recordManagerType typeId="1eb3dab4-2f08-4600-8949-acf0b7688093" valueTypeId="6e89684f-20ad-450e-bd00-13351ce6c250"/>
+  </producedTypes>
+  <name>удуНеотправленныеИсхДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Неотправленные документы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.удуНеотправленныеИсхДокументы.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.удуНеотправленныеИсхДокументы.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="d8b60a89-ee77-4cc5-b4d2-5c4b3d3da47b">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ИсходящиеДокументы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Документ наименование</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2d0cf8a5-5421-4381-81b8-332013c38478">
+    <name>Получатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корреспондент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Корреспонденты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Получатель документа</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="49d7ac2a-8960-4126-9e78-c417b6eb79a0">
+    <name>Адресат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адресат</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.КонтактныеЛица</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Адресат неотправленного документа</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e06fb2fa-6145-484e-a0a3-b7a7129ea740">
+    <name>Отправить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправить</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отправить документ</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="65a83eb1-222f-46d9-b788-5a8dd86db5f7">
+    <name>ВидДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид доставки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СпособыДоставки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид доставки документа</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cf2431a3-3873-4f0d-9e44-60ceb4b9dd16">
+    <name>ОтправкаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправка документа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуОтправкаДокумента</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отправка документа в базе</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="bbf90fef-d44d-4437-a4de-e6826d4148d6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="97f8cd07-4bcb-42d7-a32c-faf258afb66e">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="840602e4-9710-4a8e-bdd1-21a2b1b23639">
+    <name>НеОтправленоПоДокументу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не отправлено по документу</value>
+    </synonym>
+    <comment></comment>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.ИсходящиеДокументы</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Список неотправленных сообщений</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

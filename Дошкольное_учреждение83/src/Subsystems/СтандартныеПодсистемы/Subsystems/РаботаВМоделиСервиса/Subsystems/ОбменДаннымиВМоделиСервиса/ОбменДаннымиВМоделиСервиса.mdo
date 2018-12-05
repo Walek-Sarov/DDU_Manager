@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52176b25-0232-4326-9548-495db32b2660">
+  <name>ОбменДаннымиВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными в модели сервиса</value>
+  </synonym>
+  <comment></comment>
+  <content>CommonModule.ОбработчикКаналовСообщенийОбменаДаннымиВРежимеСервиса</content>
+  <content>WebService.RemoteAdministrationOfExchange</content>
+  <content>Constant.ЗарегистрированыИзмененияДанных</content>
+  <content>CommonForm.ВыполнениеОбменаДаннымиСоВсемиИнформационнымиБазами</content>
+  <content>CommonCommand.СинхронизироватьДанные</content>
+  <content>Constant.АдресВебСервисаОбменаДанными</content>
+  <content>CommonModule.ОбменДаннымиВМоделиСервиса</content>
+  <content>CommonModule.ОбменДаннымиВМоделиСервисаПовтИсп</content>
+  <content>FunctionalOption.ЗарегистрированыИзмененияДанных</content>
+  <content>FunctionalOption.ИспользоватьОбменДаннымиВМоделиСервиса</content>
+  <content>WebService.RemoteAdministrationOfExchange_2_0_1_6</content>
+  <content>Role.УдаленныйДоступОбменДаннымиВМоделиСервиса</content>
+  <content>DataProcessor.ПомощникСозданияАвтономногоРабочегоМеста</content>
+  <content>CommonModule.АвтономнаяРаботаСлужебный</content>
+  <content>CommonModule.ОбменДаннымиВМоделиСервисаПереопределяемый</content>
+  <content>CommonForm.АвтономнаяРаботаВМоделиСервиса</content>
+  <content>CommonCommand.АвтономнаяРаботаВМоделиСервиса</content>
+  <content>CommonForm.ОтключениеАвтономногоРабочегоМеста</content>
+  <content>CommonCommand.АвтономнаяРабота</content>
+  <content>CommonForm.АвтономнаяРабота</content>
+  <content>ScheduledJob.СинхронизацияДанныхСПриложениемВИнтернете</content>
+  <content>Constant.СинхронизироватьДанныеСПриложениемВИнтернетеПриНачалеРаботыПрограммы</content>
+  <content>Constant.СинхронизироватьДанныеСПриложениемВИнтернетеПриЗавершенииРаботыПрограммы</content>
+  <content>CommonModule.ОбменДаннымиВМоделиСервисаКлиент</content>
+  <content>Constant.ПрефиксПоследнегоАвтономногоРабочегоМеста</content>
+  <content>Constant.НастройкаАвтономногоРабочегоМестаЗавершена</content>
+  <content>EventSubscription.ОтключитьАвтоматическуюСинхронизациюДанныхСПриложениемВИнтернете</content>
+  <content>EventSubscription.ИгнорироватьОтправкуНеразделенныхДанныхВСервис</content>
+  <content>EventSubscription.ИгнорироватьПолучениеНеразделенныхДанныхВСервисе</content>
+  <content>CommonModule.АвтономнаяРаботаВызовСервераСлужебный</content>
+  <content>CommonForm.ПарольДляСинхронизацииДанных</content>
+  <content>Constant.ИспользоватьАвтономнуюРаботуВМоделиСервиса</content>
+  <content>FunctionalOption.ИспользоватьАвтономнуюРаботуВМоделиСервиса</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы.Subsystem.РаботаВМоделиСервиса</parentSubsystem>
+</mdclass:Subsystem>

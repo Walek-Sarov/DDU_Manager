@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>DocumentJournal.удуКнигаУчетаДвиженияДетей.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.удуДетализацияНаправленностиГруппы.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>DocumentJournal.удуКнигаУчетаДвиженияДетей.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>DocumentJournal.удуКнигаУчетаДвиженияДетей.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.удуПриказОВыбытииИзГруппы.StandardCommand.OpenList</commands>
+      <commands>Document.удуПриказОЗачисленииРебенкаВГруппу.StandardCommand.OpenList</commands>
+      <commands>Document.удуПриказОПереводеВДругуюГруппу.StandardCommand.OpenList</commands>
+      <commands>Catalog.удуДетализацияНаправленностиГруппы.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

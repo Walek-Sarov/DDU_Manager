@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c638d5f0-bc82-4a37-ac85-3ff152524fbe">
+  <name>удуУчетТМЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет ТМЦ</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.удуНоменклатура</picture>
+  </picture>
+  <content>Catalog.удуНоменклатура</content>
+  <content>Catalog.удуКлассификаторЕдиницИзмерения</content>
+  <content>Catalog.удуИнвентарныеНомера</content>
+  <content>Enum.удуИспользованиеИнвентарныхНомеровТМЦ</content>
+  <content>Enum.удуВидыОперацийПриходТМЦ</content>
+  <content>InformationRegister.УдалитьудуСведенияОДокументах</content>
+  <content>Report.удуТМЦиМетодическиеМатериалыНаСкладах</content>
+  <content>Enum.удуВидыНоменклатуры</content>
+  <content>Catalog.Корреспонденты</content>
+  <content>Catalog.удуВидыПервичныхДокументов</content>
+  <content>InformationRegister.удуНастройкиДляОбменаУДУ_БГУ</content>
+  <content>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ</content>
+  <content>CommonForm.удуФормаСвязиДокументаСДелопроизводством</content>
+  <subsystems>Документы</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38a6bf4b-c71c-47c0-8f43-4f4d4b973bd2">
+  <producedTypes>
+    <managerType typeId="52e9124d-0f4a-474c-8512-ed709d0eea30" valueTypeId="c7b6fcb2-313e-4c88-be87-0634459b32c2"/>
+    <valueManagerType typeId="07c05d47-1199-405e-842b-37a32cdb7c61" valueTypeId="8ce760ce-fa2c-4167-a6dc-bfc3acbac627"/>
+  </producedTypes>
+  <name>удуИспользоватьКадровыйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать кадровый учет</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Флаг использования кадрового учета в ИБ (для функциональной опции)</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

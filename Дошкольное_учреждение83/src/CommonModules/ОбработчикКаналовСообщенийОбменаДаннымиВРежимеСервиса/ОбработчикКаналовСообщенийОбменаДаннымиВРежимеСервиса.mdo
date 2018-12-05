@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07b53437-cc8d-4834-a1e0-7007538b6eab">
+  <name>ОбработчикКаналовСообщенийОбменаДаннымиВРежимеСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработчик каналов сообщений обмена данными в режиме сервиса</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d487e66e-a7b0-4110-903e-652fe0e6106c">
+  <name>ИспользоватьБиблиотекуФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать библиотеку файлов</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.ИспользоватьБиблиотекуФайлов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.БиблиотекаФайлов</content>
+</mdclass:FunctionalOption>

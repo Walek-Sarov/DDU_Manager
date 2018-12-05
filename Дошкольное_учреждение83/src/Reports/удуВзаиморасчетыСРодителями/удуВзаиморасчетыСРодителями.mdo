@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="525603e8-bea0-4d14-b356-c6f089613ac6">
+  <producedTypes>
+    <objectType typeId="33a4e07b-ccf6-4f33-bbbc-912f62d49fc6" valueTypeId="fbed061f-2ea5-4af8-b35c-539df213e977"/>
+    <managerType typeId="9505f857-4efa-48ee-8097-06b308fcd3b3" valueTypeId="7f1dd3d2-d748-4aad-9873-b61a1ba97b6f"/>
+  </producedTypes>
+  <name>удуВзаиморасчетыСРодителями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаиморасчеты с родителями</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.удуВзаиморасчетыСРодителями.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="111e303f-1f43-4360-92da-3ea597403d9e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

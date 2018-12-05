@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e85cdca7-2536-4c63-b242-0a98bc9927fe">
+  <producedTypes>
+    <objectType typeId="df08dd05-0887-4e53-b550-3f1f088df0ef" valueTypeId="0108e880-7925-4d81-95fd-c937842a4378"/>
+    <managerType typeId="35c26686-65a8-42d9-8181-8f0edf24b21d" valueTypeId="f0f989fd-56fc-4e96-8859-c66717efcf63"/>
+  </producedTypes>
+  <name>удуЖурналВходящихДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал входящих документов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.удуЖурналВходящихДокументов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="440efadd-df8e-4fa8-8b5f-b5c916de5570">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

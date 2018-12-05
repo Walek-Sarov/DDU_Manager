@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="632f5cee-4134-4228-96c5-dd3d2195d1d5">
+  <producedTypes>
+    <selectionType typeId="096f296d-29e7-43e6-96e3-ac44255f18cb" valueTypeId="6fea4e0e-7ba0-4cb6-b351-dc1f4040d556"/>
+    <listType typeId="96904c38-bda2-4d1f-9738-eea03f256cb7" valueTypeId="a7c61ed6-9837-4cc6-bc7a-7e6e7dd07455"/>
+    <managerType typeId="5b15c9d9-1296-4ce7-b946-8d68f7cc36b6" valueTypeId="9fb20af7-9629-4790-ae48-e3ae86b1924b"/>
+    <recordSetType typeId="466a75e5-4b4b-4ac7-a3ac-3d785de33e32" valueTypeId="b702dd23-951d-4bde-87da-31d468b1a608"/>
+    <recordKeyType typeId="34ddf3dc-f081-446f-a18f-17534c34e00c" valueTypeId="bc4bf378-6551-487e-8208-cfe8eb2d0c65"/>
+    <recordType typeId="cff9d1b0-794f-4953-a337-087fd5ce547a" valueTypeId="bed89cfd-df39-4fe5-b308-fa98c849f9c9"/>
+    <recordManagerType typeId="772dffde-7685-424d-a035-3a7b17d21a93" valueTypeId="66c494dc-dd28-43ca-88f6-711db5034b1d"/>
+  </producedTypes>
+  <name>удуСведенияОМестеРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения о месте работы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.удуСведенияОМестеРаботы.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ae36832a-bc95-4caf-a735-37c0fc2c8c89">
+    <name>МестоРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место работы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Место работы родителя</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="5a5d91df-cc41-45c7-83ee-13f8794ec3ce">
+    <name>ЗанимаемаяДолжность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Занимаемая должность</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Занимаемая должность родителя</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="991cffe4-1050-4761-afaf-9b283fbe694b">
+    <name>Работник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работник</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуРодители</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Родитель воспитанника</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f525f7fd-5810-47ad-a788-5738832bf757">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

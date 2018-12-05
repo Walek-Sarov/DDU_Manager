@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e45e18b-f99b-4838-ae26-124397d37a00">
+  <name>ИспользоватьОбменДаннымиВЛокальномРежиме</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать обмен данными в локальном режиме</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.ИспользоватьОбменДаннымиВЛокальномРежиме</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

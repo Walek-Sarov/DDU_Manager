@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64149f4f-5d66-4078-93a0-00b84ae196ef">
+  <name>ИспользоватьГрифыДоступаКВходящимИИсходящимДокументам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать грифы доступа к входящим и исходящим документам</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.ИспользоватьГрифыДоступаКВходящимИИсходящимДокументам</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ВходящиеДокументы.Attribute.ГрифДоступа</content>
+  <content>Catalog.ИсходящиеДокументы.Attribute.ГрифДоступа</content>
+  <content>Catalog.ГрифыДоступа</content>
+  <content>Constant.ГрифДоступаПоУмолчанию</content>
+</mdclass:FunctionalOption>

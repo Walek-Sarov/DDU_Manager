@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26a7c93e-b3a3-4622-a937-0a57a0618bb3">
+  <name>удуРаботаСРеестрамиОтправки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с реестрами отправки</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

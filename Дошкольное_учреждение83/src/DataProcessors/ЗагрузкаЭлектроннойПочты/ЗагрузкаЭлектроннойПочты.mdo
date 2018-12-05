@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1bec321f-591d-4d10-bfee-399f224665a5">
+  <producedTypes>
+    <objectType typeId="48d6b93d-cda7-4c4f-b05f-18c578d28f49" valueTypeId="ebe75951-3a62-4cce-83ac-56edd85121c3"/>
+    <managerType typeId="f4536e85-f135-49ea-9cb4-3aa753378449" valueTypeId="483f2d3f-8266-454e-b246-6d3a05b63bca"/>
+  </producedTypes>
+  <name>ЗагрузкаЭлектроннойПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка почты</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаЭлектроннойПочты.Form.ЗагрузкаЭлектроннойПочты</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="17715ab2-0250-4362-8a9e-66d5fd838be1">
+    <name>ЗагрузкаЭлектроннойПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка электронной почты</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b9ef6c5f-93c9-4e47-b7ff-12277ee77a2d">
+    <name>ФормаДобавленияВходящегоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма добавления входящего документа</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="de73ad4f-8900-45ce-80ad-866a9177bdee">
+    <name>ФормаДобавленияВнутреннегоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма добавления внутреннего документа</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

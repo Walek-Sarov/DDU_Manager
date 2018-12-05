@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d144077b-f709-40fc-b40f-adaaa6fe32ca">
+  <producedTypes>
+    <objectType typeId="a884d4e2-7143-4f56-a928-6437da4d1559" valueTypeId="5f9a9943-59ae-47f0-a97a-da1959d7fbeb"/>
+    <refType typeId="96194455-d68a-4c58-a075-92d50feb2c4e" valueTypeId="7d63bf81-cacd-41f0-afba-467da5639a43"/>
+    <selectionType typeId="93cacdf1-df84-484a-a0ca-339c2991d468" valueTypeId="28201733-4682-43c2-89e7-4fbf7a832b21"/>
+    <listType typeId="538f3920-7461-4896-bc10-03d3487c2816" valueTypeId="b228cece-3a24-46e1-9710-5a5c08b77bbf"/>
+    <managerType typeId="f9adc492-0ff2-4052-b6eb-49271b4cd2d7" valueTypeId="2177e378-07a2-4670-841d-487a2183c811"/>
+  </producedTypes>
+  <name>удуГруппыЗдоровья</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы по состоянию здоровья</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.удуГруппыЗдоровья.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.удуГруппыЗдоровья.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Группа по состоянию здоровья</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

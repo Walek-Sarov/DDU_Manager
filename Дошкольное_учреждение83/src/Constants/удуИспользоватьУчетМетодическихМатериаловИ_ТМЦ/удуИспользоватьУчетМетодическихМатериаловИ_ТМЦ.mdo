@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6de344f9-1f49-4949-b7bf-3be5ec26114b">
+  <producedTypes>
+    <managerType typeId="7a7488c3-f20f-4ac0-be36-eb7c59126925" valueTypeId="8079982c-4d1e-47f0-9791-f9edb2edf347"/>
+    <valueManagerType typeId="c29902ea-92cb-48db-ab40-62521b38ada8" valueTypeId="2c839a71-23e2-4063-a35d-c4d4f174f98d"/>
+  </producedTypes>
+  <name>удуИспользоватьУчетМетодическихМатериаловИ_ТМЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать учет методических материалов и ТМЦ</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.НастройкаПрограммы</defaultForm>
+  <toolTip>
+    <key>ru</key>
+    <value>Флаг использования учета методических материалов</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

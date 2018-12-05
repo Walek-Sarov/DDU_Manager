@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28004e7a-7a89-4135-95e6-7dea0685577c">
+  <name>РеестрыОтправки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестры отправки</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.удуРеестрыОтправки</content>
+  <content>Catalog.удуОтправкаДокумента</content>
+  <content>InformationRegister.удуНеотправленныеИсхДокументы</content>
+  <content>InformationRegister.удуОтправленныеДокументы</content>
+  <parentSubsystem>Subsystem.ДокументыИФайлы</parentSubsystem>
+</mdclass:Subsystem>

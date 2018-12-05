@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac86d5ab-451e-441b-99d0-c119c610f913">
+  <producedTypes>
+    <refType typeId="f8387f19-3fbf-492c-a3cb-dd31bf0a48d2" valueTypeId="3fae782f-18f8-4c9a-8d5f-0efe1304822d"/>
+    <listType typeId="cc0df37b-6709-41c3-941b-4e3ac5bd228e" valueTypeId="ffb3f353-69e4-45d6-9fb2-093c4f7e0074"/>
+    <managerType typeId="68999e63-88dd-4b63-ab16-7e08d4279b08" valueTypeId="89ea174a-9642-4b5a-a157-44304f457224"/>
+  </producedTypes>
+  <name>удуСостояниеРебенкаНаУчетеВГруппе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние ребенка на учете в группе</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2ab74099-0a09-46a7-b3cf-736400fb203e">
+    <name>ПринятВГруппу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принят в группу</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b8ba5c81-dc50-41a9-9462-dc478b353e57">
+    <name>ИсключенИзГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключен из группы</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

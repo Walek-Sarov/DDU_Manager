@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88d4f6a9-e6b9-4a47-8ae4-b527d2a5e502">
+  <name>удуОтпускаКомандировкиНеявки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отпуска, командировки, неявки</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.удуВозвратНаРаботуОрганизаций</content>
+  <content>Document.удуОтпускаОрганизаций</content>
+  <content>Document.удуНеявкиИБолезниОрганизаций</content>
+  <content>Document.удуКомандировкиОрганизаций</content>
+  <parentSubsystem>Subsystem.удуКадровыйУчет</parentSubsystem>
+</mdclass:Subsystem>

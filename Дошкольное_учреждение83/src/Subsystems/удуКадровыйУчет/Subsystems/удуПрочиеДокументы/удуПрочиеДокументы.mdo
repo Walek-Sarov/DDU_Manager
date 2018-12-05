@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dba51d04-d329-4520-a485-cc581e4c3723">
+  <name>удуПрочиеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочие документы</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.удуДоговорНаВыполнениеРаботСФизЛицом</content>
+  <content>Document.удуТабельУчетаРабочегоВремениОрганизации</content>
+  <content>Document.удуГрафикОтпусковОрганизаций</content>
+  <parentSubsystem>Subsystem.удуКадровыйУчет</parentSubsystem>
+</mdclass:Subsystem>

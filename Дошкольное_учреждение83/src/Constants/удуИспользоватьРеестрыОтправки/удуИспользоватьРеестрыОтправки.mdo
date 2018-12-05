@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed549b79-ee70-42db-ad52-8b635744aab1">
+  <producedTypes>
+    <managerType typeId="49a09735-4feb-4aa4-b4c4-57b67b21a62e" valueTypeId="6b86b258-f43f-4026-8a5f-1176e809ada1"/>
+    <valueManagerType typeId="9b9b9e60-50b2-48e1-9961-79432e560e7e" valueTypeId="68066be6-9cbb-4195-8f9c-aa132dd28e2e"/>
+  </producedTypes>
+  <name>удуИспользоватьРеестрыОтправки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать реестры отправки</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Флаг использования реестров отправки документов</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

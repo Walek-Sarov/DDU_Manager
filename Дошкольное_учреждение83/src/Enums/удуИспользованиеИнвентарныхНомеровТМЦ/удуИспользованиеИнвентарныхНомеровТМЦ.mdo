@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e999ce25-8923-461a-90b5-80cdbcaaa281">
+  <producedTypes>
+    <refType typeId="ab9bb23d-05f9-4ebd-91d4-213152caa117" valueTypeId="084c1da1-b0ac-4902-bfe1-84e481603806"/>
+    <listType typeId="290a2074-4d39-4aa3-95e5-009fcf487c67" valueTypeId="4a3b5c99-69d8-4a89-a65c-b978587491f1"/>
+    <managerType typeId="f4a06ed1-f419-4d85-af11-6c1cf2550432" valueTypeId="2cfc4031-7dd6-475c-bfa0-ef293d17e8ff"/>
+  </producedTypes>
+  <name>удуИспользованиеИнвентарныхНомеровТМЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование инв. номеров для учета ТМЦ</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Использование инв. номеров для учета ТМЦ</value>
+  </listPresentation>
+  <enumValues uuid="0705fe3f-e412-48a7-8052-778c3a16042f">
+    <name>КоличественныйУчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количественный учет</value>
+    </synonym>
+    <comment>Применяется только количественный учет</comment>
+  </enumValues>
+  <enumValues uuid="5c846562-5289-491e-a904-4d3b5efdde78">
+    <name>ИнвентарныйУчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвентарный учет</value>
+    </synonym>
+    <comment>Учет по инвентарным номерам</comment>
+  </enumValues>
+  <enumValues uuid="9608161f-fa14-425d-9a1f-aa216418fe9a">
+    <name>ИнвентарноГрупповойУчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвентарно-групповой учет</value>
+    </synonym>
+    <comment>Учет по инвентарным номерам и количеству</comment>
+  </enumValues>
+</mdclass:Enum>

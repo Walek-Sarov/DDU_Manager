@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52c38669-4735-4f5b-8e0e-17d7e15ea94a">
+  <name>ДокументооборотФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документооборот: Файлы</value>
+  </synonym>
+  <comment></comment>
+  <group>CommandGroup.Документооборот</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8702eed-64d5-41c0-91da-c9ca00a3cd78">
+  <producedTypes>
+    <objectType typeId="e1fcf9fb-2c3b-43cb-b69c-f5b3eec045c2" valueTypeId="e9cfe045-7b7b-46c2-aebe-a87459079678"/>
+    <refType typeId="e106cc61-3b9b-40ef-b9bd-a65c60087d2d" valueTypeId="4c2f483a-825f-415e-a64b-e88e9f33afeb"/>
+    <selectionType typeId="4b0942b0-e6b6-45e5-8b27-f4cf77a9e1f7" valueTypeId="23f6e954-7999-4640-b8d6-6e2ab0fbb03b"/>
+    <listType typeId="823c6985-2f82-4504-b24a-e89f2787db85" valueTypeId="6d16c3aa-5cb6-4d37-b8b4-0a74fc0c11f2"/>
+    <managerType typeId="34208db4-1c6e-498f-9c35-44c0c7740e1c" valueTypeId="36dca693-76a5-4254-82f7-7e257f25093e"/>
+  </producedTypes>
+  <name>удуТабельПосещаемостиДОУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Табель посещаемости ДОУ</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.удуТабельПосещаемостиДОУ.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Запись табеля посещаемости ДОУ</value>
+  </objectPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.удуТабельПосещаемостиДОУ.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.удуСведенияОПосещаемостиДОУ</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="fff6cdbe-d5b3-4f9b-ad1e-73ae90c00f7b">
+    <name>Учреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учреждение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуУчреждения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дошкольное Учреждение</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="203dfb66-9d49-450e-85d0-940a9b90bef9">
+    <name>Группа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуГруппыУчреждения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа учреждения</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f329e555-b594-43c5-a83f-738919ce0c44">
+    <name>Воспитатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Воспитатель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуСотрудникиОрганизаций</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Воспитатель группы</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="62cbef0a-062c-4f3c-9099-95f1de209383">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="c3be5160-3461-43e5-93a8-3c31c316881d">
+    <producedTypes>
+      <objectType typeId="8d3870c7-ad0e-4163-99e6-83da609c1a23" valueTypeId="3011c307-fdf4-4aba-b1a7-f1d089f85564"/>
+      <rowType typeId="e559935e-1e09-4bf2-8291-7ce004081738" valueTypeId="f48f5ced-d66d-4ff1-9e2a-3b56990089c7"/>
+    </producedTypes>
+    <name>ТабличнаяЧастьПосещениеГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть посещение группы</value>
+    </synonym>
+    <comment></comment>
+    <fillChecking>ShowError</fillChecking>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="cb24a082-4fb9-4761-b24e-eebaa3ea17e3">
+      <name>Ребенок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ребенок</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.удуДети</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ребенок группы</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8d6e230c-b07d-4698-b020-6c9455940eac">
+      <name>ПризнакПрисутствия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Признак присутствия</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Признак присутствия воспитанника</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9cfe1956-0724-490f-9c53-00e011088838">
+      <name>ПричинаПропускаЗанятия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Причина пропуска занятия</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.удуПричиныПропускаЗанятий</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Причина пропуска занятия воспитанником</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

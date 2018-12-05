@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd783b4f-6172-42e6-a416-69e2247e82a1">
+  <producedTypes>
+    <objectType typeId="9cbaee00-a4e5-47dc-bee3-4cb405e03f41" valueTypeId="a6183491-352b-45a4-bd49-5c35c2b9998c"/>
+    <managerType typeId="b07454dc-492e-4e0f-8cdd-c9d7c1442719" valueTypeId="863e1ed4-e196-439f-a46c-fde814925192"/>
+  </producedTypes>
+  <name>удуПоискВДанныхВММ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск в методических материалах</value>
+  </synonym>
+  <comment>Полнотекстовый поиск в методических материалах</comment>
+  <defaultForm>DataProcessor.удуПоискВДанныхВММ.Form.ФормаПоиска</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="0b5df311-ff17-44f8-9ead-acd5d1bbe208">
+    <name>ИскатьВАвторы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авторы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Авторы пользователи</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9dbf9203-d061-4af7-b398-e3137770c654">
+    <name>ИскатьВУчетныеЕдиницы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетные единицы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Учетные единицы поиск</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b4a7a8fc-515c-49a5-91a8-f3d84ad9a8ce">
+    <name>ИскатьВСерии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серии</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Серии поиск</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="578974d3-1eb3-47be-b54f-694e756aa419">
+    <name>ИскатьВМноготомники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Многотомники</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Многотомники поиск</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f1cfe527-63b5-4619-82db-328264a7db36">
+    <name>ИскатьВСтатьи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статьи</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Статьи поиск</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="826f98e4-9a0a-4a73-a61d-16ad980b018f">
+    <name>ФормаПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма поиска</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dd55853b-5a9a-4e54-9add-ddd60d0b74b9">
+    <name>УпрощеннаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упрощенная форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="8bcbf96a-737e-4e72-a21d-b31414ab3062">
+    <name>Поиск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск методических материалов</value>
+    </synonym>
+    <comment></comment>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Поиск методических материалов в базе данных</value>
+    </toolTip>
+    <shortcut>Ctrl+Shift+F</shortcut>
+  </commands>
+</mdclass:DataProcessor>

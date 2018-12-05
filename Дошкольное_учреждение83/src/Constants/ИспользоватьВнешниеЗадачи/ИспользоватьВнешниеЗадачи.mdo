@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97ea39b4-9a69-4598-b998-044fba1f4f81">
+  <producedTypes>
+    <managerType typeId="bc14e8dd-3977-4bbf-b511-279e05a1e6b3" valueTypeId="0cfb3904-5e8f-48e0-8747-4af0c642b706"/>
+    <valueManagerType typeId="8ef084fe-5d71-4c1a-a0f6-7ff556cb667d" valueTypeId="96674128-2776-4489-afdd-325373a0a01d"/>
+  </producedTypes>
+  <name>ИспользоватьВнешниеЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать внешние задачи</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Использовать внешние задачи</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

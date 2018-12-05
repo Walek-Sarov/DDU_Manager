@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Автор</dataPath>
+			<field>Автор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаСоздания</dataPath>
+			<field>ДатаСоздания</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Описание</dataPath>
+			<field>Описание</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПолноеНаименование</dataPath>
+			<field>ПолноеНаименование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТекущаяВерсияКод</dataPath>
+			<field>ТекущаяВерсияКод</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТекущаяВерсияАвтор</dataPath>
+			<field>ТекущаяВерсияАвтор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТекущаяВерсияДатаСоздания</dataPath>
+			<field>ТекущаяВерсияДатаСоздания</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТекущаяВерсияРазмер</dataPath>
+			<field>ТекущаяВерсияРазмер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Документ</dataPath>
+			<field>Ссылка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Файл</v8:content>
+				</v8:item>
+			</title>
+			<presentationExpression>ПолноеНаименование</presentationExpression>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВладелецФайла</dataPath>
+			<field>ВладелецФайла</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Файлы.Автор,
+	Файлы.ДатаСоздания,
+	Файлы.Описание,
+	Файлы.ТекущаяВерсия.Код,
+	Файлы.ТекущаяВерсия.Автор,
+	Файлы.ТекущаяВерсия.ДатаСоздания,
+	Файлы.ТекущаяВерсия.Размер,
+	Файлы.ПолноеНаименование,
+	Файлы.ВладелецФайла,
+	Файлы.Ссылка
+ИЗ
+	Справочник.Файлы КАК Файлы
+ГДЕ
+	Файлы.ПометкаУдаления = ЛОЖЬ
+{ГДЕ
+	(Файлы.Автор = &amp;Автор),
+	(Файлы.ДатаСоздания &gt;= &amp;ДатаНачала),
+	(Файлы.ДатаСоздания &lt;= &amp;ДатаОкончания),
+	(Файлы.Редактирует = &amp;Редактирует),
+	(Файлы.ТекущаяВерсия.Автор = &amp;АвторВерсии)}
+{ХАРАКТЕРИСТИКИ
+	ТИП(Справочник.Файлы)
+	СПИСОК (ВЫБРАТЬ
+			Таблица.Свойство,
+			Таблица.Свойство.Наименование КАК Наименование,
+			Таблица.Свойство.ТипЗначения КАК ТипЗначения
+		ИЗ
+			Справочник.НаборыСвойств.Состав КАК Таблица
+		ГДЕ
+			Таблица.Ссылка = ЗНАЧЕНИЕ(Справочник.НаборыСвойств.Справочник_Файлы)
+			И Таблица.Свойство.ВключатьВОтчеты
+			И (НЕ Таблица.Свойство.ЭтоДополнительноеСведение))
+	ИДЕНТИФИКАТОР Свойство
+	ИМЯ Наименование
+	ТИПЗНАЧЕНИЯ ТипЗначения
+	ЗНАЧЕНИЯ (ВЫБРАТЬ
+			ФайлыДополнительныеРеквизиты.Ссылка,
+			ФайлыДополнительныеРеквизиты.НомерСтроки,
+			ФайлыДополнительныеРеквизиты.Свойство,
+			ФайлыДополнительныеРеквизиты.Значение
+		ИЗ
+			Справочник.Файлы.ДополнительныеРеквизиты КАК ФайлыДополнительныеРеквизиты)
+	ОБЪЕКТ Ссылка
+	ХАРАКТЕРИСТИКА Свойство
+	ЗНАЧЕНИЕ Значение }
+{ХАРАКТЕРИСТИКИ
+	ТИП(Справочник.Файлы)
+	СПИСОК (ВЫБРАТЬ
+			Таблица.Свойство,
+			Таблица.Свойство.Наименование КАК Наименование,
+			Таблица.Свойство.ТипЗначения КАК ТипЗначения
+		ИЗ
+			Справочник.НаборыСвойств.Состав КАК Таблица
+		ГДЕ
+			Таблица.Ссылка = ЗНАЧЕНИЕ(Справочник.НаборыСвойств.Справочник_Файлы)
+			И Таблица.Свойство.ВключатьВОтчеты
+			И Таблица.Свойство.ЭтоДополнительноеСведение)
+	ИДЕНТИФИКАТОР Свойство
+	ИМЯ Наименование
+	ТИПЗНАЧЕНИЯ ТипЗначения
+	ЗНАЧЕНИЯ РегистрСведений.ДополнительныеСведения
+	ОБЪЕКТ Объект
+	ХАРАКТЕРИСТИКА Свойство
+	ЗНАЧЕНИЕ Значение }
+{ХАРАКТЕРИСТИКИ
+	ТИП(Справочник.ПапкиФайлов)
+	СПИСОК (ВЫБРАТЬ
+			Таблица.Свойство,
+			Таблица.Свойство.Наименование КАК Наименование,
+			Таблица.Свойство.ТипЗначения КАК ТипЗначения
+		ИЗ
+			Справочник.НаборыСвойств.Состав КАК Таблица
+		ГДЕ
+			Таблица.Ссылка = ЗНАЧЕНИЕ(Справочник.НаборыСвойств.Справочник_ПапкиФайлов)
+			И Таблица.Свойство.ВключатьВОтчеты
+			И (НЕ Таблица.Свойство.ЭтоДополнительноеСведение))
+	ИДЕНТИФИКАТОР Свойство
+	ИМЯ Наименование
+	ТИПЗНАЧЕНИЯ ТипЗначения
+	ЗНАЧЕНИЯ (ВЫБРАТЬ
+			ПапкиФайловДополнительныеРеквизиты.Ссылка,
+			ПапкиФайловДополнительныеРеквизиты.НомерСтроки,
+			ПапкиФайловДополнительныеРеквизиты.Свойство,
+			ПапкиФайловДополнительныеРеквизиты.Значение
+		ИЗ
+			Справочник.ПапкиФайлов.ДополнительныеРеквизиты КАК ПапкиФайловДополнительныеРеквизиты)
+	ОБЪЕКТ Ссылка
+	ХАРАКТЕРИСТИКА Свойство
+	ЗНАЧЕНИЕ Значение }
+{ХАРАКТЕРИСТИКИ
+	ТИП(Справочник.ПапкиФайлов)
+	СПИСОК (ВЫБРАТЬ
+			Таблица.Свойство,
+			Таблица.Свойство.Наименование КАК Наименование,
+			Таблица.Свойство.ТипЗначения КАК ТипЗначения
+		ИЗ
+			Справочник.НаборыСвойств.Состав КАК Таблица
+		ГДЕ
+			Таблица.Ссылка = ЗНАЧЕНИЕ(Справочник.НаборыСвойств.Справочник_ПапкиФайлов)
+			И Таблица.Свойство.ВключатьВОтчеты
+			И Таблица.Свойство.ЭтоДополнительноеСведение)
+	ИДЕНТИФИКАТОР Свойство
+	ИМЯ Наименование
+	ТИПЗНАЧЕНИЯ ТипЗначения
+	ЗНАЧЕНИЯ РегистрСведений.ДополнительныеСведения
+	ОБЪЕКТ Объект
+	ХАРАКТЕРИСТИКА Свойство
+	ЗНАЧЕНИЕ Значение }</query>
+	</dataSet>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>Автор</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Автор</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Пользователи</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Справочник.Пользователи.ПустаяСсылка</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>АвторВерсии</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Автор версии</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Пользователи</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Справочник.Пользователи.ПустаяСсылка</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДатаНачала</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата начала</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаНачала</expression>
+	</parameter>
+	<parameter>
+		<name>ДатаОкончания</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата окончания</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаОкончания</expression>
+	</parameter>
+	<parameter>
+		<name>Редактирует</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Редактирует</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Пользователи</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Справочник.Пользователи.ПустаяСсылка</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>СписокФайлов</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Список файлов</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Документ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Описание</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Автор</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаСоздания</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВладелецДокумента</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ТекущаяВерсияАвтор</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ТекущаяВерсияДатаСоздания</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ТекущаяВерсияКод</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ТекущаяВерсияРазмер</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Auto</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Отчет по файлам</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24143cc4-284d-48bc-8579-c35ec6eb43aa">
+  <producedTypes>
+    <objectType typeId="63c3af30-ce10-4a81-8332-8f4b7c01d656" valueTypeId="181cf1db-d23f-40bb-b591-ba6507a77a08"/>
+    <refType typeId="4be27210-08d0-4df4-8977-a3ab7d6caaa9" valueTypeId="d24c45f1-45a6-407c-af9b-0152973a3e20"/>
+    <selectionType typeId="33230b7b-99dd-4e87-9dd2-be53719edf3a" valueTypeId="5b493176-7d76-462f-941d-2fbed78a53cb"/>
+    <listType typeId="a18dc891-ccaa-41b8-91d5-f8efc0b861ca" valueTypeId="ff897857-637b-41b4-8cf4-0d56ce321cdb"/>
+    <managerType typeId="2fa7d8b5-b43d-4427-af3f-2cb92e78387e" valueTypeId="64eb0f5b-4311-43a1-bcfa-93d4f02fb190"/>
+  </producedTypes>
+  <name>удуОКОГУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОКОГУ</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.удуОКОГУ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.удуОКОГУ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>7</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.удуОКОГУ.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.удуОКОГУ.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="8f55a027-da2f-41a5-9e12-7ec54e0de46e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="091909fb-afcb-40c4-93b1-4912410ab616">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="325143b1-4cb3-4662-bc26-a743183b7a12">
+  <name>удуУчетМетодическихМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>учет методических материалов</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

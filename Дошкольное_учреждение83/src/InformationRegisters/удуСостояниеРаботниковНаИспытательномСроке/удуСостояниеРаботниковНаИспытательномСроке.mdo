@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad1c7ca8-ae0c-483a-91f0-b465cfbb9054">
+  <producedTypes>
+    <selectionType typeId="50929f50-69c6-4ee4-bdcd-812e8ce72830" valueTypeId="58fb2eb7-c096-472e-a8c3-79e41ccde18d"/>
+    <listType typeId="4be0fe79-b473-4ff8-8088-002df42a6029" valueTypeId="02e7c8cc-9a33-42e9-a457-3411bb578a32"/>
+    <managerType typeId="7f6c5d76-25f3-41cd-8487-ff2d7ac76e24" valueTypeId="382c2f71-3620-4c63-926b-9da70ca5ada5"/>
+    <recordSetType typeId="93e529e8-833f-4118-a2ed-3bec8aa2a639" valueTypeId="c3e1afe2-984b-436c-bad6-a4aa698fa07f"/>
+    <recordKeyType typeId="a0b902cc-2a33-4b2d-ab4b-d88fec621d70" valueTypeId="4e831b4f-6dcf-417a-a977-b35acde43256"/>
+    <recordType typeId="d8c975b0-2996-4ca6-bf37-0d2890f26972" valueTypeId="9710b111-3790-4783-84d6-10a8c83eebd2"/>
+    <recordManagerType typeId="7b03beea-0d80-46ab-8f06-f845848b7952" valueTypeId="4bd318f7-65b4-4b0c-83b5-76e49223e2e8"/>
+  </producedTypes>
+  <name>удуСостояниеРаботниковНаИспытательномСроке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние сотрудников на испытательном сроке</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="6a7616f5-7c2f-44d0-9ebf-bea8e4b6ec5a">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.удуСостоянияРаботникаНаИспытательномСроке</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Состояние работника на испытательном сроке</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a46cef8e-425d-402a-b45c-d7c494cedc0f">
+    <name>Физлицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физлицо</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Физлицо на испытательном сроке</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

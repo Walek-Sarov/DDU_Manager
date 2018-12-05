@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d1dc4d7-e114-463b-8297-544b8e4f16ef">
+  <producedTypes>
+    <objectType typeId="492325b7-8fc7-4b19-be31-2706fa2f0f20" valueTypeId="71ff74d1-2dd6-4a4f-8827-849f8e0beb0c"/>
+    <refType typeId="16cee91b-0ac6-4211-9b48-41b45c1d9514" valueTypeId="33543f1a-4cf7-49f9-8f75-61652b01740b"/>
+    <selectionType typeId="8ee29930-24e0-44cd-81e9-4d8ce0160eea" valueTypeId="35e01565-fb47-42d6-914e-1235ed7c6ba3"/>
+    <listType typeId="105ba027-5083-4186-80c7-a736c792b1cc" valueTypeId="e955d0a2-d8c1-44f5-a183-ad14eb2fb708"/>
+    <managerType typeId="56f2b38a-e89c-41da-a8dd-fd1c326a496d" valueTypeId="bb50275d-5d2c-4136-abd6-e467bcd99fd0"/>
+  </producedTypes>
+  <name>удуКатегорииПрограммПроектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории программ, проектов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.удуКатегорииПрограммПроектов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.удуКатегорииПрограммПроектов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Категория проекта</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.удуКатегорииПрограммПроектов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.удуКатегорииПрограммПроектов.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="916cb63a-83ad-4731-9ff0-76b3a6f40c5e">
+    <name>ВидПрограммыПроекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид программы, проекта</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.удуУровниПрограммПроектов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Уровень программы или проекта</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6fc8f14c-5ea8-4609-a1a5-fbcd703d6b7b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="edc8e25a-2a0c-44ef-973d-c54b60260db5">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

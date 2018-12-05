@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cedb494-f6e2-408c-a1e9-05fb1937d3b1">
+  <producedTypes>
+    <selectionType typeId="a8fbb337-e17d-4860-a6ce-10e73dc65583" valueTypeId="98a09343-4d13-48e6-8d3b-d9b0cc02c113"/>
+    <listType typeId="88b98802-d631-4eb0-954f-994de0a7f86b" valueTypeId="c0d9ee51-f804-454a-a20d-75876a25620a"/>
+    <managerType typeId="db45b443-c67f-45b4-afdb-5907272a69f2" valueTypeId="8b7d36ad-28cb-4659-a08b-5f925960a158"/>
+  </producedTypes>
+  <name>удуУчетКадровОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Книга кадровых документов</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DocumentJournal.удуУчетКадровОрганизаций.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.удуПриемНаРаботуВОрганизацию</registeredDocuments>
+  <registeredDocuments>Document.удуКадровоеПеремещениеОрганизаций</registeredDocuments>
+  <registeredDocuments>Document.удуУвольнениеИзОрганизаций</registeredDocuments>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="371b0b3c-edc7-4824-9a37-00a30cfdb9fa">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.удуПриемНаРаботуВОрганизацию.Attribute.Ответственный</references>
+    <references>Document.удуКадровоеПеремещениеОрганизаций.Attribute.Ответственный</references>
+    <references>Document.удуУвольнениеИзОрганизаций.Attribute.Ответственный</references>
+  </columns>
+  <columns uuid="c5702153-cf30-42c4-a1ea-da0e22d2414a">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.удуПриемНаРаботуВОрганизацию.Attribute.Комментарий</references>
+    <references>Document.удуКадровоеПеремещениеОрганизаций.Attribute.Комментарий</references>
+    <references>Document.удуУвольнениеИзОрганизаций.Attribute.Комментарий</references>
+  </columns>
+  <columns uuid="5080a63e-3222-47d5-ac6f-6ca0555e0b61">
+    <name>Работники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работники</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.удуПриемНаРаботуВОрганизацию.Attribute.КраткийСоставДокумента</references>
+    <references>Document.удуКадровоеПеремещениеОрганизаций.Attribute.КраткийСоставДокумента</references>
+    <references>Document.удуУвольнениеИзОрганизаций.Attribute.КраткийСоставДокумента</references>
+  </columns>
+  <columns uuid="e691019e-05c2-4c9d-b9ce-899fd211670f">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.удуПриемНаРаботуВОрганизацию.Attribute.Организация</references>
+    <references>Document.удуКадровоеПеремещениеОрганизаций.Attribute.Организация</references>
+    <references>Document.удуУвольнениеИзОрганизаций.Attribute.Организация</references>
+  </columns>
+  <forms uuid="12ce54e0-ff50-4849-9e64-a581a210b860">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

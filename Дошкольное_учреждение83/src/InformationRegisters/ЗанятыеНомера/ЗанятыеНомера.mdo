@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1050f18d-70eb-4cc3-92d5-9f14f66933ca">
+  <producedTypes>
+    <selectionType typeId="158748cd-f6dc-475a-af57-a31fee21e4fd" valueTypeId="661dbfe5-ce9f-40fc-b84e-c359fd61728c"/>
+    <listType typeId="ed57b1db-e325-46eb-99d1-0c56b933a652" valueTypeId="af51b128-4cb3-4e90-8b03-429b5b429de6"/>
+    <managerType typeId="09e8807d-87ac-41c3-89a3-d6ee5cf91b1a" valueTypeId="38fac10b-2f6e-44b7-819d-346af8fdc5cd"/>
+    <recordSetType typeId="b059af32-c28f-43ee-adb5-e08d9aeb4562" valueTypeId="ecea96fd-ee86-4568-ba48-eed578aa6a14"/>
+    <recordKeyType typeId="8e35e299-d6c7-43e2-aa79-90b1cc4d1b0b" valueTypeId="c16a6f63-7c5b-413c-bd1a-81e0d0a5bdcd"/>
+    <recordType typeId="8eddfae0-384d-4370-8b17-8868d0bee03e" valueTypeId="0d538532-c832-42a2-874b-684386601e2e"/>
+    <recordManagerType typeId="73d8c914-105d-4acb-b4d7-8717bfe8baaf" valueTypeId="9492872d-6f03-409b-bc27-42ec241ee721"/>
+  </producedTypes>
+  <name>ЗанятыеНомера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Занятые номера</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="31135572-5d8c-46a9-985f-ac7c4cad3e75">
+    <name>Нумератор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нумератор</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Нумераторы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Нумератор данных</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Нумераторы.EmptyRef</value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f560e285-a5ed-4938-995e-e6b971eeedd4">
+    <name>ПериодНумерации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период нумерации</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Период нумерации данных</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:DateValue">
+      <value>0001-01-01T00:00:00</value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="552efed4-dd75-43e4-b86f-c0b8d8f911e7">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация в базе</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2666e7c5-5954-4107-9433-cfde9c0d9cc3">
+    <name>ЗанятыйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Занятый номер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Занятый номер в базе</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

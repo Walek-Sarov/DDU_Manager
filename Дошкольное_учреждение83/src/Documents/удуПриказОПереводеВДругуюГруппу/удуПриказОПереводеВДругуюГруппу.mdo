@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3bc78b6-381d-473b-ab31-18c0b0fb84db">
+  <producedTypes>
+    <objectType typeId="90df7089-3bb5-4109-9603-5ec42061324b" valueTypeId="196f49a3-df2e-4531-a771-88971ed34e73"/>
+    <refType typeId="eb5fe3a0-dd98-4dfa-a647-3b10a370e281" valueTypeId="2899986a-804f-4a34-9f02-584fd4a22185"/>
+    <selectionType typeId="a7213c04-accb-4f07-b968-43126f438bf0" valueTypeId="6be9bcc9-cbc5-48d2-b5f4-5f47a4dd9b8c"/>
+    <listType typeId="868267cc-f9ce-436e-b5b9-88877da6ecdc" valueTypeId="7da93339-2380-4e53-b48a-fd9208a0555a"/>
+    <managerType typeId="6f923918-ff2b-4e66-ae78-7269a6dc4ec2" valueTypeId="f70f1db6-b709-4ce3-a901-4eee43229911"/>
+  </producedTypes>
+  <name>удуПриказОПереводеВДругуюГруппу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приказ о переводе в другую группу</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.удуПриказОПереводеВДругуюГруппу.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Книга приказов о переводе</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Книга приказов о переводах между группами</value>
+  </extendedListPresentation>
+  <numerator>DocumentNumerator.НумераторКнигиПриказовПоУчетуДетей</numerator>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.удуПриказОПереводеВДругуюГруппу.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.удуПриказОПереводеВДругуюГруппу.Form.ФормаСписка</defaultListForm>
+  <registerRecords>InformationRegister.удуСведенияОЗачисленииРебенкаВГруппу</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="6680ada0-3ac0-43e1-9f93-89680a4c0f66">
+    <name>Учреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учреждение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуУчреждения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Учреждение перевода воспитанников</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0e732e39-3535-4ab8-aae8-6314140902b0">
+    <name>ГруппаПервоначальная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа первоначальная</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуГруппыУчреждения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа воспитанника первоначальная</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5efe85c6-4bd9-4238-8ad1-42d5e3d00530">
+    <name>ГруппаДляПеревода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа для перевода</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуГруппыУчреждения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа для перевода воспитанника</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="edb705b2-0cbb-4753-b0af-253b704e5644">
+    <name>ОтключитьКонтрольВместимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отключить контроль вместимости</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отключить контроль вместимости группы</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="219e7b7b-4276-44cd-a4f0-4876dba44f76">
+    <name>РазрешитьПереводВГруппуБезДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешить перевод в группу без заключения нового договора</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Разрешить перевод воспитанника в группу без заключения нового договора</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ddef5d22-9e66-4842-a388-a3e377642632">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Комментарий по переводу</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e4ae9149-2f2e-49ac-9fb9-c3dca187d6be">
+    <name>ДокументКомплектация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ комплектация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.удуКомплектованиеГруппы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Документ комплектация группы воспитанников</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="7844173d-8ac2-4fd7-8a54-e2e5db1f8612">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b3410a37-b342-4459-9e7e-cfdebff401d4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="bdeabc68-275f-4484-8efb-22f0be8d385d">
+    <producedTypes>
+      <objectType typeId="27440272-67d0-4b1e-a45e-f47b3d826e59" valueTypeId="28447814-bb07-46e2-ad2f-041bc8ac5cfa"/>
+      <rowType typeId="ad54c9ba-b37a-4316-86a9-f6b59b89003a" valueTypeId="241cf190-05ee-4933-8806-afe12f40c662"/>
+    </producedTypes>
+    <name>ТабличнаяЧастьВоспитанники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть воспитанники</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="2d2e4ddf-3eb4-4bb6-8f42-101c1195c482">
+      <name>Обрабатывать</name>
+      <synonym>
+        <key>ru</key>
+        <value>Обрабатывать</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Обрабатывать операцию</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a3961592-3109-43cd-bbe2-8333b5ac8c3b">
+      <name>Ребенок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ребенок</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.удуДети</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ребенок для зачисления</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2090df22-fcf4-4c96-be1a-d83649612e1f">
+      <name>ПредыдущееОснованиеЗачисления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Предыдущее основание зачисления</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>DocumentRef.удуДоговорОЗачисленииРебенка</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Предыдущее основание зачисления в группу</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="30b5684c-7161-404f-ae22-d064318f4dbb">
+      <name>НовоеОснованиеЗачисления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Новое основание зачисления</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>DocumentRef.удуДоговорОЗачисленииРебенка</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Новое основание зачисления в группу</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="bbdbcd7f-416a-4e07-87b3-ad59113c4bf7">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="0505188c-5e05-4a7e-b646-80b51ff188c9">
+    <name>ПФ_MXL_ПриказОПереводе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приказ о переводе</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="5bf0f0ed-031f-42be-a9b7-bb1186c74e94">
+    <name>ПФ_MXL_ПриказОПереводеСписком</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приказ о переводе (списком)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <commands uuid="cc2ebe61-66ca-447e-8d39-d3f0e5d83552">
+    <name>ПриказОПереводеСписком</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приказ о переводе воспитанников (списком)</value>
+    </synonym>
+    <comment></comment>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType>
+      <types>DocumentRef.удуПриказОПереводеВДругуюГруппу</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="08934632-9de1-4877-a2aa-41060d56838a">
+    <name>ПриказОПереводе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приказ о переводе воспитанника</value>
+    </synonym>
+    <comment></comment>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType>
+      <types>DocumentRef.удуПриказОПереводеВДругуюГруппу</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Document>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8894055-12af-4405-b589-1da0973d0f45">
+  <name>удуРегистрироватьДокумент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрировать документ</value>
+  </synonym>
+  <comment></comment>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DocumentRef.удуДоговорОЗачисленииРебенка</types>
+    <types>CatalogRef.удуДокументыПропускаЗанятий</types>
+    <types>DocumentRef.удуПриемНаРаботуВОрганизацию</types>
+    <types>DocumentRef.удуВозвратНаРаботуОрганизаций</types>
+    <types>DocumentRef.удуПеремещениеТМЦ</types>
+    <types>DocumentRef.удуОприходованиеТМЦ</types>
+    <types>DocumentRef.удуЗаявкаНаЗачислениеРебенкаВДОУ</types>
+    <types>DocumentRef.удуПриказОЗачисленииРебенкаВГруппу</types>
+    <types>DocumentRef.удуСписаниеТМЦ</types>
+    <types>DocumentRef.удуПриказОВыбытииИзГруппы</types>
+    <types>DocumentRef.удуУвольнениеИзОрганизаций</types>
+    <types>DocumentRef.удуПриказОПереводеВДругуюГруппу</types>
+    <types>DocumentRef.удуКадровоеПеремещениеОрганизаций</types>
+  </commandParameterType>
+  <representation>Picture</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Выполнить регистрацию документа</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодобратьРаботы</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

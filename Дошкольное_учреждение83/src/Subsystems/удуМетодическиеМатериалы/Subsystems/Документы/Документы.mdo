@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="419490a5-910f-43b8-a2df-e78e46ca1e46">
+  <name>Документы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.удуВыдачаМетодическихМатериалов</content>
+  <content>Document.удуВозвратМетодическихМатериалов</content>
+  <content>DataProcessor.удуПоискВДанныхВММ</content>
+  <content>Document.удуОприходованиеТМЦ</content>
+  <content>Document.удуСписаниеТМЦ</content>
+  <content>Document.удуПеремещениеТМЦ</content>
+  <content>DocumentJournal.удуУчетМетодическихМатериаловИ_ТМЦ</content>
+  <parentSubsystem>Subsystem.удуМетодическиеМатериалы</parentSubsystem>
+</mdclass:Subsystem>

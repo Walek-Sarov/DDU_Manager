@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e51e1e3-64f9-474d-bd83-7fb545bba846">
+  <producedTypes>
+    <refType typeId="8698bcad-c934-4854-b990-3e2ba2ad4470" valueTypeId="7425344e-d33b-4b66-a7e2-b96da14339ca"/>
+    <listType typeId="5d261068-dd0c-4349-8a8d-ddbabf300e5f" valueTypeId="11453117-93a4-4af0-afe8-8ae5fcb1c5ac"/>
+    <managerType typeId="a80a7134-80b4-411b-8aa3-d6e7c219cc85" valueTypeId="8f1257b5-d9de-442d-b0fb-b1bfb1f6ac4b"/>
+  </producedTypes>
+  <name>удуТипыНаправленностиГруппы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Направленность группы</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="43ef8948-9239-48b3-8057-fc6ccf14dbb7">
+    <name>ГруппаКомпенсирующейНаправленности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа компенсирующей направленности</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="51a18dd2-d646-464f-8688-ca2cccb94cfd">
+    <name>ГруппаОбщеразвивающейНаправленности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа общеразвивающей направленности</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3698ebc7-d777-41d3-a19b-990f54efc18f">
+    <name>ГруппаОздоровительнойНаправленности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа оздоровительной направленности</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c08cdd56-fcc1-406a-a25a-2b4c66a91e0a">
+    <name>ГруппаКомбинированнойНаправленности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа комбинированной направленности</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

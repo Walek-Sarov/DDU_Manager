@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e8d8133-b71b-44c0-8110-b93a44f0dd6d">
+  <producedTypes>
+    <selectionType typeId="1d772f65-6e5c-4703-8a62-d057270f2db4" valueTypeId="512ef6a2-37de-40da-876f-14849612ee5e"/>
+    <listType typeId="178b64b7-dcb4-4207-99de-9cc6f645875b" valueTypeId="01b106c5-8919-48b4-84bc-3d42753b31f8"/>
+    <managerType typeId="bb493f81-cc3c-4549-8ac8-122a99110eef" valueTypeId="ceac84b1-5ad1-42ad-a648-10ba9f8ca2b5"/>
+    <recordSetType typeId="3a251346-8d08-4d77-9f89-fa7b55614f2a" valueTypeId="29d70f6f-480d-485c-b6b1-a45f5a057eeb"/>
+    <recordKeyType typeId="666cf0c0-9613-4937-847c-e50fe8b8a930" valueTypeId="e0b411e4-68b8-4c11-b521-367d04de5794"/>
+    <recordType typeId="c2aba7bf-8b00-4d01-86b4-5a6f19131485" valueTypeId="ad6d07e0-139a-49cd-a35f-915097a44949"/>
+    <recordManagerType typeId="f5be670c-fb32-4c80-87ae-d4b2dbaa20fb" valueTypeId="c0217e92-a4c0-4f1e-b466-421a0427346a"/>
+  </producedTypes>
+  <name>удуНастройкиРегистрацииДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки регистрации документов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.удуНастройкиРегистрацииДокументов.Form.ФормаЗаписи</defaultRecordForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Сохраняет настройки для (полу)автоматической регистрации делопроизводственного документа на основании учетного</value>
+  </explanation>
+  <resources uuid="d998b729-67e9-4c9b-975c-2c91b172577c">
+    <name>ВидДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид документа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВидыВнутреннихДокументов</types>
+      <types>CatalogRef.ВидыВходящихДокументов</types>
+      <types>CatalogRef.ВидыИсходящихДокументов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид документа в базе</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="64c7ba60-1868-429a-80d4-79205f933e7c">
+    <name>ГрифДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гриф доступа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ГрифыДоступа</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Гриф доступа к документу</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="25eb0fc1-a020-4850-a1f0-3354b372a377">
+    <name>Папка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Папка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ПапкиВнутреннихДокументов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Папка с документами</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="31424cde-b188-455c-822b-3e15f342d5bf">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация наименование</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="447a51b1-b0bf-4e11-bfab-b89fe35cb3ae">
+    <name>РегистрироватьДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрировать документ</value>
+    </synonym>
+    <comment>Зарегистрировать документ автоматически</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Зарегистрировать документ в базе автоматически </value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="92c337cb-8fe1-46b8-8f78-9b692d431385">
+    <name>ВидУчетногоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид учетного документа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.удуВидыУчетныхДокументов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид учетного документа в базе</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="de43e489-9618-4fec-9ff6-d865c97f3d53">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

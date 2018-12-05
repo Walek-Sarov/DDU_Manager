@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab608353-633f-4474-bf84-dbaf9ddf0be8">
+  <producedTypes>
+    <refType typeId="c2dcdd4c-1d8e-4e7c-951b-83e7ff061632" valueTypeId="faa4f0e4-9b50-4f10-bd3b-34f52c254461"/>
+    <listType typeId="12a01726-7652-4ebe-95c6-65952d722db2" valueTypeId="8fb08850-386f-423e-8f9e-90685fccbbce"/>
+    <managerType typeId="001661de-36fe-4f20-b8cd-e9cafcbc17d4" valueTypeId="a2d9ea86-3948-447c-b990-6eb3e3fa987a"/>
+  </producedTypes>
+  <name>удуСпособыВводаДанныхОВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы ввода данных о времени</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3d6e82a3-2d18-41f0-9c9b-6a6e8c46bcb3">
+    <name>ПоДням</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод данных по дням</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="09b445fc-2b8e-4a63-80ea-9bb55235e710">
+    <name>ВЦеломЗаПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод данных в целом за период</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2ed3af51-6295-4212-99c7-f23a7b46fc4e">
+    <name>ЗаДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод данных за день</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

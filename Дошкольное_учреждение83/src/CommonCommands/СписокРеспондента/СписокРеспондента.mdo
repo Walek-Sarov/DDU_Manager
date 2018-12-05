@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c293fd7-be16-493b-a6db-c22f7a0fc31c">
+  <name>СписокРеспондента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анкеты и опросы </value>
+  </synonym>
+  <comment></comment>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Анкеты и опросы </value>
+  </toolTip>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

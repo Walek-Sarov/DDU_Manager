@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32f65128-1f4a-4b8a-8a85-50f43ee81596">
+  <producedTypes>
+    <refType typeId="1090d595-f95f-4f79-8c21-0ab6c7947a10" valueTypeId="0ebb9fc1-bfec-4908-8f42-42bd0f28242b"/>
+    <listType typeId="150d39b2-120d-4d4c-88d8-1dca0ac97e59" valueTypeId="cf61c5cf-b7c7-47cc-bb57-07e2bcb616b7"/>
+    <managerType typeId="cf1d6985-beab-4e7c-a9df-c0b50c45fcab" valueTypeId="9f17669a-c89b-4efc-9407-aa035f6fb7a9"/>
+  </producedTypes>
+  <name>удуВидыРабочихГрафиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды рабочих графиков</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e8dab873-9c83-4c7b-bd47-5dc501526418">
+    <name>Пятидневка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пятидневка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="5eaf30e3-c1ce-46a9-b2b7-e8618110f4ba">
+    <name>Шестидневка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шестидневка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c00a63ec-0498-4ac5-9a23-17d2d2a4fcaf">
+    <name>Сменный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сменный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2ff473a3-89df-4451-8db0-1e8f93250fb0">
+    <name>КалендарныеДни</name>
+    <synonym>
+      <key>ru</key>
+      <value>Календарные дни</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

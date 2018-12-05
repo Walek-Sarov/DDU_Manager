@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bf86cb4-20f8-412c-9264-1a3ad859053c">
+  <producedTypes>
+    <objectType typeId="ec83af6f-89e4-49bb-929d-66c3110523ff" valueTypeId="cda672ee-c9d7-4ca9-98b5-044f0adfe597"/>
+    <refType typeId="1a0e8608-bc21-43e1-8c0e-d3322f263a92" valueTypeId="34bb2ac1-f031-4df3-811f-79dd3f01b078"/>
+    <selectionType typeId="712167e2-6811-4cfd-b25d-44e3848f3823" valueTypeId="8479309b-ae0f-49e2-acae-0000acce1763"/>
+    <listType typeId="0b559abf-abd0-4fde-8b3e-c18e9ee2cf63" valueTypeId="61ce5c9b-6bfd-4c2f-85bd-f0af405f3531"/>
+    <managerType typeId="418d7368-8a95-497c-8c50-0433e0d2d1cf" valueTypeId="004df691-523b-4bb5-9ac0-b79a606610db"/>
+  </producedTypes>
+  <name>удуВидыСтажа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды стажа</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.удуВидыСтажа.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.удуВидыСтажа.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="375df828-6626-4241-aabe-e2941040979e">
+      <name>НепрерывныйСтаж</name>
+      <description>Непрерывный стаж</description>
+      <code xsi:type="core:StringValue">
+        <value>00001    </value>
+      </code>
+    </items>
+    <items id="e87f4002-ced2-4d48-8063-ea40fadd6cfe">
+      <name>ОбщийНаучноПедагогическийСтаж</name>
+      <description>Общий научно-педагогический стаж работы</description>
+      <code xsi:type="core:StringValue">
+        <value>00006    </value>
+      </code>
+    </items>
+    <items id="21de7eb4-0349-4cbb-a926-e1bea81e5edf">
+      <name>ОбщийСтаж</name>
+      <description>Общий стаж</description>
+      <code xsi:type="core:StringValue">
+        <value>00002    </value>
+      </code>
+    </items>
+    <items id="495ed940-da4e-419c-8458-e06c8edfed2e">
+      <name>ПедагогическийСтаж</name>
+      <description>Педагогический стаж</description>
+      <code xsi:type="core:StringValue">
+        <value>00007    </value>
+      </code>
+    </items>
+    <items id="d39b33c0-706f-43c7-ba0a-b291a809648b">
+      <name>РасширенныйСтраховойСтажДляБЛ</name>
+      <description>Стаж для оплаты больничных листов с учетом нестраховых периодов (с 2010 года)</description>
+      <code xsi:type="core:StringValue">
+        <value>00005    </value>
+      </code>
+    </items>
+    <items id="f4619d6c-5da3-45d4-9dac-3e6e16a4b88e">
+      <name>СтажНаНадбавкуЗаВыслугуЛет</name>
+      <description>Стаж на надбавку за выслугу лет</description>
+      <code xsi:type="core:StringValue">
+        <value>00003    </value>
+      </code>
+    </items>
+    <items id="ba17f8b8-7432-49b2-a8d9-af1b2d17cdfa">
+      <name>СтраховойСтажДляБЛ</name>
+      <description>Страховой стаж для оплаты больничных листов</description>
+      <code xsi:type="core:StringValue">
+        <value>00004    </value>
+      </code>
+    </items>
+  </predefined>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.удуВидыСтажа.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.удуВидыСтажа.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="95eb1199-e0ea-4334-982f-1a34c8f7c848">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a1910b7b-8ca1-4e0b-83ee-c907a0661caa">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

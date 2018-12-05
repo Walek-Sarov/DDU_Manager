@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Sequence xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0519ff91-0376-4c2e-93e4-db4d6b21abf7">
+  <producedTypes>
+    <recordType typeId="8705efd0-5175-4cf4-8c40-b4947b800bca" valueTypeId="9d546dd9-10b8-4020-9c1b-f28e0b091a6d"/>
+    <managerType typeId="fd5e2ae0-6601-4177-b5ab-0f268ea9269b" valueTypeId="cc7a2427-2b69-481a-a433-5e816035677b"/>
+    <recordSetType typeId="a4eee974-bb61-4d64-aee7-7c8f75423abd" valueTypeId="00bd9e67-0385-40ae-99cf-cc39c78424c7"/>
+  </producedTypes>
+  <name>удуКадровыеПриказыОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровые приказы организации</value>
+  </synonym>
+  <comment></comment>
+  <documents>Document.удуПриемНаРаботуВОрганизацию</documents>
+  <documents>Document.удуКадровоеПеремещениеОрганизаций</documents>
+  <documents>Document.удуУвольнениеИзОрганизаций</documents>
+  <documents>Document.удуКомандировкиОрганизаций</documents>
+  <documents>Document.удуОтпускаОрганизаций</documents>
+  <documents>Document.удуВозвратНаРаботуОрганизаций</documents>
+  <registerRecords>InformationRegister.удуРаботникиОрганизаций</registerRecords>
+  <registerRecords>InformationRegister.удуСостояниеРаботниковОрганизаций</registerRecords>
+</mdclass:Sequence>

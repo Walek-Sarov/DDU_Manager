@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8eb234c-2872-4a6a-a6df-118a4095f29f">
+  <name>удуИспользоватьПерсональныеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать персональные данные</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.удуИспользоватьПерсональныеДанные</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.удуДети.Attribute.Национальность</content>
+  <content>Catalog.удуДети.Attribute.СоциальноеПоложение</content>
+  <content>Catalog.удуДети.Attribute.МатериальноеПоложение</content>
+  <content>Catalog.удуРодители.Attribute.Национальность</content>
+  <content>Catalog.удуРодители.Attribute.СоциальныеУсловия</content>
+  <content>Catalog.удуРодители.Attribute.МатериальноеПоложение</content>
+</mdclass:FunctionalOption>

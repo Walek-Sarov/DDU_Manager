@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9b7118e-17e0-466f-9126-69e7fd358541">
+  <producedTypes>
+    <refType typeId="305177ad-86c9-4912-bc83-319bf72bfc65" valueTypeId="111961d8-4992-4ec3-8587-97299ef88519"/>
+    <listType typeId="bc1f89b8-8b19-4209-bb65-cd8bee15e2e3" valueTypeId="a883ce5f-c539-4f6d-85bf-e034caf57048"/>
+    <managerType typeId="96d729a6-c480-4cf2-a64e-3666ef03ec4c" valueTypeId="a20036cc-e763-4c47-83a0-68003b4b43e6"/>
+  </producedTypes>
+  <name>удуВидыДействияСНачислением</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды действия с начислением</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e0a965f0-8ba0-4fe9-9de4-e176764660bc">
+    <name>Начать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начать</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="304c79cf-fba6-4380-bd2e-c7936b2e0448">
+    <name>Изменить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменить</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3f2cde35-d9b6-4e01-b289-5c6bb81fba4c">
+    <name>НеИзменять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не изменять</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e8b6e5fa-ebb3-4b52-bd84-f2db0354bf50">
+    <name>Прекратить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прекратить</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

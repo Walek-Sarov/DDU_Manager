@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd18fb60-8c1f-4c72-a07a-5d0e1f3da062" thisNode="ee26b0cc-b964-41b6-8e83-57ce52a3344c">
+  <producedTypes>
+    <objectType typeId="ca86df4b-2242-4642-8eb1-0ce3cc820206" valueTypeId="98687c7f-ec04-4ed8-94c4-c81fbb453e99"/>
+    <refType typeId="7c161572-26aa-4a0b-a58a-f3e995c990d8" valueTypeId="dbb2b40a-eee0-4193-b015-a47033aa371f"/>
+    <selectionType typeId="648794c3-04d2-44a8-bfdc-989afa8210db" valueTypeId="bbcbbc5e-a30c-40a3-b15b-cec81d828fe5"/>
+    <listType typeId="46bc9fde-bc32-4ac9-96ad-16398e70de96" valueTypeId="383ac0fb-32e8-40ef-9eed-3898737be509"/>
+    <managerType typeId="b4eb065e-be8c-4f3c-b339-770b7ffe7712" valueTypeId="4efeac93-e4ff-43d0-a058-4c76f3eba2af"/>
+  </producedTypes>
+  <name>ОбменВнешнимиЗаданиями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен внешними заданиями</value>
+  </synonym>
+  <comment></comment>
+  <inputByString>ExchangePlan.ОбменВнешнимиЗаданиями.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ОбменВнешнимиЗаданиями.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ThisNode</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ReceivedNo</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>SentNo</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Обмены внешними заданиями</value>
+  </listPresentation>
+  <codeLength>3</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <content>
+    <mdObject>InformationRegister.СоответствияОбъектовИнформационныхБаз</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.РолиИсполнителей</mdObject>
+  </content>
+  <content>
+    <mdObject>Task.ЗадачаИсполнителя</mdObject>
+  </content>
+  <content>
+    <mdObject>BusinessProcess.Задание</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.Файлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВерсииФайлов</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.ОбменВнешнимиЗаданиями.Form.ФормаУзла</defaultObjectForm>
+  <defaultListForm>ExchangePlan.ОбменВнешнимиЗаданиями.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="8ed88369-1057-476c-bb10-5c722370a31a">
+    <name>УдалитьЭтотУзел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить этот узел</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </attributes>
+  <forms uuid="48aaf6fa-1f11-47a7-82fa-7e2a9e944414">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3d95b8fa-ebe7-46f7-8ec6-69195c91cc5b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="60bec79f-4965-451e-8e49-117e81d80527">
+    <name>ПравилаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила обмена</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="4b71f609-9453-43d0-a3ee-532ea472a84e">
+    <name>ПравилаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила регистрации</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:ExchangePlan>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="441d3f58-ec2f-4d1e-948e-d0f987a96104">
+  <producedTypes>
+    <objectType typeId="7963a81a-075b-4ad1-a216-95a7b46dcc93" valueTypeId="1f1726d3-0764-422f-ba45-e38f89d0f1fb"/>
+    <refType typeId="2d80094f-ee8e-4fc2-bcd6-5a17a0c2e1b5" valueTypeId="ad3471c2-c0c7-462d-8c33-813e50cc953f"/>
+    <selectionType typeId="260b4891-86fb-4db9-a7b1-6eef93200f89" valueTypeId="6228d19c-a36f-4f79-b5bc-5e46cae45a03"/>
+    <listType typeId="a0da5f52-9629-4fcb-b720-77e304bed7c6" valueTypeId="aee218a9-0fd1-46c8-824c-2056a307e22c"/>
+    <managerType typeId="d5e68a1b-391e-4acb-8b61-cc4712404eb2" valueTypeId="a8e8f739-1a9c-43d2-800d-298a7fee16b7"/>
+  </producedTypes>
+  <name>удуЖилищныеУсловия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Жилищные условия</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.удуЖилищныеУсловия.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.удуЖилищныеУсловия.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

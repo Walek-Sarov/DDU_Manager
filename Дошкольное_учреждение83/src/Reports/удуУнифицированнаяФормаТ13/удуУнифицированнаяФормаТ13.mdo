@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d55e43b-f592-4b62-ae95-f01caad6e755">
+  <producedTypes>
+    <objectType typeId="95391e61-473a-4725-a5b4-fabde34fac33" valueTypeId="567f1fae-e36b-4da8-b729-d77957338b67"/>
+    <managerType typeId="bee2b678-a31d-4210-b537-e3f62eec5374" valueTypeId="fb47333e-36d4-4f23-b4ba-bc45b6ad548d"/>
+  </producedTypes>
+  <name>удуУнифицированнаяФормаТ13</name>
+  <synonym>
+    <key>ru</key>
+    <value>Табель учета рабочего времени Т-13</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.удуУнифицированнаяФормаТ13.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.удуУнифицированнаяФормаТ13.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="880bc236-4b23-4866-a2d8-b1cdafd45a6a">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7a15804b-74ec-4cb8-888a-6c219eaa469c">
+    <name>Т13</name>
+    <synonym>
+      <key>ru</key>
+      <value>Т13</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="fb37d950-0675-479e-8afc-dba58f82f533">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

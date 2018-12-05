@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="180b896c-b53d-46f8-845d-0d1c683eb85d">
+  <name>ОКПДТР_Профессии</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОКПДТР - профессии</value>
+  </synonym>
+  <comment></comment>
+</mdclass:CommonTemplate>

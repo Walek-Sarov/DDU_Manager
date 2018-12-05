@@ -1,0 +1,1776 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИнформационнаяБаза</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Данные</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОРаботнике.ВидЗанятости</dataPath>
+			<field>ВидЗанятости</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид занятости</v8:content>
+				</v8:item>
+			</title>
+			<attributeUseRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОРаботнике.ГрафикРаботы</dataPath>
+			<field>ГрафикРаботы</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>График работы</v8:content>
+				</v8:item>
+			</title>
+			<attributeUseRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОРаботнике.Должность</dataPath>
+			<field>Должность</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Должность</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОРаботнике.ЗанимаемыхСтавок</dataPath>
+			<field>ЗанимаемыхСтавок</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Cтавка</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>15</v8:Digits>
+					<v8:FractionDigits>2</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОРаботнике.Организация</dataPath>
+			<field>Организация</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организация</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОРаботнике.ПодразделениеОрганизации</dataPath>
+			<field>ПодразделениеОрганизации</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подразделение организации</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сотрудник</dataPath>
+			<field>Сотрудник</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сотрудник</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОРаботнике.ТабельныйНомер</dataPath>
+			<field>ТабельныйНомер</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таб. №</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФизЛицо</dataPath>
+			<field>ФизЛицо</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Физическое лицо</v8:content>
+				</v8:item>
+			</title>
+			<useRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</useRestriction>
+			<attributeUseRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОРаботнике.ВидРасчета</dataPath>
+			<field>ВидРасчета</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оклад, тарифная ставка</v8:content>
+				</v8:item>
+			</title>
+			<attributeUseRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОРаботнике.ДатаПриема</dataPath>
+			<field>ДатаПриема</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата приема</v8:content>
+				</v8:item>
+			</title>
+			<attributeUseRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+			<presentationExpression>ФОРМАТ(ДанныеОРаботнике.ДатаПриема, "ДФ = 'дд.ММ.гггг'")</presentationExpression>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОРаботнике.ДатаУвольнения</dataPath>
+			<field>ДатаУвольнения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата увольнения</v8:content>
+				</v8:item>
+			</title>
+			<attributeUseRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+			<presentationExpression>ФОРМАТ(ДанныеОРаботнике.ДатаУвольнения, "ДФ = 'дд.ММ.гггг'")</presentationExpression>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОРаботнике.Размер</dataPath>
+			<field>Размер</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оклад, тарифная ставка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОРаботнике.Состояние</dataPath>
+			<field>Состояние</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущее состояние</v8:content>
+				</v8:item>
+			</title>
+			<attributeUseRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.Образование.ФизЛицоВидОбразования</dataPath>
+			<field>ФизЛицоВидОбразования</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид образования</v8:content>
+				</v8:item>
+			</title>
+			<attributeUseRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.ФизЛицоВозраст</dataPath>
+			<field>ФизЛицоВозраст</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Возраст</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.СоставСемьи.ФизЛицоВозрастРодственника</dataPath>
+			<field>ФизЛицоВозрастРодственника</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Возраст родственника</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.Образование.ФизЛицоГодОкончания</dataPath>
+			<field>ФизЛицоГодОкончания</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Год окончания учебного заведения</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.СоставСемьи.ФизЛицоГодРожденияРодственника</dataPath>
+			<field>ФизЛицоГодРожденияРодственника</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата рождения родственника</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.ФизЛицоДатаРождения</dataPath>
+			<field>ФизЛицоДатаРождения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата рождения</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ДФ=dd.MM.yyyy</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.Образование.ФизЛицоДиплом</dataPath>
+			<field>ФизЛицоДиплом</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Диплом</v8:content>
+				</v8:item>
+			</title>
+			<attributeUseRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.ПаспортныеДанные.ФизЛицоДокументВид</dataPath>
+			<field>ФизЛицоДокументВид</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид документа</v8:content>
+				</v8:item>
+			</title>
+			<attributeUseRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.ПаспортныеДанные.ФизЛицоДокументДатаВыдачи</dataPath>
+			<field>ФизЛицоДокументДатаВыдачи</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата выдачи</v8:content>
+				</v8:item>
+			</title>
+			<presentationExpression>ФОРМАТ(ДанныеОФизЛице.ПаспортныеДанные.ФизЛицоДокументДатаВыдачи, "ДФ = 'дд.ММ.гггг'")</presentationExpression>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ДФ=dd.MM.yyyy</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.ПаспортныеДанные.ФизЛицоДокументКемВыдан</dataPath>
+			<field>ФизЛицоДокументКемВыдан</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кем выдан</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.ПаспортныеДанные.ФизЛицоДокументКодПодразделения</dataPath>
+			<field>ФизЛицоДокументКодПодразделения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Код подразделения</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.ПаспортныеДанные.ФизЛицоДокументНомер</dataPath>
+			<field>ФизЛицоДокументНомер</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.ПаспортныеДанные.ФизЛицоДокументСерия</dataPath>
+			<field>ФизЛицоДокументСерия</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Серия</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.СоставСемьи.ФизЛицоИмяРодственника</dataPath>
+			<field>ФизЛицоИмяРодственника</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя родственника</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.ФизЛицоИНН</dataPath>
+			<field>ФизЛицоИНН</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ИНН</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.Образование.ФизЛицоКвалификация</dataPath>
+			<field>ФизЛицоКвалификация</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Квалификация</v8:content>
+				</v8:item>
+			</title>
+			<attributeUseRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.ФизЛицоКодИМНС</dataPath>
+			<field>ФизЛицоКодИМНС</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Код ИМНС</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.ФизЛицоКомментарий</dataPath>
+			<field>ФизЛицоКомментарий</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Комментарий</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.Гражданство.ФизЛицоНеИмеетПравоНаПенсию</dataPath>
+			<field>ФизЛицоНеИмеетПравоНаПенсию</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имеет право на пенсию</v8:content>
+				</v8:item>
+			</title>
+			<useRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</useRestriction>
+			<attributeUseRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.Гражданство.ФизЛицоНеЯвляетсяНалоговымРезидентомРФ</dataPath>
+			<field>ФизЛицоНеЯвляетсяНалоговымРезидентомРФ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Является налоговым резидентом РФ</v8:content>
+				</v8:item>
+			</title>
+			<useRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</useRestriction>
+			<attributeUseRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.ФизЛицоПол</dataPath>
+			<field>ФизЛицоПол</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пол</v8:content>
+				</v8:item>
+			</title>
+			<attributeUseRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.ФизЛицоСемейноеПоложение</dataPath>
+			<field>ФизЛицоСемейноеПоложение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Семейное положение</v8:content>
+				</v8:item>
+			</title>
+			<attributeUseRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.Образование.ФизЛицоСпециальность</dataPath>
+			<field>ФизЛицоСпециальность</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Специальность</v8:content>
+				</v8:item>
+			</title>
+			<attributeUseRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.Языки.ФизЛицоСтепеньЗнанияЯзыка</dataPath>
+			<field>ФизЛицоСтепеньЗнанияЯзыка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Степень знания языка</v8:content>
+				</v8:item>
+			</title>
+			<attributeUseRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.СоставСемьи.ФизЛицоСтепеньРодства</dataPath>
+			<field>ФизЛицоСтепеньРодства</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Степень родства</v8:content>
+				</v8:item>
+			</title>
+			<attributeUseRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.Гражданство.ФизЛицоСтрана</dataPath>
+			<field>ФизЛицоСтрана</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страна</v8:content>
+				</v8:item>
+			</title>
+			<attributeUseRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.ФизЛицоСтраховойНомерПФР</dataPath>
+			<field>ФизЛицоСтраховойНомерПФР</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страховой номер ПФР</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.ТрудоваяДеятельность.ФизЛицоТД_ДатаНачала</dataPath>
+			<field>ФизЛицоТД_ДатаНачала</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Начало работы</v8:content>
+				</v8:item>
+			</title>
+			<presentationExpression>ФОРМАТ(ДанныеОФизЛице.ТрудоваяДеятельность.ФизЛицоТД_ДатаНачала, "ДФ = 'дд.ММ.гггг'")</presentationExpression>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.ТрудоваяДеятельность.ФизЛицоТД_ДатаОкончания</dataPath>
+			<field>ФизЛицоТД_ДатаОкончания</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Окончание работы</v8:content>
+				</v8:item>
+			</title>
+			<presentationExpression>ФОРМАТ(ДанныеОФизЛице.ТрудоваяДеятельность.ФизЛицоТД_ДатаОкончания, "ДФ = 'дд.ММ.гггг'")</presentationExpression>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.ТрудоваяДеятельность.ФизЛицоТД_Должность</dataPath>
+			<field>ФизЛицоТД_Должность</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Должность по предшествующему месту работы</v8:content>
+				</v8:item>
+			</title>
+			<attributeUseRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.ТрудоваяДеятельность.ФизЛицоТД_Организация</dataPath>
+			<field>ФизЛицоТД_Организация</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предшествующие место работы</v8:content>
+				</v8:item>
+			</title>
+			<attributeUseRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.Образование.ФизЛицоУчебноеЗаведение</dataPath>
+			<field>ФизЛицоУчебноеЗаведение</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Учебное заведение</v8:content>
+				</v8:item>
+			</title>
+			<attributeUseRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.ФизЛицоФиоКраткое</dataPath>
+			<field>ФизЛицоФиоКраткое</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ФИО (краткое)</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.ФизЛицоФиоПолное</dataPath>
+			<field>ФизЛицоФиоПолное</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ФИО (полное)</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.Языки.ФизЛицоЯзык</dataPath>
+			<field>ФизЛицоЯзык</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Язык</v8:content>
+				</v8:item>
+			</title>
+			<attributeUseRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОРаботнике.ПриказОбУвольнении</dataPath>
+			<field>ПриказОбУвольнении</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Приказ об увольнении</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОРаботнике.ПриказОПриеме</dataPath>
+			<field>ПриказОПриеме</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Приказ о приеме</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.Стаж.ВидСтажа</dataPath>
+			<field>ВидСтажа</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид стажа</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.Стаж.СтажДней</dataPath>
+			<field>СтажДней</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дней</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.Стаж.СтажЛет</dataPath>
+			<field>СтажЛет</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Лет</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.Стаж.СтажМесяцев</dataPath>
+			<field>СтажМесяцев</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Месяц</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.ДеньРождения</dataPath>
+			<field>ДеньРождения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>День рождения</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ДФ=dd.MM.yyyy</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.Юбиляр</dataPath>
+			<field>Юбиляр</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Юбиляр</v8:content>
+				</v8:item>
+			</title>
+			<useRestriction>
+				<field>true</field>
+				<condition>true</condition>
+				<group>true</group>
+				<order>true</order>
+			</useRestriction>
+			<valueType>
+				<v8:Type>xs:boolean</v8:Type>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">БЛ=Нет; БИ=Да</dcscor:value>
+				</dcscor:item>
+			</appearance>
+			<availableValue>
+				<value xsi:type="xs:boolean">true</value>
+				<presentation xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Да</v8:content>
+					</v8:item>
+				</presentation>
+			</availableValue>
+			<availableValue>
+				<value xsi:type="xs:boolean">false</value>
+				<presentation xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Нет</v8:content>
+					</v8:item>
+				</presentation>
+			</availableValue>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.Месяц</dataPath>
+			<field>Месяц</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Месяц рождения</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>2</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldFolder">
+			<dataPath>ДанныеОРаботнике</dataPath>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content> Данные о рабочем месте</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldFolder">
+			<dataPath>ДанныеОФизЛице</dataPath>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content> Данные о работнике</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldFolder">
+			<dataPath>ДанныеОФизЛице.Образование</dataPath>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content> Образование</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldFolder">
+			<dataPath>ДанныеОФизЛице.СоставСемьи</dataPath>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content> Состав семьи</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldFolder">
+			<dataPath>ДанныеОФизЛице.ПаспортныеДанные</dataPath>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content> Паспортные данные</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldFolder">
+			<dataPath>ДанныеОФизЛице.Гражданство</dataPath>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content> Гражданство</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldFolder">
+			<dataPath>ДанныеОФизЛице.Языки</dataPath>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content> Языки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldFolder">
+			<dataPath>ДанныеОФизЛице.ТрудоваяДеятельность</dataPath>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content> Трудовая деятельность</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldFolder">
+			<dataPath>ДанныеОФизЛице.Стаж</dataPath>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content> Стаж</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОРаботнике.НаИспытательномСроке</dataPath>
+			<field>НаИспытательномСроке</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Испытательный срок</v8:content>
+				</v8:item>
+			</title>
+			<presentationExpression>ФОРМАТ(ДанныеОРаботнике.НаИспытательномСроке, "БЛ=' '; БИ='На испытательном сроке'")</presentationExpression>
+			<valueType>
+				<v8:Type>xs:boolean</v8:Type>
+			</valueType>
+			<availableValue>
+				<value xsi:type="xs:boolean">false</value>
+				<presentation xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Не на испытательном сроке</v8:content>
+					</v8:item>
+				</presentation>
+			</availableValue>
+			<availableValue>
+				<value xsi:type="xs:boolean">true</value>
+				<presentation xsi:type="v8:LocalStringType">
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>На испытательном сроке</v8:content>
+					</v8:item>
+				</presentation>
+			</availableValue>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.Награды.ДатаПриказа</dataPath>
+			<field>ДатаПриказа</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата приказа</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.Награды.Награда</dataPath>
+			<field>Награда</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Награда</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.Награды.НомерПриказа</dataPath>
+			<field>НомерПриказа</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер приказа</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.Награды.Приказ</dataPath>
+			<field>Приказ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Приказ</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldFolder">
+			<dataPath>ДанныеОФизЛице.Награды</dataPath>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content> Награды</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДанныеОФизЛице.Профессия</dataPath>
+			<field>Профессия</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Профессия</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИнформационнаяБаза</dataSource>
+		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	РаботникиОрганизации.Сотрудник.Физлицо КАК ФизЛицо,
+	ПлановыеНачисленияРаботниковСрез.ВидРасчета КАК ВидРасчета,
+	ЕСТЬNULL(ПлановыеНачисленияРаботниковСрез.Показатель1, 0) КАК Размер,
+	РаботникиОрганизации.ПодразделениеОрганизации КАК ПодразделениеОрганизации,
+	РаботникиОрганизации.Должность КАК Должность,
+	РаботникиОрганизации.ГрафикРаботы КАК ГрафикРаботы,
+	РаботникиОрганизации.Организация КАК Организация,
+	РаботникиОрганизации.Сотрудник.Код КАК ТабельныйНомер,
+	РаботникиОрганизации.ЗанимаемыхСтавок КАК ЗанимаемыхСтавок,
+	РаботникиОрганизации.Сотрудник КАК Сотрудник,
+	ПриказыОПриеме.Приказ.Дата КАК ПриказОПриемеДата,
+	ПриказыОПриеме.Приказ.Номер КАК ПриказОПриемеНомер,
+	ПриказыОПриеме.ДатаПриема КАК ДатаПриема,
+	ПриказыОПриеме.ВидЗанятости КАК ВидЗанятости,
+	ВЫБОР
+		КОГДА РаботникиОрганизации.ПричинаИзмененияСостояния = ЗНАЧЕНИЕ(Перечисление.удуПричиныИзмененияСостояния.Увольнение)
+			ТОГДА ДОБАВИТЬКДАТЕ(РаботникиОрганизации.Период, ДЕНЬ, -1)
+		ИНАЧЕ "-"
+	КОНЕЦ КАК ДатаУвольнения,
+	ВЫБОР
+		КОГДА РаботникиОрганизации.ПричинаИзмененияСостояния = ЗНАЧЕНИЕ(Перечисление.удуПричиныИзмененияСостояния.Увольнение)
+			ТОГДА ЗНАЧЕНИЕ(Перечисление.удуСостоянияРаботникаОрганизации.НеРаботает)
+		ИНАЧЕ ЕСТЬNULL(СостояниеРаботниковОрганизации.Состояние, ЗНАЧЕНИЕ(Перечисление.удуСостоянияРаботникаОрганизации.Работает))
+	КОНЕЦ КАК Состояние,
+	РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения КАК ФизЛицоДатаРождения,
+	РаботникиОрганизации.Сотрудник.Физлицо.ИНН КАК ФизЛицоИНН,
+	РаботникиОрганизации.Сотрудник.Физлицо.КодИМНС КАК ФизЛицоКодИМНС,
+	РаботникиОрганизации.Сотрудник.Физлицо.Комментарий КАК ФизЛицоКомментарий,
+	РаботникиОрганизации.Сотрудник.Физлицо.СтраховойНомерПФР КАК ФизЛицоСтраховойНомерПФР,
+	РаботникиОрганизации.Сотрудник.Физлицо.Пол КАК ФизЛицоПол,
+	ВЫБОР
+		КОГДА ФИОФизЛиц.Фамилия ЕСТЬ NULL 
+			ТОГДА РаботникиОрганизации.Сотрудник.Физлицо.Наименование
+		ИНАЧЕ ФИОФизЛиц.Фамилия + " " + ФИОФизЛиц.Имя + " " + ФИОФизЛиц.Отчество
+	КОНЕЦ КАК ФизЛицоФиоПолное,
+	ВЫБОР
+		КОГДА ФИОФизЛиц.ФизЛицо ЕСТЬ NULL 
+			ТОГДА РаботникиОрганизации.Сотрудник.Физлицо.Наименование
+		ИНАЧЕ ФИОФизЛиц.Фамилия + ВЫБОР
+				КОГДА ПОДСТРОКА(ФИОФизЛиц.Имя, 1, 1) &lt;&gt; ""
+					ТОГДА " " + ПОДСТРОКА(ФИОФизЛиц.Имя, 1, 1) + "."
+				ИНАЧЕ ""
+			КОНЕЦ + ВЫБОР
+				КОГДА ПОДСТРОКА(ФИОФизЛиц.Отчество, 1, 1) &lt;&gt; ""
+					ТОГДА " " + ПОДСТРОКА(ФИОФизЛиц.Отчество, 1, 1) + "."
+				ИНАЧЕ ""
+			КОНЕЦ
+	КОНЕЦ КАК ФизЛицоФиоКраткое,
+	ВЫБОР
+		КОГДА ГОД(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения) = 1
+			ТОГДА 0
+		ИНАЧЕ ГОД(&amp;Период) - ГОД(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения) + ВЫБОР
+				КОГДА МЕСЯЦ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения) * 100 + ДЕНЬ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения) &gt; МЕСЯЦ(&amp;Период) * 100 + ДЕНЬ(&amp;Период)
+					ТОГДА -1
+				ИНАЧЕ 0
+			КОНЕЦ
+	КОНЕЦ КАК ФизЛицоВозраст,
+	СоставСемьиФизлица.СтепеньРодства КАК ФизЛицоСтепеньРодства,
+	СоставСемьиФизлица.Имя КАК ФизЛицоИмяРодственника,
+	СоставСемьиФизлица.ДатаРождения КАК ФизЛицоГодРожденияРодственника,
+	ВЫБОР
+		КОГДА СоставСемьиФизлица.ДатаРождения = ДАТАВРЕМЯ(1, 1, 1)
+			ТОГДА 0
+		ИНАЧЕ ГОД(&amp;Период) - ГОД(СоставСемьиФизлица.ДатаРождения)
+	КОНЕЦ КАК ФизЛицоВозрастРодственника,
+	ОбразованиеФизлица.ВидОбразования КАК ФизЛицоВидОбразования,
+	ОбразованиеФизлица.УчебноеЗаведение КАК ФизЛицоУчебноеЗаведение,
+	ОбразованиеФизлица.Специальность КАК ФизЛицоСпециальность,
+	ОбразованиеФизлица.Диплом КАК ФизЛицоДиплом,
+	ОбразованиеФизлица.ГодОкончания КАК ФизЛицоГодОкончания,
+	ОбразованиеФизлица.Квалификация КАК ФизЛицоКвалификация,
+	ТрудоваяДеятельностьФизлица.Организация КАК ФизЛицоТД_Организация,
+	ТрудоваяДеятельностьФизлица.ДатаНачала КАК ФизЛицоТД_ДатаНачала,
+	ТрудоваяДеятельностьФизлица.ДатаОкончания КАК ФизЛицоТД_ДатаОкончания,
+	ТрудоваяДеятельностьФизлица.Должность КАК ФизЛицоТД_Должность,
+	ЗнаниеЯзыковФизлица.Язык КАК ФизЛицоЯзык,
+	ЗнаниеЯзыковФизлица.СтепеньЗнанияЯзыка КАК ФизЛицоСтепеньЗнанияЯзыка,
+	ПаспортныеДанныеФизЛиц.ВидДокумента КАК ФизЛицоДокументВид,
+	ПаспортныеДанныеФизЛиц.Серия КАК ФизЛицоДокументСерия,
+	ПаспортныеДанныеФизЛиц.Номер КАК ФизЛицоДокументНомер,
+	ПаспортныеДанныеФизЛиц.ДатаВыдачи КАК ФизЛицоДокументДатаВыдачи,
+	ПаспортныеДанныеФизЛиц.КемВыдан КАК ФизЛицоДокументКемВыдан,
+	ПаспортныеДанныеФизЛиц.КодПодразделения КАК ФизЛицоДокументКодПодразделения,
+	ГражданствоФизЛиц.Страна КАК ФизЛицоСтрана,
+	ГражданствоФизЛиц.НеИмеетПравоНаПенсию КАК ФизЛицоНеИмеетПравоНаПенсию,
+	ГражданствоФизЛиц.НеЯвляетсяНалоговымРезидентомРФ КАК ФизЛицоНеЯвляетсяНалоговымРезидентомРФ,
+	СемейноеПоложениеФизЛиц.СемейноеПоложение КАК ФизЛицоСемейноеПоложение,
+	ВЫБОР
+		КОГДА РаботникиОрганизации.ПричинаИзмененияСостояния = ЗНАЧЕНИЕ(Перечисление.удуПричиныИзмененияСостояния.Увольнение)
+			ТОГДА РаботникиОрганизации.ПервичныйДокумент
+		ИНАЧЕ "-"
+	КОНЕЦ КАК ПриказОбУвольнении,
+	ПриказыОПриеме.Приказ КАК Приказ,
+	Стажи.ВидСтажа КАК ВидСтажа,
+	ВЫБОР
+		КОГДА Стажи.ДатаОтсчета &gt;= ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(ДАТАВРЕМЯ(1, 1, 1), МЕСЯЦ, Стажи.РазмерМесяцев), ДЕНЬ, Стажи.РазмерДней)
+			ТОГДА ВЫБОР
+					КОГДА ДЕНЬ(&amp;Период) &lt; ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+						ТОГДА ДЕНЬ(КОНЕЦПЕРИОДА(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), МЕСЯЦ)) - ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней)) + ДЕНЬ(&amp;Период)
+					КОГДА ДЕНЬ(&amp;Период) &gt; ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+						ТОГДА ДЕНЬ(&amp;Период) - ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+					ИНАЧЕ 0
+				КОНЕЦ
+	КОНЕЦ КАК СтажДней,
+	ВЫБОР
+		КОГДА Стажи.ДатаОтсчета &gt;= ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(ДАТАВРЕМЯ(1, 1, 1), МЕСЯЦ, Стажи.РазмерМесяцев), ДЕНЬ, Стажи.РазмерДней)
+			ТОГДА ВЫБОР
+					КОГДА ВЫБОР
+							КОГДА ДЕНЬ(&amp;Период) &gt;= ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+								ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ)
+							КОГДА ДЕНЬ(&amp;Период) &lt; ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+								ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ) - 1
+						КОНЕЦ / 12 &lt; (ВЫРАЗИТЬ(ВЫБОР
+								КОГДА ДЕНЬ(&amp;Период) &gt;= ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+									ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ)
+								КОГДА ДЕНЬ(&amp;Период) &lt; ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+									ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ) - 1
+							КОНЕЦ / 12 КАК ЧИСЛО(7, 0)))
+						ТОГДА (ВЫРАЗИТЬ(ВЫБОР
+									КОГДА ДЕНЬ(&amp;Период) &gt;= ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+										ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ)
+									КОГДА ДЕНЬ(&amp;Период) &lt; ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+										ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ) - 1
+								КОНЕЦ / 12 КАК ЧИСЛО(7, 0))) - 1
+					ИНАЧЕ ВЫРАЗИТЬ(ВЫБОР
+								КОГДА ДЕНЬ(&amp;Период) &gt;= ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+									ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ)
+								КОГДА ДЕНЬ(&amp;Период) &lt; ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+									ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ) - 1
+							КОНЕЦ / 12 КАК ЧИСЛО(7, 0))
+				КОНЕЦ
+	КОНЕЦ КАК СтажЛет,
+	ВЫБОР
+		КОГДА Стажи.ДатаОтсчета &gt;= ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(ДАТАВРЕМЯ(1, 1, 1), МЕСЯЦ, Стажи.РазмерМесяцев), ДЕНЬ, Стажи.РазмерДней)
+			ТОГДА ВЫБОР
+					КОГДА ДЕНЬ(&amp;Период) &gt;= ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+						ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ)
+					КОГДА ДЕНЬ(&amp;Период) &lt; ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+						ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ) - 1
+				КОНЕЦ - ВЫБОР
+					КОГДА ВЫБОР
+							КОГДА ДЕНЬ(&amp;Период) &gt;= ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+								ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ)
+							КОГДА ДЕНЬ(&amp;Период) &lt; ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+								ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ) - 1
+						КОНЕЦ / 12 &lt; (ВЫРАЗИТЬ(ВЫБОР
+								КОГДА ДЕНЬ(&amp;Период) &gt;= ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+									ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ)
+								КОГДА ДЕНЬ(&amp;Период) &lt; ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+									ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ) - 1
+							КОНЕЦ / 12 КАК ЧИСЛО(7, 0)))
+						ТОГДА (ВЫРАЗИТЬ(ВЫБОР
+									КОГДА ДЕНЬ(&amp;Период) &gt;= ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+										ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ)
+									КОГДА ДЕНЬ(&amp;Период) &lt; ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+										ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ) - 1
+								КОНЕЦ / 12 КАК ЧИСЛО(7, 0))) - 1
+					ИНАЧЕ ВЫРАЗИТЬ(ВЫБОР
+								КОГДА ДЕНЬ(&amp;Период) &gt;= ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+									ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ)
+								КОГДА ДЕНЬ(&amp;Период) &lt; ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+									ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ) - 1
+							КОНЕЦ / 12 КАК ЧИСЛО(7, 0))
+				КОНЕЦ * 12
+	КОНЕЦ КАК СтажМесяцев,
+	ВЫБОР
+		КОГДА РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения &lt;&gt; ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0)
+				И (ВЫРАЗИТЬ((ВЫРАЗИТЬ(РАЗНОСТЬДАТ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, &amp;Период, ГОД) КАК ЧИСЛО(7, 0))) / 5 КАК ЧИСЛО(7, 0))) = (ВЫРАЗИТЬ(РАЗНОСТЬДАТ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, &amp;Период, ГОД) КАК ЧИСЛО(7, 0))) / 5
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ КАК Юбиляр,
+	ВЫБОР
+		КОГДА РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения &lt;&gt; ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0)
+				И ДОБАВИТЬКДАТЕ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, МЕСЯЦ, (ВЫРАЗИТЬ(РАЗНОСТЬДАТ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, &amp;Период, ГОД) КАК ЧИСЛО(7, 0))) * 12) &lt; &amp;Период
+			ТОГДА ДОБАВИТЬКДАТЕ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, МЕСЯЦ, (ВЫРАЗИТЬ(РАЗНОСТЬДАТ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, &amp;Период, ГОД) КАК ЧИСЛО(7, 0))) * 12 + 12)
+		КОГДА РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения = ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0)
+			ТОГДА "Дата рождения не заполнена"
+		ИНАЧЕ ДОБАВИТЬКДАТЕ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, МЕСЯЦ, (ВЫРАЗИТЬ(РАЗНОСТЬДАТ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, &amp;Период, ГОД) КАК ЧИСЛО(7, 0))) * 12)
+	КОНЕЦ КАК ДеньРождения,
+	ВЫБОР
+		КОГДА РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения &lt;&gt; ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0)
+				И ДОБАВИТЬКДАТЕ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, МЕСЯЦ, (ВЫРАЗИТЬ(РАЗНОСТЬДАТ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, &amp;Период, ГОД) КАК ЧИСЛО(7, 0))) * 12) &lt; НАЧАЛОПЕРИОДА(&amp;Период, МЕСЯЦ)
+			ТОГДА МЕСЯЦ(ДОБАВИТЬКДАТЕ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, МЕСЯЦ, (ВЫРАЗИТЬ(РАЗНОСТЬДАТ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, &amp;Период, ГОД) КАК ЧИСЛО(7, 0))) * 12 + 12))
+		КОГДА РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения = ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0)
+			ТОГДА "Дата рождения не заполнена"
+		ИНАЧЕ МЕСЯЦ(ДОБАВИТЬКДАТЕ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, МЕСЯЦ, (ВЫРАЗИТЬ(РАЗНОСТЬДАТ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, &amp;Период, ГОД) КАК ЧИСЛО(7, 0))) * 12))
+	КОНЕЦ КАК Месяц,
+	ВЫБОР
+		КОГДА РаботникиОрганизации.Сотрудник.ВидЗанятости &lt;&gt; ЗНАЧЕНИЕ(Перечисление.удуВидыЗанятостиВОрганизации.ВнутреннееСовместительство)
+				И СостояниеРаботниковНаИспытательномСроке.Состояние = ЗНАЧЕНИЕ(Перечисление.удуСостоянияРаботникаНаИспытательномСроке.ПринятНаИспытательныйСрок)
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ КАК НаИспытательномСроке,
+	ФизическиеЛицаНаграды.Награда КАК Награда,
+	ФизическиеЛицаНаграды.НомерПриказа КАК НомерПриказа,
+	ФизическиеЛицаНаграды.ДатаПриказа КАК ДатаПриказа,
+	ФизическиеЛицаНаграды.ЧейПриказ КАК ЧейПриказ,
+	ФизическиеЛицаПрофессии.Профессия КАК Профессия
+{ВЫБРАТЬ
+	ФизЛицо.*,
+	ПодразделениеОрганизации.*,
+	Должность.*,
+	ГрафикРаботы.*,
+	Организация.*,
+	ТабельныйНомер,
+	ЗанимаемыхСтавок,
+	Сотрудник.*,
+	ДатаПриема,
+	ВидЗанятости.*,
+	ДатаУвольнения,
+	ВидРасчета.*,
+	Размер,
+	Состояние.*,
+	ФизЛицоДатаРождения,
+	ФизЛицоИНН,
+	ФизЛицоКодИМНС,
+	ФизЛицоКомментарий,
+	ФизЛицоСтраховойНомерПФР,
+	ФизЛицоПол.*,
+	ФизЛицоФиоПолное,
+	ФизЛицоФиоКраткое,
+	ФизЛицоВозраст,
+	ФизЛицоСтепеньРодства.*,
+	ФизЛицоИмяРодственника,
+	ФизЛицоГодРожденияРодственника,
+	ФизЛицоВозрастРодственника,
+	ФизЛицоВидОбразования.*,
+	ФизЛицоУчебноеЗаведение.*,
+	ФизЛицоСпециальность.*,
+	ФизЛицоДиплом,
+	ФизЛицоГодОкончания,
+	ФизЛицоКвалификация,
+	ФизЛицоТД_Организация,
+	ФизЛицоТД_ДатаНачала,
+	ФизЛицоТД_ДатаОкончания,
+	ФизЛицоТД_Должность,
+	ФизЛицоЯзык.*,
+	ФизЛицоСтепеньЗнанияЯзыка.*,
+	ФизЛицоДокументВид.*,
+	ФизЛицоДокументСерия,
+	ФизЛицоДокументНомер,
+	ФизЛицоДокументДатаВыдачи,
+	ФизЛицоДокументКемВыдан,
+	ФизЛицоДокументКодПодразделения,
+	ФизЛицоСтрана.*,
+	ФизЛицоНеИмеетПравоНаПенсию,
+	ФизЛицоНеЯвляетсяНалоговымРезидентомРФ,
+	ФизЛицоСемейноеПоложение.*,
+	ПриказОбУвольнении.*,
+	Приказ.* КАК ПриказОПриеме,
+	ВидСтажа,
+	СтажДней,
+	СтажЛет,
+	СтажМесяцев,
+	Юбиляр,
+	ДеньРождения,
+	Месяц,
+	НаИспытательномСроке,
+	Награда.*,
+	НомерПриказа,
+	ДатаПриказа,
+	ЧейПриказ КАК Приказ,
+	Профессия}
+ИЗ
+	РегистрСведений.удуРаботникиОрганизаций.СрезПоследних(&amp;Период {(&amp;Период)}, ) КАК РаботникиОрганизации
+		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.удуСостояниеРаботниковОрганизаций.СрезПоследних(&amp;Период {(&amp;Период)}, ) КАК СостояниеРаботниковОрганизации
+		ПО РаботникиОрганизации.Сотрудник = СостояниеРаботниковОрганизации.Сотрудник}
+		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.удуПлановыеНачисленияРаботниковОрганизаций.СрезПоследних(&amp;Период, ВидРасчетаИзмерение = НЕОПРЕДЕЛЕНО) КАК ПлановыеНачисленияРаботниковСрез
+		ПО РаботникиОрганизации.Сотрудник = ПлановыеНачисленияРаботниковСрез.Сотрудник}
+		{ЛЕВОЕ СОЕДИНЕНИЕ (ВЫБРАТЬ
+			ДатыПоследнихДвиженийРаботников.Период КАК ДатаПриема,
+			ДатыПоследнихДвиженийРаботников.Сотрудник КАК Сотрудник,
+			ДатыПоследнихДвиженийРаботников.Организация КАК Организация,
+			ДатыПоследнихДвиженийРаботников.Приказ КАК ПриказИзмерение,
+			ДанныеПоРаботникуПриНазначении.ПервичныйДокумент КАК Приказ,
+			ДатыПоследнихДвиженийРаботников.Сотрудник.ВидЗанятости КАК ВидЗанятости
+		ИЗ
+			(ВЫБРАТЬ
+				ТЧРаботникиОрганизации.Организация КАК Организация,
+				МАКСИМУМ(Работники.Период) КАК Период,
+				ТЧРаботникиОрганизации.Сотрудник КАК Сотрудник,
+				ТЧРаботникиОрганизации.ПервичныйДокумент КАК Приказ
+			ИЗ
+				РегистрСведений.удуРаботникиОрганизаций.СрезПоследних(&amp;Период, ) КАК ТЧРаботникиОрганизации
+					ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.удуРаботникиОрганизаций КАК Работники
+					ПО (Работники.Период &lt;= ТЧРаботникиОрганизации.Период)
+						И (Работники.ПричинаИзмененияСостояния = ЗНАЧЕНИЕ(Перечисление.удуПричиныИзмененияСостояния.ПриемНаРаботу))
+						И ТЧРаботникиОрганизации.Сотрудник = Работники.Сотрудник
+			{ГДЕ
+				ТЧРаботникиОрганизации.Должность КАК Должность,
+				ТЧРаботникиОрганизации.ГрафикРаботы КАК ГрафикРаботы,
+				ТЧРаботникиОрганизации.Сотрудник.Код КАК ТабельныйНомер,
+				ТЧРаботникиОрганизации.ЗанимаемыхСтавок КАК ЗанимаемыхСтавок}
+			
+			СГРУППИРОВАТЬ ПО
+				ТЧРаботникиОрганизации.Сотрудник,
+				ТЧРаботникиОрганизации.Организация,
+				ТЧРаботникиОрганизации.ПервичныйДокумент) КАК ДатыПоследнихДвиженийРаботников
+				ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.удуРаботникиОрганизаций КАК ДанныеПоРаботникуПриНазначении
+				ПО (ДанныеПоРаботникуПриНазначении.Период = ДатыПоследнихДвиженийРаботников.Период)
+					И ДатыПоследнихДвиженийРаботников.Сотрудник = ДанныеПоРаботникуПриНазначении.Сотрудник) КАК ПриказыОПриеме
+		ПО РаботникиОрганизации.Сотрудник = ПриказыОПриеме.Сотрудник}
+		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ПаспортныеДанныеФизЛиц.СрезПоследних(&amp;Период, ) КАК ПаспортныеДанныеФизЛиц
+		ПО РаботникиОрганизации.Сотрудник.Физлицо = ПаспортныеДанныеФизЛиц.ФизЛицо}
+		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.удуГражданствоФизЛиц.СрезПоследних(&amp;Период, ) КАК ГражданствоФизЛиц
+		ПО РаботникиОрганизации.Сотрудник.Физлицо = ГражданствоФизЛиц.ФизЛицо}
+		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.удуСемейноеПоложениеФизЛиц.СрезПоследних(&amp;Период, ) КАК СемейноеПоложениеФизЛиц
+		ПО РаботникиОрганизации.Сотрудник.Физлицо = СемейноеПоложениеФизЛиц.ФизЛицо}
+		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.удуФИОФизЛиц.СрезПоследних(&amp;Период, ) КАК ФИОФизЛиц
+		ПО РаботникиОрганизации.Сотрудник.Физлицо = ФИОФизЛиц.ФизЛицо}
+		{ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ФизическиеЛица.СоставСемьи КАК СоставСемьиФизлица
+		ПО РаботникиОрганизации.Сотрудник.Физлицо = СоставСемьиФизлица.Ссылка}
+		{ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ФизическиеЛица.Образование КАК ОбразованиеФизлица
+		ПО РаботникиОрганизации.Сотрудник.Физлицо = ОбразованиеФизлица.Ссылка}
+		{ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ФизическиеЛица.ТрудоваяДеятельность КАК ТрудоваяДеятельностьФизлица
+		ПО РаботникиОрганизации.Сотрудник.Физлицо = ТрудоваяДеятельностьФизлица.Ссылка}
+		{ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ФизическиеЛица.ЗнаниеЯзыков КАК ЗнаниеЯзыковФизлица
+		ПО РаботникиОрганизации.Сотрудник.Физлицо = ЗнаниеЯзыковФизлица.Ссылка}
+		{ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ФизическиеЛица.Стажи КАК Стажи
+		ПО РаботникиОрганизации.Сотрудник.Физлицо = Стажи.Ссылка}
+		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.удуСостояниеРаботниковНаИспытательномСроке.СрезПоследних(&amp;Период, ) КАК СостояниеРаботниковНаИспытательномСроке
+		ПО РаботникиОрганизации.Сотрудник.Физлицо = СостояниеРаботниковНаИспытательномСроке.Физлицо}
+		{ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ФизическиеЛица.Награды КАК ФизическиеЛицаНаграды
+		ПО РаботникиОрганизации.Сотрудник.Физлицо = ФизическиеЛицаНаграды.Ссылка}
+		{ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ФизическиеЛица.Профессии КАК ФизическиеЛицаПрофессии
+		ПО РаботникиОрганизации.Сотрудник.Физлицо = ФизическиеЛицаПрофессии.Ссылка}
+{ГДЕ
+	РаботникиОрганизации.Сотрудник.Физлицо.* КАК ФизЛицо,
+	РаботникиОрганизации.ПодразделениеОрганизации.* КАК ПодразделениеОрганизации,
+	РаботникиОрганизации.ГрафикРаботы.* КАК ГрафикРаботы,
+	РаботникиОрганизации.Организация.* КАК Организация,
+	РаботникиОрганизации.Сотрудник.Код КАК ТабельныйНомер,
+	РаботникиОрганизации.ЗанимаемыхСтавок КАК ЗанимаемыхСтавок,
+	РаботникиОрганизации.Сотрудник.* КАК Сотрудник,
+	ПриказыОПриеме.ДатаПриема КАК ДатаПриема,
+	ПриказыОПриеме.ВидЗанятости.* КАК ВидЗанятости,
+	(ВЫБОР
+			КОГДА РаботникиОрганизации.ПричинаИзмененияСостояния = ЗНАЧЕНИЕ(Перечисление.удуПричиныИзмененияСостояния.Увольнение)
+				ТОГДА ДОБАВИТЬКДАТЕ(РаботникиОрганизации.Период, ДЕНЬ, -1)
+			ИНАЧЕ "-"
+		КОНЕЦ) КАК ДатаУвольнения,
+	ПлановыеНачисленияРаботниковСрез.ВидРасчета.* КАК ВидРасчета,
+	(ЕСТЬNULL(ПлановыеНачисленияРаботниковСрез.Показатель1, 0)) КАК Размер,
+	(ВЫБОР
+			КОГДА РаботникиОрганизации.ПричинаИзмененияСостояния = ЗНАЧЕНИЕ(Перечисление.удуПричиныИзмененияСостояния.Увольнение)
+				ТОГДА ЗНАЧЕНИЕ(Перечисление.удуСостоянияРаботникаОрганизации.НеРаботает)
+			ИНАЧЕ ЕСТЬNULL(СостояниеРаботниковОрганизации.Состояние, ЗНАЧЕНИЕ(Перечисление.удуСостоянияРаботникаОрганизации.Работает))
+		КОНЕЦ) КАК Состояние,
+	РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения КАК ФизЛицоДатаРождения,
+	РаботникиОрганизации.Сотрудник.Физлицо.ИНН КАК ФизЛицоИНН,
+	РаботникиОрганизации.Сотрудник.Физлицо.КодИМНС КАК ФизЛицоКодИМНС,
+	РаботникиОрганизации.Сотрудник.Физлицо.Комментарий КАК ФизЛицоКомментарий,
+	РаботникиОрганизации.Сотрудник.Физлицо.СтраховойНомерПФР КАК ФизЛицоСтраховойНомерПФР,
+	РаботникиОрганизации.Сотрудник.Физлицо.Пол.* КАК ФизЛицоПол,
+	(ВЫБОР
+			КОГДА ФИОФизЛиц.Фамилия ЕСТЬ NULL 
+				ТОГДА РаботникиОрганизации.Сотрудник.Физлицо.Наименование
+			ИНАЧЕ ФИОФизЛиц.Фамилия + " " + ФИОФизЛиц.Имя + " " + ФИОФизЛиц.Отчество
+		КОНЕЦ) КАК ФизЛицоФиоПолное,
+	(ВЫБОР
+			КОГДА ФИОФизЛиц.ФизЛицо ЕСТЬ NULL 
+				ТОГДА РаботникиОрганизации.Сотрудник.Физлицо.Наименование
+			ИНАЧЕ ФИОФизЛиц.Фамилия + ВЫБОР
+					КОГДА ПОДСТРОКА(ФИОФизЛиц.Имя, 1, 1) &lt;&gt; ""
+						ТОГДА " " + ПОДСТРОКА(ФИОФизЛиц.Имя, 1, 1) + "."
+					ИНАЧЕ ""
+				КОНЕЦ + ВЫБОР
+					КОГДА ПОДСТРОКА(ФИОФизЛиц.Отчество, 1, 1) &lt;&gt; ""
+						ТОГДА " " + ПОДСТРОКА(ФИОФизЛиц.Отчество, 1, 1) + "."
+					ИНАЧЕ ""
+				КОНЕЦ
+		КОНЕЦ) КАК ФизЛицоФиоКраткое,
+	(ВЫБОР
+			КОГДА ГОД(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения) = 1
+				ТОГДА 0
+			ИНАЧЕ ГОД(&amp;Период) - ГОД(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения) + ВЫБОР
+					КОГДА МЕСЯЦ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения) * 100 + ДЕНЬ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения) &gt; МЕСЯЦ(&amp;Период) * 100 + ДЕНЬ(&amp;Период)
+						ТОГДА -1
+					ИНАЧЕ 0
+				КОНЕЦ
+		КОНЕЦ) КАК ФизЛицоВозраст,
+	СоставСемьиФизлица.СтепеньРодства.* КАК ФизЛицоСтепеньРодства,
+	СоставСемьиФизлица.Имя КАК ФизЛицоИмяРодственника,
+	СоставСемьиФизлица.ДатаРождения КАК ФизЛицоГодРожденияРодственника,
+	(ВЫБОР
+			КОГДА СоставСемьиФизлица.ДатаРождения = ДАТАВРЕМЯ(1, 1, 1)
+				ТОГДА 0
+			ИНАЧЕ ГОД(&amp;Период) - ГОД(СоставСемьиФизлица.ДатаРождения)
+		КОНЕЦ) КАК ФизЛицоВозрастРодственника,
+	ОбразованиеФизлица.ВидОбразования.* КАК ФизЛицоВидОбразования,
+	ОбразованиеФизлица.УчебноеЗаведение.* КАК ФизЛицоУчебноеЗаведение,
+	ОбразованиеФизлица.Специальность.* КАК ФизЛицоСпециальность,
+	ОбразованиеФизлица.Диплом КАК ФизЛицоДиплом,
+	ОбразованиеФизлица.ГодОкончания КАК ФизЛицоГодОкончания,
+	ОбразованиеФизлица.Квалификация КАК ФизЛицоКвалификация,
+	ТрудоваяДеятельностьФизлица.Организация КАК ФизЛицоТД_Организация,
+	ТрудоваяДеятельностьФизлица.ДатаНачала КАК ФизЛицоТД_ДатаНачала,
+	ТрудоваяДеятельностьФизлица.ДатаОкончания КАК ФизЛицоТД_ДатаОкончания,
+	ТрудоваяДеятельностьФизлица.Должность КАК ФизЛицоТД_Должность,
+	ЗнаниеЯзыковФизлица.Язык.* КАК ФизЛицоЯзык,
+	ЗнаниеЯзыковФизлица.СтепеньЗнанияЯзыка.* КАК ФизЛицоСтепеньЗнанияЯзыка,
+	ПаспортныеДанныеФизЛиц.ВидДокумента.* КАК ФизЛицоДокументВид,
+	ПаспортныеДанныеФизЛиц.Серия КАК ФизЛицоДокументСерия,
+	ПаспортныеДанныеФизЛиц.Номер КАК ФизЛицоДокументНомер,
+	ПаспортныеДанныеФизЛиц.ДатаВыдачи КАК ФизЛицоДокументДатаВыдачи,
+	ПаспортныеДанныеФизЛиц.КемВыдан КАК ФизЛицоДокументКемВыдан,
+	ПаспортныеДанныеФизЛиц.КодПодразделения КАК ФизЛицоДокументКодПодразделения,
+	ГражданствоФизЛиц.Страна.* КАК ФизЛицоСтрана,
+	ГражданствоФизЛиц.НеИмеетПравоНаПенсию КАК ФизЛицоНеИмеетПравоНаПенсию,
+	ГражданствоФизЛиц.НеЯвляетсяНалоговымРезидентомРФ КАК ФизЛицоНеЯвляетсяНалоговымРезидентомРФ,
+	СемейноеПоложениеФизЛиц.СемейноеПоложение.* КАК ФизЛицоСемейноеПоложение,
+	(ВЫБОР
+			КОГДА РаботникиОрганизации.ПричинаИзмененияСостояния = ЗНАЧЕНИЕ(Перечисление.удуПричиныИзмененияСостояния.Увольнение)
+				ТОГДА РаботникиОрганизации.ПервичныйДокумент
+			ИНАЧЕ "-"
+		КОНЕЦ).* КАК ПриказОбУвольнении,
+	ПриказыОПриеме.Приказ.* КАК ПриказОПриеме,
+	РаботникиОрганизации.Должность.* КАК Должность,
+	(ВЫБОР
+			КОГДА ДЕНЬ(&amp;Период) &lt; ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, Стажи.РазмерМесяцев), ДЕНЬ, Стажи.РазмерДней))
+				ТОГДА ДЕНЬ(КОНЕЦПЕРИОДА(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, Стажи.РазмерМесяцев), ДЕНЬ, Стажи.РазмерДней), МЕСЯЦ)) - ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, Стажи.РазмерМесяцев), ДЕНЬ, Стажи.РазмерДней)) + ДЕНЬ(&amp;Период)
+			КОГДА ДЕНЬ(&amp;Период) &gt; ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, Стажи.РазмерМесяцев), ДЕНЬ, Стажи.РазмерДней))
+				ТОГДА ДЕНЬ(&amp;Период) - ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, Стажи.РазмерМесяцев), ДЕНЬ, Стажи.РазмерДней))
+			ИНАЧЕ 0
+		КОНЕЦ) КАК СтажДней,
+	(ВЫБОР
+			КОГДА ВЫБОР
+					КОГДА ДЕНЬ(&amp;Период) &gt;= ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+						ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ)
+					КОГДА ДЕНЬ(&amp;Период) &lt; ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+						ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ) - 1
+				КОНЕЦ / 12 &lt; (ВЫРАЗИТЬ(ВЫБОР
+						КОГДА ДЕНЬ(&amp;Период) &gt;= ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+							ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ)
+						КОГДА ДЕНЬ(&amp;Период) &lt; ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+							ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ) - 1
+					КОНЕЦ / 12 КАК ЧИСЛО(7, 0)))
+				ТОГДА (ВЫРАЗИТЬ(ВЫБОР
+							КОГДА ДЕНЬ(&amp;Период) &gt;= ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+								ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ)
+							КОГДА ДЕНЬ(&amp;Период) &lt; ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+								ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ) - 1
+						КОНЕЦ / 12 КАК ЧИСЛО(7, 0))) - 1
+			ИНАЧЕ ВЫРАЗИТЬ(ВЫБОР
+						КОГДА ДЕНЬ(&amp;Период) &gt;= ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+							ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ)
+						КОГДА ДЕНЬ(&amp;Период) &lt; ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+							ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ) - 1
+					КОНЕЦ / 12 КАК ЧИСЛО(7, 0))
+		КОНЕЦ) КАК СтажЛет,
+	(ВЫБОР
+			КОГДА ДЕНЬ(&amp;Период) &gt;= ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+				ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ)
+			КОГДА ДЕНЬ(&amp;Период) &lt; ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+				ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ) - 1
+		КОНЕЦ - ВЫБОР
+			КОГДА ВЫБОР
+					КОГДА ДЕНЬ(&amp;Период) &gt;= ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+						ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ)
+					КОГДА ДЕНЬ(&amp;Период) &lt; ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+						ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ) - 1
+				КОНЕЦ / 12 &lt; (ВЫРАЗИТЬ(ВЫБОР
+						КОГДА ДЕНЬ(&amp;Период) &gt;= ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+							ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ)
+						КОГДА ДЕНЬ(&amp;Период) &lt; ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+							ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ) - 1
+					КОНЕЦ / 12 КАК ЧИСЛО(7, 0)))
+				ТОГДА (ВЫРАЗИТЬ(ВЫБОР
+							КОГДА ДЕНЬ(&amp;Период) &gt;= ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+								ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ)
+							КОГДА ДЕНЬ(&amp;Период) &lt; ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+								ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ) - 1
+						КОНЕЦ / 12 КАК ЧИСЛО(7, 0))) - 1
+			ИНАЧЕ ВЫРАЗИТЬ(ВЫБОР
+						КОГДА ДЕНЬ(&amp;Период) &gt;= ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+							ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ)
+						КОГДА ДЕНЬ(&amp;Период) &lt; ДЕНЬ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней))
+							ТОГДА РАЗНОСТЬДАТ(ДОБАВИТЬКДАТЕ(ДОБАВИТЬКДАТЕ(Стажи.ДатаОтсчета, МЕСЯЦ, -Стажи.РазмерМесяцев), ДЕНЬ, -Стажи.РазмерДней), &amp;Период, МЕСЯЦ) - 1
+					КОНЕЦ / 12 КАК ЧИСЛО(7, 0))
+		КОНЕЦ * 12) КАК СтажМесяцев,
+	(ВЫБОР
+			КОГДА РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения &lt;&gt; ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0)
+					И (ВЫРАЗИТЬ((ВЫРАЗИТЬ(РАЗНОСТЬДАТ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, &amp;Период, ГОД) КАК ЧИСЛО(7, 0))) / 5 КАК ЧИСЛО(7, 0))) = (ВЫРАЗИТЬ(РАЗНОСТЬДАТ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, &amp;Период, ГОД) КАК ЧИСЛО(7, 0))) / 5
+				ТОГДА ИСТИНА
+			ИНАЧЕ ЛОЖЬ
+		КОНЕЦ) КАК Юбиляр,
+	(ВЫБОР
+			КОГДА РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения &lt;&gt; ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0)
+					И ДОБАВИТЬКДАТЕ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, МЕСЯЦ, (ВЫРАЗИТЬ(РАЗНОСТЬДАТ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, &amp;Период, ГОД) КАК ЧИСЛО(7, 0))) * 12) &lt; НАЧАЛОПЕРИОДА(&amp;Период, МЕСЯЦ)
+				ТОГДА ДОБАВИТЬКДАТЕ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, МЕСЯЦ, (ВЫРАЗИТЬ(РАЗНОСТЬДАТ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, &amp;Период, ГОД) КАК ЧИСЛО(7, 0))) * 12 + 12)
+			КОГДА РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения = ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0)
+				ТОГДА "Дата рождения не заполнена"
+			ИНАЧЕ ДОБАВИТЬКДАТЕ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, МЕСЯЦ, (ВЫРАЗИТЬ(РАЗНОСТЬДАТ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, &amp;Период, ГОД) КАК ЧИСЛО(7, 0))) * 12)
+		КОНЕЦ) КАК ДеньРождения,
+	(ВЫБОР
+			КОГДА РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения &lt;&gt; ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0)
+					И ДОБАВИТЬКДАТЕ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, МЕСЯЦ, (ВЫРАЗИТЬ(РАЗНОСТЬДАТ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, &amp;Период, ГОД) КАК ЧИСЛО(7, 0))) * 12) &lt; НАЧАЛОПЕРИОДА(&amp;Период, МЕСЯЦ)
+				ТОГДА МЕСЯЦ(ДОБАВИТЬКДАТЕ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, МЕСЯЦ, (ВЫРАЗИТЬ(РАЗНОСТЬДАТ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, &amp;Период, ГОД) КАК ЧИСЛО(7, 0))) * 12 + 12))
+			КОГДА РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения = ДАТАВРЕМЯ(1, 1, 1, 0, 0, 0)
+				ТОГДА "Дата рождения не заполнена"
+			ИНАЧЕ МЕСЯЦ(ДОБАВИТЬКДАТЕ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, МЕСЯЦ, (ВЫРАЗИТЬ(РАЗНОСТЬДАТ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения, &amp;Период, ГОД) КАК ЧИСЛО(7, 0))) * 12))
+		КОНЕЦ) КАК Месяц,
+	Стажи.ВидСтажа,
+	(ВЫБОР
+			КОГДА РаботникиОрганизации.Сотрудник.ВидЗанятости &lt;&gt; ЗНАЧЕНИЕ(Перечисление.удуВидыЗанятостиВОрганизации.ВнутреннееСовместительство)
+					И СостояниеРаботниковНаИспытательномСроке.Состояние = ЗНАЧЕНИЕ(Перечисление.удуСостоянияРаботникаНаИспытательномСроке.ПринятНаИспытательныйСрок)
+				ТОГДА ИСТИНА
+			ИНАЧЕ ЛОЖЬ
+		КОНЕЦ) КАК НаИспытательномСроке,
+	ФизическиеЛицаНаграды.Награда.*,
+	ФизическиеЛицаНаграды.НомерПриказа,
+	ФизическиеЛицаНаграды.ДатаПриказа,
+	ФизическиеЛицаНаграды.ЧейПриказ КАК Приказ,
+	ФизическиеЛицаПрофессии.Профессия}
+{ХАРАКТЕРИСТИКИ
+	ТИП(Справочник.ФизическиеЛица)
+	ВИДЫХАРАКТЕРИСТИК (ВЫБРАТЬ
+			ВидыКонтактнойИнформации.Ссылка,
+			ВидыКонтактнойИнформации.Наименование,
+			"" КАК Тип
+		ИЗ
+			Справочник.ВидыКонтактнойИнформации КАК ВидыКонтактнойИнформации
+		ГДЕ
+			ВидыКонтактнойИнформации.Родитель = ЗНАЧЕНИЕ(Справочник.ВидыКонтактнойИнформации.СправочникФизическиеЛица)
+			И (НЕ ВидыКонтактнойИнформации.ПометкаУдаления))
+	ПОЛЕКЛЮЧА Ссылка
+	ПОЛЕИМЕНИ Наименование
+	ПОЛЕТИПАЗНАЧЕНИЯ Тип
+	ЗНАЧЕНИЯХАРАКТЕРИСТИК (ВЫБРАТЬ
+			ФизическиеЛицаКонтактнаяИнформация.Ссылка,
+			ФизическиеЛицаКонтактнаяИнформация.Представление,
+			ФизическиеЛицаКонтактнаяИнформация.Вид
+		ИЗ
+			Справочник.ФизическиеЛица.КонтактнаяИнформация КАК ФизическиеЛицаКонтактнаяИнформация)
+	ПОЛЕОБЪЕКТА Ссылка
+	ПОЛЕВИДА Вид
+	ПОЛЕЗНАЧЕНИЯ Представление }
+{ХАРАКТЕРИСТИКИ
+	ТИП(Справочник.удуУчреждения)
+	ВИДЫХАРАКТЕРИСТИК (ВЫБРАТЬ
+			"Ответственное лицо" КАК Идентификатор,
+			"Ответственное лицо" КАК ИмяХарактеристики)
+	ПОЛЕКЛЮЧА Идентификатор
+	ПОЛЕИМЕНИ ИмяХарактеристики
+	ЗНАЧЕНИЯХАРАКТЕРИСТИК (ВЫБРАТЬ
+			ОтветственныеЛицаСрезПоследних.Учреждение КАК Объект,
+			"Ответственное лицо" КАК Идентификатор,
+			ОтветственныеЛицаСрезПоследних.ФизЛицо КАК ЗначениеОтв
+		ИЗ
+			РегистрСведений.удуОтветственныеЛицаУчреждения.СрезПоследних КАК ОтветственныеЛицаСрезПоследних
+		ГДЕ
+			ОтветственныеЛицаСрезПоследних.ОтветственноеЛицо = ЗНАЧЕНИЕ(Перечисление.ОтветственныеЛицаОрганизаций.РуководительОрганизации))
+	ПОЛЕОБЪЕКТА Объект
+	ПОЛЕВИДА Идентификатор
+	ПОЛЕЗНАЧЕНИЯ ЗначениеОтв }</query>
+		<autoFillFields>false</autoFillFields>
+	</dataSet>
+	<calculatedField>
+		<dataPath>ДанныеОФизЛице.Гражданство.ФизЛицоИмеетПравоНаПенсию</dataPath>
+		<expression>ВЫБОР 
+КОГДА ДанныеОФизЛице.Гражданство.ФизЛицоНеИмеетПравоНаПенсию ЕСТЬ NULL
+ ТОГДА "Да"
+ИНАЧЕ Формат(ДанныеОФизЛице.Гражданство.ФизЛицоНеИмеетПравоНаПенсию,"БЛ=Да; БИ=Нет")
+КОНЕЦ</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Имеет право на пенсию</v8:content>
+			</v8:item>
+		</title>
+		<availableValue>
+			<value xsi:type="xs:string">Да</value>
+			<presentation xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Да</v8:content>
+				</v8:item>
+			</presentation>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="xs:string">Нет</value>
+			<presentation xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нет</v8:content>
+				</v8:item>
+			</presentation>
+		</availableValue>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ДанныеОФизЛице.Гражданство.ФизЛицоЯвляетсяНалоговымРезидентомРФ</dataPath>
+		<expression>ВЫБОР 
+КОГДА ДанныеОФизЛице.Гражданство.ФизЛицоНеЯвляетсяНалоговымРезидентомРФ ЕСТЬ NULL
+ ТОГДА "Да"
+ИНАЧЕ Формат(ДанныеОФизЛице.Гражданство.ФизЛицоНеЯвляетсяНалоговымРезидентомРФ,"БЛ=Да; БИ=Нет")
+КОНЕЦ</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Является налоговым резидентом РФ</v8:content>
+			</v8:item>
+		</title>
+		<availableValue>
+			<value xsi:type="xs:string">Да</value>
+			<presentation xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Да</v8:content>
+				</v8:item>
+			</presentation>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="xs:string">Нет</value>
+			<presentation xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нет</v8:content>
+				</v8:item>
+			</presentation>
+		</availableValue>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ДанныеОФизЛице.ОписаниеСтажа</dataPath>
+		<expression>ДанныеОФизЛице.Стаж.ВидСтажа.Наименование + ": " + 
+ВЫБОР КОГДА ДанныеОФизЛице.Стаж.СтажЛет &lt;&gt; 0 
+ТОГДА СТРОКА(ДанныеОФизЛице.Стаж.СтажЛет) + " лет " ИНАЧЕ ""
+КОНЕЦ+ 
+ВЫБОР КОГДА ДанныеОФизЛице.Стаж.СтажМесяцев &lt;&gt; 0 
+ТОГДА СТРОКА(ДанныеОФизЛице.Стаж.СтажМесяцев) + " месяцев " ИНАЧЕ "" 
+КОНЕЦ+ ВЫБОР КОГДА ДанныеОФизЛице.Стаж.СтажДней &lt;&gt; 0  ТОГДА СТРОКА(ДанныеОФизЛице.Стаж.СтажДней) + " дней" ИНАЧЕ "" КОНЕЦ</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Описание стажа</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>ДанныеОФизЛице.Юбиляр</dataPath>
+		<expression>  ВЫБОР КОГДА ДанныеОФизЛице.ФизЛицоДатаРождения &lt;&gt; ДАТАВРЕМЯ(1,1,1, 0,0,0) И (РАЗНОСТЬДАТ(ДанныеОФизЛице.ФизЛицоДатаРождения, ДанныеОФизЛице.ДеньРождения, "год")  % 5 = 0) 
+       ТОГДА ИСТИНА
+       ИНАЧЕ ЛОЖЬ 
+     КОНЕЦ
+</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Юбиляр</v8:content>
+			</v8:item>
+		</title>
+		<useRestriction>
+			<group>true</group>
+			<order>true</order>
+		</useRestriction>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+	</calculatedField>
+	<totalField>
+		<dataPath>ДанныеОРаботнике.ЗанимаемыхСтавок</dataPath>
+		<expression>Сумма(ДанныеОРаботнике.ЗанимаемыхСтавок)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ДанныеОРаботнике.Размер</dataPath>
+		<expression>Сумма(ДанныеОРаботнике.Размер)</expression>
+	</totalField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<expression>КонецПериода(&amp;Период,"День")</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>КадровыйРаботник</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Кадровый работник</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.удуСотрудникиОрганизаций</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Справочник.удуСотрудникиОрганизаций.ПустаяСсылка</value>
+		<useRestriction>false</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>Бланк</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Бланк</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ДанныеОРаботнике.Организация</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.удуУчреждения.ПустаяСсылка</dcsset:right>
+					<dcsset:userSettingID>34ea740a-c9e4-490d-a969-7aae6b567884</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ДанныеОРаботнике.ПодразделениеОрганизации</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.удуПодразделенияУчереждения.ПустаяСсылка</dcsset:right>
+					<dcsset:userSettingID>80c4e44a-254f-4a70-8d25-298ee5bf612a</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Сотрудник</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.удуСотрудникиОрганизаций.ПустаяСсылка</dcsset:right>
+					<dcsset:userSettingID>68d61f0a-0209-4b8d-a7d5-747a786c09aa</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>РасположениеРеквизитов</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionAttributesPlacement">Separately</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Output</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Список работников организации</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

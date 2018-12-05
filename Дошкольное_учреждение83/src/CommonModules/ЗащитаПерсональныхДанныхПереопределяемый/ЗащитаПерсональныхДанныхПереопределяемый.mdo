@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="572ff989-3289-405e-b580-1f864a32f4ff">
+  <name>ЗащитаПерсональныхДанныхПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Защита персональных данных переопределяемый</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

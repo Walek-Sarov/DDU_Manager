@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ba526f5-22eb-4fa9-b858-826e51c0981a">
+  <producedTypes>
+    <selectionType typeId="d2641207-2f02-4ca3-a372-36248aaf40a9" valueTypeId="4db35caf-14a5-40d2-963d-6b6856c45cd9"/>
+    <listType typeId="ae736725-e77c-4cfe-b7f6-e6af50b79524" valueTypeId="047573e1-3809-4f1f-8603-65098162310b"/>
+    <managerType typeId="6b70757b-cf09-4826-bb16-20fc6b1b7fe2" valueTypeId="1c885f09-c0fd-40f5-a00c-86ad2216c397"/>
+    <recordSetType typeId="09c8701b-bd5a-4539-9de1-6f19b87ec062" valueTypeId="f29b57ca-3385-4b71-915e-fc58e295c8be"/>
+    <recordKeyType typeId="a15853c6-66e8-4b4e-9827-25a4652439ab" valueTypeId="488ae66a-3ace-4fe7-8cc5-4ed18949be0c"/>
+    <recordType typeId="51075170-9f9e-41ba-8a6c-595d92653c5c" valueTypeId="dbcceaf2-86d0-40f5-abb9-e3971c3043d5"/>
+    <recordManagerType typeId="8c886b61-4b58-4e14-94f3-3e410dd8c878" valueTypeId="cf464d27-4a98-4785-ba27-73f12cf55860"/>
+  </producedTypes>
+  <name>удуСвязьДокументовСДелопроизводством</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связь документов с делопроизводством</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5bf27828-3b2c-4ea8-9a12-fb6eff187b9f">
+    <name>ВидДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид документа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид документа для связи</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="585cfc99-3ee0-4315-a405-0abefc67f687">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>произвольная информация о связи</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="b5583738-6e13-4b1f-b97b-fbe3eb44c495">
+    <name>ДокументДОУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ ДОУ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.удуДоговорОЗачисленииРебенка</types>
+      <types>CatalogRef.удуДокументыПропускаЗанятий</types>
+      <types>DocumentRef.удуПриемНаРаботуВОрганизацию</types>
+      <types>DocumentRef.удуВозвратНаРаботуОрганизаций</types>
+      <types>DocumentRef.удуПеремещениеТМЦ</types>
+      <types>DocumentRef.удуОприходованиеТМЦ</types>
+      <types>DocumentRef.удуЗаявкаНаЗачислениеРебенкаВДОУ</types>
+      <types>DocumentRef.удуПриказОЗачисленииРебенкаВГруппу</types>
+      <types>DocumentRef.удуСписаниеТМЦ</types>
+      <types>DocumentRef.удуПриказОВыбытииИзГруппы</types>
+      <types>DocumentRef.удуУвольнениеИзОрганизаций</types>
+      <types>DocumentRef.удуПриказОПереводеВДругуюГруппу</types>
+      <types>DocumentRef.удуКадровоеПеремещениеОрганизаций</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Документ из данной конфигурации</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d2afda26-40d6-4a19-8dfc-6696f878942f">
+    <name>ДокументДелопроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ делопроизводства</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВходящиеДокументы</types>
+      <types>CatalogRef.ВнутренниеДокументы</types>
+      <types>CatalogRef.ИсходящиеДокументы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Документ из делопроизводства</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

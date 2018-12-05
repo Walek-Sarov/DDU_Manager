@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94d82ee8-6569-493f-97c8-c97d9e57d8fc">
+  <name>ИспользоватьРеквизитыУчетаПоКорреспондентам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать реквизиты учета по корреспондентам</value>
+  </synonym>
+  <comment></comment>
+  <location>Catalog.ВидыВнутреннихДокументов.Attribute.УчетПоКорреспондентам</location>
+  <content>Catalog.ВнутренниеДокументы.Attribute.Корреспондент</content>
+  <content>Catalog.ВнутренниеДокументы.Attribute.КонтактноеЛицо</content>
+</mdclass:FunctionalOption>

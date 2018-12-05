@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87af3582-2ae5-4705-a3bf-2bf83d0908a6">
+  <producedTypes>
+    <objectType typeId="ca6fe890-3948-41b4-9fcf-11b435a9a735" valueTypeId="ffd885b0-8922-4dc0-bd56-e5a2ab692902"/>
+    <refType typeId="3426a840-dc6f-4182-b6f7-ef1fca12c6c8" valueTypeId="a69081a5-5c7c-4ade-905d-66f7ac7dce51"/>
+    <selectionType typeId="491c619d-3436-43be-9d6b-a7d9ff891545" valueTypeId="bdd623e2-e248-4842-a893-6a205f67668b"/>
+    <listType typeId="3eb2c05a-8962-4c8a-aa76-13c085879965" valueTypeId="b40a93b9-0439-464f-801d-ab34a701cccc"/>
+    <managerType typeId="1daa6e38-fc82-49b7-a123-3e386626ace9" valueTypeId="cfd90e34-664e-4219-bed4-88ad514a6ce9"/>
+  </producedTypes>
+  <name>удуВышестоящийОрган</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вышестоящий орган</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.удуВышестоящийОрган.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.удуВышестоящийОрган.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вышестоящий орган</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

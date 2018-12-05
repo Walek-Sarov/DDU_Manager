@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c4df54c-2ea8-4a7f-bd3d-211d67332b50">
+  <producedTypes>
+    <refType typeId="3966fb96-ca1c-4911-bbb8-4c95d25d51e1" valueTypeId="b439a9c3-8fc5-4e11-86de-af9da214415e"/>
+    <listType typeId="b19d68c7-c211-4e8a-8692-d92b3a067292" valueTypeId="d6e4d96f-d030-4faf-98ff-05cc4f6692dd"/>
+    <managerType typeId="26900539-9c32-475e-99d0-31eb59e9f2c5" valueTypeId="b29bbf4c-782a-4788-94fc-7e223732d3d5"/>
+  </producedTypes>
+  <name>удуОрганизационнаяСтруктура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организационная структура учреждения</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f4d8cca3-5d40-413b-ac63-ae2369d8e0a4">
+    <name>СамостоятельноеУчреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Самостоятельное учреждение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="226d418a-f288-457d-a534-17c785bde582">
+    <name>ФилиалДошкольногоОбразовательногоУчреждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обособленное структурное подразделение (филиал) дошкольного образовательного учреждения</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a898c87d-f024-46c7-839a-5fbb46fb6de9">
+    <name>ФилиалОбщеобразовательногоУчреждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обособленное структурное подразделение (филиал) общеобразовательного учреждения</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7ca8ec4d-e2eb-4012-bcc2-e2a191cfb006">
+    <name>ПодразделенияДошкольногоОбразования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделения (группы) дошкольного образования, организованные в общеобразовательном учреждении</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

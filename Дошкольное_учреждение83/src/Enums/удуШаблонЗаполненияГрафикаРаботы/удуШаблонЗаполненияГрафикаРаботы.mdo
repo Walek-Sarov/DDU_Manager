@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97a94f39-0bae-4260-9834-bfe677e2432e">
+  <producedTypes>
+    <refType typeId="b84a4f25-ecdb-4154-b298-45867581877d" valueTypeId="97086331-dc73-46cf-a182-c8860442f2a0"/>
+    <listType typeId="aff32d50-6e47-4626-a6ba-6a276b32c255" valueTypeId="41d916cc-f159-4360-80f0-03bc25fd3206"/>
+    <managerType typeId="ecf8a618-9c59-47f2-aec6-4b68b4dd6ad1" valueTypeId="61b7fb09-92c7-4c69-8f4d-eaaffde8005b"/>
+  </producedTypes>
+  <name>удуШаблонЗаполненияГрафикаРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон заполнения графика работы</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="03d911f5-6593-4cbd-9d8e-4155790e19f8">
+    <name>Пятидневка40</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пятидневка 40 часов</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c81eb72a-9218-4200-9877-2bd2a2cb38ef">
+    <name>Шестидневка40</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шестидневка 40 часов</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="aef185c5-96d2-4a0f-96c5-2b91db9fb392">
+    <name>СуткиЧерезДвое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сутки через двое</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="f5cdabb8-a2d7-485b-8744-f6d1acd5bd0c">
+    <name>СуткиЧерезТрое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сутки через трое</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="93894f16-cb99-4fc3-aa1b-306e9b436f2e">
+    <name>КалендарныеДни</name>
+    <synonym>
+      <key>ru</key>
+      <value>Календарные дни</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

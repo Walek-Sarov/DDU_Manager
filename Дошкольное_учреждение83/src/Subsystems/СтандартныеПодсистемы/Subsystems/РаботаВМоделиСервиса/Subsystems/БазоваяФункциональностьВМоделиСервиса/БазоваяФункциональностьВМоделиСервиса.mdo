@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fd1287d-d96d-4480-baf7-8815ae5ffbfb">
+  <name>БазоваяФункциональностьВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовая функциональность в модели сервиса</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.РаботаВМоделиСервиса</content>
+  <content>CommonModule.РаботаВМоделиСервисаПереопределяемый</content>
+  <content>Constant.КопироватьОбластиДанныхИзЭталонной</content>
+  <content>Constant.РежимИспользованияИнформационнойБазы</content>
+  <content>Constant.СообщениеБлокировкиПриОбновленииКонфигурации</content>
+  <content>Enum.РежимыИспользованияИнформационнойБазы</content>
+  <content>Enum.СтатусыОбластейДанных</content>
+  <content>SessionParameter.ОбластьДанныхЗначение</content>
+  <content>SessionParameter.ОбластьДанныхИспользование</content>
+  <content>CommonAttribute.ОбластьДанных</content>
+  <content>ScheduledJob.ОбслуживаниеОбластейДанных</content>
+  <content>CommonForm.ВходВОбластьДанных</content>
+  <content>InformationRegister.ОбластиДанных</content>
+  <content>ScheduledJob.ОбновлениеОбластейДанных</content>
+  <content>CommonModule.РаботаВМоделиСервисаПовтИсп</content>
+  <content>Constant.РазмерБлокаПередачиФайла</content>
+  <content>Constant.ОбщийКаталогВременныхФайлов</content>
+  <content>Constant.ОбщийКаталогВременныхФайловLinux</content>
+  <content>Constant.ПарольПользователяАгентаСервиса</content>
+  <content>Constant.ИмяПользователяАгентаСервиса</content>
+  <content>Constant.АдресАгентаСервиса</content>
+  <content>XDTOPackage.AgentScripts</content>
+  <content>XDTOPackage.Сообщения</content>
+  <content>CommonModule.СообщенияВМоделиСервиса</content>
+  <content>CommonModule.СообщенияВМоделиСервисаПовтИсп</content>
+  <content>Constant.КлючОбластиДанных</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы.Subsystem.РаботаВМоделиСервиса</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b73b22b7-419a-4ae9-b954-f6ad2244175b">
+  <name>ВнешниеБизнесПроцессыИЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внешние бизнес процессы и задачи</value>
+  </synonym>
+  <comment></comment>
+  <content>CommonModule.ВнешниеЗадачиВызовСервера</content>
+  <content>CommonModule.ВнешниеЗадачиВызовСервераПереопределяемый</content>
+  <content>CommonModule.ОбменВнешнимиЗаданиямиСобытия</content>
+  <content>ExchangePlan.ОбменВнешнимиЗаданиями</content>
+  <content>ExchangePlan.ОбменВнешнимиЗаданиямиС1СДокументооборот</content>
+  <content>EventSubscription.ВыполнитьПодготовкуСтартаВнешнегоЗадания</content>
+  <content>EventSubscription.СтартоватьВнешнееЗадание</content>
+  <content>EventSubscription.ОбменВнешнимиЗаданиямиС1СДокументооборотЗарегистрироватьИзменение</content>
+  <content>EventSubscription.ОбменВнешнимиЗаданиямиС1СДокументооборотЗарегистрироватьУдаление</content>
+  <content>EventSubscription.ОбменВнешнимиЗаданиямиЗарегистрироватьИзменение</content>
+  <content>EventSubscription.ОбменВнешнимиЗаданиямиЗарегистрироватьУдаление</content>
+  <content>InformationRegister.ИсточникиВнешнихЗадач</content>
+  <content>Constant.ИспользоватьВнешниеЗадачи</content>
+  <content>CommonModule.ОбменВнешнимиЗаданиямиСервер</content>
+  <content>FunctionalOption.ИспользоватьВнешниеЗадачи</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

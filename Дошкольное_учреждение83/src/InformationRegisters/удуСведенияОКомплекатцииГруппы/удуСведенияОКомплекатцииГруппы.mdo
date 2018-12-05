@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac539470-8fac-4a5c-9609-edb78089e360">
+  <producedTypes>
+    <selectionType typeId="6f54faf1-86cd-447a-9748-aecff39e88c9" valueTypeId="aa5060c6-61ab-4994-89dc-b3079eaf863e"/>
+    <listType typeId="2c837d9b-0ad2-42e9-821a-5f185172a1f1" valueTypeId="4548c17d-d600-4328-9378-e56b80717ad6"/>
+    <managerType typeId="12e2a9b5-3414-4380-a9dc-9b24b517d2d3" valueTypeId="e90cdb1b-3919-4ac6-b0ef-a01fc6eafdde"/>
+    <recordSetType typeId="b82b0aae-4662-4dfb-bf88-95347d127093" valueTypeId="5688da3c-9254-4bc1-8e25-ab1269ee2412"/>
+    <recordKeyType typeId="254d26df-09b1-4534-aaaf-42f4ab1e133c" valueTypeId="acffd3f5-5229-4c2c-8fad-bd12bc225b10"/>
+    <recordType typeId="7abec981-499c-4996-94f9-7e0332dad2b9" valueTypeId="806559e7-71d1-4cb6-88e5-ea481a118059"/>
+    <recordManagerType typeId="3471b331-1dc5-4e29-9f0a-9de319a6b41e" valueTypeId="5182a05c-6f75-42ee-a7b3-854188269db6"/>
+  </producedTypes>
+  <name>удуСведенияОКомплекатцииГруппы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения о комплектации группы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="caa95326-7f3c-4273-a2b5-f3ff0e728c81">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество комплектуемых мест</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="46331b46-c904-4d68-8acf-597402a2599b">
+    <name>Учреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учреждение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуУчреждения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дошкольное учреждение</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a64bbeee-974b-48c2-8905-7e9e9aa5963a">
+    <name>ПериодКомплектования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период комплектования</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>За какой период комплектуется группа</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="23852172-c237-43c1-87b0-42ab6925c634">
+    <name>Ребенок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ребенок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуДети</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Воспитанник ДОУ</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="55a6ab43-5473-47f0-bd32-7ca30a8ed826">
+    <name>ВозрастнойПризнак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возрастной признак</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуВозрастныеПризнаки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Возрастной признак группы для зачисления</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1188b955-57fe-4a0a-934f-16ae9ecce570">
+    <name>Группа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуГруппыУчреждения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа для комплектации</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="793b7931-cd58-45cb-b6ad-225d96e713aa">
+  <name>удуИспользоватьУчетМетодическихМатериаловИ_ТМЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать учет методических материалов и ТМЦ</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.удуИспользоватьУчетМетодическихМатериаловИ_ТМЦ</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.удуМетодическиеМатериалы</content>
+  <content>Catalog.удуУчетныеЕдиницы</content>
+  <content>Catalog.удуАвторы</content>
+  <content>Catalog.удуИздательства</content>
+  <content>Catalog.удуВидыМетодическихМатериалов</content>
+  <content>Catalog.удуНаправленияДеятельностиДОУ</content>
+  <content>Catalog.удуМноготомники</content>
+  <content>Catalog.удуСерии</content>
+  <content>Catalog.удуРолиАвтора</content>
+  <content>Catalog.удуСтатьи</content>
+  <content>Catalog.удуПричиныВыдачиМетодическихМатериалов</content>
+  <content>Document.удуВыдачаМетодическихМатериалов</content>
+  <content>Document.удуВозвратМетодическихМатериалов</content>
+  <content>Enum.удуТипыПериодическихИзданий</content>
+  <content>InformationRegister.удуНедоступныеМетодическиеМатериалы</content>
+  <content>Enum.удуОбозначенияМетодическихМатериалов</content>
+  <content>Report.удуМетодическиеМатериалыВНаличии</content>
+  <content>AccumulationRegister.удуМетодическиеМатериалыНаРуках</content>
+  <content>Document.удуОприходованиеТМЦ</content>
+  <content>Document.удуПеремещениеТМЦ</content>
+  <content>Document.удуСписаниеТМЦ</content>
+  <content>Subsystem.удуУчетТМЦ</content>
+  <content>Subsystem.удуУчетТМЦ.Subsystem.Документы</content>
+  <content>DocumentJournal.удуУчетМетодическихМатериаловИ_ТМЦ</content>
+</mdclass:FunctionalOption>

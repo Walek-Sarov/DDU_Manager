@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29f2094a-d0d1-425c-8161-45a9ba186e19">
+  <name>ОткрытьСценарииОбменовДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сценарии обменов данными</value>
+  </synonym>
+  <comment></comment>
+  <group>FormNavigationPanelImportant</group>
+  <commandParameterType>
+    <types>ExchangePlanRef.ОбменВнешнимиЗаданиями</types>
+    <types>ExchangePlanRef.ОбменВнешнимиЗаданиямиС1СДокументооборот</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

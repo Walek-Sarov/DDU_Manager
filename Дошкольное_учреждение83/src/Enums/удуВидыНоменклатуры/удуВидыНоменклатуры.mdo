@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8efcf666-a3fb-4317-ad1b-d7d1ff80e8e9">
+  <producedTypes>
+    <refType typeId="de1820fa-e1c3-4ee0-8118-e9cb3f16fbac" valueTypeId="ccba487a-bfa3-48a2-af15-2cdaa761e797"/>
+    <listType typeId="d0ea78e3-d63a-46f8-9449-619cdb5bde73" valueTypeId="ff66b3cd-26d3-45ae-851b-2c9de70a0f66"/>
+    <managerType typeId="e3c14615-8fa1-48cc-abbd-5029a32077ac" valueTypeId="567ea395-279c-42e5-b82d-1dc96efeea69"/>
+  </producedTypes>
+  <name>удуВидыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды номенклатуры</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fad54f07-da85-4e65-b62e-5b4dbe7738f6">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="d47f6258-30af-4bf8-a030-a4befc1c51bf">
+    <name>ПродуктПитания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукт питания</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ed723d76-54b4-4ce7-9d0b-e38bfacdd98a">
+    <name>ОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное средство</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

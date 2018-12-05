@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a1e7408-0c45-4bc5-963e-89ae469d7f12">
+  <producedTypes>
+    <managerType typeId="f377dfb6-8743-463e-9a16-571721c00876" valueTypeId="aa248feb-b164-4bfb-94ab-c0c13a91806c"/>
+    <valueManagerType typeId="b5a8611a-038a-40f3-b75a-d34ee6969630" valueTypeId="63947622-8f5c-4cc2-a5bd-6174cf3e9f6c"/>
+  </producedTypes>
+  <name>ИспользоватьУчетПоОрганизациям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать учет по организациям</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Вести учет по организациям</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

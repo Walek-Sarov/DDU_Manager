@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aaf94c19-6a5c-4c4e-a0d3-4836a0b1e546">
+  <producedTypes>
+    <objectType typeId="118e6a3f-ea66-413d-b059-8e4055e4c3c6" valueTypeId="382fae8f-bd6a-4912-827e-5e5ab0fff812"/>
+    <managerType typeId="c25dd0b7-b6ee-4280-9010-937c35436593" valueTypeId="ff0a7333-60f6-4c4c-842a-d27adbddcbdc"/>
+  </producedTypes>
+  <name>удуБыстраяРегистрацияЗаявкиНаЗачисление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Быстрая регистрация заявки на зачисление</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.удуБыстраяРегистрацияЗаявкиНаЗачисление.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="6dfc3eda-6585-45b3-af7a-3b47937871cb">
+    <name>РебенокФамилия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Фамилия ребенка</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="3559c78a-2a74-423e-8eae-f66cd96dc84f">
+    <name>РебенокИмя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя ребенка</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="2f25155c-3bea-4809-a8d3-23841c6fefd5">
+    <name>РебенокОтчество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчество</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отчество ребенка</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4d0a8bc2-5276-405a-88c0-eccf1cee9d3e">
+    <name>РебенокДатаРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата рождения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата рождения ребенка</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="d99f3b18-ab27-4b10-9b9b-f53f77ce7022">
+    <name>РебенокПол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пол</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.удуПол</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пол ребенка</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="021ed71e-6c24-43be-b937-0ca8938a19e5">
+    <name>РодительФамилия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фамилия</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Фамилия родителя</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="f930078b-c677-4b44-915e-e592fc13c199">
+    <name>РодительИмя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя родителя</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="ec14e703-16f9-440d-bbe7-22360b16aa23">
+    <name>РодительОтчество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчество</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отчество родителя</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0cbcecad-e17f-4f86-8883-2e48a8dba786">
+    <name>РодительРаботает</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель работает</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Родитель работает отметка</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b8f59e76-9162-4138-ad10-84b26afbc1fb">
+    <name>РодительМестоРаботыОбучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель место работы обучения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Родитель воспитанника место работы обучения</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="688a0f4a-c73a-4bdf-950b-8559541ebb38">
+    <name>РодительДолжностьКласс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель должность класс</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Родитель должность класс заявка на зачисление</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fdddd45b-6c11-4db2-9ad0-4f031035e96a">
+    <name>РодительАдресПроживания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес проживания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Адрес проживания родителя</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="14cf240d-133b-4340-b10d-047f21ea46b5">
+    <name>РодительТелефонДомашний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон (домашний)</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Телефон (домашний) родителя</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b55707be-2482-4555-aab3-328f612d5534">
+    <name>РодительТелефонМобильный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон (мобильный)</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Телефон (мобильный) родителя</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e33e42b5-0b61-4dcb-ad14-2634738dffce">
+    <name>СтепеньРодства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Степень родства</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуСтепениРодства</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Степень родства заявителя</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="a16adc74-b194-4557-9a91-8b122dd0d712">
+    <name>ПериодЗачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период зачисления</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Период зачисления воспитанника</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="abc0afc9-0e72-406c-b2cd-54eb3a1831c6">
+    <name>ДатаРегистрацииЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата регистрации заявки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата регистрации заявки на зачисление</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="df072b98-2774-4e1d-b6bd-85763ce50c19">
+    <name>ГруппаЖелаемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа желаемая</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуГруппыУчреждения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа желаемая для зачисления</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="d296343c-a101-4658-9af8-c53d198ca5bd">
+    <name>Учреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учреждение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуУчреждения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Учреждение в заявке</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <tabularSections uuid="45b12290-4e41-43f9-a133-43213e1e58ec">
+    <producedTypes>
+      <objectType typeId="537ebfdf-791c-4a71-9d16-b20fac3f82e7" valueTypeId="f64ff42c-97c0-458d-a7b9-535f7dc8c997"/>
+      <rowType typeId="424fa060-2999-4295-bdab-6d5c694e7bf8" valueTypeId="85360bc6-80cf-4a3e-a4e9-254bfa85177c"/>
+    </producedTypes>
+    <name>ЛьготыПоЗаявке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Льготы по заявке</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="21ec9fb2-a7cf-421c-9d9e-3c3ab2ce7ce8">
+      <name>Льгота</name>
+      <synonym>
+        <key>ru</key>
+        <value>Льгота</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.удуЛьготыПоЗачислению</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Льгота на зачисление</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="1b43c594-7cef-4dda-a275-cb7c7116338d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5aeab9d6-d678-43b8-b3e4-03f36cb9fcc0">
+    <name>ФормаПодтверждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подтверждения</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

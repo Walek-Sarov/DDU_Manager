@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02f1051d-e295-4569-a964-2f5973e038ba">
+  <producedTypes>
+    <objectType typeId="5a1809d1-f110-495f-bf8c-e3a6db1ab83d" valueTypeId="a31fa3bb-5509-4a2d-81c1-dba532cac4f0"/>
+    <managerType typeId="b1eb8f46-ed4a-49e9-a739-f6991e403048" valueTypeId="4e444330-8382-44e4-84aa-cbb1f933c998"/>
+  </producedTypes>
+  <name>удуОтчетТабельПосещенияДОУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет табель посещения ДОУ</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.удуОтчетТабельПосещенияДОУ.Form.ФормаОтчета</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="146faf07-2d4c-46ae-b3a9-982c6bdba8d7">
+    <name>ДатаНачало</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начало</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начало периода</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5d24542c-718c-436f-bc77-0671d7789b92">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата окончания периода</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b5fafa31-42b9-4791-9e75-1c57e2f3b43f">
+    <name>Группа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуГруппыУчреждения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа воспитанников</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c2a3287e-5903-4872-a2f3-e12fbec9219a">
+    <name>Учреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учреждение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуУчреждения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Учреждение для отчета</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e140ba2b-12b4-425e-8f3a-93f626f30877">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9149bd0b-058b-4a5e-85fe-7f555034553e">
+    <name>ФормаРасшифровкиОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма расшифровки отчета</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="0b317168-6d89-452f-b516-bd965a9f38a0">
+    <name>МакетОсновной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет основной</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

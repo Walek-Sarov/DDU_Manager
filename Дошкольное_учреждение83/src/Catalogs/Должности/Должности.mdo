@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9e04ab1-d737-4b2f-bfe4-31060f219cd7">
+  <producedTypes>
+    <objectType typeId="cdaa15cb-d4c1-490d-b1d8-4e9cb162942e" valueTypeId="5c87b9e8-c433-400a-8fa3-ccf1275fe804"/>
+    <refType typeId="90601fa1-b4d7-42be-8dbf-2be625e0af64" valueTypeId="9f5e56cb-a80e-49f1-b467-4a68b21da536"/>
+    <selectionType typeId="d340057f-3e87-42b3-92c7-305c2cda8e49" valueTypeId="88adc0ce-a524-4e7c-b348-1fd3d54acb71"/>
+    <listType typeId="da43a70c-e96f-4fdf-965d-d94cb182b028" valueTypeId="3e139b72-a17d-4687-a617-fbe679008de9"/>
+    <managerType typeId="0320def4-eaf9-4c36-b8c4-9dc909f00ec6" valueTypeId="06a70979-f14f-4f54-b04b-f46df02a7554"/>
+  </producedTypes>
+  <name>Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должности</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Должности.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Должности.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Должности.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="503ea8f0-cc06-48ea-9cc7-bf4368558f61">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5fdf4fbf-9989-4708-93a7-ff662f5a2f43">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e1cf3bab-33c4-45e0-96e7-f9a91e748860">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c6ab42b4-7d72-4f6f-98ef-a86fb945d9bc">
+    <name>КлассификаторДолжностей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификатор должностей</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ee213313-0f74-4574-9a63-6a990ce09a6d">
+    <name>КлассификаторПрофессий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификатор профессий</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3d4a2e0d-8c79-4c54-a364-c29924d02310">
+    <name>КлассификаторПрофессий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификатор профессий</value>
+    </synonym>
+    <comment></comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="38dfc697-31d8-4956-b1c5-2d9fa4788c88">
+    <name>КлассификаторДолжностей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификатор должностей</value>
+    </synonym>
+    <comment></comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Catalog>

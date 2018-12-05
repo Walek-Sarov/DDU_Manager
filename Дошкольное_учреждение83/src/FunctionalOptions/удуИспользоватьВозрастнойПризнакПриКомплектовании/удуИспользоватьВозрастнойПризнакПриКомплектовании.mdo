@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16d3478a-495b-487a-9cec-a30289233151">
+  <name>удуИспользоватьВозрастнойПризнакПриКомплектовании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уду использовать возрастной признак при комплектовании</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.удуИспользоватьВозрастнойПризнакПриКомплектовании</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.удуВозрастныеПризнаки</content>
+  <content>Document.удуЗаявкаНаЗачислениеРебенкаВДОУ.Attribute.ВозрастнойПризнак</content>
+  <content>Catalog.удуГруппыУчреждения.Attribute.ВозрастнойПризнак</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f419bde-87de-463a-99c8-d51324b96111">
+  <name>удуИспользоватьДержателяДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать &quot;держателя&quot; документа</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.удуИспользоватьДержателяДокумента</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ВнутренниеДокументы.Attribute.удуДержательДокумента</content>
+  <content>Catalog.ВходящиеДокументы.Attribute.удуДержательДокумента</content>
+  <content>Catalog.ИсходящиеДокументы.Attribute.удуДержательДокумента</content>
+</mdclass:FunctionalOption>

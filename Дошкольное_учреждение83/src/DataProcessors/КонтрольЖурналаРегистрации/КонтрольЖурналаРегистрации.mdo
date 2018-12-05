@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16aafed9-ac0d-424f-93e5-01d77dcb7796">
+  <producedTypes>
+    <objectType typeId="e6398f37-e750-4434-9652-db548806ada0" valueTypeId="830f0e29-4fc0-4680-83dc-ccc32e561c25"/>
+    <managerType typeId="3008c92a-b568-4cdb-9248-6e411327495a" valueTypeId="ae5382f9-329b-4d49-9f25-7b79c92307b9"/>
+  </producedTypes>
+  <name>КонтрольЖурналаРегистрации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль журнала регистрации</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КонтрольЖурналаРегистрации.Form.КонтрольЖурналаРегистрации</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="ae5d7329-4cdb-4d11-ab00-4dc62133941e">
+    <name>КонтрольЖурналаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контроль журнала регистрации</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="52b39a5b-6a9d-4341-a040-3eae413b3f9d">
+    <name>УстановкаПочтовыхАдресовДляОтправкиОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка почтовых адресов для отправки отчета</value>
+    </synonym>
+    <comment></comment>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0bb118c-ddb8-4bac-b456-560be9fb6b50">
+  <producedTypes>
+    <objectType typeId="77574147-6a66-45e8-9e14-e676cdb2ab72" valueTypeId="7b4ec090-e8cc-4dd6-a1da-2af5e00deee2"/>
+    <refType typeId="3ae40bb3-cdfa-4ae5-a071-b7bdce8507ff" valueTypeId="8668b688-e84c-44df-bd56-cc630b73b54b"/>
+    <selectionType typeId="5ff6d8df-6157-43a1-897d-08c025f48202" valueTypeId="7f020c80-dd90-47ab-8c10-d891f5f726da"/>
+    <listType typeId="7bafd9c3-aed3-4c10-8843-deb71a1fd877" valueTypeId="2bb81136-d215-4563-80b8-5832d43e8df4"/>
+    <managerType typeId="a38d3db5-80ae-4aa7-bd72-0b08b8522597" valueTypeId="911e4d17-4211-4174-8c74-1573f777ee35"/>
+  </producedTypes>
+  <name>удуРеестрыОтправки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестры отправки</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.удуРеестрыОтправки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.удуРеестрыОтправки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.удуРеестрыОтправки.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.удуРеестрыОтправки.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.удуРеестрыОтправки.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="e843c42a-abc8-44ba-974d-74df2547514c">
+    <name>ТипРеестра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип реестра</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуТипыРеестров</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип реестра отправки</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0d7e4087-ef2b-4c26-893e-f55ff930b6ca">
+    <name>ДатаОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата отправки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Фактическая дата отправки</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fbfd0cd0-ae51-44f5-9c23-e61b1cc7ddb7">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.удуСтатусОтправки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Статус отправки</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9c88eda7-7f9c-44df-a3b0-62d8b320e4b1">
+    <name>ВидДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид доставки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СпособыДоставки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Способ доставки документа</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="659515ff-072c-4500-af22-54f1c33e1eb8">
+    <name>ЧисловойНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Числовой номер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Числовой номер реестра</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ea87ba34-26a1-4212-9cbc-8db371b49b57">
+    <name>РегистрационныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрационный номер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Регистрационный номер реестра</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="77d48f67-ca14-457a-baa5-f099311ec1ab">
+    <name>ДатаЗакрытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата закрытия</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата закрытия реестра</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="980a2a3f-cf4b-472d-bd2b-c9bbbcbc2a0e">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь текущего реестра</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="b268509a-aeb2-4ecc-af2e-630209b0d55c">
+    <producedTypes>
+      <objectType typeId="fb458f19-d10d-419f-9823-752acfd27db4" valueTypeId="018f2367-0a2d-49f8-ad9e-260b4b82f5f5"/>
+      <rowType typeId="f9b8e2b1-5658-43a8-9163-11651efb3199" valueTypeId="e3d1df9f-b73c-4bfe-af63-fb37b934c37b"/>
+    </producedTypes>
+    <name>Документы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документы</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="096d0f55-f4bb-47d2-98c8-d2bccc9a634f">
+      <name>Документ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ИсходящиеДокументы</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Документ, входящий в реестр</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7016581c-d267-4898-abc8-d1777a4e84e4">
+      <name>Адресат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Адресат</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.КонтактныеЛица</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Предназначенный для отправки документов адресат</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5d2e02fe-79ca-4693-9351-2ef7d2a51633">
+      <name>НомерПакета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер пакета</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер пакета реестра</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ea638433-5b0a-406b-863c-fa41e8cf8691">
+      <name>Получатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получатель</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Корреспонденты</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Получатель документа</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="5b5f1a1d-4ed3-4521-9c63-482ed875ed6d">
+    <producedTypes>
+      <objectType typeId="8d639a82-d0bc-40a1-b866-30e752de9f27" valueTypeId="5682d460-78d3-4573-b1d8-32635d24a741"/>
+      <rowType typeId="5a905d3d-1287-412f-8c0a-8b17f66f161a" valueTypeId="29966377-22ec-47f2-a7f7-c6a50aed2143"/>
+    </producedTypes>
+    <name>Пакеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пакеты</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="4f012d77-a04f-40f0-ae11-85b064cc3eb4">
+      <name>Адрес</name>
+      <synonym>
+        <key>ru</key>
+        <value>Адрес</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Адрес пакета</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fbc31d25-0734-4be4-8d81-1cc98107360c">
+      <name>Корреспондент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Корреспондент</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.Корреспонденты</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Корреспондент, связанный с пакетом</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a9a445e3-b608-4bc1-b0e9-93b3296d45a9">
+      <name>Номер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Номер пакета</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="df311dee-7b70-4c73-85f3-d266d81f9776">
+      <name>ПовторныеПакеты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Повторные пакеты</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Повторные пакеты из реестра</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="78c2a419-2eb6-4162-bd51-797879d36a1a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="51ae2af8-10cc-4c58-992c-27e6599a370e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8e95cc85-062d-4d3d-be92-5965f0f1edc3">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="59353486-d16b-4f0b-a750-ebca78421db0">
+    <name>Печать</name>
+    <comment></comment>
+  </templates>
+  <templates uuid="eb560179-cd56-4242-a310-ac27f87ca7a3">
+    <name>ПечатьКонверт2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать конверт 2</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="59ef716a-dd91-466d-b9b4-229edfb73c4a">
+    <name>ПечатьКонвертБольшой</name>
+    <comment></comment>
+  </templates>
+  <templates uuid="7e098c35-f540-4c7e-b4f2-efd4359140d9">
+    <name>ПечатьКонверт1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать конверт DL</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <commands uuid="ef61b2a9-b3a6-4cfc-ad45-4e56106ea2f1">
+    <name>Печать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать реестра</value>
+    </synonym>
+    <comment></comment>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.удуРеестрыОтправки</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Напечатать реестр</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="016daf09-b404-491b-8280-fe5ef64f28ea">
+    <name>ПечатьКонвертСредний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать конверт средний</value>
+    </synonym>
+    <comment></comment>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.удуРеестрыОтправки</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Напечатать средний конверт</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="b803abdf-834c-4a53-97df-7dc7170c40a1">
+    <name>ПечатьКонвертМалый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать конверт малый</value>
+    </synonym>
+    <comment></comment>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.удуРеестрыОтправки</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Напечатать малый конверт</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="ce504f4e-eacd-46ca-8e9c-e612badc17e5">
+    <name>ПечатьКонвертБольшой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать конверт большой</value>
+    </synonym>
+    <comment></comment>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.удуРеестрыОтправки</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Напечатать большой конверт</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Catalog>

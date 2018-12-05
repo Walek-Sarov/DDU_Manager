@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8179d62b-1469-401c-aa0c-c6d7ae85a597">
+  <producedTypes>
+    <selectionType typeId="bada3a2b-e9c4-4ecb-9d89-f3121d37c606" valueTypeId="0a8d3c68-ca86-46e5-8569-f5a8c2ba50c7"/>
+    <listType typeId="2121007c-a1d0-4295-aa44-692a34c0645d" valueTypeId="8be0c6cc-e897-4ac9-ba38-0669cd4a889a"/>
+    <managerType typeId="58038ef1-1240-4cc5-b42d-a40126e3cde2" valueTypeId="74ba1e77-0d30-45f8-9e60-90fe18b14ef6"/>
+    <recordSetType typeId="bae92615-4a4b-460d-88da-29a125aaf71a" valueTypeId="58407948-8111-4de1-af90-d50418cfd91c"/>
+    <recordKeyType typeId="b069f0a1-ff1a-471f-b985-631b58f4a0b5" valueTypeId="3562cb20-9e94-4364-88b3-0ec7d34c9f84"/>
+    <recordType typeId="37124de4-1f27-4096-86e2-b9c6502d7c46" valueTypeId="c2874446-2543-42e7-a5d4-f0458bd77ab1"/>
+    <recordManagerType typeId="f16ef133-fed6-49a5-b9ea-4a83cd25b8e6" valueTypeId="c7cb525b-510a-42ed-8cb7-138af0636a6e"/>
+  </producedTypes>
+  <name>удуСоставСемьиРебенка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав семьи ребенка</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.удуСоставСемьиРебенка.Form.ФормаЗаписи</defaultRecordForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Сведения о члене семьи</value>
+  </recordPresentation>
+  <resources uuid="71995ba2-ee01-4876-91e5-7234ec0319a2">
+    <name>СтепеньРодства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Степень родства</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуСтепениРодства</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Степень родства члена семьи ребенку</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e5dac0cd-1073-4b62-aac1-fba014d2145a">
+    <name>Ребенок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ребенок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуДети</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Воспитанник ДОУ</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7bb6cb66-7a38-4c9f-b11f-51f3225b133a">
+    <name>ЧленСемьи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Член семьи</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуРодители</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Член семьи ребенка</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="03d849e2-ee07-4fc6-a0ea-f0884a82aff3">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

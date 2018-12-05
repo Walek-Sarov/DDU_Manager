@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b0b983c-a517-4eb4-90c1-b77f8ce75c84">
+  <producedTypes>
+    <selectionType typeId="3e22ccfa-b51c-43e5-b92f-57f346b848f9" valueTypeId="1d822c43-0c3e-4694-a339-4c4fff3a617e"/>
+    <listType typeId="4b9128a6-d8c7-4c8c-82ac-04389f12e06c" valueTypeId="d4b21e6d-dbee-46c6-bf95-15ae64fb03b9"/>
+    <managerType typeId="117973d8-7694-4806-b8ad-cb9c950f1d41" valueTypeId="2587e26a-605a-4806-ad09-8acc6d8e9da6"/>
+    <recordSetType typeId="6360c4d1-9dc7-49ea-b07b-71087b3cbc9a" valueTypeId="8e0166fd-19bd-4226-b0b0-dff1ea0fe2ea"/>
+    <recordKeyType typeId="5c3ac6f8-7883-4ad8-bb4d-61118eca5f67" valueTypeId="bbb4c390-d371-49c1-b706-fcb2c93f6cf0"/>
+    <recordType typeId="0294f2f5-5921-46ed-9a73-9dfb272639dc" valueTypeId="f5e566b7-fd21-430a-9fdd-a18678ad8994"/>
+    <recordManagerType typeId="baf4049f-f79a-48d9-bbfa-b673351ab5d9" valueTypeId="d697e918-ce6f-462b-b986-caf1a46fb869"/>
+  </producedTypes>
+  <name>удуРеализуемыеПрограммыПроекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реализуемые программы, проекты</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.удуРеализуемыеПрограммыПроекты.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.удуРеализуемыеПрограммыПроекты.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Реализуемая программа, проект</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Реализуемые программы</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Реализуемые программы, проекты</value>
+  </extendedListPresentation>
+  <resources uuid="8da2b589-7c7b-4ead-9adb-e7cde2579109">
+    <name>КатегорияПрограммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория программы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуКатегорииПрограммПроектов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Категория реализуемой программы </value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="90c29173-6cfc-4a62-9b19-fd2e48cae02d">
+    <name>Комментарии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарии</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Комментарии произвольные</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="73932c0b-f603-4ccc-9f03-6e9e3e755673">
+    <name>Учреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учреждение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуУчреждения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Учреждение наименование</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6518d353-bc27-4fd8-adf7-6924780d8225">
+    <name>НаименованиеПрограмы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование программы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуНаименованияПрограммПроектов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование реализуемой программы</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="56b57c6c-6515-4770-8315-bd1ee08e6984">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6e32a29e-02e6-47e2-a577-1c47e50ea73f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1853a370-767a-4845-9425-2f9363d91bd8">
+  <name>КонтрольЖурналаРегистрацииСлужебный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль журнала регистрации служебный</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

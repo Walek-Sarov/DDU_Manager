@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db07da1d-0281-4acf-90a2-3fd35629ab35">
+  <name>РаботаС1СДокументооборотПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с 1С:Документооборот</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

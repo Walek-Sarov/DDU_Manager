@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15f723e4-be7c-420c-8d03-b390e877373d">
+  <producedTypes>
+    <refType typeId="bf1343a2-8dfa-4154-bea6-44f5590924e7" valueTypeId="ff4245e8-81cd-4f96-bc74-7fcc13e99578"/>
+    <listType typeId="439eb679-8e07-4d61-acf8-80780de56d51" valueTypeId="35d1f9a2-bc93-4a27-800c-e73f45366873"/>
+    <managerType typeId="1edc5a31-8171-41f2-8d57-e369a175ec0e" valueTypeId="e4ac82ae-d065-4abe-b5c4-d105845c5531"/>
+  </producedTypes>
+  <name>удуВидыЗанятостиВОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды занятости в организации</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8732c59a-43cc-4b1f-91ed-6464cafd7e5f">
+    <name>ОсновноеМестоРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное место работы</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="2e1e6e6b-ddbf-4151-8366-5a317775df16">
+    <name>Совместительство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешнее совместительство</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="acd8290d-52f0-4c99-becd-48219cec0212">
+    <name>ВнутреннееСовместительство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутреннее совместительство</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

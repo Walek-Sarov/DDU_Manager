@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f825141-23d1-49d9-888f-3173dac57c2a" thisNode="d5d73d91-a855-4ccf-8219-d72c85ec02fb">
+  <producedTypes>
+    <objectType typeId="d4063792-9975-488a-8bf7-c657ed6a8653" valueTypeId="6f8bba6b-28b2-4bc6-9bf0-98847ca93727"/>
+    <refType typeId="ef338d1c-564a-4a69-82a6-03d78320f139" valueTypeId="1db0de08-7088-4480-8b0a-f1ee749ea81a"/>
+    <selectionType typeId="04f1ed30-abf0-432c-bda9-4dda43e2cd18" valueTypeId="058028e5-fcc0-4ef8-9713-5879eb0ca3d4"/>
+    <listType typeId="94885377-15e2-4056-8588-32c66fde4388" valueTypeId="226b3213-236c-4385-b4be-fbde3557fe8e"/>
+    <managerType typeId="38f7f957-dcb7-40f3-a8e5-703b76e7e399" valueTypeId="74b1eafb-e2c2-4564-8344-20536b23d5a5"/>
+  </producedTypes>
+  <name>ОбменДошкольноеУчреждениеДошкольнаяПсиходиагностика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными: Дошкольное учреждение - Дошкольная психодиагностика</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ОбменДошкольноеУчреждениеДошкольнаяПсиходиагностика.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ОбменДошкольноеУчреждениеДошкольнаяПсиходиагностика.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>3</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <content>
+    <mdObject>Catalog.удуРодители</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СоответствияОбъектовИнформационныхБаз</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.удуСведенияОЗачисленииРебенкаВГруппу</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.удуУчреждения</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.удуДети</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.удуГруппыУчреждения</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.удуСоставСемьиРебенка</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.удуСтепениРодства</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.удуСотрудникиОрганизаций</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <forms uuid="77157d35-ccbe-49df-a1f1-a552d69dadbe">
+    <name>ФормаНастройкиУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки узла</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="37718775-cbdc-4c17-b1fc-6a4634dfb460">
+    <name>ФормаНастройкиЗначенийПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки значений по умолчанию</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1cd2b50c-6499-4b5a-822a-ac82a4d05e25">
+    <name>ПравилаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила обмена</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:ExchangePlan>

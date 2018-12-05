@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7cc984e-2ef7-440c-93c3-9514ccc35bd5">
+  <name>удуМетодическиеМатериалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методические материалы</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.удуБиблиотека</picture>
+  </picture>
+  <content>Catalog.удуУчетныеЕдиницы</content>
+  <content>Catalog.удуАвторы</content>
+  <content>Catalog.удуИздательства</content>
+  <content>Catalog.удуВидыМетодическихМатериалов</content>
+  <content>Catalog.удуСерии</content>
+  <content>Catalog.удуРолиАвтора</content>
+  <content>Catalog.удуСтатьи</content>
+  <content>Catalog.удуНаправленияДеятельностиДОУ</content>
+  <content>Catalog.удуМноготомники</content>
+  <content>CommonModule.удуУчетМетодическихМатериалов</content>
+  <content>InformationRegister.удуНедоступныеМетодическиеМатериалы</content>
+  <content>Catalog.удуПричиныВыдачиМетодическихМатериалов</content>
+  <content>CommonForm.удуМетодическиеМатериалыНаРуках</content>
+  <content>Role.удуКонтрольИУчетМетодическихМатериалов</content>
+  <content>Role.удуИспользованиеМетодическихМатериалов</content>
+  <content>Constant.удуИспользоватьУчетМетодическихМатериаловИ_ТМЦ</content>
+  <content>Enum.удуОбозначенияМетодическихМатериалов</content>
+  <content>DataProcessor.удуПоискВДанныхВММ</content>
+  <content>Enum.удуВидыСтандартныхНомеров</content>
+  <content>Report.удуМетодическиеМатериалыВНаличии</content>
+  <content>InformationRegister.УдалитьудуСведенияОДокументах</content>
+  <content>Report.удуТМЦиМетодическиеМатериалыНаСкладах</content>
+  <content>Enum.удуТипыПериодическихИзданий</content>
+  <content>AccumulationRegister.удуМетодическиеМатериалыНаРуках</content>
+  <content>CommonForm.удуФормаСвязиДокументаСДелопроизводством</content>
+  <subsystems>Документы</subsystems>
+</mdclass:Subsystem>

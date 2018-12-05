@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0434baba-2812-4573-912d-d5c4e5004dbb">
+  <producedTypes>
+    <refType typeId="2b017bb7-af16-4076-97e5-896fe3e59325" valueTypeId="59fb42f5-03ad-4ebe-9de7-afa62e292e8e"/>
+    <listType typeId="004c3310-f2de-4b68-8382-5f2b01d75654" valueTypeId="0b36732b-4dc1-4fef-9fd0-c03ebc079c91"/>
+    <managerType typeId="6ddea149-8f72-4141-9973-a27480d2156f" valueTypeId="ef5e9fd0-e203-45f4-a805-1134ed5fb969"/>
+  </producedTypes>
+  <name>удуВидОбразовательныхПрограмм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид образовательных программ</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e29393ad-6fd1-4452-be7a-7c20138010b9">
+    <name>НачальноеОбразование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальное образование</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="44351b3f-0faf-439c-af4e-31b5139a0403">
+    <name>СреднееОбразование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Среднее образование</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

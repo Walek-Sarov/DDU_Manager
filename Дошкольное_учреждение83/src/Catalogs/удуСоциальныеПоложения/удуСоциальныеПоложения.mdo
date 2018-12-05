@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72f17492-c180-4488-9648-5f7aa9236286">
+  <producedTypes>
+    <objectType typeId="d9031e10-75b9-4091-8bc2-59bb48a1124e" valueTypeId="ed5b524c-7d36-433e-9de3-e1b068541c63"/>
+    <refType typeId="2a7337f5-eed8-4896-b82a-4e35b455199d" valueTypeId="df70a286-7b18-419e-8acc-75d0d6212a71"/>
+    <selectionType typeId="8d48f8c4-5a7a-475c-bc68-187e9a328d31" valueTypeId="c306c0c4-9455-4986-a85c-3b2cab424189"/>
+    <listType typeId="986ae80a-b852-4143-82f3-029e667b7d1e" valueTypeId="ce748cc7-44a8-4ea6-8265-e4d7b24cccc3"/>
+    <managerType typeId="e2a23bf3-c3b8-474a-a65f-1599d7b17012" valueTypeId="48eed8f9-1c50-45e2-8291-494f9ded6921"/>
+  </producedTypes>
+  <name>удуСоциальныеПоложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Социальные положения</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.удуСоциальныеПоложения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.удуСоциальныеПоложения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Социальное положение</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

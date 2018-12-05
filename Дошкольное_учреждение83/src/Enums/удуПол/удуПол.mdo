@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11ebdbda-4ed2-4a47-baa3-2659a4e2626f">
+  <producedTypes>
+    <refType typeId="4616cdba-e38d-4617-92ff-5b1821459b5f" valueTypeId="0bf6b362-9641-4f8c-a61f-7fd16c88d619"/>
+    <listType typeId="6a872caf-a125-4364-ae06-34cf6bd8ee8c" valueTypeId="62de92f6-25d8-40cb-b714-0adf335bac9b"/>
+    <managerType typeId="e5de9f10-6628-4b76-a47f-c8eaee79dd9c" valueTypeId="34a12ef5-6d6c-44a3-a58e-f3206f49af05"/>
+  </producedTypes>
+  <name>удуПол</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пол</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="641d5ea5-eba3-4aaf-8b51-6defc29a98a3">
+    <name>Мальчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мальчик</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a8b3b5a5-d522-4dce-9be1-01a3fa35555a">
+    <name>Девочка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Девочка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

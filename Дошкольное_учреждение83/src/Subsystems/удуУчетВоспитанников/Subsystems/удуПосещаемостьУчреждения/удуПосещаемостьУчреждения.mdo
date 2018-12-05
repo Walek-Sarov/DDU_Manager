@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc07f8e0-a068-42ee-9427-fac272e020fd">
+  <name>удуПосещаемостьУчреждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Посещаемость учреждения</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.удуТабельПосещаемостиДОУ</content>
+  <content>Report.удуОтчетТабельПосещенияДОУ</content>
+  <content>Document.удуКвитанцияОбОплатеПосещенияДОУ</content>
+  <content>517d1697-6739-43a6-9279-5d04cd69dfb2</content>
+  <content>Report.удуОтчетПоОплатеПосещенияДОУ</content>
+  <content>Document.удуТабельУчетаПосещаемостиДетей</content>
+  <content>Document.удуНачислениеРП</content>
+  <parentSubsystem>Subsystem.удуУчетВоспитанников</parentSubsystem>
+</mdclass:Subsystem>

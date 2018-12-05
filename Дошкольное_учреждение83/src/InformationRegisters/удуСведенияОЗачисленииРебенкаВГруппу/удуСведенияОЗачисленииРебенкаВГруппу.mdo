@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="333e3718-25ce-4dbe-af93-641b12136e76">
+  <producedTypes>
+    <selectionType typeId="dcf14176-0667-42db-9d24-c142e42f509c" valueTypeId="31bea2ec-0e82-49a1-b8f9-3f4fac667200"/>
+    <listType typeId="9ff10d13-994c-4058-801e-ea01d8e2e071" valueTypeId="152a313e-8234-458c-a943-dcba44ea6c0f"/>
+    <managerType typeId="43ddb042-d464-41f7-8b31-f92d19eef634" valueTypeId="1b2ac27d-3820-4c8e-bc28-69471484e1fe"/>
+    <recordSetType typeId="818682b0-977f-49b6-b4b0-95c6a4108795" valueTypeId="1f4ef576-54b2-4d1f-a701-af86981bc523"/>
+    <recordKeyType typeId="03549ff5-55e2-467e-9428-d1aa59d9db4e" valueTypeId="04b5bec0-7c65-4c74-9c2a-4e3718ca0378"/>
+    <recordType typeId="b1675761-b4ca-4110-99fe-a1bff8601aa9" valueTypeId="63f11b9f-f3b8-48a6-98b7-da91e306f9a5"/>
+    <recordManagerType typeId="0cfad8ec-7151-45af-ba59-3aae5c77222e" valueTypeId="98340875-5158-4255-ab00-35fa95a83a3c"/>
+  </producedTypes>
+  <name>удуСведенияОЗачисленииРебенкаВГруппу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения о зачислении ребенка в группу</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="306e8afd-2307-4fde-8bef-ba1cc8dc115e">
+    <name>ОснованиеЗачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание зачисления</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.удуДоговорОЗачисленииРебенка</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Договор о зачислении</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c71ac0a9-f728-40c9-8924-1e59a350fbab">
+    <name>СостояниеУчетаВГруппе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние учета в группе</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.удуСостояниеРебенкаНаУчетеВГруппе</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Состояние ребенка в группе(принят или нет)</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8d096d29-0302-4b00-abe8-f09436517955">
+    <name>ПричинаВыбытияИзГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина выбытия из группы</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуПричиныВыбытияИзГруппы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>По какой причине ребенок выбыл из группы</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8f29359b-fb55-4063-ac29-4111dc9383a0">
+    <name>Учреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учреждение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуУчреждения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дошкольное учреждение</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7e82d3b3-9afd-4a7d-a542-17744051e23d">
+    <name>Ребенок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ребенок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуДети</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Воспитанник ДОУ</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a8147dcc-80d1-4031-b79e-53f51591a54f">
+    <name>Группа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуГруппыУчреждения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа воспитанника для зачисления</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

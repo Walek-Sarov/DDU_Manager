@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f97b8a2-cc65-4bb1-88a9-b3d977f082e1">
+  <producedTypes>
+    <selectionType typeId="5d1f4996-3a10-4d60-b4e0-96bf1845a109" valueTypeId="bf6ee276-4be2-4476-9474-4ac70efff0b8"/>
+    <listType typeId="3438e44a-d9dc-4389-83b6-d32168d7856f" valueTypeId="20200efc-2908-4434-9fb1-4cca85564b01"/>
+    <managerType typeId="0dc958ee-d669-4963-b798-ac3c37567c57" valueTypeId="20d0d7dd-aed3-4b10-838a-b1a8a308ff8d"/>
+  </producedTypes>
+  <name>удуКнигаУчетаДвиженияДетей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Книга учета движения детей</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.удуПриказОЗачисленииРебенкаВГруппу</registeredDocuments>
+  <registeredDocuments>Document.удуПриказОПереводеВДругуюГруппу</registeredDocuments>
+  <registeredDocuments>Document.удуПриказОВыбытииИзГруппы</registeredDocuments>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="66e8b70e-b6ba-4c13-9318-23562241c9e2">
+    <name>Группа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.удуПриказОВыбытииИзГруппы.Attribute.ГруппаВыбытия</references>
+    <references>Document.удуПриказОЗачисленииРебенкаВГруппу.Attribute.Группа</references>
+    <references>Document.удуПриказОПереводеВДругуюГруппу.Attribute.ГруппаДляПеревода</references>
+  </columns>
+  <columns uuid="54337f0a-95c0-4666-af36-53c75c8b05ee">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <references>Document.удуПриказОВыбытииИзГруппы.Attribute.Комментарий</references>
+    <references>Document.удуПриказОЗачисленииРебенкаВГруппу.Attribute.Комментарий</references>
+    <references>Document.удуПриказОПереводеВДругуюГруппу.Attribute.Комментарий</references>
+  </columns>
+  <forms uuid="585cd332-bcf6-49d8-9ce5-eac8979c63e4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

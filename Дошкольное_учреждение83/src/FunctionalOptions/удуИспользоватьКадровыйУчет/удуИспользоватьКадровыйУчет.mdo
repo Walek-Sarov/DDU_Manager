@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edbb9c1c-db3b-4955-ad89-281ba202e709">
+  <name>удуИспользоватьКадровыйУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать кадровый учет</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.удуИспользоватьКадровыйУчет</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

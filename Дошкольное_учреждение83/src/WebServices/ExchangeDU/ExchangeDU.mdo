@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32cbdac4-c108-4678-9cb4-1d3921d904d0">
+  <name>ExchangeDU</name>
+  <synonym>
+    <key>ru</key>
+    <value>Exchange DU</value>
+  </synonym>
+  <comment></comment>
+  <namespace>http://www.1c.ru/DU/ExchangeDU</namespace>
+  <xdtoPackages xsi:type="core:StringValue">
+    <value>http://v8.1c.ru/8.1/data/core</value>
+  </xdtoPackages>
+  <descriptorFileName>ExchangeDU.1cws</descriptorFileName>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="5a50a84a-fae6-4dac-a0f1-3e18c15bd8dd">
+    <name>Ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <comment></comment>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <nillable>true</nillable>
+    <procedureName>Ping</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+  <operations uuid="75126e3f-bd4d-4f95-9110-60e87e444e16">
+    <name>GetInstitutions</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get institutions</value>
+    </synonym>
+    <comment>Получить информацию об учреждениях</comment>
+    <xdtoReturningValueType>
+      <name>Structure</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetInstitutions</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="738efcd4-57a1-4df3-8ddd-89f736aded0e">
+      <name>ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <comment>Идентификатор учреждения</comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="0e7ecddd-5d42-41ba-91d8-f27acdf4e726">
+    <name>GetDivisionList</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get division list</value>
+    </synonym>
+    <comment>Получить информацию о структуре учреждения</comment>
+    <xdtoReturningValueType>
+      <name>Structure</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetDivisionList</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="0a760e3e-3e27-44b5-be7b-889cb541948b">
+      <name>ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <comment>Идентификатор подразделения</comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="7ab68941-260a-431e-8b7c-83be95a1df97">
+      <name>IDInstitutions</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID Institutions</value>
+      </synonym>
+      <comment>Идентификатор учреждения</comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="2b3b7af8-c59a-44e8-8c7b-d7364c43f312">
+    <name>GetAppointmentList</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get appointment list</value>
+    </synonym>
+    <comment>Получить список должностей</comment>
+    <xdtoReturningValueType>
+      <name>Structure</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetAppointmentList</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="ebcd39e0-cb43-456b-8895-9c81dee8eea9">
+      <name>ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <comment>Идентификатор должности</comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="24b1c211-2fca-48c7-831f-dd8312f696d8">
+    <name>GetGroupList</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get group list</value>
+    </synonym>
+    <comment>Получить список групп</comment>
+    <xdtoReturningValueType>
+      <name>Structure</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetGroupList</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="9282acb1-3cfc-4b12-b4e7-cdc3a0ea4bab">
+      <name>ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <comment>Идентификатор класса</comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="10dc5590-9011-4744-b8c0-7a1f87ac5c53">
+      <name>IDInstitutions</name>
+      <synonym>
+        <key>ru</key>
+        <value>IDInstitutions</value>
+      </synonym>
+      <comment>Идентификатор учреждения</comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+  </operations>
+  <operations uuid="fc365ebd-fe37-43e1-b110-8aa5a76615a8">
+    <name>GetChildrenList</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get children list</value>
+    </synonym>
+    <comment>Получить список воспитанников</comment>
+    <xdtoReturningValueType>
+      <name>Structure</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetChildrenList</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="1206ded0-0ad5-42f0-80a1-9522a514b8c3">
+      <name>ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <comment>Идентификатор класса</comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="0e74c818-6089-41c8-9028-a5a2c463ee50">
+      <name>IDGroup</name>
+      <synonym>
+        <key>ru</key>
+        <value>IDGroup</value>
+      </synonym>
+      <comment>Идентификатор группы</comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="c4ddac65-3b4e-4553-a579-b757313d1868">
+      <name>IDInstitutions</name>
+      <synonym>
+        <key>ru</key>
+        <value>IDInstitutions</value>
+      </synonym>
+      <comment>Идентификатор учреждения</comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="9869bc5b-c3c1-4491-aa53-e85e74ba105f">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <comment>Дата</comment>
+      <xdtoValueType>
+        <name>date</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="5238be59-566b-4952-82c3-37b56e85cd03">
+      <name>AddData</name>
+      <synonym>
+        <key>ru</key>
+        <value>Add data</value>
+      </synonym>
+      <comment>Строка дополнительных атрибутов </comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="e9dd4c91-3206-4cbc-b9d6-a7479922c464">
+    <name>GetWorkerList</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get worker list</value>
+    </synonym>
+    <comment>Получить список сотрудников</comment>
+    <xdtoReturningValueType>
+      <name>Structure</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>GetWorkerList</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="ca6b1192-0168-4ae8-827d-86a4f99e62d8">
+      <name>ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>ID</value>
+      </synonym>
+      <comment>Идентификатор класса</comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="8371e390-af2a-4e9f-b457-0013ba89ce02">
+      <name>IDPerson</name>
+      <synonym>
+        <key>ru</key>
+        <value>IDPerson</value>
+      </synonym>
+      <comment>Идентификатор физического лица</comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="b15545b8-348e-4982-a757-d6a8853f8d54">
+      <name>IDInstitutions</name>
+      <synonym>
+        <key>ru</key>
+        <value>IDInstitutions</value>
+      </synonym>
+      <comment>Идентификатор учреждения</comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="0a3be673-5912-4030-a3fa-aedf4555deae">
+      <name>IDDivision</name>
+      <synonym>
+        <key>ru</key>
+        <value>IDDivision</value>
+      </synonym>
+      <comment>Идентификатор подразделения</comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="80ee7410-3db8-4832-9b93-15efa5ef53e6">
+      <name>IDAppointment</name>
+      <synonym>
+        <key>ru</key>
+        <value>IDAppointment</value>
+      </synonym>
+      <comment>Идентификатор должности</comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="85718467-6e76-4655-be9c-b5761b866fe9">
+      <name>Data</name>
+      <synonym>
+        <key>ru</key>
+        <value>Data</value>
+      </synonym>
+      <comment>Дата</comment>
+      <xdtoValueType>
+        <name>date</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+      <nillable>true</nillable>
+    </parameters>
+    <parameters uuid="9da71079-15a0-48cb-8d48-1eebd888045a">
+      <name>AddData</name>
+      <synonym>
+        <key>ru</key>
+        <value>Add data</value>
+      </synonym>
+      <comment>Строка дополнительных атрибутов </comment>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

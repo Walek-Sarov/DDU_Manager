@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a028b65a-dcb3-4efd-8391-24bfd8b26ec1">
+  <producedTypes>
+    <refType typeId="77cc5b9c-c36e-43dd-a2d2-5d05a716bf8f" valueTypeId="cc9bfa29-1b69-4c4b-8e35-f68a2b965e3b"/>
+    <listType typeId="790f9d15-1533-4ef1-8445-3bf9eccd305f" valueTypeId="9df12395-6963-4f88-8d16-0f60d4dcdc8c"/>
+    <managerType typeId="ceaaa851-3ebc-46bf-a896-3326669536a5" valueTypeId="07c8ff71-f834-477b-9203-6041687bac7b"/>
+  </producedTypes>
+  <name>удуПериодНачисленияЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Период начисления зарплаты</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f9b49255-183a-4374-b1bb-c165867f3381">
+    <name>ТекущийМесяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий месяц</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="5aeb07ad-627d-4aef-84f2-da9ca19626bf">
+    <name>ПерваяПоловинаТекущегоМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первая половина текущего месяца</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9f671d6c-563f-4fe1-bb19-cdfb600d164c">
+    <name>ВтораяПоловинаТекущегоМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вторая половина текущего месяца</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="aa1c8b2e-cc8e-450e-889d-246f6674d5ee">
+    <name>ПрошлыйПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прошлый период</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="61b0b5c2-023a-4394-8ee8-b7787800cc0b">
+    <name>УказанныйПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Указанный период</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

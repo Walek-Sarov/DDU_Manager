@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="760a2530-db14-4505-8e81-91a546a54f71">
+  <name>ИгнорироватьОтправкуНеразделенныхДанныхВСервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Игнорировать отправку неразделенных данных в сервис</value>
+  </synonym>
+  <comment>Игнорирует отправку изменений неразделенных данных в приложение в Интернете</comment>
+  <source>
+    <types>ExchangePlanObject</types>
+  </source>
+  <event>OnSendDataToMaster</event>
+  <handler>CommonModule.ОбменДаннымиВМоделиСервиса.ИгнорироватьОтправкуНеразделенныхДанныхВСервис</handler>
+</mdclass:EventSubscription>

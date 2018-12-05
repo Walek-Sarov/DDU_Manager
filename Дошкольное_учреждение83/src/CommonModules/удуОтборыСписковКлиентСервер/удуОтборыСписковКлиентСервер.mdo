@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c31c9182-cbc8-440f-95e2-1d0a98713e41">
+  <name>удуОтборыСписковКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отборы списков клиент сервер</value>
+  </synonym>
+  <comment></comment>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+</mdclass:CommonModule>

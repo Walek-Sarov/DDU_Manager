@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd85c9d0-5d5f-412a-820a-a5d034dbe8f3">
+  <name>удуИспользоватьУчетДетей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уду использовать учет детей</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.удуИспользоватьУчетДетей</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.удуБыстраяРегистрацияЗаявкиНаЗачисление</content>
+  <content>Subsystem.удуУчетВоспитанников</content>
+  <content>CommonCommand.удуПереходВДелоПроизводство</content>
+  <content>Constant.удуИспользоватьПерсональныеДанные</content>
+  <content>Catalog.удуВышестоящийОрган</content>
+  <content>Catalog.удуГруппыЗдоровья</content>
+  <content>Catalog.удуГруппыУчреждения</content>
+  <content>Catalog.удуДети</content>
+  <content>Catalog.удуДокументыПропускаЗанятий</content>
+  <content>Catalog.удуЖилищныеУсловия</content>
+  <content>Catalog.удуЛьготыПоЗачислению</content>
+  <content>Catalog.удуМатериальныеПоложения</content>
+  <content>Catalog.удуНаправленияДеятельностиДОУ</content>
+  <content>Catalog.удуПричиныВыбытияИзГруппы</content>
+  <content>Catalog.удуПричиныПропускаЗанятий</content>
+  <content>Catalog.удуРодители</content>
+  <content>Catalog.удуСоциальныеПоложения</content>
+  <content>Catalog.удуСтепениРодства</content>
+  <content>Catalog.удуФизкультурныеГруппы</content>
+  <content>Catalog.удуДетализацияНаправленностиГруппы</content>
+  <content>Document.удуПриказОЗачисленииРебенкаВГруппу</content>
+  <content>Document.удуПриказОПереводеВДругуюГруппу</content>
+  <content>Document.удуДоговорОЗачисленииРебенка</content>
+  <content>Document.удуПриказОВыбытииИзГруппы</content>
+  <content>Document.удуКомплектованиеГруппы</content>
+  <content>Document.удуЗаявкаНаЗачислениеРебенкаВДОУ</content>
+  <content>Document.удуКвитанцияОбОплатеПосещенияДОУ</content>
+  <content>Document.удуТабельПосещаемостиДОУ</content>
+  <content>DocumentJournal.удуКнигаУчетаДвиженияДетей</content>
+  <content>Report.удуОтчетТабельПосещенияДОУ</content>
+  <content>Report.удуОтчетПоЗаявкамНаЗачислениеВГруппу</content>
+  <content>Report.удуОтчетнаяФорма85К</content>
+  <content>Report.удуОтчетПоОплатеПосещенияДОУ</content>
+  <content>Report.удуКнигаУчетаДвиженияВоспитанников</content>
+  <content>Document.удуТабельУчетаПосещаемостиДетей</content>
+  <content>Document.удуНачислениеРП</content>
+  <content>AccumulationRegister.удуВзаиморасчетыСРодителями</content>
+  <content>Report.удуВзаиморасчетыСРодителями</content>
+</mdclass:FunctionalOption>

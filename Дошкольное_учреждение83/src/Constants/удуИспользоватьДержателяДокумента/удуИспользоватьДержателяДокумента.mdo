@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5f21269-edad-40d1-9190-5860ab1ed3d9">
+  <producedTypes>
+    <managerType typeId="cd703bd9-48a4-43e0-aa12-7e2b2f97dbd7" valueTypeId="dcc3cc76-aa2d-4662-8b4b-a3f2d8972de8"/>
+    <valueManagerType typeId="dcc6767b-4da7-48e1-a937-d75afabd3fbd" valueTypeId="e7967548-55b5-46c3-b348-ecb0195cc57a"/>
+  </producedTypes>
+  <name>удуИспользоватьДержателяДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать держателя документа</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Флаг использования держателя документов (для функциональной опции)</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

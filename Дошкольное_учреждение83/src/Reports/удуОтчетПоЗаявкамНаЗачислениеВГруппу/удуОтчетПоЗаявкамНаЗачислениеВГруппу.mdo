@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f92844df-b653-4d08-8fba-527261747bd2">
+  <producedTypes>
+    <objectType typeId="3b32eca6-15cc-411f-80a7-4e8e8de11049" valueTypeId="39b10a2b-cb19-4c90-9fa7-59c205b7a499"/>
+    <managerType typeId="9db7097d-82b8-4fa3-b0e6-b6d0631a3503" valueTypeId="8ffc4cf0-176b-43a8-aff6-199b16755116"/>
+  </producedTypes>
+  <name>удуОтчетПоЗаявкамНаЗачислениеВГруппу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по заявкам на зачисление в группу</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.удуОтчетПоЗаявкамНаЗачислениеВГруппу.Form.ФормаОтчета</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="5abdcec7-1806-4a50-bead-2f42dd851380">
+    <name>ПериодКомплектования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период комплектования</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Период комплектования группы</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="ecd0113a-25dc-4ece-aab0-b68c77f57222">
+    <name>ГруппаДляЗачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа для зачисления</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуГруппыУчреждения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа для зачисления ребенка</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="50e84652-e3f4-4c8c-92e9-6d756200c724">
+    <name>ОтборПоСостояниюЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор по состоянию заявки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Отбор по состоянию заявки на зачисление</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="095ae5ef-c551-4be7-9248-12623714f1cf">
+    <name>ГруппировкаДанныхПоГруппе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группировка данных по группе</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Группировка данных по группе воспитанников</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9e2e3331-1c70-47b5-8cae-85a641f295d0">
+    <name>ВозрастнойПризнак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возрастной признак</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуВозрастныеПризнаки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Возрастной признак воспитанника</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3836bb3d-0d28-4073-95ba-dce82879739d">
+    <name>ГруппировкаДанныхПоВозрастномуПризнаку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группировка данных по возрастному признаку</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Группировка данных по возрастному признаку детей</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="3feb595a-4f85-4a98-8734-817311d285e1">
+    <producedTypes>
+      <objectType typeId="e337f2be-8162-47ac-ac1f-dc42d51f76dc" valueTypeId="bc7baafe-5f80-4cc3-bbf4-9eeef04158e8"/>
+      <rowType typeId="388f1664-16cf-44b2-bfb5-10bdc96493a7" valueTypeId="34dc6ea1-9c3f-4065-b809-3b4504224a91"/>
+    </producedTypes>
+    <name>ТабличнаяЧастьПоказателиОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличная часть показатели отчета</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="13d3acc3-1f64-4bd7-8db2-7315ad32abf4">
+      <name>Использование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Использование</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Использование данных</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3331b34a-85f0-4f00-a0b1-0c9d0eb1a9a8">
+      <name>НаименованиеПоказателя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование показателя</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Наименование показателя в отчете</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="fbeb8e99-0559-40d5-91e7-f8e401bf855a">
+      <name>СинонимПоказателя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Синоним показателя</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Синоним показателя в отчете</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="cb307b80-0f76-41d4-b16b-ed59be832a37">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="13ca6536-0ce6-457a-9c41-fe620a398997">
+    <name>МакетОсновной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет основной</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52deeeaa-16a6-4e70-9754-78e09d127192">
+  <producedTypes>
+    <refType typeId="ddbe90e1-e1f8-4119-98b2-b86b96d000e4" valueTypeId="5ce5b9ae-9ce3-41e4-93b7-ca62b909dee4"/>
+    <listType typeId="1e44835c-994f-4ea9-b346-c250f906ba89" valueTypeId="f4f68670-00c9-487f-b290-0be73c072818"/>
+    <managerType typeId="2b636803-f690-4ac6-8edf-48fa3795131d" valueTypeId="82b729f1-ebd9-471c-a065-2af7a0fa93f8"/>
+  </producedTypes>
+  <name>удуВидыСчетовУчреждений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды счетов учреждений</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4864b6e8-3476-4c5b-ac0d-aae0c86a14cf">
+    <name>Лицевой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лицевой</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="a49c0c8e-719c-4ff1-b6fc-c5831133cdbd">
+    <name>Расчетный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

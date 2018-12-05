@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d58b2fb-f3ab-4c92-bb0c-ca74768e9cb2">
+  <producedTypes>
+    <managerType typeId="f83c443d-4e44-41f8-995d-5ff531d19f41" valueTypeId="a0308bfc-0b12-4415-afef-6a7a3da198b8"/>
+    <valueManagerType typeId="48b3e76c-8731-443c-8146-fd23850c12ea" valueTypeId="3633e850-d065-4d0f-b799-daa5015eca46"/>
+  </producedTypes>
+  <name>ИспользоватьВидыИсходящихДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать виды исходящих документов</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Признак использования видов исходящих документов</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

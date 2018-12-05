@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d1533bf-e9c6-4b61-949e-97a8227fa0e8">
+  <producedTypes>
+    <selectionType typeId="2b3bd92c-edaf-4e4a-8624-0ff664cda65e" valueTypeId="54337f3a-8849-4f6b-85fd-6e28752f9c69"/>
+    <listType typeId="7f292775-9f9b-4887-b7a9-ad50368f22a0" valueTypeId="a81226d4-fc75-4d3d-8386-09fb38f34e52"/>
+    <managerType typeId="731047b8-29bd-479a-8e55-671c7a0004d0" valueTypeId="22e85d56-9a5d-41d0-bf4a-f46ac39317c1"/>
+    <recordSetType typeId="a9e62ae6-8a81-476d-948c-f4632a35a6f2" valueTypeId="17c4fe6c-64e7-447f-80ca-868b57613688"/>
+    <recordKeyType typeId="34cbfac8-8a6b-4995-8ca9-b768a5b6385f" valueTypeId="907e6120-fc93-4e5b-a28c-808b033b3ff8"/>
+    <recordType typeId="3154a1e7-b8fe-4eb9-bd01-ef3d9a6335c5" valueTypeId="6fc50b57-d9d9-4b6d-8261-84891f17e282"/>
+    <recordManagerType typeId="32e2e905-596c-4875-b6c2-daca928de271" valueTypeId="b49abede-2727-40cd-a658-eab6ae53ff91"/>
+  </producedTypes>
+  <name>удуНадбавкиПоШтатномуРасписаниюОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Надбавки по штатному расписанию</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultRecordForm>InformationRegister.удуНадбавкиПоШтатномуРасписаниюОрганизаций.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.удуНадбавкиПоШтатномуРасписаниюОрганизаций.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="ed4a53c0-f717-4931-bb24-7177b937b16a">
+    <name>Показатель1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель1</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Показатель1 надбавки</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="dcc5e922-f8a7-410f-a290-d6549c6f9f1f">
+    <name>МесячныйРазмер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месячный размер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Месячный размер надбавки</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="40cd5d85-19de-46de-8337-c42482ab34ee">
+    <name>ПодразделениеОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение организации</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуПодразделенияУчереждения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подразделение организации по штатному расписанию</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e5497591-af5f-4ad5-b0ac-3cd4c9798df8">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Должность по штатному расписанию</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b3b3ef18-d72a-4e6f-aebc-6455fa9ac13d">
+    <name>ВидНадбавки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид надбавки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>ChartOfCalculationTypesRef.удуОсновныеНачисленияОрганизаций</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид надбавки по штатному расписанию</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="109703c2-13d0-4e1e-bb2c-9a72c9ef1f31">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6f387dd1-c008-42bc-b726-8a084837fa19">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

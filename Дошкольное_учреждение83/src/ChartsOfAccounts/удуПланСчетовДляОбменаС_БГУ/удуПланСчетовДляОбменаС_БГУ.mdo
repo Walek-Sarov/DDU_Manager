@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="adf23854-0ede-4db3-917e-e410cf22bce7">
+  <producedTypes>
+    <objectType typeId="fb986615-8c59-4794-be48-08a6935cd1b0" valueTypeId="43ceed5f-be96-45e0-8301-e7c9f23cbb41"/>
+    <refType typeId="db4922a2-996f-4a64-95c6-333b2dcf488e" valueTypeId="32879fb3-1871-4d9b-aa09-001176a3ff21"/>
+    <selectionType typeId="4ad2131f-62d9-43e0-8882-1ac67101b0c5" valueTypeId="26bdefe6-8b50-433e-be44-7206b108f8a5"/>
+    <listType typeId="ba3e4ea6-52b8-48e9-955d-ffd0c16accf4" valueTypeId="13c8d5d5-8303-45cf-8944-888d5a9bc894"/>
+    <managerType typeId="1f9af25f-a634-4220-a52d-897111d56d80" valueTypeId="2e1360b3-186d-4221-ad65-4aa3a446f023"/>
+    <extDimensionTypes typeId="06cbd2f8-ae80-4122-b5db-85652a6c49fd" valueTypeId="a52e71cd-011d-4ab2-8570-cdcbe4e6edcd"/>
+    <extDimensionTypesRow typeId="395574cb-014f-4795-8280-844af56f2af2" valueTypeId="23364965-4aee-4d83-b78e-14f80d73eeb1"/>
+  </producedTypes>
+  <name>удуПланСчетовДляОбменаС_БГУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>План счетов для обмена с БГУ</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>OffBalance</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель</value>
+    </synonym>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Счет</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>План счетов (ЕПСБУ)</value>
+  </listPresentation>
+  <codeMask>@@@.@@</codeMask>
+  <codeLength>6</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <standardTabularSections>
+    <name>ExtDimensionTypes</name>
+    <synonym>
+      <key></key>
+      <value>Виды субконто</value>
+    </synonym>
+    <comment></comment>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>TurnoversOnly</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>Predefined</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>ExtDimensionType</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </standardTabularSections>
+  <predefined>
+    <items id="4209a5c7-e8f7-428d-af5e-c99b2e53511b">
+      <name>МЗ</name>
+      <description>Материальные запасы</description>
+      <code>105.00</code>
+      <order>+10500+++++++++++++++</order>
+      <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Количественный</accountingFlags>
+      <childItems id="e6aa19ea-fabf-4eac-8ab2-1aa5d4ac3b22">
+        <name>МЗ_ОЦДИ</name>
+        <description>Материальные запасы – особо ценное движимое имущество учреждения</description>
+        <code>105.20</code>
+        <order>+1050010520++++++++++</order>
+        <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Количественный</accountingFlags>
+        <childItems id="bcf6fcd0-4f81-4dbf-a40f-31bbdfc93c47">
+          <name>Медикаменты_ОЦДИ</name>
+          <description>Медикаменты и перевязочные средства – особо ценное движимое имущество учреждения</description>
+          <code>105.21</code>
+          <order>+105001052010521+++++</order>
+          <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Количественный</accountingFlags>
+        </childItems>
+        <childItems id="d7658c3a-745c-4d3f-86be-24d169ac7d5c">
+          <name>ПродуктыПитания_ОЦДИ</name>
+          <description>Продукты питания – особо ценное движимое имущество учреждения</description>
+          <code>105.22</code>
+          <order>+105001052010522+++++</order>
+          <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Количественный</accountingFlags>
+        </childItems>
+        <childItems id="71255016-cddc-4b8c-8ae1-dde2e2d59eb0">
+          <name>ГСМ_ОЦДИ</name>
+          <description>Горюче-смазочные материалы – особо ценное движимое имущество учреждения</description>
+          <code>105.23</code>
+          <order>+105001052010523+++++</order>
+          <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Количественный</accountingFlags>
+        </childItems>
+        <childItems id="ed1262df-4015-4322-8bad-c15f9cde1b3a">
+          <name>СтроительныеМатериалы_ОЦДИ</name>
+          <description>Строительные материалы – особо ценное движимое имущество учреждения</description>
+          <code>105.24</code>
+          <order>+105001052010524+++++</order>
+          <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Количественный</accountingFlags>
+        </childItems>
+        <childItems id="afa188d5-c71e-47fe-9fd4-02dfa8d1d1f0">
+          <name>МягкийИнвентарь_ОЦДИ</name>
+          <description>Мягкий инвентарь – особо ценное движимое имущество учреждения</description>
+          <code>105.25</code>
+          <order>+105001052010525+++++</order>
+          <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Количественный</accountingFlags>
+        </childItems>
+        <childItems id="6959d32a-d354-4a9d-a953-3f56992202c7">
+          <name>ПрочиеМЗ_ОЦДИ</name>
+          <description>Прочие материальные запасы – особо ценное движимое имущество учреждения</description>
+          <code>105.26</code>
+          <order>+105001052010526+++++</order>
+          <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Количественный</accountingFlags>
+        </childItems>
+        <childItems id="88e196f8-d106-4d43-964e-b63133944586">
+          <name>ГотоваяПродукция_ОЦДИ</name>
+          <description>Готовая продукция – особо ценное движимое имущество учреждения</description>
+          <code>105.27</code>
+          <order>+105001052010527+++++</order>
+          <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Количественный</accountingFlags>
+        </childItems>
+        <childItems id="6e8b4cc9-3885-4fad-af96-348a22ca8288">
+          <name>Товары_ОЦДИ</name>
+          <description>Товары –  особо ценное движимое имущество учреждения</description>
+          <code>105.28</code>
+          <order>+105001052010528+++++</order>
+          <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Количественный</accountingFlags>
+          <childItems id="53f7748b-8f8b-40ea-bbb7-4080d30bf2c5">
+            <name>Товары_ОЦДИ_НаСкладах</name>
+            <description>(На складах) Товары –  особо ценное движимое имущество учреждения.</description>
+            <code>105.А8</code>
+            <order>+105001052010528105А8</order>
+            <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Количественный</accountingFlags>
+          </childItems>
+          <childItems id="1da8eee2-04c0-4324-a147-2bd5a62986c6">
+            <name>Товары_ОЦДИ_ВРознице</name>
+            <description>(В рознице) Товары –  особо ценное движимое имущество учреждения.</description>
+            <code>105.Б8</code>
+            <order>+105001052010528105Б8</order>
+          </childItems>
+        </childItems>
+        <childItems id="44085bad-a408-45e2-a43a-e3be627ff9b2">
+          <name>НаценкаНаТовары_ОЦДИ</name>
+          <description>Наценка на товары – особо ценное движимое имущество учреждения</description>
+          <code>105.29</code>
+          <accountType>Passive</accountType>
+          <order>+105001052010529+++++</order>
+        </childItems>
+      </childItems>
+      <childItems id="0859d5fa-581c-47bf-aca1-e0ad81714bf8">
+        <name>МЗ_ИДИ</name>
+        <description>Материальные запасы - иное движимое имущество учреждения</description>
+        <code>105.30</code>
+        <order>+1050010530++++++++++</order>
+        <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Количественный</accountingFlags>
+        <childItems id="4a45e1c3-6ca8-47af-94cd-4cff48b24ef2">
+          <name>Медикаменты_ИДИ</name>
+          <description>Медикаменты и перевязочные средств - иное движимое имущество учреждения</description>
+          <code>105.31</code>
+          <order>+105001053010531+++++</order>
+          <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Количественный</accountingFlags>
+        </childItems>
+        <childItems id="8ab11f01-815a-468a-b515-5004a37cc8e8">
+          <name>ПродуктыПитания_ИДИ</name>
+          <description>Продукты питания - иное движимое имущество учреждения</description>
+          <code>105.32</code>
+          <order>+105001053010532+++++</order>
+          <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Количественный</accountingFlags>
+        </childItems>
+        <childItems id="2007e91b-604e-42dd-b51c-19d0904ce17d">
+          <name>ГСМ_ИДИ</name>
+          <description>Горюче-смазочные материалы - иное движимое имущество учреждения</description>
+          <code>105.33</code>
+          <order>+105001053010533+++++</order>
+          <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Количественный</accountingFlags>
+        </childItems>
+        <childItems id="6dbd7929-cc5c-488f-adf7-353f3e980fc0">
+          <name>СтроительныеМатериалы_ИДИ</name>
+          <description>Строительные материалы - иное движимое имущество учреждения</description>
+          <code>105.34</code>
+          <order>+105001053010534+++++</order>
+          <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Количественный</accountingFlags>
+        </childItems>
+        <childItems id="d28e25db-da32-48b8-a928-a4e807586bbd">
+          <name>МягкийИнвентарь_ИДИ</name>
+          <description>Мягкий инвентарь - иное движимое имущество учреждения</description>
+          <code>105.35</code>
+          <order>+105001053010535+++++</order>
+          <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Количественный</accountingFlags>
+        </childItems>
+        <childItems id="cdc149b6-1ab4-4e74-a44e-d4088ff3f614">
+          <name>ПрочиеМЗ_ИДИ</name>
+          <description>Прочие материальные запасы - иное движимое имущество учреждения</description>
+          <code>105.36</code>
+          <order>+105001053010536+++++</order>
+          <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Количественный</accountingFlags>
+        </childItems>
+        <childItems id="6a261355-5fbe-4332-b387-dbd982be08d0">
+          <name>ГотоваяПродукция_ИДИ</name>
+          <description>Готовая продукция - иное движимое имущество учреждения</description>
+          <code>105.37</code>
+          <order>+105001053010537+++++</order>
+          <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Количественный</accountingFlags>
+        </childItems>
+        <childItems id="0ccd6e1b-eff1-4a64-92b1-08daf4c7fa3b">
+          <name>Товары_ИДИ</name>
+          <description>Товары –  иное движимое имущество учреждения</description>
+          <code>105.38</code>
+          <order>+105001053010538+++++</order>
+          <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Количественный</accountingFlags>
+          <childItems id="f45edd50-7f51-40ed-8072-86385f1d7192">
+            <name>Товары_ИДИ_НаСкладах</name>
+            <description>(На складах) Товары –  иное движимое имущество учреждения.</description>
+            <code>105.В8</code>
+            <order>+105001053010538105В8</order>
+            <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Количественный</accountingFlags>
+          </childItems>
+          <childItems id="eb146915-6507-45d2-a43f-10fb1fb1f787">
+            <name>Товары_ИДИ_ВРознице</name>
+            <description>(В рознице) Товары –  иное движимое имущество учреждения.</description>
+            <code>105.Г8</code>
+            <order>+105001053010538105Г8</order>
+          </childItems>
+        </childItems>
+        <childItems id="b077b6b9-58d4-4e01-8d8e-30d903a58d67">
+          <name>НаценкаНаТовары_ИДИ</name>
+          <description>Наценка на товары – иное движимое имущество учреждения</description>
+          <code>105.39</code>
+          <accountType>Passive</accountType>
+          <order>+105001053010539+++++</order>
+        </childItems>
+      </childItems>
+      <childItems id="3fa16a72-8e9b-4712-aece-9f17956cfb0a">
+        <name>МЗ_ПЛ</name>
+        <description>Материальные запасы - предметы лизинга</description>
+        <code>105.40</code>
+        <order>+1050010540++++++++++</order>
+        <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Количественный</accountingFlags>
+        <childItems id="c7f737f6-38a8-40f5-aedc-8c65061bd482">
+          <name>СтроительныеМатериалы_ПЛ</name>
+          <description>Строительные материалы - предметы лизинга</description>
+          <code>105.44</code>
+          <order>+105001054010544+++++</order>
+          <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Количественный</accountingFlags>
+        </childItems>
+        <childItems id="e80ecc2b-0683-4aac-90b6-8d86df1c0253">
+          <name>ПрочиеМЗ_ПЛ</name>
+          <description>Прочие материальные запасы -  предметы лизинга</description>
+          <code>105.46</code>
+          <order>+105001054010546+++++</order>
+          <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Количественный</accountingFlags>
+        </childItems>
+      </childItems>
+    </items>
+    <items id="2ccc339e-8c9b-4737-b6ed-ec917f876a2e">
+      <name>РасчетыПоПринятымОбязательствам</name>
+      <description>Расчеты по принятым обязательствам</description>
+      <code>302.00</code>
+      <accountType>Passive</accountType>
+      <order>+30200+++++++++++++++</order>
+      <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Валютный</accountingFlags>
+      <childItems id="175a50b8-4c91-447e-b84f-fd0df17e4e88">
+        <name>Расчеты_НФА</name>
+        <description>Расчеты по поступлению нефинансовых активов</description>
+        <code>302.30</code>
+        <accountType>Passive</accountType>
+        <order>+3020030230++++++++++</order>
+        <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Валютный</accountingFlags>
+        <childItems id="ac8c25e3-edaf-4d66-97b9-622dc20ac766">
+          <name>Расчеты_МЗ</name>
+          <description>Расчеты по приобретению материальных запасов</description>
+          <code>302.34</code>
+          <accountType>Passive</accountType>
+          <order>+302003023030234+++++</order>
+          <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Валютный</accountingFlags>
+        </childItems>
+      </childItems>
+      <childItems id="6c9b5faa-c43e-430a-ac36-201250a9c63e">
+        <name>Расчеты_БезвозмездноОрганизациям</name>
+        <description>Расчеты по безвозмездным перечислениям организациям</description>
+        <code>302.40</code>
+        <accountType>Passive</accountType>
+        <order>+3020030240++++++++++</order>
+        <childItems id="90dbfa73-7f2c-40a0-8590-4bcb47f69cb5">
+          <name>Расчеты_БезвозмездноГосУчреждениям</name>
+          <description>Расчеты по безвозмездным перечислениям государственным и муниципальным организациям</description>
+          <code>302.41</code>
+          <accountType>Passive</accountType>
+          <order>+302003024030241+++++</order>
+        </childItems>
+        <childItems id="bbf63b06-a3e2-4a24-8dd1-58c99c86de67">
+          <name>Расчеты_БезвозмездноКромеГосУчреждений</name>
+          <description>Расчеты по безвозмездным перечислениям организациям, за исключением государственных и муниципальных организаций</description>
+          <code>302.42</code>
+          <accountType>Passive</accountType>
+          <order>+302003024030242+++++</order>
+        </childItems>
+      </childItems>
+      <childItems id="e0bbabe7-95ac-4ec6-a95c-c5490a80f7ea">
+        <name>Расчеты_БезвозмездноБюджетам</name>
+        <description>Расчеты по безвозмездным перечислениям бюджетам</description>
+        <code>302.50</code>
+        <accountType>Passive</accountType>
+        <order>+3020030250++++++++++</order>
+        <childItems id="0e7096fd-9f6a-4556-a6e5-f75fc93340cf">
+          <name>Расчеты_БезвозмездноДругимБюджета</name>
+          <description>Расчеты по перечислениям другим бюджетам бюджетной системы Российской Федерации</description>
+          <code>302.51</code>
+          <accountType>Passive</accountType>
+          <order>+302003025030251+++++</order>
+        </childItems>
+        <childItems id="5580aaaf-a21e-45c9-874e-b270ce5055a4">
+          <name>Расчеты_ИностраннымГосударствам</name>
+          <description>Расчеты по перечислениям наднациональным организациям и правительствам иностранных государств</description>
+          <code>302.52</code>
+          <accountType>Passive</accountType>
+          <order>+302003025030252+++++</order>
+          <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Валютный</accountingFlags>
+        </childItems>
+        <childItems id="b0779300-70c9-4e82-8ae1-3aee8f50ab10">
+          <name>Расчеты_МеждународнымОрганизациям</name>
+          <description>Расчеты по перечислениям международным организациям</description>
+          <code>302.53</code>
+          <accountType>Passive</accountType>
+          <order>+302003025030253+++++</order>
+          <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Валютный</accountingFlags>
+        </childItems>
+      </childItems>
+      <childItems id="f1b7e337-6b4e-4051-879c-8053787f5009">
+        <name>Расчеты_ПрочиеРасходы</name>
+        <description>Расчеты по  прочим расходам</description>
+        <code>302.90</code>
+        <accountType>Passive</accountType>
+        <order>+3020030290++++++++++</order>
+        <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Валютный</accountingFlags>
+        <childItems id="044c63dd-6f56-4c34-a366-f4a8d9908dbd">
+          <name>РасчетыПоОплатеПрочихРасходов</name>
+          <description>Расчеты по прочим расходам</description>
+          <code>302.91</code>
+          <accountType>Passive</accountType>
+          <order>+302003029030291+++++</order>
+          <accountingFlags>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.AccountingFlag.Валютный</accountingFlags>
+        </childItems>
+      </childItems>
+    </items>
+    <items id="89cd02a2-4a45-484f-ae26-120256b0752c">
+      <name>ПрочиеРасчетыСКредиторами</name>
+      <description>Прочие расчеты с кредиторами</description>
+      <code>304.00</code>
+      <accountType>Passive</accountType>
+      <order>+30400+++++++++++++++</order>
+      <childItems id="da59124d-59b6-491b-a985-ef9d02b3438d">
+        <name>РасчетыПоСредствамВР</name>
+        <description>Расчеты по средствам, полученным во временное распоряжение</description>
+        <code>304.01</code>
+        <accountType>Passive</accountType>
+        <order>+3040030401++++++++++</order>
+      </childItems>
+      <childItems id="1aa7f733-8a6b-43e6-8926-26a67083924f">
+        <name>РасчетыСДепонентами</name>
+        <description>Расчеты с депонентами</description>
+        <code>304.02</code>
+        <accountType>Passive</accountType>
+        <order>+3040030402++++++++++</order>
+      </childItems>
+      <childItems id="2cf42bca-337e-47ad-a8fa-0f82a717c6b7">
+        <name>РасчетыПоУдержаниямСЗарплаты</name>
+        <description>Расчеты по удержаниям из выплат по оплате труда</description>
+        <code>304.03</code>
+        <accountType>Passive</accountType>
+        <order>+3040030403++++++++++</order>
+      </childItems>
+      <childItems id="ff921ac8-07f0-4ff7-bbd9-ef14f3623c74">
+        <name>ВнутриведомственныеРасчеты</name>
+        <description>Внутриведомственные расчеты</description>
+        <code>304.04</code>
+        <accountType>Passive</accountType>
+        <order>+3040030404++++++++++</order>
+      </childItems>
+      <childItems id="936b520c-85ec-43e9-b228-1b0c95da19ee">
+        <name>РасчетыСФинансовымОрганом</name>
+        <description>Расчеты по платежам из бюджета с финансовым органом</description>
+        <code>304.05</code>
+        <accountType>Passive</accountType>
+        <order>+3040030405++++++++++</order>
+      </childItems>
+      <childItems id="ab827563-1281-4621-ad76-043aa3a4c810">
+        <name>РасчетыСПрочимиКредиторами</name>
+        <description>Расчеты с прочими кредиторами</description>
+        <code>304.06</code>
+        <accountType>Passive</accountType>
+        <order>+3040030406++++++++++</order>
+      </childItems>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ.Form.ФормаВыбора</defaultChoiceForm>
+  <autoOrderByCode>true</autoOrderByCode>
+  <orderLength>21</orderLength>
+  <accountingFlags uuid="4335cd9a-c7d1-4720-a373-bb8649f616db">
+    <name>Валютный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валютный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ведется ли по счету учет в валюте</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </accountingFlags>
+  <accountingFlags uuid="dbba76f8-d9ec-4301-952c-5a49578db3f1">
+    <name>Количественный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количественный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ведется ли по счету количественный учет</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </accountingFlags>
+  <extDimensionAccountingFlags uuid="bdab8172-29ef-45c2-b1b5-56b193c4b1f3">
+    <name>Суммовой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Суммовой</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ведется ли по субконто суммовой учет</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </extDimensionAccountingFlags>
+  <extDimensionAccountingFlags uuid="89cba1c2-f90e-4f45-b257-c8569a63f56b">
+    <name>Валютный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валютный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ведется ли по субконто валютный учет</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </extDimensionAccountingFlags>
+  <extDimensionAccountingFlags uuid="6f2b9a75-4286-4254-8049-a56247363571">
+    <name>Количественный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количественный</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ведется ли по субконто количественный учет</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </extDimensionAccountingFlags>
+  <forms uuid="687540ea-d16e-4905-be2e-aea49589b563">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4d05748f-c7c2-4207-a6eb-13e8efaf740c">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfAccounts>

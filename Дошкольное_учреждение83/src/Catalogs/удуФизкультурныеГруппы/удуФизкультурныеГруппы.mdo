@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86b8e011-cc54-42f4-840e-f59b5af5adcf">
+  <producedTypes>
+    <objectType typeId="48fd0ae9-3008-4102-812b-08dd95f0d043" valueTypeId="44a42dcd-4607-48ea-a6cf-c35e214185e7"/>
+    <refType typeId="3668ae05-8276-436d-8463-7a26c878a7b0" valueTypeId="6ba2c0a6-891d-44c2-acda-204d24404159"/>
+    <selectionType typeId="cbc6d1d5-eb8b-43d9-9e54-f21cb9fded1e" valueTypeId="94444205-f5af-4d97-b2f0-d5da0da06a6d"/>
+    <listType typeId="333606df-b134-4694-ab70-54975fa7a000" valueTypeId="feadf4d8-fb77-4432-8410-07226a0198fe"/>
+    <managerType typeId="0d0c0743-ac06-4554-9280-2c3af71e8536" valueTypeId="76b209de-398c-43a1-8282-8b13d21b9381"/>
+  </producedTypes>
+  <name>удуФизкультурныеГруппы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Физкультурные группы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.удуФизкультурныеГруппы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.удуФизкультурныеГруппы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Физкультурная группа</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f7c6c31-206b-4010-bdad-1ad2e304f154">
+  <name>ВариантыОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты отчетов</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>SettingsStorage.ХранилищеВариантовОтчетов</content>
+  <content>CommonModule.ВариантыОтчетов</content>
+  <content>Catalog.ВариантыОтчетов</content>
+  <content>Subsystem.СтандартныеПодсистемы.Subsystem.ВариантыОтчетов</content>
+  <content>Enum.ТипыОтчетов</content>
+  <content>CommonModule.ВариантыОтчетовПереопределяемый</content>
+  <content>CommonModule.ВариантыОтчетовКлиент</content>
+  <content>Role.ДобавлениеИзменениеВариантовОтчетов</content>
+  <content>Role.ИспользованиеВариантовОтчетов</content>
+  <content>CommonModule.ВариантыОтчетовКлиентСервер</content>
+  <content>CommonModule.ВариантыОтчетовПовтИсп</content>
+  <content>InformationRegister.НастройкиВариантовОтчетов</content>
+  <content>CommonPicture.БыстрыйДоступ</content>
+  <content>CommonPicture.БыстрыйДоступДобавить</content>
+  <content>CommonPicture.БыстрыйДоступУдалить</content>
+  <content>StyleItem.СкрытыйВариантОтчета</content>
+  <content>StyleItem.ВидимыйВариантОтчета</content>
+  <content>CommonForm.ПанельОтчетов</content>
+  <content>StyleItem.ГруппаВариантовОтчетов</content>
+  <content>Enum.ДоступныеПериодыОтчета</content>
+  <content>CommonModule.ФормаОтчетаКлиентПереопределяемый</content>
+  <content>CommonModule.ФормаОтчетаПереопределяемый</content>
+  <content>CommonModule.ФункцииОтчетовКлиентСервер</content>
+  <content>CommonForm.ФормаОтчета</content>
+  <content>CommonForm.ФормаНастроекОтчета</content>
+  <content>CommonForm.ФормаВариантаОтчета</content>
+  <content>CommonPicture.БыстрыеНастройкиОтчета</content>
+  <content>CommonForm.ВыборПроизвольногоПериода</content>
+  <content>CommonForm.ОтправкаТабличныхДокументовПоПочте</content>
+  <content>CommonPicture.ЭлектронноеПисьмо</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

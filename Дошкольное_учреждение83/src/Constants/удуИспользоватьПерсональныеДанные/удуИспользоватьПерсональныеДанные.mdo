@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6cfc8308-e4a2-4bdc-97b7-325716ef46a1">
+  <producedTypes>
+    <managerType typeId="73741da4-6726-4175-857e-5cb6eedd03b3" valueTypeId="4918ef80-93c3-412d-95b5-8e1533bc44ea"/>
+    <valueManagerType typeId="bb39a8a4-214a-4cff-a32b-be3b6d5a388d" valueTypeId="c6a14cc3-2cf6-4532-a0c1-437bead9afe7"/>
+  </producedTypes>
+  <name>удуИспользоватьПерсональныеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать персональные данные</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.НастройкаПрограммы</defaultForm>
+  <toolTip>
+    <key>ru</key>
+    <value>Флаг использования персональных данных (для функциональной опции)</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

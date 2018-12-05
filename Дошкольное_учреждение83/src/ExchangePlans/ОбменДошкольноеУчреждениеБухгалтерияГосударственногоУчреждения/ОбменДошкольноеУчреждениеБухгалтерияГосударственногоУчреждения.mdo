@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d25d540-76d2-4c73-85ec-421a514517c9" thisNode="01d95071-2de5-4d3d-99d7-4d6d00eb14fd">
+  <producedTypes>
+    <objectType typeId="4e7be854-2df2-45dc-8e89-1907ce011ba8" valueTypeId="d250e8da-6546-441d-b6f6-25b8c9fb9632"/>
+    <refType typeId="7bf09909-0439-4b23-956c-88cad5a21208" valueTypeId="5d29580d-15b9-4222-8dd5-391aab4fed5f"/>
+    <selectionType typeId="d3a2ee8c-edac-4c45-bcc3-a78b51574816" valueTypeId="f80f6317-3666-48b4-a532-5df434c036d9"/>
+    <listType typeId="d7f43598-c869-4358-90c7-7a8f97de0328" valueTypeId="143d1d2c-1c53-42be-b5f8-f70c2cad5d64"/>
+    <managerType typeId="0f9bdf10-dc52-4201-bd47-02cdcd484be9" valueTypeId="cc5ff73c-bb48-4cf6-a913-a6f380e78b69"/>
+  </producedTypes>
+  <name>ОбменДошкольноеУчреждениеБухгалтерияГосударственногоУчреждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными: Дошкольное учреждение - Бухгалтерия государственного учреждения</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ОбменДошкольноеУчреждениеБухгалтерияГосударственногоУчреждения.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ОбменДошкольноеУчреждениеБухгалтерияГосударственногоУчреждения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>3</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <content>
+    <mdObject>Catalog.удуКлассификаторЕдиницИзмерения</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СоответствияОбъектовИнформационныхБаз</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.удуУчреждения</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.удуСписаниеТМЦ</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.удуНоменклатура</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.удуОприходованиеТМЦ</mdObject>
+  </content>
+  <content>
+    <mdObject>ChartOfAccounts.удуПланСчетовДляОбменаС_БГУ</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <forms uuid="7cf0a9d8-ddb1-48fb-b081-69b377e7a255">
+    <name>ФормаНастройкиУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки узла</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="54c860df-8795-42a5-956b-5ad8a53f5aa8">
+    <name>ФормаНастройкиЗначенийПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки значений по умолчанию</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e2c28925-6d08-41ec-b30d-2bd76d0771ef">
+    <name>ПравилаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила обмена</value>
+    </synonym>
+    <comment></comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:ExchangePlan>

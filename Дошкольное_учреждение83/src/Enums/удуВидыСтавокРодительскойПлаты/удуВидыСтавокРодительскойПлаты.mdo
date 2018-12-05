@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d09f340f-9c43-45bc-831c-b76110e96344">
+  <producedTypes>
+    <refType typeId="eafdd66e-fde7-4fc5-858c-127fca528987" valueTypeId="acfd6eac-b4f0-4c7b-a183-2f4a53c0283e"/>
+    <listType typeId="587b79fb-0dc6-4ad0-b117-cd6ac3c70c93" valueTypeId="bb2adab7-a5ef-4f37-9961-4d84d26fe7a2"/>
+    <managerType typeId="87167662-7d6c-4f5c-b787-86f042f9fe2c" valueTypeId="61f5370b-ffbf-4160-a427-7548c9f3f47c"/>
+  </producedTypes>
+  <name>удуВидыСтавокРодительскойПлаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды ставок родительской платы</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c0cb582b-20a7-4ebf-8bbb-bbc3c51e2e50">
+    <name>Дневная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дневная</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3c25805d-dfc4-4fa8-a779-a841937d7aaa">
+    <name>Месячная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месячная</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

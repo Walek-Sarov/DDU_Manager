@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba2f7a33-7039-49ab-b3a2-60d82ea06563">
+  <producedTypes>
+    <refType typeId="379c43ba-bd57-4ecb-9944-c8fbed456491" valueTypeId="812e706f-9a05-4967-a94b-b7b8507c3f48"/>
+    <listType typeId="01536492-e4e1-4f24-a339-1ecbc6f8831e" valueTypeId="e6ea3240-b7d5-4d58-ad44-5c4d13a15cdb"/>
+    <managerType typeId="53b2fa2f-6fe7-4c00-b0b2-78a00f3e6fe3" valueTypeId="e1ec1f05-a79c-4d29-9de7-11c545b6cbcc"/>
+  </producedTypes>
+  <name>удуРежимРаботыДОУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>режим работы ДОУ</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7b426768-ef79-4aa7-9c1e-f234e97f4cc5">
+    <name>Пятидневный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пятидневный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e70e1cac-abf4-46de-b719-1abc139d8a80">
+    <name>Шестидневный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шестидневный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

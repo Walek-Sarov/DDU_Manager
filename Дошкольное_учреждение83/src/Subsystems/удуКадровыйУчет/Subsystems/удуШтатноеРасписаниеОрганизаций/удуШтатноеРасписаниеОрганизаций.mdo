@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f73317f-7e32-4c15-800d-9f4fe73959d6">
+  <name>удуШтатноеРасписаниеОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штатное расписание организаций</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.удуШтатноеРасписаниеОрганизаций</content>
+  <content>InformationRegister.удуСведенияОШтатныхЕдиницахОрганизаций</content>
+  <content>InformationRegister.удуСотрудникиОсвободившиеСтавкиВОрганизациях</content>
+  <content>Report.удуУнифицированнаяФормаТ3</content>
+  <content>InformationRegister.удуНадбавкиПоШтатномуРасписаниюОрганизаций</content>
+  <parentSubsystem>Subsystem.удуКадровыйУчет</parentSubsystem>
+</mdclass:Subsystem>

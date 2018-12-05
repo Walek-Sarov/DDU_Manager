@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3359021-50c0-434c-909f-e35ad58c61df">
+  <producedTypes>
+    <objectType typeId="f602627a-2442-43d5-b8ae-1c11cb413cf2" valueTypeId="e9ab3785-e3a9-469b-954e-dca9f5ab004a"/>
+    <managerType typeId="79972b77-eafb-49b7-9989-56a21882c046" valueTypeId="4930b108-3b27-457d-870f-2ec4a9d3d8d7"/>
+  </producedTypes>
+  <name>удуСпискиРаботниковОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Списки сотрудников организаций</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.удуСпискиРаботниковОрганизаций.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="b4546f41-4e19-4e2c-a9bc-8fd997376698">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

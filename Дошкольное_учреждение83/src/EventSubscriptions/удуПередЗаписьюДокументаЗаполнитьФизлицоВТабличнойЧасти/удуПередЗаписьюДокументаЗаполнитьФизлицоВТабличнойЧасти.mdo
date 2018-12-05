@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c548b8b-5c73-4d73-9943-6bea47c9fa3c">
+  <name>удуПередЗаписьюДокументаЗаполнитьФизлицоВТабличнойЧасти</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перед записью документа заполнить физлицо в табличной части</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>DocumentObject.удуНеявкиИБолезниОрганизаций</types>
+    <types>DocumentObject.удуУвольнениеИзОрганизаций</types>
+    <types>DocumentObject.удуОтпускаОрганизаций</types>
+    <types>DocumentObject.удуПриемНаРаботуВОрганизацию</types>
+    <types>DocumentObject.удуГрафикОтпусковОрганизаций</types>
+    <types>DocumentObject.удуТабельУчетаРабочегоВремениОрганизации</types>
+    <types>DocumentObject.удуКадровоеПеремещениеОрганизаций</types>
+    <types>DocumentObject.удуКомандировкиОрганизаций</types>
+    <types>DocumentObject.удуВозвратНаРаботуОрганизаций</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.удуДокументыКадровогоУчета.ПередЗаписьюДокументаЗаполнитьФизЛицоВТабличнойЧасти</handler>
+</mdclass:EventSubscription>

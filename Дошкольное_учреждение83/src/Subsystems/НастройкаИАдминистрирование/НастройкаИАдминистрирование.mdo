@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70c4ec49-8547-46b1-a27e-a7ca1e7ca633">
+  <name>НастройкаИАдминистрирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка и администрирование</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Настройка, администрирование, сервисные функции</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаАдминистрирование</picture>
+  </picture>
+  <content>DataProcessor.АдминистрированиеСистемы</content>
+  <content>DataProcessor.ЖурналРегистрации</content>
+  <content>DataProcessor.РегламентныеИФоновыеЗадания</content>
+  <content>DataProcessor.АктивныеПользователи</content>
+  <content>DataProcessor.УдалениеПомеченныхОбъектов</content>
+  <content>DataProcessor.НастройкиПользователей</content>
+  <content>DataProcessor.УправлениеПолнотекстовымПоиском</content>
+  <content>DataProcessor.ПоискВДанных</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.ГруппыДоступа</content>
+  <content>Catalog.ГрифыДоступа</content>
+  <content>Catalog.ТомаХраненияФайлов</content>
+  <content>Report.ДинамикаФайлов</content>
+  <content>InformationRegister.НастройкиВерсионированияОбъектов</content>
+  <content>Catalog.НаборыДополнительныхРеквизитовИСведений</content>
+  <content>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</content>
+  <content>DataProcessor.БлокировкаРаботыПользователей</content>
+  <content>DataProcessor.КонтрольЖурналаРегистрации</content>
+  <content>DataProcessor.ИзменениеПароляПользователяИБ</content>
+  <content>CommonForm.НастройкаПрограммы</content>
+  <content>CommonCommand.ПерсональныеНастройки</content>
+  <content>Catalog.СтруктураПредприятия</content>
+  <content>InformationRegister.СведенияОПользователях</content>
+  <content>Catalog.УчетныеЗаписиЭлектроннойПочты</content>
+  <content>Catalog.ГруппыПользователей</content>
+  <content>Catalog.ПрофилиГруппДоступа</content>
+  <content>Catalog.ГруппыДоступаКорреспондентов</content>
+  <content>Catalog.ГруппыДоступаФизическихЛиц</content>
+  <content>CommonPicture.Корзина</content>
+  <content>CommonPicture.БлокировкаСоединений</content>
+  <content>CommonPicture.КонсольЗаданий</content>
+  <content>CommonPicture.КонтрольЖурналаРегистрации</content>
+  <content>CommonPicture.УдалитьУправлениеПоиском</content>
+  <content>CommonPicture.Пользователь32</content>
+  <content>CommonPicture.ЖурналРегистрации32</content>
+  <content>CommonPicture.УправлениеНастройкамиФорм</content>
+  <content>CommonCommand.РазместитьФайлыНачальногоОбраза</content>
+  <content>ExchangePlan.Полный</content>
+  <content>DataProcessor.ЗагрузкаДанныхИз1САрхива30</content>
+  <content>DataProcessor.АвтоматическоеИзвлечениеТекстов</content>
+  <content>CommonCommand.СведенияОПользователе</content>
+  <content>Catalog.Организации</content>
+  <content>Catalog.ДополнительныеОтчетыИОбработки</content>
+  <content>InformationRegister.НазначениеДополнительныхОбработок</content>
+  <content>ExchangePlan.ОбменДошкольноеУчреждениеДошкольнаяПсиходиагностика</content>
+  <content>CommonCommand.ОткрытьОбменыДанными</content>
+  <content>ExchangePlan.ОбменДошкольноеУчреждениеБухгалтерияГосударственногоУчреждения</content>
+  <subsystems>УправлениеДоступом</subsystems>
+</mdclass:Subsystem>

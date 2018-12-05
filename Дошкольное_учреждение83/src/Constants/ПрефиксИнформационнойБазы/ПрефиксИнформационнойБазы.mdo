@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ba3e2ea-6523-4dfd-a72a-ae919654d996">
+  <producedTypes>
+    <managerType typeId="4d7a7236-3ed8-4992-8d6e-a5988ce51ddb" valueTypeId="f27d433c-6cdb-4226-ade0-79bc240d9c4d"/>
+    <valueManagerType typeId="dd12385e-9191-4fc0-a95a-25733849b99c" valueTypeId="48a0e78a-028d-43c0-a547-4cb3aeb0c6a8"/>
+  </producedTypes>
+  <name>ПрефиксИнформационнойБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Префикс информационной базы</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>2</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Префикс информационной базы для механизма обмена</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

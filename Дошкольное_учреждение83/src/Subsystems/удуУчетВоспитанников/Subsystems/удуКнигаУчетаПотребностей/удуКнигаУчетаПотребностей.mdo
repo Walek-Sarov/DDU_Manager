@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5801ba5f-c8c7-433d-b49a-1ced1d3e683a">
+  <name>удуКнигаУчетаПотребностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Книга учета потребностей</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.удуЗаявкаНаЗачислениеРебенкаВДОУ</content>
+  <content>Document.удуДоговорОЗачисленииРебенка</content>
+  <content>Document.удуКомплектованиеГруппы</content>
+  <content>Report.удуОтчетПоЗаявкамНаЗачислениеВГруппу</content>
+  <content>DataProcessor.удуБыстраяРегистрацияЗаявкиНаЗачисление</content>
+  <content>Catalog.удуВозрастныеПризнаки</content>
+  <content>Constant.удуИспользоватьВозрастнойПризнакПриКомплектовании</content>
+  <parentSubsystem>Subsystem.удуУчетВоспитанников</parentSubsystem>
+</mdclass:Subsystem>

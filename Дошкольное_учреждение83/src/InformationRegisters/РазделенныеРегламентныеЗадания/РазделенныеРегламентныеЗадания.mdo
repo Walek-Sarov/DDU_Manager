@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b48f705-0fdd-49e9-b912-5d2b8ae86d6d">
+  <producedTypes>
+    <selectionType typeId="5ead4f33-008a-436c-81db-0783e086aebf" valueTypeId="62e58320-b560-463d-8aa4-6d2f011ecf12"/>
+    <listType typeId="67fd137b-9d0a-4472-8860-8bea4c939397" valueTypeId="6be7e8a3-97b8-417a-bb81-a6a246d41099"/>
+    <managerType typeId="60d8d529-fbd4-474e-9dc6-8fe19bc0572d" valueTypeId="d871bf55-00c6-4a67-9998-7a12c4e8ad78"/>
+    <recordSetType typeId="908453fc-7e90-4c22-be04-0493ddb1a771" valueTypeId="0a8af453-17f4-4774-a3ee-73cec10469c3"/>
+    <recordKeyType typeId="627b6b5d-79da-49f0-85c1-f877aa2ec820" valueTypeId="bd218c03-c364-4251-ba1a-db3317710f88"/>
+    <recordType typeId="d2fefa53-2276-427f-8416-e40b1bc00104" valueTypeId="26435573-0bb0-4c53-8849-1dad466f7f74"/>
+    <recordManagerType typeId="772aa3bc-7aed-4c39-974d-76cbdeee2972" valueTypeId="da866111-217c-4116-909a-3a42fa95a485"/>
+  </producedTypes>
+  <name>РазделенныеРегламентныеЗадания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разделенные регламентные задания</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.РазделенныеРегламентныеЗадания.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.РазделенныеРегламентныеЗадания.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="18df66fe-f271-462e-822d-2f16dbb8c58f">
+    <name>Использование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использование</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="80337d19-4661-429d-a108-c5b2b0f31fdf">
+    <name>ИндивидуальнаяНастройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индивидуальная настройка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1f2502be-56fc-44fa-9341-00ed0463dbb4">
+    <name>РегламентноеЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентное задание</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>UUID</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="018caa10-88e0-452f-b0c1-65778104b290">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f3e237ee-a696-42d9-966d-bbb7ecb354ce">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

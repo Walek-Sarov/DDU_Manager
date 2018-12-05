@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e17d6711-ca99-4e09-8461-3aa9b6863118">
+  <producedTypes>
+    <refType typeId="b5d4bf8f-e85e-47f1-9286-c44d460fb58d" valueTypeId="5898384c-cce4-43a8-9bc0-d9150e25e8a2"/>
+    <listType typeId="7931164b-4532-4fdb-b707-3db153729639" valueTypeId="b546c5cd-83fe-4f03-9be3-0b8cf018f725"/>
+    <managerType typeId="f8bf14b6-b19e-4112-8d2e-0ba951c7d3af" valueTypeId="461c2e3a-386d-4ec7-93a3-cfce3d27c886"/>
+  </producedTypes>
+  <name>удуВидыОбщеобразовательногоУчреждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды общеобразовательного учреждения</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="51454741-0533-4095-83e9-1b117a40dff1">
+    <name>НачальнаяШколаДетскийСад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальная школа - детский сад</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="5ebf13b3-129a-47c9-b985-5f16be9570eb">
+    <name>НачальнаяШколаСадКомпенсирующегоВида</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальная школа - детский сад компенсирующего вида</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ca6c4f9f-a859-46a9-929f-24d0891186bc">
+    <name>Прогимназия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прогимназия</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cea06725-7789-486a-877d-b4120947a872">
+  <producedTypes>
+    <selectionType typeId="96f1f1b1-acc0-4eeb-943f-5090924ced0b" valueTypeId="ba2168e6-a1e3-44b6-9689-58bdec30c183"/>
+    <listType typeId="b3ad7581-ac5f-4038-8f94-350de0ec2dec" valueTypeId="4700b1ee-20e5-423b-842e-f4fdadb7a7e9"/>
+    <managerType typeId="7756ab9e-079e-40c2-8531-fa9858bd41e6" valueTypeId="f6d9cf40-7533-450f-ab1b-a05065542f52"/>
+    <recordSetType typeId="23f35848-47a0-4525-846f-93124e4c27cc" valueTypeId="cf667298-6e74-40fe-af29-deb81b281e75"/>
+    <recordKeyType typeId="6a457b91-50c2-4b5a-97c8-dad3878162d5" valueTypeId="5c69af3d-aa3a-4fd1-b48a-64a7624f1a87"/>
+    <recordType typeId="805eeba2-5be2-40f3-8ef1-a9e249c137e4" valueTypeId="f324de54-b2db-47c1-a52b-976a6a3424b8"/>
+    <recordManagerType typeId="444766cd-cb72-409b-ab8a-98ebe177409c" valueTypeId="0ad31703-4e05-4ffa-aa63-696d30c98955"/>
+  </producedTypes>
+  <name>УдалитьудуСведенияОДокументах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить:Сведения о документах</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Предназначен для сохранения информации о связи между учетным документом и делопроизводственным документом. Заменен регистром удуСвязьДокументовСДелопроизводством </value>
+  </explanation>
+  <dimensions uuid="605204a1-9290-4951-b52a-c19da8f8f630">
+    <name>УчетныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетный документ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DocumentRef.удуДоговорОЗачисленииРебенка</types>
+      <types>DocumentRef.удуПриемНаРаботуВОрганизацию</types>
+      <types>DocumentRef.удуВозвратНаРаботуОрганизаций</types>
+      <types>DocumentRef.удуПеремещениеТМЦ</types>
+      <types>DocumentRef.удуОприходованиеТМЦ</types>
+      <types>DocumentRef.удуЗаявкаНаЗачислениеРебенкаВДОУ</types>
+      <types>DocumentRef.удуПриказОЗачисленииРебенкаВГруппу</types>
+      <types>DocumentRef.удуСписаниеТМЦ</types>
+      <types>DocumentRef.удуПриказОВыбытииИзГруппы</types>
+      <types>DocumentRef.удуУвольнениеИзОрганизаций</types>
+      <types>DocumentRef.удуПриказОПереводеВДругуюГруппу</types>
+      <types>DocumentRef.удуКадровоеПеремещениеОрганизаций</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Учетный документ в базе</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="60154556-d841-452a-b01b-cc24a568cb85">
+    <name>ДелопроизводственныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Делопроизводственный документ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВходящиеДокументы</types>
+      <types>CatalogRef.ВнутренниеДокументы</types>
+      <types>CatalogRef.ИсходящиеДокументы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Делопроизводственный документ в базе</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

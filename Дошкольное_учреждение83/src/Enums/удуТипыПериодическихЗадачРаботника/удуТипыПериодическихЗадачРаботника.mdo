@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba38706e-18c2-4614-ab7e-2193d66d5beb">
+  <producedTypes>
+    <refType typeId="44d2a5bd-2781-4229-8f5b-319a2a82ec05" valueTypeId="885d0834-71c2-4cf3-855b-1f9844a9ab65"/>
+    <listType typeId="7cb3925f-8cf4-4b09-a79f-31f91eeee961" valueTypeId="087e1037-0fda-4ee6-ba04-a08a7eca5d2f"/>
+    <managerType typeId="7e8878e7-c01c-4121-bc48-ccbf71a7c603" valueTypeId="ee6d1005-b5d7-471d-9268-61169bb30be6"/>
+  </producedTypes>
+  <name>удуТипыПериодическихЗадачРаботника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы периодических задач сотрудника</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c11848e7-fc7e-49c1-8e28-9e28d14d23f6">
+    <name>ОтпускЕжегодный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпуск ежегодный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c67881e6-dc70-47af-a7ca-a10a7efe7f6f">
+    <name>Отсутствие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствие</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="5ce7e5e3-3d9c-4bab-a196-7f2a2b070ef2">
+    <name>Мероприятие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мероприятие</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="86404f8a-c023-49db-8866-9d278eba7c23">
+    <name>ВстречаСКандидатом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Встреча с кандидатом</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="31ee77cb-af7c-4fc5-89a9-cb2db1fa13b6">
+    <name>Свободен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свободен</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="928781d5-cdc7-4453-aaac-7d088f9863fb">
+    <name>Встреча</name>
+    <synonym>
+      <key>ru</key>
+      <value>Встреча</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

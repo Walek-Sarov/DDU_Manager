@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43f14566-a8a6-4d93-b1f1-84a3592de8c2">
+  <producedTypes>
+    <refType typeId="00653ad3-a8fc-48e8-bcdf-cf62f6d1e57d" valueTypeId="1c7c45b0-9086-4288-a181-053a939e1f01"/>
+    <listType typeId="096efa2b-59ff-4921-b337-d1fe9f75038f" valueTypeId="cfbf84ee-da7c-44dc-9d26-81d2df04119a"/>
+    <managerType typeId="229b9072-cac1-459f-bdaf-c24f4c739437" valueTypeId="a1b8c1d6-402a-425a-9a9d-e8a86f96bc01"/>
+  </producedTypes>
+  <name>удуВидыДоговоровСФизЛицами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды договоров с физ. лицами</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e1d8c05e-28f5-4451-924c-510e62bfb456">
+    <name>ТрудовойДоговор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Трудовой договор</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7a4d6516-0a47-408a-a803-62ae57a80997">
+    <name>Подряда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор подряда (выполнение работ, оказание услуг)</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

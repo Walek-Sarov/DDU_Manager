@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21932e29-866d-45c6-a0bf-85f909e884f7">
+  <producedTypes>
+    <refType typeId="3f12969e-b52e-4a7a-b4b6-3a1e696193e2" valueTypeId="40473543-7ee9-4c73-8121-c8ae0f430a95"/>
+    <listType typeId="7acfda0c-0f5f-487a-86a0-02c2aef8273d" valueTypeId="d2568c86-6ff5-464a-a063-60aeff8bfcae"/>
+    <managerType typeId="645cd8a6-5ba3-4fbf-880a-e1cc2904b0bc" valueTypeId="8d8393e6-b972-4f45-b0a5-c3a5e8345ad5"/>
+  </producedTypes>
+  <name>удуВидыОперацийПриходТМЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций приход ТМЦ</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды операций приход ТМЦ</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Виды операций приход ТМЦ</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Возможные виды операций документа &quot;Оприходование ТМЦ&quot;</value>
+  </explanation>
+  <enumValues uuid="4f9516e2-6d2d-4625-b080-7d1cb055538d">
+    <name>ПокупкаМатериалов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупка материалов</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="14e09839-925f-45a6-a9a8-a2f1c6ec7255">
+    <name>ПоступлениеМатериаловПрочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление материалов прочее</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="801bc262-b0df-4e0b-8242-79e867ac4256">
+    <name>ПокупкаПродуктовПитания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупка продуктов питания</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3618a567-564c-40a3-b3f9-74ad18fc9bb3">
+    <name>ПокупкаМетодическихМатериалов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупка методических материалов</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="df821233-75b1-4829-8d04-aaae2eaaf430">
+    <name>ПокупкаОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приобретение объектов основных средств</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

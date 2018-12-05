@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f9c08c2-e7fa-4ea0-a935-f927feb01131">
+  <name>НастройкаПорядкаЭлементовПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка порядка элементов перед записью</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>CatalogObject.ВидыКонтактнойИнформации</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.НастройкаПорядкаЭлементовСобытия.НастройкаПорядкаЭлементовПередЗаписью</handler>
+</mdclass:EventSubscription>

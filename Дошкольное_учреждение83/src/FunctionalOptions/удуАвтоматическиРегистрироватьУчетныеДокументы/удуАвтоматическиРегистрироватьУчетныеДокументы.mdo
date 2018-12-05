@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a588c267-7a18-4f3a-b472-0331eeed0893">
+  <name>удуАвтоматическиРегистрироватьУчетныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматически регистрировать учетные документы</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.удуАвтоматическиРегистрироватьУчетныеДокументы</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.удуНастройкиРегистрацииДокументов</content>
+  <content>InformationRegister.удуРегистрацияУчетныхДокументов</content>
+  <content>InformationRegister.УдалитьудуСведенияОДокументах</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4cfdc61-998b-4953-ab43-93fa0d1bf0bf">
+  <producedTypes>
+    <managerType typeId="ec5857f8-a00c-41a7-aabb-2b416c51bfaf" valueTypeId="37a1d9fb-a503-4161-83a3-e0cc1fb8b664"/>
+    <valueManagerType typeId="cff774af-b92b-48bb-aeab-aa00b397b68d" valueTypeId="f1f7bb14-9b8c-42cc-b3fd-ce165d1bd8be"/>
+  </producedTypes>
+  <name>удуПроверкаШтатногоРасписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контролировать штатное расписание при кадровых изменениях</value>
+  </synonym>
+  <comment>Проверяются свободные штатные единицы при регистрации кадровых изменений сотрудников</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Контролировать штатное расписание при кадровых изменениях</value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Проверяются свободные штатные единицы при регистрации кадровых изменений сотрудников</value>
+  </explanation>
+  <toolTip>
+    <key>ru</key>
+    <value>Признак необходимости проверки штатного расписания при любых кадровых изменениях</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="425023e5-cce2-4520-b957-51d48a89671b">
+  <producedTypes>
+    <refType typeId="2c4a1ba3-8660-4c9c-9bbd-a633c424418a" valueTypeId="b79cff3f-160e-4e3f-b97a-fa15dff695b2"/>
+    <listType typeId="871c456d-90bf-4f93-948d-86dba3f06480" valueTypeId="26d2c28b-1f2c-46d0-b15a-13e43cb118c8"/>
+    <managerType typeId="3b454d80-8b1f-4680-abc6-14e5c884b6fe" valueTypeId="92df4901-a5f3-49a1-94e1-6311e782f7f2"/>
+  </producedTypes>
+  <name>удуВидыУчетаВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды учета времени</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5b3ad477-5a37-441c-a178-ad65cb4ae5a6">
+    <name>ПоДням</name>
+    <synonym>
+      <key>ru</key>
+      <value>По дням</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="25ce3c2a-3419-4064-9fd6-3d95f898931b">
+    <name>ПоЧасам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По часам</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="63024992-bbf2-4df7-af86-95bccd13dd5c">
+    <name>ПоВечернимЧасам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По вечерним часам</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b788b90f-d9b8-47fe-859f-49c108447d73">
+    <name>ПоНочнымЧасам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По ночным часам</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0bddbceb-5739-46f8-88b6-06bcead350d9">
+  <name>ИспользоватьВнешниеЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать внешние задачи</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.ИспользоватьВнешниеЗадачи</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.РолиИсполнителей.Attribute.ВнешняяРоль</content>
+  <content>ExchangePlan.ОбменВнешнимиЗаданиями</content>
+  <content>InformationRegister.ИсточникиВнешнихЗадач</content>
+  <content>ExchangePlan.ОбменВнешнимиЗаданиямиС1СДокументооборот</content>
+</mdclass:FunctionalOption>

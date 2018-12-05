@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="081d3167-4270-44f1-9d8a-b0a88c9419a8">
+  <producedTypes>
+    <managerType typeId="658e5f55-d7a7-48dc-a468-591688ecab3b" valueTypeId="316b6e98-7913-4849-83dc-ca3333e6e252"/>
+    <valueManagerType typeId="a3416a95-3cd9-44b1-a94d-c6a2746553f9" valueTypeId="62ff690c-583e-4de8-b6a6-ff1cb40a474f"/>
+  </producedTypes>
+  <name>удуНастройкиКолонтитуловПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки колонтитулов по умолчанию</value>
+  </synonym>
+  <comment>Настройки колонтитулов стандартных отчетов, используемые по умолчанию</comment>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Настройка стандартных колонтитулов в отчетах</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

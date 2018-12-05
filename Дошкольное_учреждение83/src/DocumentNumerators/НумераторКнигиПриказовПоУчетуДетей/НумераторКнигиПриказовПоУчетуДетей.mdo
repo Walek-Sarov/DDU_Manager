@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentNumerator xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26cb7bb4-1006-4e7f-bc6a-417a8f2de8fa">
+  <name>НумераторКнигиПриказовПоУчетуДетей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нумератор книги приказов по учету детей</value>
+  </synonym>
+  <comment></comment>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+</mdclass:DocumentNumerator>

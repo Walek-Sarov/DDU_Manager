@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18c44705-55b3-48d1-8ae7-b3f1fe687b7d">
+  <producedTypes>
+    <managerType typeId="df35da9e-089b-44cb-8409-f5b9fc821fd8" valueTypeId="af1efb6d-4fd9-4715-aed5-a670959e89a4"/>
+    <valueManagerType typeId="fe2ee636-d7cb-4f4e-9cd6-b5ed6893f5a1" valueTypeId="5659c600-1a0c-49b0-a3ef-80b049289b4e"/>
+  </producedTypes>
+  <name>удуИспользоватьУчетДетей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать учет детей</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Флаг использования учета детей в ИБ (для функциональной опции)</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

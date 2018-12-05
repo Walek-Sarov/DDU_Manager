@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Style xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
+	<Item name="FormBackColor">
+		<Color>web:Cream</Color>
+	</Item>
+	<Item name="FormTextColor">
+		<Color>style:FormTextColor</Color>
+	</Item>
+	<Item name="ButtonBackColor">
+		<Color>style:ButtonBackColor</Color>
+	</Item>
+	<Item name="ButtonTextColor">
+		<Color>style:ButtonTextColor</Color>
+	</Item>
+	<Item name="FieldBackColor">
+		<Color>style:FieldBackColor</Color>
+	</Item>
+	<Item name="FieldTextColor">
+		<Color>style:FieldTextColor</Color>
+	</Item>
+	<Item name="FieldSelectionBackColor">
+		<Color>style:FieldSelectionBackColor</Color>
+	</Item>
+	<Item name="FieldSelectedTextColor">
+		<Color>style:FieldSelectedTextColor</Color>
+	</Item>
+	<Item name="FieldAlternativeBackColor">
+		<Color>style:FieldAlternativeBackColor</Color>
+	</Item>
+	<Item name="ToolTipBackColor">
+		<Color>style:ToolTipBackColor</Color>
+	</Item>
+	<Item name="ToolTipTextColor">
+		<Color>style:ToolTipTextColor</Color>
+	</Item>
+	<Item name="SpecialTextColor">
+		<Color>style:SpecialTextColor</Color>
+	</Item>
+	<Item name="NegativeTextColor">
+		<Color>style:NegativeTextColor</Color>
+	</Item>
+	<Item name="BorderColor">
+		<Color>style:BorderColor</Color>
+	</Item>
+	<Item name="ReportHeaderBackColor">
+		<Color>style:ReportHeaderBackColor</Color>
+	</Item>
+	<Item name="ReportGroup1BackColor">
+		<Color>style:ReportGroup1BackColor</Color>
+	</Item>
+	<Item name="ReportGroup2BackColor">
+		<Color>style:ReportGroup2BackColor</Color>
+	</Item>
+	<Item name="ReportLineColor">
+		<Color>style:ReportLineColor</Color>
+	</Item>
+	<Item name="ControlBorder">
+		<Border ref="style:ControlBorder"/>
+	</Item>
+	<Item name="TextFont">
+		<Font ref="style:TextFont" kind="StyleItem"/>
+	</Item>
+	<Item name="SmallTextFont">
+		<Font ref="style:SmallTextFont" kind="StyleItem"/>
+	</Item>
+	<Item name="NormalTextFont">
+		<Font ref="style:NormalTextFont" kind="StyleItem"/>
+	</Item>
+	<Item name="LargeTextFont">
+		<Font ref="style:LargeTextFont" kind="StyleItem"/>
+	</Item>
+	<Item name="ExtraLargeTextFont">
+		<Font ref="style:ExtraLargeTextFont" kind="StyleItem"/>
+	</Item>
+	<Item name="ButtonBorderColor">
+		<Color>style:ButtonBorderColor</Color>
+	</Item>
+	<Item name="TableHeaderBackColor">
+		<Color>style:TableHeaderBackColor</Color>
+	</Item>
+	<Item name="TableHeaderTextColor">
+		<Color>style:TableHeaderTextColor</Color>
+	</Item>
+	<Item name="TableFooterBackColor">
+		<Color>style:TableFooterBackColor</Color>
+	</Item>
+	<Item name="TableFooterTextColor">
+		<Color>style:TableFooterTextColor</Color>
+	</Item>
+	<Item name="StyleItem.ВидДняВоскресеньеЦвет">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ВидДняНеУказанЦвет">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ЗакрытыеНеактуальныеЗаписи">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ИнформационнаяНадпись">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ВидДняПраздникЦвет">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ОтметкаОтрицательногоВыполненияЗадачи">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ОтметкаПоложительногоВыполненияЗадачи">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ПользовательБезУчетнойЗаписи">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ВидДняПредпраздничныйЦвет">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ВидДняРабочийЦвет">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ВидДняСубботаЦвет">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ПросроченныйМетодическийМатериал">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ВидимыйВариантОтчета">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ВыполненнаяЗадача">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.удуНапоминаниеПоЗадачеЦвет">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.удуНапоминаниеПоЗадачеШрифт">
+		<Font ref="style:TextFont" kind="StyleItem"/>
+	</Item>
+	<Item name="StyleItem.удуШрифтВажнойНадписи">
+		<Font ref="style:TextFont" kind="StyleItem"/>
+	</Item>
+	<Item name="StyleItem.ГруппаВариантовОтчетов">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ДобавленныйРеквизитФон">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ЗавершенныйБизнесПроцесс">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ЗаголовокУдаленногоРеквизитаФон">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ЗапрещенноеПравоДоступа">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ИзмененноеЗначениеРеквизитаФон">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ИзмененноеЗначениеРеквизитаЦвет">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.КонтактнаяИнформацияСРедактированиемВДиалогеЦвет">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.НедоступныеДанныеЦвет">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.НеПринятыеКИсполнениюЗадачи">
+		<Font ref="style:TextFont" kind="StyleItem"/>
+	</Item>
+	<Item name="StyleItem.НеСтартованныйБизнесПроцесс">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ОшибкаПолнотекстовыйПоискФон">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ПользовательВыбранный">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ПоясняющийОшибкуТекст">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ПоясняющийТекст">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ПросроченныеДанныеЦвет">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.РольБезИсполнителей">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.СкрытыйВариантОтчета">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.СобытиеОтказ">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ТекстЗапрещеннойЯчейкиЦвет">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.УдаленныйДополнительныйРеквизитШрифт">
+		<Font ref="style:TextFont" kind="StyleItem"/>
+	</Item>
+	<Item name="StyleItem.УдаленныйРеквизитФон">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ФайлЗанятыйДругимПользователем">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ФайлЗанятыйТекущимПользователем">
+		<Color>style:FormBackColor</Color>
+	</Item>
+	<Item name="StyleItem.ФонУправляющегоПоля">
+		<Color>style:FormBackColor</Color>
+	</Item>
+</Style>

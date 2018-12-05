@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67fd090a-52bc-4e25-9469-5029959fd6f4">
+  <name>УдалитьЧтениеЕжедневныхОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить: Чтение ежедневных отчетов</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

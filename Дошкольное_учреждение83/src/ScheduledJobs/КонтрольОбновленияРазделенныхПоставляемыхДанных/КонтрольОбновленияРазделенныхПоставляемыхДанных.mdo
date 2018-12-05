@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee657795-8850-4735-a655-80d0d451c3ff">
+  <name>КонтрольОбновленияРазделенныхПоставляемыхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль обновления разделенных поставляемых данных</value>
+  </synonym>
+  <comment></comment>
+  <methodName>CommonModule.ПоставляемыеДанные.КонтрольОбновленияРазделенныхПоставляемыхДанных</methodName>
+  <description>Контроль обновления разделенных поставляемых данных</description>
+  <key>0</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

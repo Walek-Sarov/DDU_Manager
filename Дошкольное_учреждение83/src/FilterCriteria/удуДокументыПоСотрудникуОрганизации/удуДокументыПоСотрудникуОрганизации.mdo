@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a82729b-adb1-4ee8-ade9-6262ca5a6cd7">
+  <producedTypes>
+    <listType typeId="377942d1-731c-404d-b391-7ced0e9183dd" valueTypeId="088d89e4-10fd-4189-ae40-60afac3d8ea4"/>
+    <managerType typeId="67779df4-54c0-44b8-8009-5a3ebd93c185" valueTypeId="a43dc970-81de-4887-8908-2431d326a94b"/>
+  </producedTypes>
+  <name>удуДокументыПоСотрудникуОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы по сотруднику организации</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogRef.удуСотрудникиОрганизаций</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.удуКомандировкиОрганизаций.TabularSection.РаботникиОрганизации.Attribute.Сотрудник</content>
+  <content>Document.удуНеявкиИБолезниОрганизаций.TabularSection.РаботникиОрганизации.Attribute.Сотрудник</content>
+  <content>Document.удуОтпускаОрганизаций.TabularSection.РаботникиОрганизации.Attribute.Сотрудник</content>
+  <content>Document.удуПриемНаРаботуВОрганизацию.TabularSection.РаботникиОрганизации.Attribute.Сотрудник</content>
+  <content>Document.удуКадровоеПеремещениеОрганизаций.TabularSection.РаботникиОрганизации.Attribute.Сотрудник</content>
+  <content>Document.удуТабельУчетаРабочегоВремениОрганизации.TabularSection.ОтработанноеВремя.Attribute.Сотрудник</content>
+  <content>Document.удуУвольнениеИзОрганизаций.TabularSection.РаботникиОрганизации.Attribute.Сотрудник</content>
+  <content>Document.удуВозвратНаРаботуОрганизаций.TabularSection.РаботникиОрганизации.Attribute.Сотрудник</content>
+</mdclass:FilterCriterion>

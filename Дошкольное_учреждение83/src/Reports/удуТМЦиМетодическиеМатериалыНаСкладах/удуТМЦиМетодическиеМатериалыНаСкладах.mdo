@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00b0eaa6-6cf5-49bd-aef0-da6fb0eccd08">
+  <producedTypes>
+    <objectType typeId="3e3776f2-bfb9-4edf-a51c-9f2516bdc6f6" valueTypeId="c6bcbcdb-ed32-4fb3-ae4a-37eb14729f46"/>
+    <managerType typeId="d26581d1-1487-4b02-b21d-cc338600e159" valueTypeId="2be49153-bca5-48cf-8509-f3116183c54c"/>
+  </producedTypes>
+  <name>удуТМЦиМетодическиеМатериалыНаСкладах</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТМЦ и методические материалы на складах</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.удуТМЦиМетодическиеМатериалыНаСкладах.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="fb31c8b7-79ac-4bdf-a038-cc3a6e8dae60">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

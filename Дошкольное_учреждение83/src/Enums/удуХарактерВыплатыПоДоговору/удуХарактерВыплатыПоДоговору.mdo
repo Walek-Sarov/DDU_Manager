@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a32996a-812b-4a22-b971-2be2a852b50a">
+  <producedTypes>
+    <refType typeId="1c47aec6-7d03-42ce-93ec-0d6e3699db81" valueTypeId="80916f4f-da5f-4582-a136-c1db46aeb749"/>
+    <listType typeId="bc94878e-b7f5-405b-9878-7717209b2eec" valueTypeId="9cb5fea6-6f9f-4246-bdca-46c159e6c86c"/>
+    <managerType typeId="697d2079-8753-402c-80fb-0faf3d6b4740" valueTypeId="2559a60d-595a-4a1e-babe-6fae4ec49fbf"/>
+  </producedTypes>
+  <name>удуХарактерВыплатыПоДоговору</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характер выплаты по договору</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="009bbc04-f670-42bf-9a73-95e2c552c854">
+    <name>ОднократноВКонцеСрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Однократно в конце срока</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3cf585b5-cb97-4288-a663-c8cd53ddb368">
+    <name>Ежемесячно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ежемесячно</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5cf2a3a-3176-4971-b67b-45e090e9b8df">
+  <producedTypes>
+    <managerType typeId="d6e0505b-6435-45fd-a5ba-8392ad356a7e" valueTypeId="1a4d17ef-acc9-4d1b-8d47-7e5a486b8dd3"/>
+    <valueManagerType typeId="4176715b-6c29-43a5-9ab0-be9c9c733c92" valueTypeId="f4a90ffb-4e7b-4466-9310-f925ac1ae17b"/>
+  </producedTypes>
+  <name>НомерЗагрузкиПоставляемыхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номер загрузки поставляемых данных</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>20</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

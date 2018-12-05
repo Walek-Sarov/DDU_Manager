@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Document.удуНеявкиИБолезниОрганизаций.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.удуВозвратНаРаботуОрганизаций.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.удуНеявкиИБолезниОрганизаций.StandardCommand.OpenList</commands>
+      <commands>Document.удуКомандировкиОрганизаций.StandardCommand.OpenList</commands>
+      <commands>Document.удуОтпускаОрганизаций.StandardCommand.OpenList</commands>
+      <commands>Document.удуВозвратНаРаботуОрганизаций.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelCreate</group>
+      <commands>Document.удуНеявкиИБолезниОрганизаций.StandardCommand.Create</commands>
+      <commands>Document.удуВозвратНаРаботуОрганизаций.StandardCommand.Create</commands>
+      <commands>Document.удуКомандировкиОрганизаций.StandardCommand.Create</commands>
+      <commands>Document.удуОтпускаОрганизаций.StandardCommand.Create</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

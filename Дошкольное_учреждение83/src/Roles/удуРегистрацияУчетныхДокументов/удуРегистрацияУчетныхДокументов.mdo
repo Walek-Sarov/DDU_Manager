@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc64d6d2-14d0-453e-bf0f-c68484ea2474">
+  <name>удуРегистрацияУчетныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация учетных документов</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

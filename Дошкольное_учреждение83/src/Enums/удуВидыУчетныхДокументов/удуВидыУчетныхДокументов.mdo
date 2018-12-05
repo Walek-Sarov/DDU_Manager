@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c82ed5a7-9807-4bff-acc1-9b1fca68497f">
+  <producedTypes>
+    <refType typeId="fa93916b-1a77-455f-b0c5-547f4835d8c3" valueTypeId="96e58f4f-d41e-4d72-82d3-52706b32c861"/>
+    <listType typeId="f6ff29c6-b2e3-44b0-8840-a83245966232" valueTypeId="6f569e4d-bea8-4e1c-90fa-779aa527957e"/>
+    <managerType typeId="7d0433ea-6baa-42a0-b016-e3424b00b663" valueTypeId="fcc4e829-db81-47f8-a03a-812b83c826cb"/>
+  </producedTypes>
+  <name>удуВидыУчетныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды учетных документов</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0a5d6c08-d05a-4765-8d61-dd57be2dde84">
+    <name>ПриказОЗачисленииРебенкаВГруппу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приказ о зачислении ребенка в группу</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="ce371407-3207-4412-9d73-11b978361bdb">
+    <name>ПриказОПереводРебенка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приказ о перевод ребенка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b3ef01bf-e246-4770-8820-e802186b174e">
+    <name>ПриказОВыбытииРебенкаИзДОУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приказ о выбытии ребенка из ДОУ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="0e3925c7-4350-4297-ad35-c6b810462064">
+    <name>ЗаявкаНаЗачисление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка на зачисление</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="00c594dc-f296-48b2-bd1c-b37b4c89f86c">
+    <name>ДоговорНаЗачислениеРебенка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор на зачисление ребенка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="56927b9a-f017-4269-a57b-b6947ac4f008">
+    <name>ПриемНаРаботу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прием на работу</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="aca41b3c-6e47-4cdb-8d5a-10b538a2117e">
+    <name>КадровоеПеремещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадровое перемещение</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="28c3558c-1b44-41cf-b681-86b1b5fe1e21">
+    <name>УвольнениеСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Увольнение сотрудника</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3a7fde98-6eff-4005-93af-19d9166d0811">
+    <name>ВозвратСотрудникаНаРаботу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат сотрудника на работу</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b6c340cb-63b1-470b-9678-2778353a05a3">
+    <name>ОприходовываниеТМЦ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оприходование ТМЦ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="859f542e-a6ff-4c21-862e-3c97c50bbd2c">
+    <name>ПеремещениеТМЦ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение ТМЦ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="952f640b-ec98-4b3a-a2de-5b79426eac99">
+    <name>СписаниеТМЦ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание ТМЦ</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

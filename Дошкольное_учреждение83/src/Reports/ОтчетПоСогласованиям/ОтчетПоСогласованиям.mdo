@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f682270-aa59-462d-9ad7-cebadee6b56e">
+  <producedTypes>
+    <objectType typeId="2d1e9cc2-604a-4942-94f8-1c3c57372ad5" valueTypeId="f8ac0af7-7627-4747-a86a-ce998b0ca0e0"/>
+    <managerType typeId="9bcbdcae-9164-42d0-a42e-ced3f0ad95fb" valueTypeId="f819c0d4-0658-4f59-80e0-9a82907edd71"/>
+  </producedTypes>
+  <name>ОтчетПоСогласованиям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласования</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетПоСогласованиям.Template.Макет</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Отчет по согласованиям</value>
+  </extendedPresentation>
+  <templates uuid="3ec70007-2437-4080-bcc7-9313286183e4">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

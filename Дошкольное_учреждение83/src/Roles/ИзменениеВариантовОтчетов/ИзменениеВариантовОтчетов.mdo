@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92754a77-92b6-420d-b66a-e9b06be2d63e">
+  <name>ИзменениеВариантовОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение вариантов отчетов</value>
+  </synonym>
+  <comment>Пользователь может изменять варианты отчетов, в которых он назначен ответственным</comment>
+</mdclass:Role>

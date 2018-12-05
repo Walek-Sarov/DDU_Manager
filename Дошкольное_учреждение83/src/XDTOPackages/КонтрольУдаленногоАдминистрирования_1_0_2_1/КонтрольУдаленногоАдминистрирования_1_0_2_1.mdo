@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96eb0f21-190c-414b-bb12-f50ae1bca205">
+  <name>КонтрольУдаленногоАдминистрирования_1_0_2_1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль удаленного администрирования 1.0.2.1</value>
+  </synonym>
+  <comment></comment>
+  <namespace>http://www.1c.ru/SaaS/RemoteAdministration/Control/1.0.2.1</namespace>
+</mdclass:XDTOPackage>

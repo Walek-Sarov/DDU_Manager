@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0994fa49-4cc7-4be7-ab78-93b8d17d13fe">
+  <producedTypes>
+    <objectType typeId="508ea8d2-04c7-4750-850e-45af0cdc385e" valueTypeId="e87b0eed-6d6e-4c4a-a841-653866fbe738"/>
+    <refType typeId="6f059b18-d917-44d0-9583-db0dd4515fea" valueTypeId="a4d2473a-0922-408a-b6ee-7ed8a587279e"/>
+    <selectionType typeId="3a61e91e-6ee3-4213-a528-6518828dd775" valueTypeId="c7c1da0d-e0aa-4be8-b069-0f177014b6a5"/>
+    <listType typeId="433072f0-7522-4526-9218-4465d483f21b" valueTypeId="708d089b-c01b-4acc-bcdb-027c64149a62"/>
+    <managerType typeId="2d741e82-89f6-42ed-a68d-05dfd2da82da" valueTypeId="f34959be-6def-4d4d-9806-5862a19d3c66"/>
+  </producedTypes>
+  <name>удуВозвратМетодическихМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возврат методических материалов</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.удуВозвратМетодическихМатериалов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.удуВозвратМетодическихМатериалов.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.удуВозвратМетодическихМатериалов.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.удуМетодическиеМатериалыНаРуках</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="32a0402c-b560-41a0-9c64-bc6aa20f4bd2">
+    <name>Читатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Читатель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуСотрудникиОрганизаций</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Читатель, возвращающий материалы</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8df945a5-8f9e-45f6-802c-42e76c1a9b3d">
+    <name>ПоПричине</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выданные по причине</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуПричиныВыдачиМетодическихМатериалов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Причина выдачи методических материалов</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="0d9505ac-4326-4eae-9cd4-5ae66649dffd">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a30610fe-cd51-4c27-95e7-463714acf4a8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="4419cc01-c7d9-4b8b-aa1d-f653c741cd69">
+    <producedTypes>
+      <objectType typeId="95b73aa8-8e4d-4aa8-b047-28752612ed4f" valueTypeId="73e69d75-3742-4faf-932e-cbe321e175fa"/>
+      <rowType typeId="69b254f3-089f-44a0-a90b-c6b5ee7c9894" valueTypeId="9eddacdb-532d-4821-a345-d844f6c24fc8"/>
+    </producedTypes>
+    <name>УчетЕдКВозврату</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетные единицы к возврату</value>
+    </synonym>
+    <comment></comment>
+    <fillChecking>ShowError</fillChecking>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="523235cf-93b0-4d95-a723-585520be097b">
+      <name>УчетнаяЕдиница</name>
+      <synonym>
+        <key>ru</key>
+        <value>Учетная единица</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.удуУчетныеЕдиницы</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Методический материал</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="43fd31d6-2921-4cfe-8dd5-925f4f64bb00">
+      <name>ИнвентарныйНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Инв. №</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.удуИнвентарныеНомера</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Инвентарный номер материала</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="30bd0f5f-6923-43fb-a256-72f6280190aa">
+      <name>Потеряно</name>
+      <synonym>
+        <key>ru</key>
+        <value>Потеряно</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество потерянных материалов</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="be29d647-620c-4d5c-aea3-65b2a5065bdc">
+      <name>ДатаВыдачи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата выдачи</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата выдачи материалов</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="991804e3-5ab1-450e-b941-812ed295509c">
+      <name>ДатаВозврата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата возврата</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дата возврата методических материалов</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d3c06f6b-a97a-45ab-98bf-2e9aec12064c">
+      <name>Вернуть</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вернуть</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Отметка о возврате</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a4272be3-db02-454e-bf1d-35dc20782135">
+      <name>КоличествоНаРуках</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество на руках</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество материалов на руках</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="50a3c767-fbe6-4669-85b5-97a67fef6875">
+      <name>КоличествоКСдаче</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество к сдаче</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество материалов к сдаче</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="40401b4e-f53f-408b-92bf-1735fc639ca7">
+      <name>ПоПричине</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выданные по причине</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.удуПричиныВыдачиМетодическихМатериалов</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Причина выдачи материалов</value>
+      </toolTip>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

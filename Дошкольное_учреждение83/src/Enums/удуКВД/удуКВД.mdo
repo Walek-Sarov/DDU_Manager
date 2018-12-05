@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ae13916-626c-4a2c-a225-0f1f326ccad4">
+  <producedTypes>
+    <refType typeId="5b941e2a-91e8-4449-9810-367e6c12eb68" valueTypeId="2f038f83-f0eb-4504-b2be-ecb4e0a51921"/>
+    <listType typeId="0568b364-e5a4-465b-9926-9d65e8c4bdd5" valueTypeId="27811f16-7811-44d2-be17-ebfed68b038e"/>
+    <managerType typeId="da28af60-9682-4abf-8246-19db1a3306c1" valueTypeId="97339583-3a93-480f-8cf1-176c099df70a"/>
+  </producedTypes>
+  <name>удуКВД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коды финансового обеспечения</value>
+  </synonym>
+  <comment>Коды финансового обеспечения</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <explanation>
+    <key>ru</key>
+    <value>Код вида финансового обеспечения (деятельности) (18 разряд номера счета)</value>
+  </explanation>
+  <enumValues uuid="113ed089-f5cf-4169-a6f2-3244aefdf564">
+    <name>Бюджет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бюджет</value>
+    </synonym>
+    <comment>Деятельность, осуществляемая за счет средств соответствующего бюджета</comment>
+  </enumValues>
+  <enumValues uuid="af2a3ef4-a4d0-431b-81c1-998b041f6062">
+    <name>Внебюджет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внебюджет</value>
+    </synonym>
+    <comment>Приносящая доход деятельность (собственные доходы учреждения)</comment>
+  </enumValues>
+</mdclass:Enum>

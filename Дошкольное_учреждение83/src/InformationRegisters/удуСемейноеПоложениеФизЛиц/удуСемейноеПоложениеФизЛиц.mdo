@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4b58aed-7cca-4098-bece-49515187d48c">
+  <producedTypes>
+    <selectionType typeId="5b1ade76-778e-490b-a2ec-c7b656365ce4" valueTypeId="aa1e4cc7-5b3b-4096-9728-864646641658"/>
+    <listType typeId="799f1994-6bed-4a28-a453-0f60c5c7502c" valueTypeId="9c2f6385-d269-48dd-8457-e211909dde94"/>
+    <managerType typeId="f4b11d19-77a0-4edf-b9fd-3eb993b2b4ca" valueTypeId="c64aa3b6-937b-45e3-ba4b-1639f384879e"/>
+    <recordSetType typeId="aabba201-d66b-4048-8032-162d0aa14621" valueTypeId="e54f2739-57fc-4d77-81d8-4b57223c4f30"/>
+    <recordKeyType typeId="3d228261-c100-4261-ab94-03fd264feb78" valueTypeId="3a6b4cc0-a745-4066-8c74-1cfaeb9d06f0"/>
+    <recordType typeId="15876569-e5cf-499a-b53c-2b7b866f3d3f" valueTypeId="dc3a21cc-261c-4d46-80ad-abfa45f1be7f"/>
+    <recordManagerType typeId="c8b3f447-d4b8-43bc-99f8-fb00f7c22c37" valueTypeId="fffdab0f-8970-4e05-91db-f6e4edcdc7b0"/>
+  </producedTypes>
+  <name>удуСемейноеПоложениеФизЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Семейное положение физических лиц</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.удуСемейноеПоложениеФизЛиц.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.удуСемейноеПоложениеФизЛиц.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="a645fbd7-5c7c-41e5-8d3d-c47431ad74af">
+    <name>СемейноеПоложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Семейное положение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуСемейноеПоложениеФизЛиц</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Семейное положение физического лица</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5019934b-871b-4100-80bc-1e7447032aab">
+    <name>ФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Физлицо</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0907ca6a-4c02-40d2-97dc-96aedd0987a5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5112e752-2735-4b9c-a4ed-7d93376bf06a">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

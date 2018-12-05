@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="913b93b4-768a-4b6f-b431-dd16511b81da">
+  <name>ОграничиватьДоступПоВидуВидыВнутреннихДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ограничивать доступ по виду виды внутренних документов</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+</mdclass:SessionParameter>

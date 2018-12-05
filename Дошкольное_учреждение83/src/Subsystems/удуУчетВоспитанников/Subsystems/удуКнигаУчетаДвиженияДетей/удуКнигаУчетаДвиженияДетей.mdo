@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd7bbecf-f3e3-4db6-a168-f98923edbf7f">
+  <name>удуКнигаУчетаДвиженияДетей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приказы о зачислении, переводе, выбытии</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.удуПриказОЗачисленииРебенкаВГруппу</content>
+  <content>Document.удуПриказОПереводеВДругуюГруппу</content>
+  <content>Document.удуПриказОВыбытииИзГруппы</content>
+  <content>DocumentJournal.удуКнигаУчетаДвиженияДетей</content>
+  <content>Report.удуКнигаУчетаДвиженияВоспитанников</content>
+  <content>Enum.удуТипыНаправленностиГруппы</content>
+  <content>Catalog.удуДетализацияНаправленностиГруппы</content>
+  <parentSubsystem>Subsystem.удуУчетВоспитанников</parentSubsystem>
+</mdclass:Subsystem>

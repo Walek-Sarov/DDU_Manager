@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29c74103-90bc-45d4-a97f-e70cafc7abb9">
+  <producedTypes>
+    <refType typeId="80550531-efed-4e42-82ef-97f9b41b103a" valueTypeId="0216f8a4-919f-4b11-8be8-15cf0e96e1d2"/>
+    <listType typeId="756af898-140e-42a0-a6ae-9b5574c23113" valueTypeId="bdda6463-8aa0-4736-aaee-8f18d7a1ee94"/>
+    <managerType typeId="19fa8b08-d011-4624-92fa-803a33f3dc1c" valueTypeId="6a2bbcfe-2678-4a59-a209-61fafa893bc2"/>
+  </producedTypes>
+  <name>удуВидыДошкольногоУчреждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды дошкольного образовательного учреждения</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="df7152f3-d566-495e-9b0a-5a40634d10c4">
+    <name>ДетскийСад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детский сад</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="9cae8461-dc65-4be5-a324-611758d60c60">
+    <name>ДетскийСадПредшкольногоВозраста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детский сад для детей предшкольного (старшего дошкольного) возраста</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="7852cbab-8df2-456e-b36c-180e97411d44">
+    <name>ДетскийСадРаннегоВозраста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детский сад для детей раннего возраста</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3d7902c3-38ec-497b-b052-a980ff5ac86d">
+    <name>ДетскийСадОбщеразвивающегоВида</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детский сад общеразвивающего вида с приоритетным осуществлением деятельности по одному из направлений развития детей</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c0d62aa5-c541-49ab-b4d1-8b768128f31b">
+    <name>ДетскийСадКомпенсирующегоВида</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детский сад компенсирующего вида</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e20ea49c-cf30-44b6-bddc-5b5360d7ffbd">
+    <name>ДетскийСадПрисмотраОздоровления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детский сад присмотра и оздоровления</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="24e8adc4-9d52-4fd5-a295-0e4299b31b02">
+    <name>ДетскийСадКомбинированногоВида</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детский сад комбинированного вида</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="91df8375-a5bb-4089-96a7-6bdea3f4e703">
+    <name>ЦентрРазвитияРебенка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Центр развития ребенка - детский сад</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

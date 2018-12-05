@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abb74a06-0265-41f7-a771-42c2754cbd38">
+  <producedTypes>
+    <managerType typeId="7e057439-62ed-416c-93aa-a042510dec38" valueTypeId="4b1a661a-d070-4e04-9011-dc7e079bc8c2"/>
+    <valueManagerType typeId="a3e7b2a4-8b15-4948-8724-e7ab36756a43" valueTypeId="642a91a7-2010-4eff-a285-d33dd35b04a3"/>
+  </producedTypes>
+  <name>удуАвтоматическиРегистрироватьУчетныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматически регистрировать учетные документы</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Флаг автоматической регистрации документов в регистрах</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a7a98c9-af4d-4961-ae3c-4c1f3accce8d">
+  <name>ОбновлениеОбщихПоставляемыхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление общих поставляемых данных</value>
+  </synonym>
+  <comment></comment>
+  <methodName>CommonModule.ПоставляемыеДанные.ОбновлениеОбщихПоставляемыхДанных</methodName>
+  <description>Обновление общих поставляемых данных</description>
+  <key>0</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

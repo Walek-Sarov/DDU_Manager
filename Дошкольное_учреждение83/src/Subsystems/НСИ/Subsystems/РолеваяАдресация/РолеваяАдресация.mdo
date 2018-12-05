@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30f52cba-4f32-4733-95af-8b64777de2ae">
+  <name>РолеваяАдресация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ролевая адресация</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.РолиИсполнителей</content>
+  <content>InformationRegister.ИсполнителиЗадач</content>
+  <parentSubsystem>Subsystem.НСИ</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd0e7fb8-6e85-4b65-9b2a-3894c3863da3">
+  <producedTypes>
+    <refType typeId="9523f878-cb75-44f7-a757-1cd5bd795df1" valueTypeId="d1cf5b11-0b5b-4e08-968e-68d9d67f3c9e"/>
+    <listType typeId="9616bf7a-f21e-4bae-af01-5ac991242adc" valueTypeId="7a94abe0-9df1-45a1-ae8b-2cc07e1ad601"/>
+    <managerType typeId="bc9a10eb-1627-4415-9d64-91079da218c8" valueTypeId="7d8e66eb-e823-4ab8-b69d-9a894a15c6eb"/>
+  </producedTypes>
+  <name>удуСпособыРасчетаОстаткаОтпуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы расчета остатка отпуска</value>
+  </synonym>
+  <comment></comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="498c1be3-cc8a-4ef6-80dc-187488f0f5be">
+    <name>ПоКалендарнымДням</name>
+    <synonym>
+      <key>ru</key>
+      <value>По календарным дням</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="e6aaa1d7-a4c0-4ab9-b6e9-a83f307dcfae">
+    <name>ПоРабочимДням</name>
+    <synonym>
+      <key>ru</key>
+      <value>По рабочим дням</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

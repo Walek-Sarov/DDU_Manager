@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fb32621-b940-49d8-9eea-e49e0e0212f2">
+  <producedTypes>
+    <listType typeId="5f0452a4-4ec5-464e-9815-4ea8a24b27dc" valueTypeId="3e0f2062-c1f6-4381-92eb-734f4a81eb18"/>
+    <managerType typeId="16878255-b628-4523-b481-f5e32971f2c6" valueTypeId="8cd1e19a-a16a-4261-af52-87a591113bdf"/>
+  </producedTypes>
+  <name>ВнутренниеДокументыПоКорреспонденту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внутренние документы</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogRef.Корреспонденты</types>
+  </type>
+  <content>Catalog.ВнутренниеДокументы.Attribute.Корреспондент</content>
+  <defaultForm>FilterCriterion.ВнутренниеДокументыПоКорреспонденту.Form.ФормаСписка</defaultForm>
+  <forms uuid="b5418435-d5ef-43f3-8743-6f710f07ea34">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="a9de6a63-cfe2-4b4f-a13e-7f602ed6fb68">
+    <name>ВнутренниеДокументыПоКорреспонденту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренние документы</value>
+    </synonym>
+    <comment></comment>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Корреспонденты</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:FilterCriterion>

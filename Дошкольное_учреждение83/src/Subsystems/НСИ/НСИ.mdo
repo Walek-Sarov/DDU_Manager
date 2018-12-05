@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98170b78-3f3b-4dfd-957e-9811e0589b26">
+  <name>НСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормативно-справочная информация</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Нормативно-справочная информация</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаНастройка</picture>
+  </picture>
+  <content>CommonCommand.ВидыДокументов</content>
+  <content>Catalog.Нумераторы</content>
+  <content>Catalog.СпособыДоставки</content>
+  <content>InformationRegister.ИндексыНумерации</content>
+  <content>Catalog.ВидыДокументовФизическихЛиц</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Catalog.СпискиРассылкиПоКорреспондентам</content>
+  <content>DataProcessor.ПоискВДанных</content>
+  <content>Catalog.НоменклатураДел</content>
+  <content>InformationRegister.ИсполнителиЗадач</content>
+  <content>Catalog.РолиИсполнителей</content>
+  <content>InformationRegister.удуНастройкиРегистрацииДокументов</content>
+  <content>DataProcessor.СогласиеНаОбработкуПерсональныхДанных</content>
+  <subsystems>Предприятие</subsystems>
+  <subsystems>РолеваяАдресация</subsystems>
+  <subsystems>ШаблоныБизнесПроцессов</subsystems>
+</mdclass:Subsystem>

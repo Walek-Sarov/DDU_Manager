@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fd8c302-7e95-43bc-99cb-5038b2176018">
+  <name>АктуальнаяДатаОбновленияПовторноИспользуемыхЗначенийМРО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Актуальная дата обновления повторно используемых значений МРО</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.ДатаОбновленияПовторноИспользуемыхЗначенийМРО</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

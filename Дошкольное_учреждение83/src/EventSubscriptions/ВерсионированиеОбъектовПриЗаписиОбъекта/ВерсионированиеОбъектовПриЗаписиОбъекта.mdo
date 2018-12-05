@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9068dd3-7cc6-4af5-9908-9ec20acf8db0">
+  <name>ВерсионированиеОбъектовПриЗаписиОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версионирование объектов при записи объекта</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>CatalogObject.ВходящиеДокументы</types>
+    <types>CatalogObject.ВнутренниеДокументы</types>
+    <types>CatalogObject.ИсходящиеДокументы</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ВерсионированиеОбъектовСобытия.ВерсионированиеОбъектовПриЗаписиОбъекта</handler>
+</mdclass:EventSubscription>

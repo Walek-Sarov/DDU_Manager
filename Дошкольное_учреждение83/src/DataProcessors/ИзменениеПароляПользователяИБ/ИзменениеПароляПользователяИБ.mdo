@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ee15fd1-d428-472a-9857-7abfa816af6c">
+  <producedTypes>
+    <objectType typeId="e832bff9-a1b7-4a46-acba-bedfbe888af5" valueTypeId="2f9ff959-41c9-47e5-85e8-5f56c41ca606"/>
+    <managerType typeId="73d42fde-3464-48c8-b1a3-d4ee0f3c0df5" valueTypeId="7adad881-1629-4e0c-93ad-dbac59e10c87"/>
+  </producedTypes>
+  <name>ИзменениеПароляПользователяИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение пароля пользователя</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИзменениеПароляПользователяИБ.Form.ФормаСменыПароля</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="5edd2c90-ff75-41f5-b17f-fcef600bf9d2">
+    <name>ФормаСменыПароля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение пароля</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bccf5d1-f6e4-4051-aec6-fcffaad8a544">
+  <producedTypes>
+    <refType typeId="8b936b95-bc10-453a-a40c-7d809342c29f" valueTypeId="83c13939-d8f0-4daf-ab29-bf8aa069fc6a"/>
+    <listType typeId="f9196b52-d089-4d27-8893-236c13fb7c8c" valueTypeId="dfcfff4e-f3ea-4832-ac48-41328cefe0b0"/>
+    <managerType typeId="9158c373-a2aa-443e-8efa-de68fab5c882" valueTypeId="b6a5cbad-a876-4b46-ab32-0b2cf29fe440"/>
+  </producedTypes>
+  <name>удуСтатусОтправки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус отправки</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1fb26efc-787f-480d-83f4-591e5597bea1">
+    <name>Текущий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="94eaa5ba-2e38-4c6c-b6d0-05961ad07280">
+    <name>Закрытый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрытый</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="213150b3-453b-48ea-8160-7b9fcce8f5cc">
+    <name>Отправленный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправленный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

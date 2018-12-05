@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d95dd1f5-ef84-4bcc-b017-65e390d48873">
+  <name>ВыполнитьПодготовкуСтартаВнешнегоЗадания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнить подготовку старта внешнего задания</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>TaskObject.ЗадачаИсполнителя</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ВнешниеЗадачиВызовСервера.СтартВнешнегоЗаданияПередЗаписьюЗадач</handler>
+</mdclass:EventSubscription>

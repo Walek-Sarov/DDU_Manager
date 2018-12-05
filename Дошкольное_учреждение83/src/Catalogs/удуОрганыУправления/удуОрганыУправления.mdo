@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8cc1f18a-e60e-4a42-a064-e014bf3dc501">
+  <producedTypes>
+    <objectType typeId="c1e982a0-875a-4a9f-8ba4-a955c548f9b3" valueTypeId="ac8d2616-ef4c-463f-b5dd-a8f4a4ec0dde"/>
+    <refType typeId="83f19e58-7b40-461d-8c00-a3c7b82902ac" valueTypeId="ae8820b2-12ad-429f-bacb-22f4f63e5442"/>
+    <selectionType typeId="e15252d7-2bd5-4341-9447-5494695b9460" valueTypeId="5319ecad-5902-4bb6-b9a6-92737d779c3d"/>
+    <listType typeId="74e1203a-b336-4658-9c28-12f709fd0a3a" valueTypeId="07f4236a-35d7-4bb7-8aab-8991ed7c7593"/>
+    <managerType typeId="6e877ad3-8ec8-49e7-9312-7a6fbda52e3e" valueTypeId="24d79355-e831-4c2e-a130-53a2b6f0f3cc"/>
+  </producedTypes>
+  <name>удуОрганыУправления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Органы управления</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.удуОрганыУправления.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.удуОрганыУправления.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Орган управления</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Орган управления</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Органы управления</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Органы управления</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

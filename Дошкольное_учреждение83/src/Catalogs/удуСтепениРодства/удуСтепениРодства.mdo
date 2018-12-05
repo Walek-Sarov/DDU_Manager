@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95f208a5-6f54-4cbc-b6c3-5edf66fa7b04">
+  <producedTypes>
+    <objectType typeId="4a064f8e-cd7f-4756-8cf5-0e01db26391b" valueTypeId="b5a4a0f6-63c6-4732-848f-0228054e423e"/>
+    <refType typeId="617a0ed0-0617-463a-85cf-712c234baf01" valueTypeId="cdd7f1ee-42f6-45ed-b98b-bab66aaddb75"/>
+    <selectionType typeId="1bf7d123-846f-4ffa-bb3f-85cd18191b61" valueTypeId="329646c6-5368-4a93-bd0b-458f6b652bdb"/>
+    <listType typeId="f0ca8044-7d96-4ed2-a79a-c8054da80aea" valueTypeId="09e34c60-2f26-4fac-87b0-43b6be078075"/>
+    <managerType typeId="3361b2f0-62c1-45e3-95f2-fb91183d3931" valueTypeId="301afc07-41e4-41dc-8780-ac4b5474cfe0"/>
+  </producedTypes>
+  <name>удуСтепениРодства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Степени родства</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.удуСтепениРодства.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.удуСтепениРодства.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Степень родства</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="cee8e7d4-3f58-4a40-b501-f0d500133117">
+      <name>Бабушка</name>
+      <description>Бабушка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="83ca5153-b43d-446a-8930-4e8e5958d1de">
+      <name>Брат</name>
+      <description>Брат</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="e6af38e2-0cc6-4299-a302-94b923758e16">
+      <name>Дедушка</name>
+      <description>Дедушка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="207f15bd-d479-4880-ba74-6bb85b71d505">
+      <name>Мать</name>
+      <description>Мать</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="f85d8981-d32a-4fba-81ba-2ff9d42fd1cb">
+      <name>Отец</name>
+      <description>Отец</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="6822ceb0-8e5b-4ee8-ade6-12c896cc251a">
+      <name>ПриемнаяМать</name>
+      <description>Приемная мать</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="3018187d-fcb6-499f-88e6-13d3955be452">
+      <name>ПриемныйОтец</name>
+      <description>Приемный отец</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="f1cd6884-ee58-4cf8-a0d2-70bf04568c2b">
+      <name>Сестра</name>
+      <description>Сестра</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.удуСтепениРодства.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="95f32aa1-1294-4889-bcf9-540d4550874e">
+    <name>РебенокМальчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ребенок (мальчик)</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование родства ребенка (мальчик)</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8c3c92eb-5f9f-447c-835f-54421b2dbe72">
+    <name>РебенокДевочка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ребенок (девочка)</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование родства ребенка (девочка)</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="37d2a10b-cc07-413b-b13a-eb7a09770c4a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

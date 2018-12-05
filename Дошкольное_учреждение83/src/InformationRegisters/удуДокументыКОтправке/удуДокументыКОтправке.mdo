@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3865c5e-edcc-4094-b46a-7a9410d5b19f">
+  <producedTypes>
+    <selectionType typeId="32a0fee8-bc94-4e52-a9d0-e9e648585c50" valueTypeId="e521f70a-429b-48cd-81ab-08dbc56ac480"/>
+    <listType typeId="18b486c1-8908-4d96-8490-1a137a99e1a2" valueTypeId="fa9ec044-7032-4b7d-9547-bbd9c12c3464"/>
+    <managerType typeId="b3aad79c-838c-42da-b766-a1df8d6b3f35" valueTypeId="6bb465a4-64c2-4335-8c5c-b4f0e52f9744"/>
+    <recordSetType typeId="f3bed3b2-0456-4e8d-a686-5dec636eba75" valueTypeId="8cfe33bf-9c20-41cb-ac7e-baec32a4b5db"/>
+    <recordKeyType typeId="1c49cdb8-c869-4789-8462-8c1568ea4c70" valueTypeId="30380b64-6148-4a4d-bbf7-89851d89d0ae"/>
+    <recordType typeId="957c7cb0-55b1-493c-ae9a-08a1b6a6b9c5" valueTypeId="6449479c-eb09-4026-9a1f-97e6760611d3"/>
+    <recordManagerType typeId="e2637615-98e1-481c-bab0-afa0073cd5ba" valueTypeId="8e17b784-1b93-46f6-b380-01abc2735346"/>
+  </producedTypes>
+  <name>удуДокументыКОтправке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы к отправке</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="5e6ddba5-c51f-44d3-a862-8b9b873b28cc">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ИсходящиеДокументы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Документ к отправке</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="79bba660-fd1a-4ae0-b143-6ee373f785d3">
+    <name>Получатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Корреспонденты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Получатель документа</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cc8a84c8-b574-44c4-9aa8-b09b3d4f5764">
+    <name>Адресат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адресат</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.КонтактныеЛица</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Адресат документа</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="951544c2-9161-4f5e-ace7-0abbbafd4ee5">
+    <name>ВидДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид доставки</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.СпособыДоставки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид доставки документа</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7c851120-82a5-41f9-a0bf-a7aeaf0177cd">
+    <name>ОтправкаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправка документа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуОтправкаДокумента</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>тип отправки документа</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

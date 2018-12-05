@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f1ebae8-7c85-48cd-b7f9-8155fa386f50">
+  <producedTypes>
+    <refType typeId="3ac43fcd-2c29-46ac-8b9d-2022e2b0808d" valueTypeId="ce691d54-a044-4fd9-a046-575a64f92258"/>
+    <listType typeId="11e7a019-89d1-4cfd-bd7b-af8c8cc81ce2" valueTypeId="cafd2155-3586-473a-a008-4e8a6c05f5bc"/>
+    <managerType typeId="d95ac3e7-1870-4e5c-8d03-a433f79b0ea3" valueTypeId="478cc35b-717f-4ea0-bf12-6a21765fd45c"/>
+  </producedTypes>
+  <name>удуТипыПериодическихИзданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы периодических изданий</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bf0b88dd-6f34-4b4a-a40c-02b71e719a6d">
+    <name>Газета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Газета</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="79b7f5c8-fcf6-4db7-bff3-ab324e8ebc2d">
+    <name>Журнал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b96ff8d3-b5d0-49cb-af0d-1a3991b006be">
+    <name>Дайджест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дайджест</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="bf91a23d-dbc7-45f6-b658-8fda3bbdb35b">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

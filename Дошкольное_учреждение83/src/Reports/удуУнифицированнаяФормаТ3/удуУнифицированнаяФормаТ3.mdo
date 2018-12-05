@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4198d70-d458-4b39-8a3a-63eccbea173a">
+  <producedTypes>
+    <objectType typeId="cecd411b-d3aa-4fde-b63f-843ea68ad1c2" valueTypeId="d10b4a40-5c9a-4fe5-ade6-a1204c6409a4"/>
+    <managerType typeId="c3f42a7a-8c39-4140-b0ae-5e76d7c54110" valueTypeId="7a1a86a1-6bda-45b8-9bcd-c883475fdd16"/>
+  </producedTypes>
+  <name>удуУнифицированнаяФормаТ3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штатное расписание Т-3</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.удуУнифицированнаяФормаТ3.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.удуУнифицированнаяФормаТ3.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="f579c860-dff1-4266-a1d5-ad23f574a33a">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b136ceaf-64f7-495d-9cd6-a849813bb566">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="b38bc53b-2532-4e8b-9620-09794f2cb3c5">
+    <name>ПФ_MXL_Т3_от_5_1_2004</name>
+    <synonym>
+      <key>ru</key>
+      <value>Т3 от 05.01.2004</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

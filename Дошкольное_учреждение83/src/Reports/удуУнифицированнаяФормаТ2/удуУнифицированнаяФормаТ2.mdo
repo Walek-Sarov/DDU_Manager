@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78a1550a-8003-4a70-bcd8-bc1b25fed365">
+  <producedTypes>
+    <objectType typeId="014b2a93-d554-4a58-acb3-43d5b1efe17b" valueTypeId="1380cacc-519e-45cd-8ace-04f9dca2658e"/>
+    <managerType typeId="68344e9a-c84c-4c26-acdb-4715f84e09b8" valueTypeId="ffee1ac2-448f-40a4-a93d-076dcde352a0"/>
+  </producedTypes>
+  <name>удуУнифицированнаяФормаТ2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Личная карточка работника Т-2</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.удуУнифицированнаяФормаТ2.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.удуУнифицированнаяФормаТ2.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="da832b2d-91f5-4f85-88a8-c22006c4c50a">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5ea3ee3e-acc5-4dab-a4ae-2eefcd1ef95f">
+    <name>ПФ_MXL_Т2_от_5_1_2004</name>
+    <synonym>
+      <key>ru</key>
+      <value>Т-2 от 05.01.2004</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="83bfa4b0-dac8-4684-becd-9e5da8c68b00">
+    <name>МакетГруппировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет группировки</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="713f3647-cb65-45ef-b06a-f93a8080dfd5">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

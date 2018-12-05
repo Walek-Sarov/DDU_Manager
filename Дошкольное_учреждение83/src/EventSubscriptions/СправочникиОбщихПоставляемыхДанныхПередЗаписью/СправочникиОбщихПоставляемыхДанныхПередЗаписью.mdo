@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64344383-5823-42aa-8004-f0ce4bfee198">
+  <name>СправочникиОбщихПоставляемыхДанныхПередЗаписью</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники общих поставляемых данных перед записью</value>
+  </synonym>
+  <comment></comment>
+  <source>
+    <types>CatalogObject.УдалитьКлассификаторВалют</types>
+    <types>CatalogObject.ПроизводственныеКалендари</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ПоставляемыеДанные.СправочникиОбщихПоставляемыхДанныхПередЗаписью</handler>
+</mdclass:EventSubscription>

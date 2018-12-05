@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ff10a26-c861-4124-a6fa-306eead40ee9">
+  <producedTypes>
+    <managerType typeId="f2d20557-c8db-4d84-8ed3-6e143aa9d394" valueTypeId="16841e52-6299-46e7-8a68-790f28a52be1"/>
+    <valueManagerType typeId="b0da4492-115c-4fd5-9d0f-0b4790995a3e" valueTypeId="198ca44b-936c-4046-873a-7e12cc39cccd"/>
+  </producedTypes>
+  <name>удуОсновноеУчреждение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основное учреждение (по умолчанию)</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogRef.удуУчреждения</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Основное учреждение, по которому ведется учет в ИБ</value>
+  </toolTip>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

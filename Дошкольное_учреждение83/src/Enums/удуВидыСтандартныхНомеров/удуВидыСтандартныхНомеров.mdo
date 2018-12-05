@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26d4bbfe-f2d9-4cde-a4d1-b1258d1feae3">
+  <producedTypes>
+    <refType typeId="a4194aff-f801-4a07-97d9-e85e91b1dfd7" valueTypeId="bd023551-871f-4edc-aae8-22e788a6974b"/>
+    <listType typeId="9761838b-6aca-493a-8b90-bcbf26b843ca" valueTypeId="1503b29f-f922-4701-bcb1-9c4b9db2ba6a"/>
+    <managerType typeId="01bcd3b0-4587-4c80-b169-8ab512ceba94" valueTypeId="37f1c133-ebb4-40b1-9749-19ccb781eeb3"/>
+  </producedTypes>
+  <name>удуВидыСтандартныхНомеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды стандартных номеров</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="28fb203e-939e-426a-aa61-bd6f5e247c76">
+    <name>ISBN</name>
+    <synonym>
+      <key>ru</key>
+      <value>ISBN</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="80e48167-f200-4e69-9ab3-481cc33be7ce">
+    <name>ISSN</name>
+    <synonym>
+      <key>ru</key>
+      <value>ISSN</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

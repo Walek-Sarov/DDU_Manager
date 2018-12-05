@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b67db96b-296e-4a45-b717-8f006bd9723c">
+  <producedTypes>
+    <selectionType typeId="26ca68e6-e49f-4e79-a9fe-5d382799dee3" valueTypeId="2b43083d-ba09-48b9-9b50-7d00171c9024"/>
+    <listType typeId="9fbc4c6a-a4dc-4301-afee-a0a8f28c05c2" valueTypeId="adb39e54-d831-4db2-82ce-8e711ad9fcc8"/>
+    <managerType typeId="a409e764-6e3b-40c9-94b3-8a5930af0e38" valueTypeId="ce532903-4efe-4217-935c-526552a974a5"/>
+    <recordSetType typeId="75ce8b34-df7f-4815-ab2e-b9c02e1571ce" valueTypeId="bb7b762c-08c2-4696-84ff-8d92a6e7fdf3"/>
+    <recordKeyType typeId="7cf2d27d-cb48-4eaa-86aa-e6fa822f1f7e" valueTypeId="65b650d5-c7c4-41be-8f46-fadb27c66a2d"/>
+    <recordType typeId="fa64cab6-a638-445a-81a6-823f4d5371da" valueTypeId="d3318205-1eb8-48f9-921a-bcae41fed237"/>
+    <recordManagerType typeId="a9251b10-02a0-4e36-8833-cb86378e0e54" valueTypeId="80599d1c-c70f-4fbc-bce3-eb299f5189f9"/>
+  </producedTypes>
+  <name>удуСведенияОФизическомСостоянииРебенка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения о физическом состоянии ребенка</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.удуСведенияОФизическомСостоянииРебенка.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2e462e2f-b2f0-4892-8bd8-ac980a9c6885">
+    <name>СостояниеЗдоровья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние здоровья</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Фактическое состояние воспитанника</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="adcf23af-fbcb-4f62-af9c-783e252550a3">
+    <name>Ребенок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ребенок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуДети</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Воспитанник</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9d660f60-11d9-4246-b238-aae768886009">
+    <name>ГруппаПоСостояниюЗдоровья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа по состоянию здоровья</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуГруппыЗдоровья</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа состояния здоровья воспитанника</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="29081519-c109-4655-8ee4-c8b3762e3732">
+    <name>ФизкультурнаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физкультурная группа</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуФизкультурныеГруппы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Физкультурная группа воспитанника</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0cba8812-be5c-46d5-9fbb-f625f0f0ea15">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

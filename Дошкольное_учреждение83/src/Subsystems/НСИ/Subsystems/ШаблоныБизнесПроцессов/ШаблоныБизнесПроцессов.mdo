@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bbf732a-cfec-446f-b869-8eb3ee2a35fe">
+  <name>ШаблоныБизнесПроцессов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны бизнес-процессов</value>
+  </synonym>
+  <comment></comment>
+  <content>f8e67c54-efb1-415f-9f7d-50f54573cbf8</content>
+  <content>4eb526c5-82ac-4593-91a2-90112aebf480</content>
+  <content>988fa72d-e2e4-49dc-af43-156a8503908f</content>
+  <content>25c18142-c966-4ae0-9493-deb8509b4423</content>
+  <content>d99b024f-2afd-4025-9785-dd3e94cd61d9</content>
+  <content>8f95003c-9877-4b6c-9a05-8d51fd464fe5</content>
+  <content>77bcdb4b-12eb-4545-8c6c-462e18ba9993</content>
+  <parentSubsystem>Subsystem.НСИ</parentSubsystem>
+</mdclass:Subsystem>

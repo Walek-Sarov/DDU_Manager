@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8df65c3-b772-4ea8-b181-3329ea296d2d">
+  <name>БизнесПроцессы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бизнес-процессы</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>BusinessProcess.Согласование</content>
+  <content>679bd72a-4cf8-4c2e-ae00-3f01f48050c4</content>
+  <content>BusinessProcess.Ознакомление</content>
+  <content>53d146b8-d85f-4cfe-b5ee-af78f4e09445</content>
+  <content>BusinessProcess.Утверждение</content>
+  <content>57067371-06db-46dc-a7e9-c76d28e21071</content>
+  <content>Enum.ВариантыСогласования</content>
+  <content>Enum.РезультатыПроверки</content>
+  <content>Enum.РезультатыСогласования</content>
+  <content>Enum.РезультатыУтверждения</content>
+  <content>BusinessProcess.Регистрация</content>
+  <content>InformationRegister.ДанныеБизнесПроцессов</content>
+  <content>Enum.ВариантыВыполненияЭтапов</content>
+  <content>InformationRegister.удуРезультатыПроверкиРезолюций</content>
+  <content>BusinessProcess.удуРезолюция</content>
+  <content>Enum.удуСостоянияЗадачиПослеПроверки</content>
+  <parentSubsystem>Subsystem.ЗадачиИБизнесПроцессы</parentSubsystem>
+</mdclass:Subsystem>

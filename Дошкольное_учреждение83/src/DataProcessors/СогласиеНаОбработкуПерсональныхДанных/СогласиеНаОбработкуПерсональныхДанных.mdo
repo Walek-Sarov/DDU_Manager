@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a6f0db3-ef8d-4482-8226-73bf631ea7f5">
+  <producedTypes>
+    <objectType typeId="c0783aa1-762a-4c5d-a576-50ba9d4d55d8" valueTypeId="a7cc9c67-e257-469e-b0c1-f4da942ea8cf"/>
+    <managerType typeId="6a89ef65-1f3f-46f6-9d66-3ca450daff98" valueTypeId="83abd237-3efd-4975-bc8c-373ea7710471"/>
+  </producedTypes>
+  <name>СогласиеНаОбработкуПерсональныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласие на обработку персональных данных (в соответствии с требованиями 152-ФЗ)</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.СогласиеНаОбработкуПерсональныхДанных.Form.Форма</defaultForm>
+  <forms uuid="8183600c-4704-4665-8197-d25998f6041e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="001d30e1-ef7b-4b01-9cce-92f22eba0411">
+    <name>ПФ_MXL_СогласиеНаОбработкуПерсональныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет согласия на обработку персональных данных (табличный документ 1С:Предприятия)</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+  <templates uuid="02e44390-2b9b-432b-acce-1b95b0f87196">
+    <name>ПФ_DOC_СогласиеНаОбработкуПерсональныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Cогласие на обработку персональных данных (документ Microsoft Word)</value>
+    </synonym>
+    <comment></comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="b23bf231-d682-4a35-b420-3272996b1dc3">
+    <name>ПФ_ODT_СогласиеНаОбработкуПерсональныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Cогласие на обработку персональных данных (документ OpenOffice.org Writer)</value>
+    </synonym>
+    <comment></comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <commands uuid="1634e707-85ca-46f0-aac5-395c7b2c974a">
+    <name>СогласиеНаОбработкуПерсональныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласие на обработку персональных данных</value>
+    </synonym>
+    <comment>Печать формы согласия на обработку персональных данных</comment>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

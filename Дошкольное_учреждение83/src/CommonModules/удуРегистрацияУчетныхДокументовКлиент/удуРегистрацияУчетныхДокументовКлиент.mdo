@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c34cbfeb-2132-45be-88a9-e2389d40867a">
+  <name>удуРегистрацияУчетныхДокументовКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация учетных документов</value>
+  </synonym>
+  <comment></comment>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d0c1346-0da1-46b4-8e3e-b3a39a2fd531">
+  <producedTypes>
+    <objectType typeId="fbe1fc08-00ee-4baa-9a01-45649394add9" valueTypeId="24cc5baa-a847-470a-a2ff-89a6e6226a46"/>
+    <refType typeId="ba14d05c-0f42-4d94-9e29-0c84fdaf5cdf" valueTypeId="96e91a1f-a980-40c6-904d-6696d99ae01d"/>
+    <selectionType typeId="1298031f-b488-4d64-b4fc-ab51f6c347a1" valueTypeId="c5ef3bab-242e-4adb-8287-cf5d8e1730eb"/>
+    <listType typeId="316f7417-3fb8-4ffa-92f1-f44e289cd269" valueTypeId="f1fba86b-37ca-4b9f-b6c7-29266f4fbe1b"/>
+    <managerType typeId="69533e00-43cb-4937-a4e9-2778421a8524" valueTypeId="2f843259-af55-4823-a1ad-e400f554e618"/>
+  </producedTypes>
+  <name>удуВидыОбразованияФизЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды образования физических лиц</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.удуВидыОбразованияФизЛиц.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.удуВидыОбразованияФизЛиц.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <comment></comment>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид образования физических лиц</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды образования физических лиц</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="9d2e14e6-cd75-42b0-b589-e1863cef9a72">
+      <name>АспирантураОрдинатураАдъюнктура</name>
+      <description>Аспирантура, ординатура, адъюнктура</description>
+      <code xsi:type="core:StringValue">
+        <value>2    </value>
+      </code>
+    </items>
+    <items id="e55e3b58-60ef-4006-b0eb-a6fd3c5ec3a0">
+      <name>ВысшееОбразование</name>
+      <description>Высшее образование</description>
+      <code xsi:type="core:StringValue">
+        <value>18   </value>
+      </code>
+    </items>
+    <items id="e86833aa-0a96-4b5f-8a32-326e9eca83ef">
+      <name>Докторантура</name>
+      <description>Докторантура</description>
+      <code xsi:type="core:StringValue">
+        <value>1    </value>
+      </code>
+    </items>
+    <items id="1807654f-dfc4-4521-b0e4-a45a0c6d0d06">
+      <name>НачальноеПрофессиональноеОбразование</name>
+      <description>Начальное профессиональное образование</description>
+      <code xsi:type="core:StringValue">
+        <value>10   </value>
+      </code>
+    </items>
+    <items id="83ecc454-e5c8-4859-8cb9-0072ad24f0f7">
+      <name>СреднееПолноеОбщееОбразование</name>
+      <description>Среднее (полное) общее образование</description>
+      <code xsi:type="core:StringValue">
+        <value>07   </value>
+      </code>
+    </items>
+    <items id="5a2e6586-4202-47f7-8a2f-c98cf8f91801">
+      <name>СреднееПрофессиональноеОбразование</name>
+      <description>Среднее профессиональное образование</description>
+      <code xsi:type="core:StringValue">
+        <value>11   </value>
+      </code>
+    </items>
+  </predefined>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.удуВидыОбразованияФизЛиц.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.удуВидыОбразованияФизЛиц.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.удуВидыОбразованияФизЛиц.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="e1f8cf2e-887c-4730-a6f6-1a4f546dfc14">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f98e85ed-4aa9-4bd7-b9f0-ed2d3c124bb6">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e0332c53-f7f4-4c8f-91df-bdc7cb66a7ca">
+    <name>ФормаПодбораИзКлассификатора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбора из классификатора</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dcc7714e-ad7a-47d3-ab55-a96f798d76c9">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="70eb00f1-8181-4553-b446-360f8cae3d52">
+    <name>КлассификаторВидовОбразования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификатор видов образования</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Catalog>

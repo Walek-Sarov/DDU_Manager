@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64f6bcf0-e3c4-4dbe-8a29-99a62c4f3922">
+  <producedTypes>
+    <objectType typeId="022b04d8-ddcf-4b0a-94d3-0c1d401a65b4" valueTypeId="b9d5b7ca-a5bd-4d81-98df-7ef44000b69d"/>
+    <managerType typeId="41edd57b-1fbf-4315-9e41-829842312230" valueTypeId="89c8a3bb-6595-48ac-8064-7d8dc5b63db5"/>
+  </producedTypes>
+  <name>удуОтчетнаяФорма85К</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения о деятельности дошкольного образовательного учреждения (форма 85-К)</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.удуОтчетнаяФорма85К.Form.ФормаОтчета</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="03e1e0f2-77eb-487a-b983-4490d6bcff84">
+    <name>ДатаФормирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата формирования</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата формирования формы</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="864966d1-8900-4e5e-9634-e413865308d8">
+    <name>Учреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учреждение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуУчреждения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Учреждение для отчета</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f7f55a13-e514-4c23-a42c-f46767e760a1">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="04c289a2-1320-4473-b576-2570f1666621">
+    <name>МакетФорма85К</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет форма 85-К</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Report>

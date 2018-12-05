@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa7309b1-916b-454b-8357-b71aca1e2fb7">
+  <name>СинхронизироватьДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизировать данные</value>
+  </synonym>
+  <comment></comment>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Выполнить синхронизацию данных приложений</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.Refresh</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Данные</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сотрудник</dataPath>
+			<field>Сотрудник</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидДоговора</dataPath>
+			<field>ВидДоговора</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидЗанятости</dataPath>
+			<field>ВидЗанятости</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Возраст</dataPath>
+			<field>Возраст</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГрафикРаботы</dataPath>
+			<field>ГрафикРаботы</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаРождения</dataPath>
+			<field>ДатаРождения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Должность</dataPath>
+			<field>Должность</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗанимаемыхСтавок</dataPath>
+			<field>ЗанимаемыхСтавок</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИНН</dataPath>
+			<field>ИНН</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КодИМНС</dataPath>
+			<field>КодИМНС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Комментарий</dataPath>
+			<field>Комментарий</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Пол</dataPath>
+			<field>Пол</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтраховойНомерПФР</dataPath>
+			<field>СтраховойНомерПФР</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТабельныйНомер</dataPath>
+			<field>ТабельныйНомер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Физлицо</dataPath>
+			<field>Физлицо</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФИО</dataPath>
+			<field>ФИО</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФиоКраткое</dataPath>
+			<field>ФиоКраткое</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФиоПолное</dataPath>
+			<field>ФиоПолное</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГруппаСотрудников</dataPath>
+			<field>ГруппаСотрудников</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПриемаНаРаботу</dataPath>
+			<field>ДатаПриемаНаРаботу</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидДокумента</dataPath>
+			<field>ВидДокумента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидСтажа</dataPath>
+			<field>ВидСтажа</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерДокумента</dataPath>
+			<field>НомерДокумента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Профессия</dataPath>
+			<field>Профессия</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СерияДокумента</dataPath>
+			<field>СерияДокумента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидОбразования</dataPath>
+			<field>ВидОбразования</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГодОкончания</dataPath>
+			<field>ГодОкончания</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ГодРожденияРодственника</dataPath>
+			<field>ГодРожденияРодственника</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаРегистрацииПоМестуЖительства</dataPath>
+			<field>ДатаРегистрацииПоМестуЖительства</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Диплом</dataPath>
+			<field>Диплом</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИмяРодственника</dataPath>
+			<field>ИмяРодственника</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Квалификация</dataPath>
+			<field>Квалификация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КемВыданДокумент</dataPath>
+			<field>КемВыданДокумент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КодПодразделенияВДокументе</dataPath>
+			<field>КодПодразделенияВДокументе</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НеИмеетПравоНаМедицинскоеСтрахование</dataPath>
+			<field>НеИмеетПравоНаМедицинскоеСтрахование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НеИмеетПравоНаПенсию</dataPath>
+			<field>НеИмеетПравоНаПенсию</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НеЯвляетсяНалоговымРезидентомРФ</dataPath>
+			<field>НеЯвляетсяНалоговымРезидентомРФ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СемейноеПоложение</dataPath>
+			<field>СемейноеПоложение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СпециальностьПоОбразованию</dataPath>
+			<field>СпециальностьПоОбразованию</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтепеньЗнанияЯзыка</dataPath>
+			<field>СтепеньЗнанияЯзыка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтепеньРодства</dataPath>
+			<field>СтепеньРодства</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Страна</dataPath>
+			<field>Страна</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УчебноеЗаведение</dataPath>
+			<field>УчебноеЗаведение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Язык</dataPath>
+			<field>Язык</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	удуРаботникиОрганизаций.Сотрудник,
+	удуРаботникиОрганизаций.Период,
+	удуРаботникиОрганизаций.ПричинаИзмененияСостояния,
+	удуРаботникиОрганизаций.Организация
+ПОМЕСТИТЬ ПриемИУвольнение
+ИЗ
+	РегистрСведений.удуРаботникиОрганизаций КАК удуРаботникиОрганизаций
+ГДЕ
+	ВЫБОР
+			КОГДА &amp;ГоловнаяОрганизация = ЗНАЧЕНИЕ(Справочник.удуУчреждения.ПустаяСсылка)
+				ТОГДА ИСТИНА
+			ИНАЧЕ удуРаботникиОрганизаций.Организация = &amp;ГоловнаяОрганизация
+		КОНЕЦ
+	И (удуРаботникиОрганизаций.ПричинаИзмененияСостояния = ЗНАЧЕНИЕ(Перечисление.удуПричиныИзмененияСостояния.ПриемНаРаботу)
+			ИЛИ удуРаботникиОрганизаций.ПричинаИзмененияСостояния = ЗНАЧЕНИЕ(Перечисление.удуПричиныИзмененияСостояния.Увольнение))
+	И удуРаботникиОрганизаций.Период &lt;= &amp;ДатаАктуальности
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ПриемИУвольнение.Сотрудник,
+	ПриемИУвольнение.Период КАК ДатаПриемаНаРаботу,
+	ПриемИУвольнение.Организация
+ПОМЕСТИТЬ ПриемНаРаботу
+ИЗ
+	ПриемИУвольнение КАК ПриемИУвольнение
+ГДЕ
+	ПриемИУвольнение.ПричинаИзмененияСостояния = ЗНАЧЕНИЕ(Перечисление.удуПричиныИзмененияСостояния.ПриемНаРаботу)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ПриемИУвольнение.Сотрудник,
+	ПриемИУвольнение.Период КАК ДатаУвольнения,
+	ПриемИУвольнение.Организация
+ПОМЕСТИТЬ Увольнение
+ИЗ
+	ПриемИУвольнение КАК ПриемИУвольнение
+ГДЕ
+	ПриемИУвольнение.ПричинаИзмененияСостояния = ЗНАЧЕНИЕ(Перечисление.удуПричиныИзмененияСостояния.Увольнение)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ РАЗЛИЧНЫЕ
+	РаботникиОрганизации.Сотрудник КАК Сотрудник,
+	РаботникиОрганизации.Сотрудник.Наименование КАК ФИО,
+	РаботникиОрганизации.Сотрудник.Физлицо КАК Физлицо,
+	РаботникиОрганизации.ГрафикРаботы КАК ГрафикРаботы,
+	РаботникиОрганизации.ЗанимаемыхСтавок КАК ЗанимаемыхСтавок,
+	РаботникиОрганизации.Должность КАК Должность,
+	РаботникиОрганизации.ПодразделениеОрганизации КАК Подразделение,
+	РаботникиОрганизации.Организация КАК Организация,
+	ПриемНаРаботу.ДатаПриемаНаРаботу
+{ВЫБРАТЬ
+	Сотрудник,
+	ФИО,
+	Физлицо,
+	ГрафикРаботы,
+	ЗанимаемыхСтавок,
+	Должность,
+	Подразделение,
+	Организация}
+ИЗ
+	РегистрСведений.удуРаботникиОрганизаций.СрезПоследних(
+			&amp;ДатаАктуальности,
+			ВЫБОР
+				КОГДА &amp;ГоловнаяОрганизация = ЗНАЧЕНИЕ(Справочник.удуУчреждения.ПустаяСсылка)
+					ТОГДА ИСТИНА
+				ИНАЧЕ Организация = &amp;ГоловнаяОрганизация
+			КОНЕЦ) КАК РаботникиОрганизации
+		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.удуФИОФизЛиц.СрезПоследних(&amp;ДатаАктуальности, ) КАК ФИОФизЛиц
+		ПО РаботникиОрганизации.Сотрудник.Физлицо = ФИОФизЛиц.ФизЛицо}
+		{ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ФизическиеЛица.СоставСемьи КАК СоставСемьиФизЛица
+		ПО РаботникиОрганизации.Сотрудник.Физлицо = СоставСемьиФизЛица.Ссылка}
+		{ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ФизическиеЛица.ЗнаниеЯзыков КАК ЗнаниеЯзыковФизЛица
+		ПО РаботникиОрганизации.Сотрудник.Физлицо = ЗнаниеЯзыковФизЛица.Ссылка}
+		{ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ФизическиеЛица.Образование КАК ОбразованиеФизЛица
+		ПО РаботникиОрганизации.Сотрудник.Физлицо = ОбразованиеФизЛица.Ссылка}
+		{ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ФизическиеЛица.Профессии КАК ПрофессииФизЛица
+		ПО РаботникиОрганизации.Сотрудник.Физлицо = ПрофессииФизЛица.Ссылка}
+		{ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ФизическиеЛица.Стажи КАК СтажиФизЛица
+		ПО РаботникиОрганизации.Сотрудник.Физлицо = СтажиФизЛица.Ссылка}
+		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ПаспортныеДанныеФизЛиц.СрезПоследних(&amp;ДатаАктуальности, ) КАК ПаспортныеДанныеФизЛиц
+		ПО РаботникиОрганизации.Сотрудник.Физлицо = ПаспортныеДанныеФизЛиц.ФизЛицо}
+		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.удуГражданствоФизЛиц.СрезПоследних(&amp;ДатаАктуальности, ) КАК удуГражданствоФизЛиц
+		ПО РаботникиОрганизации.Сотрудник.Физлицо = удуГражданствоФизЛиц.ФизЛицо}
+		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.удуСемейноеПоложениеФизЛиц.СрезПоследних(&amp;ДатаАктуальности, ) КАК удуСемейноеПоложениеФизЛиц
+		ПО РаботникиОрганизации.Сотрудник.Физлицо = удуСемейноеПоложениеФизЛиц.ФизЛицо}
+		{ЛЕВОЕ СОЕДИНЕНИЕ Увольнение КАК Увольнение
+		ПО РаботникиОрганизации.Сотрудник = Увольнение.ДатаУвольнения
+			И РаботникиОрганизации.Организация = Увольнение.Организация
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ПриемНаРаботу КАК ПриемНаРаботу
+		ПО РаботникиОрганизации.Сотрудник = ПриемНаРаботу.Сотрудник
+			И РаботникиОрганизации.Организация = ПриемНаРаботу.Организация}
+ГДЕ
+	ВЫБОР
+			КОГДА &amp;ВключатьУволенных
+				ТОГДА РаботникиОрганизации.ПричинаИзмененияСостояния &lt;&gt; ЗНАЧЕНИЕ(Перечисление.удуПричиныИзмененияСостояния.Увольнение)
+						ИЛИ Увольнение.Сотрудник ЕСТЬ NULL 
+						ИЛИ Увольнение.ДатаУвольнения &gt;= &amp;ДатаУвольнения
+			ИНАЧЕ РаботникиОрганизации.ПричинаИзмененияСостояния &lt;&gt; ЗНАЧЕНИЕ(Перечисление.удуПричиныИзмененияСостояния.Увольнение)
+		КОНЕЦ
+{ГДЕ
+	РаботникиОрганизации.Сотрудник КАК Сотрудник,
+	РаботникиОрганизации.Сотрудник.Родитель КАК ГруппаСотрудников,
+	РаботникиОрганизации.Должность.* КАК Должность,
+	РаботникиОрганизации.ГрафикРаботы.* КАК ГрафикРаботы,
+	РаботникиОрганизации.Сотрудник.Код КАК ТабельныйНомер,
+	РаботникиОрганизации.ЗанимаемыхСтавок КАК ЗанимаемыхСтавок,
+	РаботникиОрганизации.Сотрудник.ВидЗанятости КАК ВидЗанятости,
+	РаботникиОрганизации.Сотрудник.ВидДоговора КАК ВидДоговора,
+	РаботникиОрганизации.ПодразделениеОрганизации.* КАК Подразделение,
+	РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения КАК ДатаРождения,
+	РаботникиОрганизации.Сотрудник.Физлицо.ИНН КАК ИНН,
+	РаботникиОрганизации.Сотрудник.Физлицо.КодИМНС КАК КодИМНС,
+	РаботникиОрганизации.Сотрудник.Физлицо.Комментарий КАК Комментарий,
+	РаботникиОрганизации.Сотрудник.Физлицо.СтраховойНомерПФР КАК СтраховойНомерПФР,
+	РаботникиОрганизации.Сотрудник.Физлицо.Пол КАК Пол,
+	(ЕСТЬNULL(ФИОФизЛиц.Фамилия + " " + ФИОФизЛиц.Имя + " " + ФИОФизЛиц.Отчество, РаботникиОрганизации.Сотрудник.Физлицо.Наименование)) КАК ФиоПолное,
+	(ЕСТЬNULL(ФИОФизЛиц.Фамилия + ВЫБОР
+				КОГДА ПОДСТРОКА(ФИОФизЛиц.Имя, 1, 1) &lt;&gt; ""
+					ТОГДА " " + ПОДСТРОКА(ФИОФизЛиц.Имя, 1, 1) + "."
+				ИНАЧЕ ""
+			КОНЕЦ + ВЫБОР
+				КОГДА ПОДСТРОКА(ФИОФизЛиц.Отчество, 1, 1) &lt;&gt; ""
+					ТОГДА " " + ПОДСТРОКА(ФИОФизЛиц.Отчество, 1, 1) + "."
+				ИНАЧЕ ""
+			КОНЕЦ, РаботникиОрганизации.Сотрудник.Физлицо.Наименование)) КАК ФиоКраткое,
+	(ВЫБОР
+			КОГДА ГОД(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения) = 1
+				ТОГДА 0
+			ИНАЧЕ ГОД(&amp;ДатаАктуальности) - ГОД(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения) + ВЫБОР
+					КОГДА МЕСЯЦ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения) * 100 + ДЕНЬ(РаботникиОрганизации.Сотрудник.Физлицо.ДатаРождения) &gt; МЕСЯЦ(&amp;ДатаАктуальности) * 100 + ДЕНЬ(&amp;ДатаАктуальности)
+						ТОГДА -1
+					ИНАЧЕ 0
+				КОНЕЦ
+		КОНЕЦ) КАК Возраст,
+	СоставСемьиФизЛица.СтепеньРодства КАК СтепеньРодства,
+	СоставСемьиФизЛица.Имя КАК ИмяРодственника,
+	СоставСемьиФизЛица.ДатаРождения КАК ГодРожденияРодственника,
+	ЗнаниеЯзыковФизЛица.Язык КАК Язык,
+	ЗнаниеЯзыковФизЛица.СтепеньЗнанияЯзыка КАК СтепеньЗнанияЯзыка,
+	ОбразованиеФизЛица.ВидОбразования КАК ВидОбразования,
+	ОбразованиеФизЛица.УчебноеЗаведение КАК УчебноеЗаведение,
+	ОбразованиеФизЛица.Специальность КАК СпециальностьПоОбразованию,
+	ОбразованиеФизЛица.Диплом КАК Диплом,
+	ОбразованиеФизЛица.ГодОкончания КАК ГодОкончания,
+	ОбразованиеФизЛица.Квалификация КАК Квалификация,
+	ПрофессииФизЛица.Профессия КАК Профессия,
+	СтажиФизЛица.ВидСтажа КАК ВидСтажа,
+	ПаспортныеДанныеФизЛиц.ВидДокумента КАК ВидДокумента,
+	ПаспортныеДанныеФизЛиц.Серия КАК СерияДокумента,
+	ПаспортныеДанныеФизЛиц.Номер КАК НомерДокумента,
+	ПаспортныеДанныеФизЛиц.КемВыдан КАК КемВыданДокумент,
+	ПаспортныеДанныеФизЛиц.КодПодразделения КАК КодПодразделенияВДокументе,
+	ПаспортныеДанныеФизЛиц.ДатаРегистрацииПоМестуЖительства КАК ДатаРегистрацииПоМестуЖительства,
+	удуГражданствоФизЛиц.Страна КАК Страна,
+	удуГражданствоФизЛиц.НеИмеетПравоНаПенсию КАК НеИмеетПравоНаПенсию,
+	удуГражданствоФизЛиц.НеЯвляетсяНалоговымРезидентомРФ КАК НеЯвляетсяНалоговымРезидентомРФ,
+	удуГражданствоФизЛиц.НеИмеетПравоНаМедицинскоеСтрахование КАК НеИмеетПравоНаМедицинскоеСтрахование,
+	удуСемейноеПоложениеФизЛиц.СемейноеПоложение КАК СемейноеПоложение,
+	ПриемНаРаботу.ДатаПриемаНаРаботу,
+	РаботникиОрганизации.Организация}
+
+УПОРЯДОЧИТЬ ПО
+	ФИО</query>
+	</dataSet>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ГоловнаяОрганизация</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Головная организация</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.удуУчреждения</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Справочник.удуУчреждения.ПустаяСсылка</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДатаАктуальности</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата актуальности</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+		<expression>КонецПериода(&amp;ДатаАктуальности,"День")</expression>
+	</parameter>
+	<parameter>
+		<name>ВключатьУволенных</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Включать уволенных</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДатаУвольнения</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата увольнения</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Подразделение</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.удуПодразделенияУчереждения.ПустаяСсылка</dcsset:right>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Должность</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.Должности.ПустаяСсылка</dcsset:right>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Сотрудник</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.удуСотрудникиОрганизаций.ПустаяСсылка</dcsset:right>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоловнаяОрганизация</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DesignTimeValue">Справочник.удуУчреждения.ПустаяСсылка</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ДатаАктуальности</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВключатьУволенных</dcscor:parameter>
+					<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ДатаУвольнения</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Сотрудник</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

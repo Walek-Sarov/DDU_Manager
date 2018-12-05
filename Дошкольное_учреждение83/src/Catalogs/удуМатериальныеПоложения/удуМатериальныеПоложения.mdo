@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="508c5788-44be-49fa-8882-1ec2bcb3481b">
+  <producedTypes>
+    <objectType typeId="aef1fcc9-5a94-4f01-b0a9-34739a287905" valueTypeId="9eb16aa4-81a0-42c8-a4da-fa2026bcee3b"/>
+    <refType typeId="02093282-8844-43aa-ad9f-f0d8d5aa234d" valueTypeId="c5bbbb2c-7f5e-43fb-8b8a-aeb059c27a22"/>
+    <selectionType typeId="f96e92e8-2c9a-40c8-986a-fb76508e0a43" valueTypeId="3de4a26c-5d9e-409f-b564-75b7681f86ad"/>
+    <listType typeId="e6fd9b84-7a29-4e8c-9792-232f2f2e98d9" valueTypeId="b0373720-0e25-4fcc-946a-dae984ca6790"/>
+    <managerType typeId="9565797e-be73-4119-a576-ae4179c1df4a" valueTypeId="8493639f-3a62-445d-bdd3-d7eb381a6772"/>
+  </producedTypes>
+  <name>удуМатериальныеПоложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Материальные положения</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.удуМатериальныеПоложения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.удуМатериальныеПоложения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Материальное положение</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

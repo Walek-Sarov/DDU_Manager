@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb01c15e-99f3-4d95-a03f-c72af3d0f719">
+  <producedTypes>
+    <selectionType typeId="a0f5f1fd-8071-495e-b488-823da1e1cf7f" valueTypeId="327e894a-e96d-4005-9e57-a91d9b3da66e"/>
+    <listType typeId="18439a57-1365-41b2-bf39-7965c8a44766" valueTypeId="d8c3eb66-2d12-4a13-938f-5b1d15add03a"/>
+    <managerType typeId="6426dbe8-22da-4832-a017-6b9ce0da702b" valueTypeId="8158e258-3f63-4ea4-92d3-e28f0b3c3264"/>
+    <recordSetType typeId="cb33b6f7-c41e-460b-ae72-6bddf9d085e7" valueTypeId="15e3ef10-1d11-4770-a8d4-4a46c1bce4dc"/>
+    <recordKeyType typeId="6b194af2-71d6-4a0e-a02f-8401bb25ff04" valueTypeId="bc6066cf-9c34-4d8a-bfd4-8acec1ea05b7"/>
+    <recordType typeId="18719377-3a12-4edb-9115-0ffcf5cbdf47" valueTypeId="b334f05b-5b48-435c-9008-a4112129e394"/>
+  </producedTypes>
+  <name>удуТМЦ_НаСкладах</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТМЦ на складах</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="a6dad77f-768a-4e12-935e-c87a82e4845b">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество номенклатуры на которое выполнено движение</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="12623a98-0def-46bc-bb97-ba5396c442da">
+    <name>Учреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учреждение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуУчреждения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Учреждение по которому выполнено движение ТМЦ</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="3173d915-940f-4aeb-87a3-af36eb2c4402">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуСклады</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Склад по которому выполнено движение ТМЦ</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="8375f405-dc03-40e1-a47f-99b4828a3699">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуНоменклатура</types>
+      <types>CatalogRef.удуУчетныеЕдиницы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номенклатура по которому выполнено движение ТМЦ</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="c9f708ff-88cf-4d32-ad0e-8995ea913bcd">
+    <name>ИнвентарныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвентарный номер</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуИнвентарныеНомера</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Инвентарный номер номенклатуры по которой выполнено движение ТМЦ</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="b8c4b6f3-6f01-45e6-9e3e-9b1f098f5d71">
+    <name>КВД</name>
+    <synonym>
+      <key>ru</key>
+      <value>КФО</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.удуКВД</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Код вида финансового обеспечения</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <forms uuid="76446dc4-24e1-43f4-abaa-ae59def7f4b0">
+    <name>ФормаДляВыдачиМетодическихМатериалов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма для выдачи методических материалов</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccumulationRegister>

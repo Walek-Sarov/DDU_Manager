@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3ea2636-5ba3-4c1f-8dbd-b6874a5783a8">
+  <name>ДокументыИФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы и файлы</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Входящие, исходящие, внутренние документы и файлы</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаРаботаСФайлами</picture>
+  </picture>
+  <content>FilterCriterion.ДокументыВДелеТоме</content>
+  <content>FilterCriterion.ВидыДокументовПоНумератору</content>
+  <content>CommonForm.ИсторияПереписки</content>
+  <content>CommonCommand.ИсторияПереписки</content>
+  <content>Constant.ИспользоватьСвязиДокументов</content>
+  <content>Catalog.Корреспонденты</content>
+  <content>Catalog.СпискиРассылкиПоКорреспондентам</content>
+  <content>Catalog.ВидыВходящихДокументов</content>
+  <content>Catalog.ВидыИсходящихДокументов</content>
+  <content>Catalog.ВидыВнутреннихДокументов</content>
+  <content>Enum.ТипыЭкземпляров</content>
+  <content>Enum.СпособыНумерации</content>
+  <content>DataProcessor.ПоискВДанных</content>
+  <content>InformationRegister.СвязанныеДокументы</content>
+  <content>InformationRegister.Нумерация</content>
+  <content>InformationRegister.ЗанятыеНомера</content>
+  <content>Report.ДокументыВДелах</content>
+  <content>Report.ВнутренниеДокументы</content>
+  <content>Report.ВходящиеДокументы</content>
+  <content>Catalog.ДелаХраненияДокументов</content>
+  <content>Report.СправкаОбОбъемеДокументооборота</content>
+  <content>Report.Корреспонденты</content>
+  <content>Enum.СостоянияДокументов</content>
+  <content>InformationRegister.СостоянияДокументов</content>
+  <content>Catalog.Файлы</content>
+  <content>InformationRegister.ДанныеБизнесПроцессов</content>
+  <content>Catalog.СтруктураПредприятия</content>
+  <content>Task.ЗадачаИсполнителя</content>
+  <content>Enum.КатегорииДел</content>
+  <content>Enum.ПоказыватьДокументы</content>
+  <content>InformationRegister.СведенияОПользователях</content>
+  <content>Catalog.ВходящиеДокументы</content>
+  <content>Catalog.ИсходящиеДокументы</content>
+  <content>Catalog.ВнутренниеДокументы</content>
+  <content>Report.ИсходящиеДокументы</content>
+  <content>Report.СводкаПоВидамДокументов</content>
+  <content>Report.Файлы</content>
+  <content>DataProcessor.ЗагрузкаЭлектроннойПочты</content>
+  <content>Document.ПередачаДелВАрхив</content>
+  <content>Document.УничтожениеДел</content>
+  <content>DataProcessor.ЗагрузкаФайлов</content>
+  <content>FilterCriterion.ВнутренниеДокументыПоКорреспонденту</content>
+  <content>InformationRegister.удуНеотправленныеИсхДокументы</content>
+  <content>InformationRegister.удуОтправленныеДокументы</content>
+  <content>Catalog.удуРеестрыОтправки</content>
+  <content>Catalog.удуОтправкаДокумента</content>
+  <content>Report.удуЖурналВходящихДокументов</content>
+  <content>InformationRegister.удуРегистрацияУчетныхДокументов</content>
+  <content>InformationRegister.УдалитьудуСведенияОДокументах</content>
+  <content>92a85d19-1ac1-4b0e-9dc9-a400ac8e0790</content>
+  <content>Constant.удуАвтоматическиРегистрироватьУчетныеДокументы</content>
+  <subsystems>РеестрыОтправки</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8046adb-f571-46db-a278-1fc71070cc35">
+  <producedTypes>
+    <objectType typeId="ec71f3be-9941-4ce5-ab09-090459ae8249" valueTypeId="aa087562-fc6c-4cd6-824f-fd1788b4d557"/>
+    <managerType typeId="6a8f1aac-6135-43b5-abdc-d6b4743c83a4" valueTypeId="dc01d2f7-ae70-42db-be9f-ae370a7c5de3"/>
+  </producedTypes>
+  <name>удуКорреспонденты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корреспонденты</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.удуКорреспонденты.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="98a06e58-ce42-4d26-97f3-a909446a2d96">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3fcfe2c-14ed-45de-b4f4-403385a7d298">
+  <producedTypes>
+    <objectType typeId="86885f3b-cffd-4172-a7c5-04c677d04fbc" valueTypeId="5303c60c-947c-4f68-9451-b4416cee40cc"/>
+    <managerType typeId="e143732e-6fdf-437d-888b-80b825be8f40" valueTypeId="49056214-c981-4c2e-8146-37410a9961c7"/>
+  </producedTypes>
+  <name>удуФормированиеСпискаРаботников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование списка сотрудников</value>
+  </synonym>
+  <comment></comment>
+  <defaultForm>DataProcessor.удуФормированиеСпискаРаботников.Form.ФормаОбработки</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="158c1e60-55b3-4f55-b03b-933359db1689">
+    <name>КомпоновщикНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компоновщик настроек</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>DataCompositionSettingsComposer</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Компоновщик настроек в списке</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="50ef8ac6-f325-4906-9083-b328a1822658">
+    <name>ДатаАктуальности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата актуальности</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата актуальности данных</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="edcd0eea-ff3b-4912-8854-9e7852c4de0a">
+    <name>ДатаУволенных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата уволенных</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата уволенных сотрудников</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="de3ead68-42e8-4781-a60c-f6a9fe62ab4e">
+    <name>ВключатьУволенных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включать уволенных</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Включать уволенных сотрудников</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7dbacd22-06bf-44a3-b55b-6003c8498567">
+    <name>ВыбиратьСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбирать сотрудника</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбирать сотрудника в списке</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b845a29a-6e59-428f-85db-ed3f4bcbfa36">
+    <name>ВключатьДоговорников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включать договорников</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Включать договорников в список</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="45197277-8d91-4c58-924c-8dfe33262325">
+    <name>ОпределятьДатыПриемаУвольнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Определять даты приема увольнения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Определять даты приема увольнения сотрудников</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="766c1787-8e09-485c-8aab-30b01dfdaf57">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.удуУчреждения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация наименование</value>
+    </toolTip>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="8e18137c-e8d8-45ec-ab47-13f9a6d1d055">
+    <name>ФормаОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма обработки</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c2f8f5f6-43f2-4cd3-b9a8-0398d66641c6">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7901ab87-7074-40e1-b121-8b44a1007e68">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:DataProcessor>

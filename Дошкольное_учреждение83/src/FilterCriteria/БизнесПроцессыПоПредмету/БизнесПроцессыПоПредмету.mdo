@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8332f761-a36b-465a-99b1-2ecb56e0d3ac">
+  <producedTypes>
+    <listType typeId="a5e31e4c-3f03-4a1d-884a-e92209414991" valueTypeId="57af0877-4b2d-4a64-849d-188d5961c52e"/>
+    <managerType typeId="ec1ba68e-1ccc-4fda-aa78-8ea57f4cfaed" valueTypeId="7841cfae-1e6c-48bf-8157-7c4b97b1c2b8"/>
+  </producedTypes>
+  <name>БизнесПроцессыПоПредмету</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бизнес-процессы по предмету</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogRef.Файлы</types>
+    <types>CatalogRef.ВходящиеДокументы</types>
+    <types>CatalogRef.ВнутренниеДокументы</types>
+    <types>CatalogRef.ИсходящиеДокументы</types>
+  </type>
+  <content>BusinessProcess.Ознакомление.Attribute.Предмет</content>
+  <content>BusinessProcess.Регистрация.Attribute.Предмет</content>
+  <content>BusinessProcess.Согласование.Attribute.Предмет</content>
+  <content>BusinessProcess.Утверждение.Attribute.Предмет</content>
+  <content>BusinessProcess.удуРезолюция.Attribute.Предмет</content>
+  <defaultForm>FilterCriterion.БизнесПроцессыПоПредмету.Form.ФормаСписка</defaultForm>
+  <forms uuid="1710d846-8e91-43a5-805e-1dcc6286d403">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="9ac58931-e08b-4288-90b3-0d1fd1332478">
+    <name>БизнесПроцессы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес-процессы</value>
+    </synonym>
+    <comment></comment>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType>
+      <types>CatalogRef.Файлы</types>
+      <types>CatalogRef.ВходящиеДокументы</types>
+      <types>CatalogRef.ВнутренниеДокументы</types>
+      <types>CatalogRef.ИсходящиеДокументы</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Task</picture>
+    </picture>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:FilterCriterion>

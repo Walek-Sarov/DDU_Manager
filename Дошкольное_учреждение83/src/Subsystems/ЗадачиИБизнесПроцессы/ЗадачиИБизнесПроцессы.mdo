@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6c729a2-552c-44a7-b86d-a11f9112566b">
+  <name>ЗадачиИБизнесПроцессы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи и бизнес-процессы</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаБизнесПроцессыИЗадачи</picture>
+  </picture>
+  <content>Report.Задачи</content>
+  <content>Report.ЗадачиИстекающиеНаДату</content>
+  <content>Report.ПросроченныеЗадачи</content>
+  <content>Report.СправкаОбИсполнительскойДисциплине</content>
+  <content>InformationRegister.ИсполнителиЗадач</content>
+  <content>Task.ЗадачаИсполнителя</content>
+  <content>InformationRegister.СведенияОПользователях</content>
+  <content>Catalog.СтруктураПредприятия</content>
+  <content>DataProcessor.ПоискВДанных</content>
+  <content>Report.ОтчетПоСогласованиям</content>
+  <content>Report.БизнесПроцессы</content>
+  <content>875ec5da-3fc6-4f5c-9426-f7b3161112c4</content>
+  <content>Catalog.ГруппыДоступаИсполнителей</content>
+  <content>3768aa07-0526-4e96-b227-e4e30f9f22a5</content>
+  <content>Report.удуИсполнениеРезолюций</content>
+  <subsystems>БизнесПроцессы</subsystems>
+</mdclass:Subsystem>

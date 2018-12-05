@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac2d4f02-e893-4366-9702-369a11c5f9b8">
+  <name>ОбработчикКаналовСообщенийИнформационногоЦентра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработчик каналов сообщений информационного центра</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

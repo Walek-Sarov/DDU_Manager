@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31628f30-2ac2-446e-9b32-c544019c0b40">
+  <name>ДокументооборотБизнесПроцессОбработкаИсходящегоДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документооборот бизнес процесс обработка исходящего документа</value>
+  </synonym>
+  <comment></comment>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Бизнес-процесс &quot;Обработка исходящего документа&quot;</value>
+  </extendedPresentation>
+</mdclass:CommonForm>

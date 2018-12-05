@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfc57883-d454-4a1d-afda-fdbefe97771d">
+  <producedTypes>
+    <listType typeId="8706b420-d9ba-43cf-9fc9-720dbcf8e478" valueTypeId="f1f298ea-5141-4001-96e9-48c0494ec4fa"/>
+    <managerType typeId="072ca606-2701-4ca1-b977-0b17ac437ea6" valueTypeId="345e1d41-4e6b-48fb-8f9b-364743d4288c"/>
+  </producedTypes>
+  <name>ВидыДокументовПоНумератору</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды документов по нумератору</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>CatalogRef.Нумераторы</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Catalog.ВидыВходящихДокументов.Attribute.Нумератор</content>
+  <content>Catalog.ВидыИсходящихДокументов.Attribute.Нумератор</content>
+  <content>Catalog.ВидыВнутреннихДокументов.Attribute.Нумератор</content>
+  <defaultForm>FilterCriterion.ВидыДокументовПоНумератору.Form.ФормаСписка</defaultForm>
+  <forms uuid="45529891-fc06-4a98-b51d-39af1e5c3da7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <includeHelpInContents>true</includeHelpInContents>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="f45556c8-7162-473f-9e11-f54237f745aa">
+    <name>ВидыДокументовПоНумератору</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кому назначен</value>
+    </synonym>
+    <comment></comment>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Нумераторы</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:FilterCriterion>

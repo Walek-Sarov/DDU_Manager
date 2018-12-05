@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25ca2e70-0293-4bd4-9e08-bbd39120b3cf">
+  <name>ИспользоватьИнтеграциюС1СДокументооборот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать интеграцию с1 с документооборот</value>
+  </synonym>
+  <comment></comment>
+  <location>Constant.ИспользоватьИнтеграциюС1СДокументооборот</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.ДокументооборотФайлы</content>
+  <content>Catalog.НастройкиЗаполненияОбъектов1СДокументооборота</content>
+  <content>CommonCommand.ДокументооборотДокументы</content>
+  <content>CommonCommand.ДокументооборотЗадачи</content>
+  <content>CommonCommand.ДокументооборотСоздатьБизнесПроцесс</content>
+</mdclass:FunctionalOption>

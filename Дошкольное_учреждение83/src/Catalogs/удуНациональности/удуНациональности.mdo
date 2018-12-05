@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aca6842a-2081-4aef-9078-cff336aa5fcc">
+  <producedTypes>
+    <objectType typeId="76b5a3aa-63b2-4e72-9f87-93456717cb72" valueTypeId="db554d0e-91ed-4e61-996a-1c67adb11738"/>
+    <refType typeId="7c9454e7-dca6-40b1-9985-a201f2e177aa" valueTypeId="dff7292a-f6f8-485c-9925-1bd0028c4cdc"/>
+    <selectionType typeId="6f4331a1-87eb-4f07-b7c5-d0a21637dfdd" valueTypeId="737f81b5-9993-4655-97b7-90e1834adf51"/>
+    <listType typeId="415ab214-d931-402f-b678-1264fd9369f9" valueTypeId="4389d8cc-86e7-4a69-bce3-d7a43622fe1b"/>
+    <managerType typeId="03c6013f-812c-4d8d-ab35-2493af00ccd4" valueTypeId="1d8636dd-e35a-43b6-bb64-3f3ea24a6f9b"/>
+  </producedTypes>
+  <name>удуНациональности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Национальности</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.удуНациональности.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.удуНациональности.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Национальность</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
